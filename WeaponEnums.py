@@ -156,7 +156,7 @@ class MeleeSecondary(Enum):
     PICKAXE = auto()
 
 
-class PrimaryWeapon(Enum):
+class PrimaryWeapons(Enum):
     ASSAULT_RIFLE = AssaultRifles
     BATTLE_RIFLE = BattleRifles
     SMG = SMGs
@@ -167,7 +167,7 @@ class PrimaryWeapon(Enum):
     MELEE = MeleePrimary
 
 
-class SecondaryWeapon(Enum):
+class SecondaryWeapons(Enum):
     HANDGUN = HandGuns
     LAUNCHER = Launchers
     MELEE = MeleeSecondary
