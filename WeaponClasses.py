@@ -3,9 +3,7 @@ This file includes the classes for the primary and secondary weapons.
 Author: Doug Griep
 """
 
-from typing import List
-from .WeaponEnums import PrimaryWeapons, SecondaryWeapons
-from .AttachmentEnums import Attachments
+from .AttachmentEnums import Optics
 
 class Create_MW3_Class():
 
@@ -64,5 +62,3 @@ class Create_MW3_Class():
         self.boots = self._choose_boots()
         self.gear1 = self._choose_gear_1()
         self.gear2 = self._choose_gear_2()
-
-
