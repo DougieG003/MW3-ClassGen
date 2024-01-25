@@ -40,7 +40,7 @@ class BattleRifles(Enum):
     SO_14 = "SO-14"
 
 
-class SMGs(Enum):
+class SMGS(Enum):
     STRIKER = "STRIKER"
     HRM_9 = "HRM-9"
     WSP_SWARM = "WSP SWARM"
