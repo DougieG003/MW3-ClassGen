@@ -8,13 +8,17 @@ from Weapons import *
 invalid_weapons_str = "invalid_weapons"
 aftermarket_str = "aftermarket"
 
-# BULK - LMGS Marksman Sniper handgun done
-
 # FR 5.56 AR locked - could not get attachment list
+# TR76 GEIST AR locked - could not get attachment list
 # HRM-9 SMG locked - could not get attachment list
 # STRIKER 9 SMG locked - could not get attachment list
-# TAQ ERADICATOR, BRUEN MK9, TAQ EVOLVERE lmgs locked - could not get attachment list
-# Marksman MCW 6.8 locked, DM56 lvl 1, MTZ INTERCEPTER lvl 3 - could not get attachment list
+# TAQ ERADICATOR LMG locked - could not get attachment list
+# BRUEN MK9 LMG locked - could not get attachment list 
+# TAQ EVOLVERE LMG locked - could not get attachment list
+# MCW 6.8 Marksman locked - could not get attachment list
+# DM56 Marksman lvl 1 - could not get attachment list
+# MTZ Marksman INTERCEPTER lvl 3 - could not get attachment list
+# RENETTI handgun low level - could not get attachment list
 
 class Optics(Enum):
     NO_MODIFICATIONS = "NO MODIFICATIONS"
@@ -139,7 +143,6 @@ optics_dict[Optics.AIM_OP_V4.value] = {
         SniperRifles.SP_X_80.value,
         HandGuns.COR_45.value,
         HandGuns.RENETTI.value,
-        HandGuns.TYR.value,
         HandGuns.WSP_STINGER.value,
         HandGuns.P890.value,
         HandGuns.X12.value,
@@ -379,7 +382,6 @@ optics_dict[Optics.CORIO_RV500_OPTIC.value] = {
         SniperRifles.SP_X_80.value,
         HandGuns.COR_45.value,
         HandGuns.RENETTI.value,
-        HandGuns.TYR.value,
         HandGuns.WSP_STINGER.value,
         HandGuns.P890.value,
         HandGuns.GS_50.value,
@@ -687,7 +689,6 @@ optics_dict[Optics.CAUCASUS_REFLEX_SIGHT.value] = {
         SniperRifles.SP_X_80.value,
         HandGuns.COR_45.value,
         HandGuns.RENETTI.value,
-        HandGuns.TYR.value,
         HandGuns.WSP_STINGER.value,
         HandGuns.P890.value,
         HandGuns.GS_50.value,
@@ -954,7 +955,6 @@ optics_dict[Optics.CORIO_ENFORCER_OPTIC.value] = {
         SniperRifles.SP_X_80.value,
         HandGuns.COR_45.value,
         HandGuns.RENETTI.value,
-        HandGuns.TYR.value,
         HandGuns.WSP_STINGER.value,
         HandGuns.P890.value,
         HandGuns.X12.value,
@@ -1005,7 +1005,6 @@ optics_dict[Optics.CORIO_RE_X_PRO.value] = {
         SniperRifles.SP_X_80.value,
         HandGuns.COR_45.value,
         HandGuns.RENETTI.value,
-        HandGuns.TYR.value,
         HandGuns.WSP_STINGER.value,
         HandGuns.P890.value,
         HandGuns.X12.value,
@@ -1046,7 +1045,6 @@ optics_dict[Optics.CORVUS_DOWNRANGE_00.value] = {
         SniperRifles.SP_X_80.value,
         HandGuns.COR_45.value,
         HandGuns.RENETTI.value,
-        HandGuns.TYR.value,
         HandGuns.WSP_STINGER.value,
         HandGuns.P890.value,
         HandGuns.X12.value,
@@ -1129,7 +1127,6 @@ optics_dict[Optics.CORVUS_SOL_76.value] = {
         SniperRifles.SP_X_80.value,
         HandGuns.COR_45.value,
         HandGuns.RENETTI.value,
-        HandGuns.TYR.value,
         HandGuns.WSP_STINGER.value,
         HandGuns.P890.value,
         HandGuns.X12.value,
@@ -1416,7 +1413,6 @@ optics_dict[Optics.DF105_REFLEX_SIGHT.value] = {
         SniperRifles.SP_X_80.value,
         HandGuns.COR_45.value,
         HandGuns.RENETTI.value,
-        HandGuns.TYR.value,
         HandGuns.WSP_STINGER.value,
         HandGuns.P890.value,
         HandGuns.X12.value,
@@ -1491,7 +1487,6 @@ optics_dict[Optics.DRAGONS_EYE_OPTIC.value] = {
         SniperRifles.SP_X_80.value,
         HandGuns.COR_45.value,
         HandGuns.RENETTI.value,
-        HandGuns.TYR.value,
         HandGuns.WSP_STINGER.value,
         HandGuns.P890.value,
         HandGuns.X12.value,
@@ -1619,7 +1614,6 @@ optics_dict[Optics.DS_FARSIGHT_11.value] = {
         LMGS.RPK.value,
         HandGuns.COR_45.value,
         HandGuns.RENETTI.value,
-        HandGuns.TYR.value,
         HandGuns.WSP_STINGER.value,
         HandGuns.P890.value,
         HandGuns.GS_50.value,
@@ -2043,7 +2037,6 @@ optics_dict[Optics.KAZAN_HOLO.value] = {
         SniperRifles.SP_X_80.value,
         HandGuns.COR_45.value,
         HandGuns.RENETTI.value,
-        HandGuns.TYR.value,
         HandGuns.WSP_STINGER.value,
         HandGuns.P890.value,
         HandGuns.X12.value,
@@ -2299,7 +2292,6 @@ optics_dict[Optics.LUCA_BANDERA_SCOPE.value] = {
         LMGS.RPK.value,
         HandGuns.COR_45.value,
         HandGuns.RENETTI.value,
-        HandGuns.TYR.value,
         HandGuns.WSP_STINGER.value,
         HandGuns.P890.value,
         HandGuns.GS_50.value,
@@ -2464,7 +2456,6 @@ optics_dict[Optics.MK3_REFLECTOR.value] = {
         SniperRifles.SP_X_80.value,
         HandGuns.COR_45.value,
         HandGuns.RENETTI.value,
-        HandGuns.TYR.value,
         HandGuns.WSP_STINGER.value,
         HandGuns.P890.value,
         HandGuns.GS_50.value,
@@ -2507,7 +2498,6 @@ optics_dict[Optics.MONOCLE_CT90.value] = {
         SniperRifles.SP_X_80.value,
         HandGuns.COR_45.value,
         HandGuns.RENETTI.value,
-        HandGuns.TYR.value,
         HandGuns.WSP_STINGER.value,
         HandGuns.P890.value,
         HandGuns.X12.value,
@@ -2568,7 +2558,6 @@ optics_dict[Optics.NYDAR_MODEL_2023.value] = {
         SniperRifles.SP_X_80.value,
         HandGuns.COR_45.value,
         HandGuns.RENETTI.value,
-        HandGuns.TYR.value,
         HandGuns.WSP_STINGER.value,
         HandGuns.P890.value,
         HandGuns.GS_50.value,
@@ -2610,7 +2599,6 @@ optics_dict[Optics.QTG_REFLEX_SIGHT.value] = {
         SniperRifles.SP_X_80.value,
         HandGuns.COR_45.value,
         HandGuns.RENETTI.value,
-        HandGuns.TYR.value,
         HandGuns.WSP_STINGER.value,
         HandGuns.P890.value,
         HandGuns.GS_50.value,
@@ -2991,7 +2979,6 @@ optics_dict[Optics.SZ_BATTLE_OPTIC.value] = {
         SniperRifles.SP_X_80.value,
         HandGuns.COR_45.value,
         HandGuns.RENETTI.value,
-        HandGuns.TYR.value,
         HandGuns.WSP_STINGER.value,
         HandGuns.P890.value,
         HandGuns.X12.value,
@@ -3144,7 +3131,6 @@ optics_dict[Optics.SZ_HOLOTHERM.value] = {
         SniperRifles.SP_X_80.value,
         HandGuns.COR_45.value,
         HandGuns.RENETTI.value,
-        HandGuns.TYR.value,
         HandGuns.WSP_STINGER.value,
         HandGuns.P890.value,
         HandGuns.X12.value,
@@ -3186,7 +3172,6 @@ optics_dict[Optics.SZ_LONEWOLF_OPTIC.value] = {
         SniperRifles.SP_X_80.value,
         HandGuns.COR_45.value,
         HandGuns.RENETTI.value,
-        HandGuns.TYR.value,
         HandGuns.WSP_STINGER.value,
         HandGuns.P890.value,
         HandGuns.X12.value,
@@ -3324,7 +3309,6 @@ optics_dict[Optics.SZ_RECHARGE_DX.value] = {
         SniperRifles.SP_X_80.value,
         HandGuns.COR_45.value,
         HandGuns.RENETTI.value,
-        HandGuns.TYR.value,
         HandGuns.WSP_STINGER.value,
         HandGuns.P890.value,
         HandGuns.X12.value,
@@ -3387,7 +3371,6 @@ optics_dict[Optics.SZ_SRO_7.value] = {
         SMGS.FSS_HURRICANE.value,
         HandGuns.COR_45.value,
         HandGuns.RENETTI.value,
-        HandGuns.TYR.value,
         HandGuns.WSP_STINGER.value,
         HandGuns.P890.value,
         HandGuns.X12.value,
@@ -3804,7 +3787,6 @@ optics_dict[Optics.XRK_ON_POINT_OPTIC.value] = {
         SniperRifles.SP_X_80.value,
         HandGuns.COR_45.value,
         HandGuns.RENETTI.value,
-        HandGuns.TYR.value,
         HandGuns.WSP_STINGER.value,
         HandGuns.P890.value,
         HandGuns.X12.value,
@@ -3845,7 +3827,6 @@ optics_dict[Optics.XTEN_ANGEL_40.value] = {
         SniperRifles.SP_X_80.value,
         HandGuns.COR_45.value,
         HandGuns.RENETTI.value,
-        HandGuns.TYR.value,
         HandGuns.WSP_STINGER.value,
         HandGuns.P890.value,
         HandGuns.X12.value,
@@ -3887,7 +3868,6 @@ optics_dict[Optics.XTEN_ERX_10_MINI.value] = {
         SniperRifles.SP_X_80.value,
         HandGuns.COR_45.value,
         HandGuns.RENETTI.value,
-        HandGuns.TYR.value,
         HandGuns.WSP_STINGER.value,
         HandGuns.P890.value,
         HandGuns.GS_50.value,
