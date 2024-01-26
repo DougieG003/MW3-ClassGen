@@ -2,8 +2,35 @@
 This file includes the classes for the primary and secondary weapons.
 Author: Doug Griep
 """
+from enum import Enum
 
-from .AttachmentEnums import Optics
+import Muzzles 
+import Barrels
+import Lasers
+import Optics
+import Stocks
+import Combs
+import Bolts
+import RearGrips
+import TriggerActions
+import Magazines
+import AmmoTypes
+import Underbarrels
+
+class Attachments(Enum):
+    MUZZLES = Muzzles
+    BARRELS = Barrels
+    LASERS = Lasers
+    OPTICS = Optics
+    STOCKS = Stocks
+    COMBS = Combs
+    BOLTS = Bolts
+    REAR_GRIPS = RearGrips
+    TRIGGER_ACTIONS = TriggerActions
+    MAGAZINES = Magazines
+    AMMO_TYPES = AmmoTypes
+    UNDERBARRELS = Underbarrels
+
 
 class Create_MW3_Class():
 

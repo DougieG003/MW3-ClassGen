@@ -59,7 +59,7 @@ class SMGS(Enum):
     FSS_HURRICANE = "FSS HURRICANE"
     MX9 = "MX9"
     MINIBAK = "MINIBAK"
-    VAZBEV_9K = "VAZNEV-9K"
+    VAZNEV_9K = "VAZNEV-9K"
 
 
 class Shotguns(Enum):
@@ -74,10 +74,10 @@ class Shotguns(Enum):
     BRYSON_890 = "BRYSON 890"
 
 
-class LMGs(Enum):
+class LMGS(Enum):
     TAQ_EVOLVERE = "TAQ EVOLVERE"
     PULEMYOT_762 = "PULEMYOT 762"
-    DG_58 = "DG-58 LSW"
+    DG_58_LSW = "DG-58 LSW"
     BRUEN_MK9 = "BRUEN MK9"
     TAQ_ERADICATOR = "TAQ ERADICATOR"
     HOLGER_26 = "HOLGER 26"
@@ -154,4 +154,3 @@ class MeleeSecondary(Enum):
     DUAL_KODACHIS = "DUAL KODACHIS"
     DUAL_KAMAS = "DUAL KAMAS"
     PICKAXE = "PICKAXE"
-
