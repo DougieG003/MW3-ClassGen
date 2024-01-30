@@ -8,17 +8,8 @@ from Weapons import *
 invalid_weapons_str = "invalid_weapons"
 aftermarket_str = "aftermarket"
 
-# FR 5.56 AR locked - could not get attachment list
 # TR76 GEIST AR locked - could not get attachment list
 # HRM-9 SMG locked - could not get attachment list
-# STRIKER 9 SMG locked - could not get attachment list
-# TAQ ERADICATOR LMG locked - could not get attachment list
-# BRUEN MK9 LMG locked - could not get attachment list 
-# TAQ EVOLVERE LMG locked - could not get attachment list
-# MCW 6.8 Marksman locked - could not get attachment list
-# DM56 Marksman lvl 1 - could not get attachment list
-# MTZ Marksman INTERCEPTER lvl 3 - could not get attachment list
-# RENETTI handgun low level - could not get attachment list
 
 class Optics(Enum):
     NO_MODIFICATIONS = "NO MODIFICATIONS"

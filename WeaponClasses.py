@@ -16,6 +16,7 @@ import TriggerActions
 import Magazines
 import AmmoTypes
 import Underbarrels
+import Guards
 
 class Attachments(Enum):
     MUZZLES = Muzzles
@@ -30,6 +31,7 @@ class Attachments(Enum):
     MAGAZINES = Magazines
     AMMO_TYPES = AmmoTypes
     UNDERBARRELS = Underbarrels
+    GUARDS = Guards
 
 
 class Create_MW3_Class():

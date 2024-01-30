@@ -9,7 +9,7 @@ invalid_weapons_str = "invalid_weapons"
 aftermarket_str = "aftermarket"
 
 # ACCURATE - AR MeleePrimary MeleeSecondary Launchers done
-# CHIMERA AR had no muzzle
+# CHIMERA AR, LACHMANN SHROUD SMG have no muzzle
 
 class Muzzles(Enum):
     SHADOWSTRIKE_SUPPRESSOR = "SHADOWSTRIKE SUPPRESSOR"
