@@ -1,5 +1,5 @@
 """
-Enums to hold names of weapons.
+Enums to hold the names of all weapons.
 """
 
 from enum import Enum
