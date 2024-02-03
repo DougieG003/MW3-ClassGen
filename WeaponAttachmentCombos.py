@@ -15,12 +15,24 @@ from AttachmentEnums import (
     Magazines,
     Guards
 )
-import WeaponEnums
+from WeaponEnums import (
+    AssaultRifles,
+    BattleRifles,
+    SMGS,
+    Shotguns,
+    LMGS,
+    MarksmanRifles,
+    SniperRifles,
+    MeleePrimary,
+    HandGuns,
+    Launchers,
+    MeleeSecondary,
+)
 
 
 weapons_attachment_combos_dict = {}
 
-weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.SVA_545.value] = {
+weapons_attachment_combos_dict[AssaultRifles.SVA_545.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -100,7 +112,7 @@ weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.SVA_545.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.RAM_7.value] = {
+weapons_attachment_combos_dict[AssaultRifles.RAM_7.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -180,7 +192,7 @@ weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.RAM_7.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.MTZ_556.value] = {
+weapons_attachment_combos_dict[AssaultRifles.MTZ_556.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -260,7 +272,7 @@ weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.MTZ_556.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.HOLGER_556.value] = {
+weapons_attachment_combos_dict[AssaultRifles.HOLGER_556.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -340,7 +352,7 @@ weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.HOLGER_556.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.MCW.value] = {
+weapons_attachment_combos_dict[AssaultRifles.MCW.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -420,7 +432,7 @@ weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.MCW.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.DG_56.value] = {
+weapons_attachment_combos_dict[AssaultRifles.DG_56.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -498,7 +510,7 @@ weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.DG_56.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.FR_556.value] = {
+weapons_attachment_combos_dict[AssaultRifles.FR_556.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -578,7 +590,7 @@ weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.FR_556.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.TAQ_56.value] = {
+weapons_attachment_combos_dict[AssaultRifles.TAQ_56.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -658,7 +670,7 @@ weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.TAQ_56.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.M4.value] = {
+weapons_attachment_combos_dict[AssaultRifles.M4.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -737,7 +749,7 @@ weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.M4.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.STB_556.value] = {
+weapons_attachment_combos_dict[AssaultRifles.STB_556.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -818,7 +830,7 @@ weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.STB_556.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.KASTOV_762.value] = {
+weapons_attachment_combos_dict[AssaultRifles.KASTOV_762.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -897,7 +909,7 @@ weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.KASTOV_762.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.M13B.value] = {
+weapons_attachment_combos_dict[AssaultRifles.M13B.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -977,7 +989,7 @@ weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.M13B.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.CHIMERA.value] = {
+weapons_attachment_combos_dict[AssaultRifles.CHIMERA.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -1057,7 +1069,7 @@ weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.CHIMERA.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.ISO_HEMLOCK.value] = {
+weapons_attachment_combos_dict[AssaultRifles.ISO_HEMLOCK.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -1137,7 +1149,7 @@ weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.ISO_HEMLOCK.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.TEMPUS_RAZORBACK.value] = {
+weapons_attachment_combos_dict[AssaultRifles.TEMPUS_RAZORBACK.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -1215,7 +1227,7 @@ weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.TEMPUS_RAZORBACK.value]
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.FR_AVANCER.value] = {
+weapons_attachment_combos_dict[AssaultRifles.FR_AVANCER.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -1289,7 +1301,7 @@ weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.FR_AVANCER.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.M13C.value] = {
+weapons_attachment_combos_dict[AssaultRifles.M13C.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -1369,7 +1381,7 @@ weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.M13C.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.LACHMAN_556.value] = {
+weapons_attachment_combos_dict[AssaultRifles.LACHMAN_556.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -1447,7 +1459,7 @@ weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.LACHMAN_556.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.M16.value] = {
+weapons_attachment_combos_dict[AssaultRifles.M16.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -1523,7 +1535,7 @@ weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.M16.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.KASTOV_74U.value] = {
+weapons_attachment_combos_dict[AssaultRifles.KASTOV_74U.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -1594,7 +1606,7 @@ weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.KASTOV_74U.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.KASTOV_545.value] = {
+weapons_attachment_combos_dict[AssaultRifles.KASTOV_545.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -1673,7 +1685,7 @@ weapons_attachment_combos_dict[WeaponEnums.AssaultRifles.KASTOV_545.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.BattleRifles.BAS_B.value] = {
+weapons_attachment_combos_dict[BattleRifles.BAS_B.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -1753,7 +1765,7 @@ weapons_attachment_combos_dict[WeaponEnums.BattleRifles.BAS_B.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.BattleRifles.SIDEWINDER.value] = {
+weapons_attachment_combos_dict[BattleRifles.SIDEWINDER.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -1833,7 +1845,7 @@ weapons_attachment_combos_dict[WeaponEnums.BattleRifles.SIDEWINDER.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.BattleRifles.MTZ_762.value] = {
+weapons_attachment_combos_dict[BattleRifles.MTZ_762.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -1913,7 +1925,7 @@ weapons_attachment_combos_dict[WeaponEnums.BattleRifles.MTZ_762.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.BattleRifles.LACHMAN_762.value] = {
+weapons_attachment_combos_dict[BattleRifles.LACHMAN_762.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -1991,166 +2003,7 @@ weapons_attachment_combos_dict[WeaponEnums.BattleRifles.LACHMAN_762.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.BattleRifles.CRONEN_SQUALL.value] = {
-    "Optics": [
-        Optics.NO_MODIFICATIONS.value,
-        Optics.KR_INTLAS_LSJ_3.value,
-        Optics.SLATE_REFLECTOR.value,
-        Optics.XTEN_ERX_10_MINI.value,
-        Optics.JAK_BULLSEYE.value,
-        Optics.SLIMLINE_PRO.value,
-        Optics.SZ_MINI.value,
-        Optics.CRONEN_MINI_DOT.value,
-        Optics.CRONEN_MINI_PRO.value,
-        Optics.SZ_SIGMA_IV_OPTIC.value,
-        Optics.SZ_MINITAC_40.value,
-        Optics.KR_MINITAC_40_RISER.value,
-        Optics.QTG_REFLEX_SIGHT.value,
-        Optics.CAUCASUS_REFLEX_SIGHT.value,
-        Optics.MK3_REFLECTOR.value,
-        Optics.DRAGONS_EYE_OPTIC.value,
-        Optics.RHINO_REFLEX.value,
-        Optics.XRK_ON_POINT_OPTIC.value,
-        Optics.AIM_OP_V4.value,
-        Optics.DF105_REFLEX_SIGHT.value,
-        Optics.MONOCLE_CT90.value,
-        Optics.CORVUS_SOL_76.value,
-        Optics.SZ_RECHARGE_DX.value,
-        Optics.SZ_SRO_7.value,
-        Optics.CORIO_RE_X_PRO.value,
-        Optics.KR_V4_1X_RISER.value,
-        Optics.CHRIOS_HOLO.value,
-        Optics.CORIO_ENFORCER_OPTIC.value,
-        Optics.SZ_LONEWOLF_OPTIC.value,
-        Optics.KAZAN_HOLO.value,
-        Optics.SZ_BATTLE_OPTIC.value,
-        Optics.CORVUS_DOWNRANGE_00.value,
-        Optics.XTEN_ANGEL_40.value,
-        Optics.SZ_HOLOTHERM.value,
-        Optics.CORIO_ELT_10_2p5.value,
-        Optics.KR_MORTIS_PRECISION_2p5X.value,
-        Optics.CORIO_EAGLESEYE_2p5X.value,
-        Optics.SL_TRUESIGHT_2p5X.value,
-        Optics.KR_MARAUDER_9_RISER.value,
-        Optics.TOS_NIGHTFALL_2p5X_THERMAL_OPTIC.value,
-        Optics.AOK_4p0X_RQ_9_RECON.value,
-        Optics.TX4_HAVOC.value,
-        Optics.VLK_4p0_OPTIC.value,
-        Optics.SCHLAGER_3p4X.value,
-        Optics.FORGE_TAC_DELTA_4.value,
-        Optics.CRONEN_ZERO_P_OPTIC.value,
-        Optics.SZ_BULLSEYE_OPTIC.value,
-        Optics.SZ_AGGRESSOR_IR_OPTIC.value,
-        Optics.SCHLAGER_NIGHT_VIEW.value,
-        Optics.VX350_THERMAL_OPTIC.value,
-        Optics.TEPLO_OP3_SCOPE.value,
-        Optics.HEINRICHTER_HYBRID_SCOPE.value,
-        Optics.CORVUS_GHOSTVIEW.value,
-        Optics.DR582_HYBRID_SIGHT.value,
-        Optics.HYBRID_FIREPOINT.value,
-        Optics.SZ_VOREX_90.value,
-        Optics.BPZ40_HYBRID.value,
-        Optics.SZ_OSCAR_9.value,
-        Optics.ANGEL_40_4p8X.value,
-        Optics.THERMO_OPTIC_X9.value,
-        Optics.TEPLO_CLEAR_SHOT.value,
-        Optics.FTAC_CHARLIE7.value,
-        Optics.HMW_20_OPTIC.value,
-        Optics.LUCA_BANDERA_SCOPE.value,
-        Optics.DS_FARSIGHT_11.value,
-        Optics.RFL_OPTIC_3X.value,
-        Optics.DREXSOM_PRIME_90.value,
-        Optics.ARES_CLEAR_SHOT.value,
-        Optics.VIGILANT_30_C_IRON.value,
-        Optics.FSS_SPECTRE_MICROTHERM.value,
-        Optics.NYDAR_MODEL_2023.value,
-        Optics.TPS_INCENDIO_REFLEX.value,
-        Optics.SZ_HM5_PRECISION_HYBRID_OPTIC.value,
-        Optics.CRONEN_INTLAS_MSP_12.value,
-        Optics.INTLAS_CAS_14.value,   
-    ]
-}
-
-weapons_attachment_combos_dict[WeaponEnums.BattleRifles.FTAC_RECON.value] = {
-    "Optics": [
-        Optics.NO_MODIFICATIONS.value,
-        Optics.KR_INTLAS_LSJ_3.value,
-        Optics.SLATE_REFLECTOR.value,
-        Optics.XTEN_ERX_10_MINI.value,
-        Optics.JAK_BULLSEYE.value,
-        Optics.SLIMLINE_PRO.value,
-        Optics.SZ_MINI.value,
-        Optics.CRONEN_MINI_DOT.value,
-        Optics.CRONEN_MINI_PRO.value,
-        Optics.SZ_SIGMA_IV_OPTIC.value,
-        Optics.SZ_MINITAC_40.value,
-        Optics.KR_MINITAC_40_RISER.value,
-        Optics.QTG_REFLEX_SIGHT.value,
-        Optics.CAUCASUS_REFLEX_SIGHT.value,
-        Optics.MK3_REFLECTOR.value,
-        Optics.DRAGONS_EYE_OPTIC.value,
-        Optics.RHINO_REFLEX.value,
-        Optics.XRK_ON_POINT_OPTIC.value,
-        Optics.AIM_OP_V4.value,
-        Optics.DF105_REFLEX_SIGHT.value,
-        Optics.MONOCLE_CT90.value,
-        Optics.CORVUS_SOL_76.value,
-        Optics.SZ_RECHARGE_DX.value,
-        Optics.SZ_SRO_7.value,
-        Optics.CORIO_RE_X_PRO.value,
-        Optics.KR_V4_1X_RISER.value,
-        Optics.CHRIOS_HOLO.value,
-        Optics.CORIO_ENFORCER_OPTIC.value,
-        Optics.SZ_LONEWOLF_OPTIC.value,
-        Optics.KAZAN_HOLO.value,
-        Optics.SZ_BATTLE_OPTIC.value,
-        Optics.CORVUS_DOWNRANGE_00.value,
-        Optics.XTEN_ANGEL_40.value,
-        Optics.SZ_HOLOTHERM.value,
-        Optics.CORIO_ELT_10_2p5.value,
-        Optics.KR_MORTIS_PRECISION_2p5X.value,
-        Optics.CORIO_EAGLESEYE_2p5X.value,
-        Optics.SL_TRUESIGHT_2p5X.value,
-        Optics.KR_MARAUDER_9_RISER.value,
-        Optics.TOS_NIGHTFALL_2p5X_THERMAL_OPTIC.value,
-        Optics.AOK_4p0X_RQ_9_RECON.value,
-        Optics.TX4_HAVOC.value,
-        Optics.VLK_4p0_OPTIC.value,
-        Optics.SCHLAGER_3p4X.value,
-        Optics.FORGE_TAC_DELTA_4.value,
-        Optics.CRONEN_ZERO_P_OPTIC.value,
-        Optics.SZ_BULLSEYE_OPTIC.value,
-        Optics.SZ_AGGRESSOR_IR_OPTIC.value,
-        Optics.SCHLAGER_NIGHT_VIEW.value,
-        Optics.VX350_THERMAL_OPTIC.value,
-        Optics.TEPLO_OP3_SCOPE.value,
-        Optics.HEINRICHTER_HYBRID_SCOPE.value,
-        Optics.CORVUS_GHOSTVIEW.value,
-        Optics.DR582_HYBRID_SIGHT.value,
-        Optics.HYBRID_FIREPOINT.value,
-        Optics.SZ_VOREX_90.value,
-        Optics.BPZ40_HYBRID.value,
-        Optics.SZ_OSCAR_9.value,
-        Optics.ANGEL_40_4p8X.value,
-        Optics.THERMO_OPTIC_X9.value,
-        Optics.TEPLO_CLEAR_SHOT.value,
-        Optics.FTAC_CHARLIE7.value,
-        Optics.HMW_20_OPTIC.value,
-        Optics.LUCA_BANDERA_SCOPE.value,
-        Optics.DS_FARSIGHT_11.value,
-        Optics.RFL_OPTIC_3X.value,
-        Optics.DREXSOM_PRIME_90.value,
-        Optics.ARES_CLEAR_SHOT.value,
-        Optics.FSS_SPECTRE_MICROTHERM.value,
-        Optics.NYDAR_MODEL_2023.value,
-        Optics.TPS_INCENDIO_REFLEX.value,
-        Optics.SZ_HM5_PRECISION_HYBRID_OPTIC.value,
-        Optics.CRONEN_INTLAS_MSP_12.value,
-        Optics.INTLAS_CAS_14.value,   
-    ]
-}
-
-weapons_attachment_combos_dict[WeaponEnums.BattleRifles.TAQ_V.value] = {
+weapons_attachment_combos_dict[BattleRifles.CRONEN_SQUALL.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -2230,7 +2083,7 @@ weapons_attachment_combos_dict[WeaponEnums.BattleRifles.TAQ_V.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.BattleRifles.SO_14.value] = {
+weapons_attachment_combos_dict[BattleRifles.FTAC_RECON.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -2309,7 +2162,166 @@ weapons_attachment_combos_dict[WeaponEnums.BattleRifles.SO_14.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.SMGS.STRIKER.value] = {
+weapons_attachment_combos_dict[BattleRifles.TAQ_V.value] = {
+    "Optics": [
+        Optics.NO_MODIFICATIONS.value,
+        Optics.KR_INTLAS_LSJ_3.value,
+        Optics.SLATE_REFLECTOR.value,
+        Optics.XTEN_ERX_10_MINI.value,
+        Optics.JAK_BULLSEYE.value,
+        Optics.SLIMLINE_PRO.value,
+        Optics.SZ_MINI.value,
+        Optics.CRONEN_MINI_DOT.value,
+        Optics.CRONEN_MINI_PRO.value,
+        Optics.SZ_SIGMA_IV_OPTIC.value,
+        Optics.SZ_MINITAC_40.value,
+        Optics.KR_MINITAC_40_RISER.value,
+        Optics.QTG_REFLEX_SIGHT.value,
+        Optics.CAUCASUS_REFLEX_SIGHT.value,
+        Optics.MK3_REFLECTOR.value,
+        Optics.DRAGONS_EYE_OPTIC.value,
+        Optics.RHINO_REFLEX.value,
+        Optics.XRK_ON_POINT_OPTIC.value,
+        Optics.AIM_OP_V4.value,
+        Optics.DF105_REFLEX_SIGHT.value,
+        Optics.MONOCLE_CT90.value,
+        Optics.CORVUS_SOL_76.value,
+        Optics.SZ_RECHARGE_DX.value,
+        Optics.SZ_SRO_7.value,
+        Optics.CORIO_RE_X_PRO.value,
+        Optics.KR_V4_1X_RISER.value,
+        Optics.CHRIOS_HOLO.value,
+        Optics.CORIO_ENFORCER_OPTIC.value,
+        Optics.SZ_LONEWOLF_OPTIC.value,
+        Optics.KAZAN_HOLO.value,
+        Optics.SZ_BATTLE_OPTIC.value,
+        Optics.CORVUS_DOWNRANGE_00.value,
+        Optics.XTEN_ANGEL_40.value,
+        Optics.SZ_HOLOTHERM.value,
+        Optics.CORIO_ELT_10_2p5.value,
+        Optics.KR_MORTIS_PRECISION_2p5X.value,
+        Optics.CORIO_EAGLESEYE_2p5X.value,
+        Optics.SL_TRUESIGHT_2p5X.value,
+        Optics.KR_MARAUDER_9_RISER.value,
+        Optics.TOS_NIGHTFALL_2p5X_THERMAL_OPTIC.value,
+        Optics.AOK_4p0X_RQ_9_RECON.value,
+        Optics.TX4_HAVOC.value,
+        Optics.VLK_4p0_OPTIC.value,
+        Optics.SCHLAGER_3p4X.value,
+        Optics.FORGE_TAC_DELTA_4.value,
+        Optics.CRONEN_ZERO_P_OPTIC.value,
+        Optics.SZ_BULLSEYE_OPTIC.value,
+        Optics.SZ_AGGRESSOR_IR_OPTIC.value,
+        Optics.SCHLAGER_NIGHT_VIEW.value,
+        Optics.VX350_THERMAL_OPTIC.value,
+        Optics.TEPLO_OP3_SCOPE.value,
+        Optics.HEINRICHTER_HYBRID_SCOPE.value,
+        Optics.CORVUS_GHOSTVIEW.value,
+        Optics.DR582_HYBRID_SIGHT.value,
+        Optics.HYBRID_FIREPOINT.value,
+        Optics.SZ_VOREX_90.value,
+        Optics.BPZ40_HYBRID.value,
+        Optics.SZ_OSCAR_9.value,
+        Optics.ANGEL_40_4p8X.value,
+        Optics.THERMO_OPTIC_X9.value,
+        Optics.TEPLO_CLEAR_SHOT.value,
+        Optics.FTAC_CHARLIE7.value,
+        Optics.HMW_20_OPTIC.value,
+        Optics.LUCA_BANDERA_SCOPE.value,
+        Optics.DS_FARSIGHT_11.value,
+        Optics.RFL_OPTIC_3X.value,
+        Optics.DREXSOM_PRIME_90.value,
+        Optics.ARES_CLEAR_SHOT.value,
+        Optics.VIGILANT_30_C_IRON.value,
+        Optics.FSS_SPECTRE_MICROTHERM.value,
+        Optics.NYDAR_MODEL_2023.value,
+        Optics.TPS_INCENDIO_REFLEX.value,
+        Optics.SZ_HM5_PRECISION_HYBRID_OPTIC.value,
+        Optics.CRONEN_INTLAS_MSP_12.value,
+        Optics.INTLAS_CAS_14.value,   
+    ]
+}
+
+weapons_attachment_combos_dict[BattleRifles.SO_14.value] = {
+    "Optics": [
+        Optics.NO_MODIFICATIONS.value,
+        Optics.KR_INTLAS_LSJ_3.value,
+        Optics.SLATE_REFLECTOR.value,
+        Optics.XTEN_ERX_10_MINI.value,
+        Optics.JAK_BULLSEYE.value,
+        Optics.SLIMLINE_PRO.value,
+        Optics.SZ_MINI.value,
+        Optics.CRONEN_MINI_DOT.value,
+        Optics.CRONEN_MINI_PRO.value,
+        Optics.SZ_SIGMA_IV_OPTIC.value,
+        Optics.SZ_MINITAC_40.value,
+        Optics.KR_MINITAC_40_RISER.value,
+        Optics.QTG_REFLEX_SIGHT.value,
+        Optics.CAUCASUS_REFLEX_SIGHT.value,
+        Optics.MK3_REFLECTOR.value,
+        Optics.DRAGONS_EYE_OPTIC.value,
+        Optics.RHINO_REFLEX.value,
+        Optics.XRK_ON_POINT_OPTIC.value,
+        Optics.AIM_OP_V4.value,
+        Optics.DF105_REFLEX_SIGHT.value,
+        Optics.MONOCLE_CT90.value,
+        Optics.CORVUS_SOL_76.value,
+        Optics.SZ_RECHARGE_DX.value,
+        Optics.SZ_SRO_7.value,
+        Optics.CORIO_RE_X_PRO.value,
+        Optics.KR_V4_1X_RISER.value,
+        Optics.CHRIOS_HOLO.value,
+        Optics.CORIO_ENFORCER_OPTIC.value,
+        Optics.SZ_LONEWOLF_OPTIC.value,
+        Optics.KAZAN_HOLO.value,
+        Optics.SZ_BATTLE_OPTIC.value,
+        Optics.CORVUS_DOWNRANGE_00.value,
+        Optics.XTEN_ANGEL_40.value,
+        Optics.SZ_HOLOTHERM.value,
+        Optics.CORIO_ELT_10_2p5.value,
+        Optics.KR_MORTIS_PRECISION_2p5X.value,
+        Optics.CORIO_EAGLESEYE_2p5X.value,
+        Optics.SL_TRUESIGHT_2p5X.value,
+        Optics.KR_MARAUDER_9_RISER.value,
+        Optics.TOS_NIGHTFALL_2p5X_THERMAL_OPTIC.value,
+        Optics.AOK_4p0X_RQ_9_RECON.value,
+        Optics.TX4_HAVOC.value,
+        Optics.VLK_4p0_OPTIC.value,
+        Optics.SCHLAGER_3p4X.value,
+        Optics.FORGE_TAC_DELTA_4.value,
+        Optics.CRONEN_ZERO_P_OPTIC.value,
+        Optics.SZ_BULLSEYE_OPTIC.value,
+        Optics.SZ_AGGRESSOR_IR_OPTIC.value,
+        Optics.SCHLAGER_NIGHT_VIEW.value,
+        Optics.VX350_THERMAL_OPTIC.value,
+        Optics.TEPLO_OP3_SCOPE.value,
+        Optics.HEINRICHTER_HYBRID_SCOPE.value,
+        Optics.CORVUS_GHOSTVIEW.value,
+        Optics.DR582_HYBRID_SIGHT.value,
+        Optics.HYBRID_FIREPOINT.value,
+        Optics.SZ_VOREX_90.value,
+        Optics.BPZ40_HYBRID.value,
+        Optics.SZ_OSCAR_9.value,
+        Optics.ANGEL_40_4p8X.value,
+        Optics.THERMO_OPTIC_X9.value,
+        Optics.TEPLO_CLEAR_SHOT.value,
+        Optics.FTAC_CHARLIE7.value,
+        Optics.HMW_20_OPTIC.value,
+        Optics.LUCA_BANDERA_SCOPE.value,
+        Optics.DS_FARSIGHT_11.value,
+        Optics.RFL_OPTIC_3X.value,
+        Optics.DREXSOM_PRIME_90.value,
+        Optics.ARES_CLEAR_SHOT.value,
+        Optics.FSS_SPECTRE_MICROTHERM.value,
+        Optics.NYDAR_MODEL_2023.value,
+        Optics.TPS_INCENDIO_REFLEX.value,
+        Optics.SZ_HM5_PRECISION_HYBRID_OPTIC.value,
+        Optics.CRONEN_INTLAS_MSP_12.value,
+        Optics.INTLAS_CAS_14.value,   
+    ]
+}
+
+weapons_attachment_combos_dict[SMGS.STRIKER.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -2378,7 +2390,7 @@ weapons_attachment_combos_dict[WeaponEnums.SMGS.STRIKER.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.SMGS.WSP_SWARM.value] = {
+weapons_attachment_combos_dict[SMGS.WSP_SWARM.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -2447,7 +2459,7 @@ weapons_attachment_combos_dict[WeaponEnums.SMGS.WSP_SWARM.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.SMGS.AMR9.value] = {
+weapons_attachment_combos_dict[SMGS.AMR9.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -2516,7 +2528,7 @@ weapons_attachment_combos_dict[WeaponEnums.SMGS.AMR9.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.SMGS.WSP_9.value] = {
+weapons_attachment_combos_dict[SMGS.WSP_9.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -2576,76 +2588,7 @@ weapons_attachment_combos_dict[WeaponEnums.SMGS.WSP_9.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.SMGS.RIVAL_9.value] = {
-    "Optics": [
-        Optics.NO_MODIFICATIONS.value,
-        Optics.KR_INTLAS_LSJ_3.value,
-        Optics.SLATE_REFLECTOR.value,
-        Optics.JAK_BULLSEYE.value,
-        Optics.XTEN_ERX_10_MINI.value,
-        Optics.SLIMLINE_PRO.value,
-        Optics.SZ_MINI.value,
-        Optics.CRONEN_MINI_DOT.value,
-        Optics.CRONEN_MINI_PRO.value,
-        Optics.SZ_SIGMA_IV_OPTIC.value,
-        Optics.SZ_MINITAC_40.value,
-        Optics.KR_MINITAC_40_RISER.value,
-        Optics.QTG_REFLEX_SIGHT.value,
-        Optics.CAUCASUS_REFLEX_SIGHT.value,
-        Optics.MK3_REFLECTOR.value,
-        Optics.DRAGONS_EYE_OPTIC.value,
-        Optics.RHINO_REFLEX.value,
-        Optics.XRK_ON_POINT_OPTIC.value,
-        Optics.AIM_OP_V4.value,
-        Optics.DF105_REFLEX_SIGHT.value,
-        Optics.MONOCLE_CT90.value,
-        Optics.CORVUS_SOL_76.value,
-        Optics.SZ_RECHARGE_DX.value,
-        Optics.SZ_SRO_7.value,
-        Optics.CORIO_RE_X_PRO.value,
-        Optics.KR_V4_1X_RISER.value,
-        Optics.CHRIOS_HOLO.value,
-        Optics.CORIO_ENFORCER_OPTIC.value,
-        Optics.SZ_LONEWOLF_OPTIC.value,
-        Optics.KAZAN_HOLO.value,
-        Optics.SZ_BATTLE_OPTIC.value,
-        Optics.CORVUS_DOWNRANGE_00.value,
-        Optics.XTEN_ANGEL_40.value,
-        Optics.SZ_HOLOTHERM.value,
-        Optics.CORIO_ELT_10_2p5.value,
-        Optics.KR_MORTIS_PRECISION_2p5X.value,
-        Optics.CORIO_EAGLESEYE_2p5X.value,
-        Optics.SL_TRUESIGHT_2p5X.value,
-        Optics.KR_MARAUDER_9_RISER.value,
-        Optics.TOS_NIGHTFALL_2p5X_THERMAL_OPTIC.value,
-        Optics.AOK_4p0X_RQ_9_RECON.value,
-        Optics.TX4_HAVOC.value,
-        Optics.VLK_4p0_OPTIC.value,
-        Optics.SCHLAGER_3p4X.value,
-        Optics.FORGE_TAC_DELTA_4.value,
-        Optics.CRONEN_ZERO_P_OPTIC.value,
-        Optics.SZ_BULLSEYE_OPTIC.value,
-        Optics.SZ_AGGRESSOR_IR_OPTIC.value,
-        Optics.SCHLAGER_NIGHT_VIEW.value,
-        Optics.VX350_THERMAL_OPTIC.value,
-        Optics.TEPLO_OP3_SCOPE.value,
-        Optics.CORVUS_GHOSTVIEW.value,
-        Optics.DR582_HYBRID_SIGHT.value,
-        Optics.HYBRID_FIREPOINT.value,
-        Optics.SZ_VOREX_90.value,
-        Optics.BPZ40_HYBRID.value,
-        Optics.SZ_OSCAR_9.value,
-        Optics.THERMO_OPTIC_X9.value,
-        Optics.TEPLO_CLEAR_SHOT.value,
-        Optics.FSS_SPECTRE_MICROTHERM.value,
-        Optics.NYDAR_MODEL_2023.value,
-        Optics.TPS_INCENDIO_REFLEX.value,
-        Optics.CRONEN_INTLAS_MSP_12.value,
-        Optics.INTLAS_CAS_14.value,   
-    ]
-}
-
-weapons_attachment_combos_dict[WeaponEnums.SMGS.STRIKER_9.value] = {
+weapons_attachment_combos_dict[SMGS.RIVAL_9.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -2714,74 +2657,7 @@ weapons_attachment_combos_dict[WeaponEnums.SMGS.STRIKER_9.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.SMGS.LACHMANN_SHROUD.value] = {
-    "Optics": [
-        Optics.NO_MODIFICATIONS.value,
-        Optics.KR_INTLAS_LSJ_3.value,
-        Optics.SLATE_REFLECTOR.value,
-        Optics.JAK_BULLSEYE.value,
-        Optics.XTEN_ERX_10_MINI.value,
-        Optics.SLIMLINE_PRO.value,
-        Optics.SZ_MINI.value,
-        Optics.CRONEN_MINI_DOT.value,
-        Optics.CRONEN_MINI_PRO.value,
-        Optics.SZ_SIGMA_IV_OPTIC.value,
-        Optics.SZ_MINITAC_40.value,
-        Optics.KR_MINITAC_40_RISER.value,
-        Optics.QTG_REFLEX_SIGHT.value,
-        Optics.CAUCASUS_REFLEX_SIGHT.value,
-        Optics.MK3_REFLECTOR.value,
-        Optics.DRAGONS_EYE_OPTIC.value,
-        Optics.RHINO_REFLEX.value,
-        Optics.XRK_ON_POINT_OPTIC.value,
-        Optics.AIM_OP_V4.value,
-        Optics.DF105_REFLEX_SIGHT.value,
-        Optics.MONOCLE_CT90.value,
-        Optics.CORVUS_SOL_76.value,
-        Optics.SZ_RECHARGE_DX.value,
-        Optics.SZ_SRO_7.value,
-        Optics.CORIO_RE_X_PRO.value,
-        Optics.KR_V4_1X_RISER.value,
-        Optics.CHRIOS_HOLO.value,
-        Optics.CORIO_ENFORCER_OPTIC.value,
-        Optics.SZ_LONEWOLF_OPTIC.value,
-        Optics.KAZAN_HOLO.value,
-        Optics.SZ_BATTLE_OPTIC.value,
-        Optics.CORVUS_DOWNRANGE_00.value,
-        Optics.XTEN_ANGEL_40.value,
-        Optics.SZ_HOLOTHERM.value,
-        Optics.CORIO_ELT_10_2p5.value,
-        Optics.KR_MORTIS_PRECISION_2p5X.value,
-        Optics.CORIO_EAGLESEYE_2p5X.value,
-        Optics.SL_TRUESIGHT_2p5X.value,
-        Optics.KR_MARAUDER_9_RISER.value,
-        Optics.TOS_NIGHTFALL_2p5X_THERMAL_OPTIC.value,
-        Optics.AOK_4p0X_RQ_9_RECON.value,
-        Optics.TX4_HAVOC.value,
-        Optics.VLK_4p0_OPTIC.value,
-        Optics.SCHLAGER_3p4X.value,
-        Optics.FORGE_TAC_DELTA_4.value,
-        Optics.CRONEN_ZERO_P_OPTIC.value,
-        Optics.SZ_BULLSEYE_OPTIC.value,
-        Optics.SZ_AGGRESSOR_IR_OPTIC.value,
-        Optics.SCHLAGER_NIGHT_VIEW.value,
-        Optics.TEPLO_OP3_SCOPE.value,
-        Optics.CORVUS_GHOSTVIEW.value,
-        Optics.DR582_HYBRID_SIGHT.value,
-        Optics.HYBRID_FIREPOINT.value,
-        Optics.SZ_VOREX_90.value,
-        Optics.BPZ40_HYBRID.value,
-        Optics.SZ_OSCAR_9.value,
-        Optics.TEPLO_CLEAR_SHOT.value,
-        Optics.FSS_SPECTRE_MICROTHERM.value,
-        Optics.NYDAR_MODEL_2023.value,
-        Optics.TPS_INCENDIO_REFLEX.value,
-        Optics.CRONEN_INTLAS_MSP_12.value,
-        Optics.INTLAS_CAS_14.value,   
-    ]
-}
-
-weapons_attachment_combos_dict[WeaponEnums.SMGS.ISO_9MM.value] = {
+weapons_attachment_combos_dict[SMGS.STRIKER_9.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -2850,7 +2726,74 @@ weapons_attachment_combos_dict[WeaponEnums.SMGS.ISO_9MM.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.SMGS.PDSW_528.value] = {
+weapons_attachment_combos_dict[SMGS.LACHMANN_SHROUD.value] = {
+    "Optics": [
+        Optics.NO_MODIFICATIONS.value,
+        Optics.KR_INTLAS_LSJ_3.value,
+        Optics.SLATE_REFLECTOR.value,
+        Optics.JAK_BULLSEYE.value,
+        Optics.XTEN_ERX_10_MINI.value,
+        Optics.SLIMLINE_PRO.value,
+        Optics.SZ_MINI.value,
+        Optics.CRONEN_MINI_DOT.value,
+        Optics.CRONEN_MINI_PRO.value,
+        Optics.SZ_SIGMA_IV_OPTIC.value,
+        Optics.SZ_MINITAC_40.value,
+        Optics.KR_MINITAC_40_RISER.value,
+        Optics.QTG_REFLEX_SIGHT.value,
+        Optics.CAUCASUS_REFLEX_SIGHT.value,
+        Optics.MK3_REFLECTOR.value,
+        Optics.DRAGONS_EYE_OPTIC.value,
+        Optics.RHINO_REFLEX.value,
+        Optics.XRK_ON_POINT_OPTIC.value,
+        Optics.AIM_OP_V4.value,
+        Optics.DF105_REFLEX_SIGHT.value,
+        Optics.MONOCLE_CT90.value,
+        Optics.CORVUS_SOL_76.value,
+        Optics.SZ_RECHARGE_DX.value,
+        Optics.SZ_SRO_7.value,
+        Optics.CORIO_RE_X_PRO.value,
+        Optics.KR_V4_1X_RISER.value,
+        Optics.CHRIOS_HOLO.value,
+        Optics.CORIO_ENFORCER_OPTIC.value,
+        Optics.SZ_LONEWOLF_OPTIC.value,
+        Optics.KAZAN_HOLO.value,
+        Optics.SZ_BATTLE_OPTIC.value,
+        Optics.CORVUS_DOWNRANGE_00.value,
+        Optics.XTEN_ANGEL_40.value,
+        Optics.SZ_HOLOTHERM.value,
+        Optics.CORIO_ELT_10_2p5.value,
+        Optics.KR_MORTIS_PRECISION_2p5X.value,
+        Optics.CORIO_EAGLESEYE_2p5X.value,
+        Optics.SL_TRUESIGHT_2p5X.value,
+        Optics.KR_MARAUDER_9_RISER.value,
+        Optics.TOS_NIGHTFALL_2p5X_THERMAL_OPTIC.value,
+        Optics.AOK_4p0X_RQ_9_RECON.value,
+        Optics.TX4_HAVOC.value,
+        Optics.VLK_4p0_OPTIC.value,
+        Optics.SCHLAGER_3p4X.value,
+        Optics.FORGE_TAC_DELTA_4.value,
+        Optics.CRONEN_ZERO_P_OPTIC.value,
+        Optics.SZ_BULLSEYE_OPTIC.value,
+        Optics.SZ_AGGRESSOR_IR_OPTIC.value,
+        Optics.SCHLAGER_NIGHT_VIEW.value,
+        Optics.TEPLO_OP3_SCOPE.value,
+        Optics.CORVUS_GHOSTVIEW.value,
+        Optics.DR582_HYBRID_SIGHT.value,
+        Optics.HYBRID_FIREPOINT.value,
+        Optics.SZ_VOREX_90.value,
+        Optics.BPZ40_HYBRID.value,
+        Optics.SZ_OSCAR_9.value,
+        Optics.TEPLO_CLEAR_SHOT.value,
+        Optics.FSS_SPECTRE_MICROTHERM.value,
+        Optics.NYDAR_MODEL_2023.value,
+        Optics.TPS_INCENDIO_REFLEX.value,
+        Optics.CRONEN_INTLAS_MSP_12.value,
+        Optics.INTLAS_CAS_14.value,   
+    ]
+}
+
+weapons_attachment_combos_dict[SMGS.ISO_9MM.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -2919,7 +2862,7 @@ weapons_attachment_combos_dict[WeaponEnums.SMGS.PDSW_528.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.SMGS.VEL_46.value] = {
+weapons_attachment_combos_dict[SMGS.PDSW_528.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -2988,7 +2931,7 @@ weapons_attachment_combos_dict[WeaponEnums.SMGS.VEL_46.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.SMGS.FENNEC_45.value] = {
+weapons_attachment_combos_dict[SMGS.VEL_46.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -3057,7 +3000,7 @@ weapons_attachment_combos_dict[WeaponEnums.SMGS.FENNEC_45.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.SMGS.BAS_P.value] = {
+weapons_attachment_combos_dict[SMGS.FENNEC_45.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -3126,7 +3069,7 @@ weapons_attachment_combos_dict[WeaponEnums.SMGS.BAS_P.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.SMGS.ISO_45.value] = {
+weapons_attachment_combos_dict[SMGS.BAS_P.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -3195,7 +3138,76 @@ weapons_attachment_combos_dict[WeaponEnums.SMGS.ISO_45.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.SMGS.LACHMANN_SUB.value] = {
+weapons_attachment_combos_dict[SMGS.ISO_45.value] = {
+    "Optics": [
+        Optics.NO_MODIFICATIONS.value,
+        Optics.KR_INTLAS_LSJ_3.value,
+        Optics.SLATE_REFLECTOR.value,
+        Optics.JAK_BULLSEYE.value,
+        Optics.XTEN_ERX_10_MINI.value,
+        Optics.SLIMLINE_PRO.value,
+        Optics.SZ_MINI.value,
+        Optics.CRONEN_MINI_DOT.value,
+        Optics.CRONEN_MINI_PRO.value,
+        Optics.SZ_SIGMA_IV_OPTIC.value,
+        Optics.SZ_MINITAC_40.value,
+        Optics.KR_MINITAC_40_RISER.value,
+        Optics.QTG_REFLEX_SIGHT.value,
+        Optics.CAUCASUS_REFLEX_SIGHT.value,
+        Optics.MK3_REFLECTOR.value,
+        Optics.DRAGONS_EYE_OPTIC.value,
+        Optics.RHINO_REFLEX.value,
+        Optics.XRK_ON_POINT_OPTIC.value,
+        Optics.AIM_OP_V4.value,
+        Optics.DF105_REFLEX_SIGHT.value,
+        Optics.MONOCLE_CT90.value,
+        Optics.CORVUS_SOL_76.value,
+        Optics.SZ_RECHARGE_DX.value,
+        Optics.SZ_SRO_7.value,
+        Optics.CORIO_RE_X_PRO.value,
+        Optics.KR_V4_1X_RISER.value,
+        Optics.CHRIOS_HOLO.value,
+        Optics.CORIO_ENFORCER_OPTIC.value,
+        Optics.SZ_LONEWOLF_OPTIC.value,
+        Optics.KAZAN_HOLO.value,
+        Optics.SZ_BATTLE_OPTIC.value,
+        Optics.CORVUS_DOWNRANGE_00.value,
+        Optics.XTEN_ANGEL_40.value,
+        Optics.SZ_HOLOTHERM.value,
+        Optics.CORIO_ELT_10_2p5.value,
+        Optics.KR_MORTIS_PRECISION_2p5X.value,
+        Optics.CORIO_EAGLESEYE_2p5X.value,
+        Optics.SL_TRUESIGHT_2p5X.value,
+        Optics.KR_MARAUDER_9_RISER.value,
+        Optics.TOS_NIGHTFALL_2p5X_THERMAL_OPTIC.value,
+        Optics.AOK_4p0X_RQ_9_RECON.value,
+        Optics.TX4_HAVOC.value,
+        Optics.VLK_4p0_OPTIC.value,
+        Optics.SCHLAGER_3p4X.value,
+        Optics.FORGE_TAC_DELTA_4.value,
+        Optics.CRONEN_ZERO_P_OPTIC.value,
+        Optics.SZ_BULLSEYE_OPTIC.value,
+        Optics.SZ_AGGRESSOR_IR_OPTIC.value,
+        Optics.SCHLAGER_NIGHT_VIEW.value,
+        Optics.VX350_THERMAL_OPTIC.value,
+        Optics.TEPLO_OP3_SCOPE.value,
+        Optics.CORVUS_GHOSTVIEW.value,
+        Optics.DR582_HYBRID_SIGHT.value,
+        Optics.HYBRID_FIREPOINT.value,
+        Optics.SZ_VOREX_90.value,
+        Optics.BPZ40_HYBRID.value,
+        Optics.SZ_OSCAR_9.value,
+        Optics.THERMO_OPTIC_X9.value,
+        Optics.TEPLO_CLEAR_SHOT.value,
+        Optics.FSS_SPECTRE_MICROTHERM.value,
+        Optics.NYDAR_MODEL_2023.value,
+        Optics.TPS_INCENDIO_REFLEX.value,
+        Optics.CRONEN_INTLAS_MSP_12.value,
+        Optics.INTLAS_CAS_14.value,   
+    ]
+}
+
+weapons_attachment_combos_dict[SMGS.LACHMANN_SUB.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -3261,7 +3273,7 @@ weapons_attachment_combos_dict[WeaponEnums.SMGS.LACHMANN_SUB.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.SMGS.FSS_HURRICANE.value] = {
+weapons_attachment_combos_dict[SMGS.FSS_HURRICANE.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.SLATE_REFLECTOR.value,
@@ -3289,7 +3301,7 @@ weapons_attachment_combos_dict[WeaponEnums.SMGS.FSS_HURRICANE.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.SMGS.MX9.value] = {
+weapons_attachment_combos_dict[SMGS.MX9.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -3359,7 +3371,7 @@ weapons_attachment_combos_dict[WeaponEnums.SMGS.MX9.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.SMGS.MINIBAK.value] = {
+weapons_attachment_combos_dict[SMGS.MINIBAK.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -3427,7 +3439,7 @@ weapons_attachment_combos_dict[WeaponEnums.SMGS.MINIBAK.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.SMGS.VAZNEV_9K.value] = {
+weapons_attachment_combos_dict[SMGS.VAZNEV_9K.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -3496,7 +3508,7 @@ weapons_attachment_combos_dict[WeaponEnums.SMGS.VAZNEV_9K.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.Shotguns.LOCKWOOD_680.value] = {
+weapons_attachment_combos_dict[Shotguns.LOCKWOOD_680.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -3561,7 +3573,7 @@ weapons_attachment_combos_dict[WeaponEnums.Shotguns.LOCKWOOD_680.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.Shotguns.HAYMAKER.value] = {
+weapons_attachment_combos_dict[Shotguns.HAYMAKER.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -3626,7 +3638,7 @@ weapons_attachment_combos_dict[WeaponEnums.Shotguns.HAYMAKER.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.Shotguns.RIVETER.value] = {
+weapons_attachment_combos_dict[Shotguns.RIVETER.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -3691,7 +3703,7 @@ weapons_attachment_combos_dict[WeaponEnums.Shotguns.RIVETER.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.Shotguns.LOCKWOOD_300.value] = {
+weapons_attachment_combos_dict[Shotguns.LOCKWOOD_300.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -3761,7 +3773,7 @@ weapons_attachment_combos_dict[WeaponEnums.Shotguns.LOCKWOOD_300.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.Shotguns.EXPEDITE_12.value] = {
+weapons_attachment_combos_dict[Shotguns.EXPEDITE_12.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -3831,7 +3843,7 @@ weapons_attachment_combos_dict[WeaponEnums.Shotguns.EXPEDITE_12.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.Shotguns.BRYSON_800.value] = {
+weapons_attachment_combos_dict[Shotguns.BRYSON_800.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -3901,7 +3913,7 @@ weapons_attachment_combos_dict[WeaponEnums.Shotguns.BRYSON_800.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.Shotguns.KV_BROADSIDE.value] = {
+weapons_attachment_combos_dict[Shotguns.KV_BROADSIDE.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -3971,7 +3983,7 @@ weapons_attachment_combos_dict[WeaponEnums.Shotguns.KV_BROADSIDE.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.Shotguns.LOCKWOOD_300.value] = {
+weapons_attachment_combos_dict[Shotguns.LOCKWOOD_300.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -4041,7 +4053,7 @@ weapons_attachment_combos_dict[WeaponEnums.Shotguns.LOCKWOOD_300.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.Shotguns.MX_GUARDIAN.value] = {
+weapons_attachment_combos_dict[Shotguns.MX_GUARDIAN.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -4111,7 +4123,7 @@ weapons_attachment_combos_dict[WeaponEnums.Shotguns.MX_GUARDIAN.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.Shotguns.BRYSON_890.value] = {
+weapons_attachment_combos_dict[Shotguns.BRYSON_890.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -4181,83 +4193,7 @@ weapons_attachment_combos_dict[WeaponEnums.Shotguns.BRYSON_890.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.LMGS.TAQ_EVOLVERE.value] = {
-    "Optics": [
-        Optics.NO_MODIFICATIONS.value,
-        Optics.KR_INTLAS_LSJ_3.value,
-        Optics.SLATE_REFLECTOR.value,
-        Optics.XTEN_ERX_10_MINI.value,
-        Optics.JAK_BULLSEYE.value,
-        Optics.SLIMLINE_PRO.value,
-        Optics.SZ_MINI.value,
-        Optics.CRONEN_MINI_DOT.value,
-        Optics.CRONEN_MINI_PRO.value,
-        Optics.SZ_SIGMA_IV_OPTIC.value,
-        Optics.SZ_MINITAC_40.value,
-        Optics.KR_MINITAC_40_RISER.value,
-        Optics.QTG_REFLEX_SIGHT.value,
-        Optics.CAUCASUS_REFLEX_SIGHT.value,
-        Optics.MK3_REFLECTOR.value,
-        Optics.DRAGONS_EYE_OPTIC.value,
-        Optics.RHINO_REFLEX.value,
-        Optics.XRK_ON_POINT_OPTIC.value,
-        Optics.AIM_OP_V4.value,
-        Optics.DF105_REFLEX_SIGHT.value,
-        Optics.MONOCLE_CT90.value,
-        Optics.CORVUS_SOL_76.value,
-        Optics.SZ_RECHARGE_DX.value,
-        Optics.SZ_SRO_7.value,
-        Optics.CORIO_RE_X_PRO.value,
-        Optics.KR_V4_1X_RISER.value,
-        Optics.CHRIOS_HOLO.value,
-        Optics.CORIO_ENFORCER_OPTIC.value,
-        Optics.SZ_LONEWOLF_OPTIC.value,
-        Optics.KAZAN_HOLO.value,
-        Optics.SZ_BATTLE_OPTIC.value,
-        Optics.CORVUS_DOWNRANGE_00.value,
-        Optics.XTEN_ANGEL_40.value,
-        Optics.SZ_HOLOTHERM.value,
-        Optics.CORIO_ELT_10_2p5.value,
-        Optics.KR_MORTIS_PRECISION_2p5X.value,
-        Optics.CORIO_EAGLESEYE_2p5X.value,
-        Optics.SL_TRUESIGHT_2p5X.value,
-        Optics.KR_MARAUDER_9_RISER.value,
-        Optics.TOS_NIGHTFALL_2p5X_THERMAL_OPTIC.value,
-        Optics.AOK_4p0X_RQ_9_RECON.value,
-        Optics.TX4_HAVOC.value,
-        Optics.VLK_4p0_OPTIC.value,
-        Optics.SCHLAGER_3p4X.value,
-        Optics.FORGE_TAC_DELTA_4.value,
-        Optics.CRONEN_ZERO_P_OPTIC.value,
-        Optics.SZ_BULLSEYE_OPTIC.value,
-        Optics.SZ_AGGRESSOR_IR_OPTIC.value,
-        Optics.SCHLAGER_NIGHT_VIEW.value,
-        Optics.VX350_THERMAL_OPTIC.value,
-        Optics.TEPLO_OP3_SCOPE.value,
-        Optics.CORVUS_GHOSTVIEW.value,
-        Optics.DR582_HYBRID_SIGHT.value,
-        Optics.HYBRID_FIREPOINT.value,
-        Optics.SZ_VOREX_90.value,
-        Optics.BPZ40_HYBRID.value,
-        Optics.SZ_OSCAR_9.value,
-        Optics.THERMO_OPTIC_X9.value,
-        Optics.TEPLO_CLEAR_SHOT.value,
-        Optics.FTAC_CHARLIE7.value,
-        Optics.HMW_20_OPTIC.value,
-        Optics.LUCA_BANDERA_SCOPE.value,
-        Optics.DS_FARSIGHT_11.value,
-        Optics.RFL_OPTIC_3X.value,
-        Optics.DREXSOM_PRIME_90.value,
-        Optics.ARES_CLEAR_SHOT.value,
-        Optics.FSS_SPECTRE_MICROTHERM.value,
-        Optics.NYDAR_MODEL_2023.value,
-        Optics.TPS_INCENDIO_REFLEX.value,
-        Optics.CRONEN_INTLAS_MSP_12.value,
-        Optics.INTLAS_CAS_14.value,
-    ]
-}
-
-weapons_attachment_combos_dict[WeaponEnums.LMGS.PULEMYOT_762.value] = {
+weapons_attachment_combos_dict[LMGS.TAQ_EVOLVERE.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -4333,82 +4269,7 @@ weapons_attachment_combos_dict[WeaponEnums.LMGS.PULEMYOT_762.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.LMGS.DG_58_LSW.value] = {
-    "Optics": [
-        Optics.NO_MODIFICATIONS.value,
-        Optics.KR_INTLAS_LSJ_3.value,
-        Optics.SLATE_REFLECTOR.value,
-        Optics.XTEN_ERX_10_MINI.value,
-        Optics.JAK_BULLSEYE.value,
-        Optics.SLIMLINE_PRO.value,
-        Optics.SZ_MINI.value,
-        Optics.CRONEN_MINI_DOT.value,
-        Optics.CRONEN_MINI_PRO.value,
-        Optics.SZ_SIGMA_IV_OPTIC.value,
-        Optics.SZ_MINITAC_40.value,
-        Optics.KR_MINITAC_40_RISER.value,
-        Optics.QTG_REFLEX_SIGHT.value,
-        Optics.CAUCASUS_REFLEX_SIGHT.value,
-        Optics.MK3_REFLECTOR.value,
-        Optics.DRAGONS_EYE_OPTIC.value,
-        Optics.RHINO_REFLEX.value,
-        Optics.XRK_ON_POINT_OPTIC.value,
-        Optics.AIM_OP_V4.value,
-        Optics.DF105_REFLEX_SIGHT.value,
-        Optics.MONOCLE_CT90.value,
-        Optics.CORVUS_SOL_76.value,
-        Optics.SZ_RECHARGE_DX.value,
-        Optics.SZ_SRO_7.value,
-        Optics.CORIO_RE_X_PRO.value,
-        Optics.KR_V4_1X_RISER.value,
-        Optics.CHRIOS_HOLO.value,
-        Optics.CORIO_ENFORCER_OPTIC.value,
-        Optics.SZ_LONEWOLF_OPTIC.value,
-        Optics.KAZAN_HOLO.value,
-        Optics.SZ_BATTLE_OPTIC.value,
-        Optics.CORVUS_DOWNRANGE_00.value,
-        Optics.XTEN_ANGEL_40.value,
-        Optics.SZ_HOLOTHERM.value,
-        Optics.CORIO_ELT_10_2p5.value,
-        Optics.KR_MORTIS_PRECISION_2p5X.value,
-        Optics.CORIO_EAGLESEYE_2p5X.value,
-        Optics.SL_TRUESIGHT_2p5X.value,
-        Optics.TOS_NIGHTFALL_2p5X_THERMAL_OPTIC.value,
-        Optics.AOK_4p0X_RQ_9_RECON.value,
-        Optics.TX4_HAVOC.value,
-        Optics.VLK_4p0_OPTIC.value,
-        Optics.SCHLAGER_3p4X.value,
-        Optics.FORGE_TAC_DELTA_4.value,
-        Optics.CRONEN_ZERO_P_OPTIC.value,
-        Optics.SZ_BULLSEYE_OPTIC.value,
-        Optics.SZ_AGGRESSOR_IR_OPTIC.value,
-        Optics.SCHLAGER_NIGHT_VIEW.value,
-        Optics.VX350_THERMAL_OPTIC.value,
-        Optics.TEPLO_OP3_SCOPE.value,
-        Optics.CORVUS_GHOSTVIEW.value,
-        Optics.DR582_HYBRID_SIGHT.value,
-        Optics.HYBRID_FIREPOINT.value,
-        Optics.SZ_VOREX_90.value,
-        Optics.BPZ40_HYBRID.value,
-        Optics.SZ_OSCAR_9.value,
-        Optics.THERMO_OPTIC_X9.value,
-        Optics.TEPLO_CLEAR_SHOT.value,
-        Optics.FTAC_CHARLIE7.value,
-        Optics.HMW_20_OPTIC.value,
-        Optics.LUCA_BANDERA_SCOPE.value,
-        Optics.DS_FARSIGHT_11.value,
-        Optics.RFL_OPTIC_3X.value,
-        Optics.DREXSOM_PRIME_90.value,
-        Optics.ARES_CLEAR_SHOT.value,
-        Optics.FSS_SPECTRE_MICROTHERM.value,
-        Optics.NYDAR_MODEL_2023.value,
-        Optics.TPS_INCENDIO_REFLEX.value,
-        Optics.CRONEN_INTLAS_MSP_12.value,
-        Optics.INTLAS_CAS_14.value,
-    ]
-}
-
-weapons_attachment_combos_dict[WeaponEnums.LMGS.BRUEN_MK9.value] = {
+weapons_attachment_combos_dict[LMGS.PULEMYOT_762.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -4484,7 +4345,82 @@ weapons_attachment_combos_dict[WeaponEnums.LMGS.BRUEN_MK9.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.LMGS.TAQ_ERADICATOR.value] = {
+weapons_attachment_combos_dict[LMGS.DG_58_LSW.value] = {
+    "Optics": [
+        Optics.NO_MODIFICATIONS.value,
+        Optics.KR_INTLAS_LSJ_3.value,
+        Optics.SLATE_REFLECTOR.value,
+        Optics.XTEN_ERX_10_MINI.value,
+        Optics.JAK_BULLSEYE.value,
+        Optics.SLIMLINE_PRO.value,
+        Optics.SZ_MINI.value,
+        Optics.CRONEN_MINI_DOT.value,
+        Optics.CRONEN_MINI_PRO.value,
+        Optics.SZ_SIGMA_IV_OPTIC.value,
+        Optics.SZ_MINITAC_40.value,
+        Optics.KR_MINITAC_40_RISER.value,
+        Optics.QTG_REFLEX_SIGHT.value,
+        Optics.CAUCASUS_REFLEX_SIGHT.value,
+        Optics.MK3_REFLECTOR.value,
+        Optics.DRAGONS_EYE_OPTIC.value,
+        Optics.RHINO_REFLEX.value,
+        Optics.XRK_ON_POINT_OPTIC.value,
+        Optics.AIM_OP_V4.value,
+        Optics.DF105_REFLEX_SIGHT.value,
+        Optics.MONOCLE_CT90.value,
+        Optics.CORVUS_SOL_76.value,
+        Optics.SZ_RECHARGE_DX.value,
+        Optics.SZ_SRO_7.value,
+        Optics.CORIO_RE_X_PRO.value,
+        Optics.KR_V4_1X_RISER.value,
+        Optics.CHRIOS_HOLO.value,
+        Optics.CORIO_ENFORCER_OPTIC.value,
+        Optics.SZ_LONEWOLF_OPTIC.value,
+        Optics.KAZAN_HOLO.value,
+        Optics.SZ_BATTLE_OPTIC.value,
+        Optics.CORVUS_DOWNRANGE_00.value,
+        Optics.XTEN_ANGEL_40.value,
+        Optics.SZ_HOLOTHERM.value,
+        Optics.CORIO_ELT_10_2p5.value,
+        Optics.KR_MORTIS_PRECISION_2p5X.value,
+        Optics.CORIO_EAGLESEYE_2p5X.value,
+        Optics.SL_TRUESIGHT_2p5X.value,
+        Optics.TOS_NIGHTFALL_2p5X_THERMAL_OPTIC.value,
+        Optics.AOK_4p0X_RQ_9_RECON.value,
+        Optics.TX4_HAVOC.value,
+        Optics.VLK_4p0_OPTIC.value,
+        Optics.SCHLAGER_3p4X.value,
+        Optics.FORGE_TAC_DELTA_4.value,
+        Optics.CRONEN_ZERO_P_OPTIC.value,
+        Optics.SZ_BULLSEYE_OPTIC.value,
+        Optics.SZ_AGGRESSOR_IR_OPTIC.value,
+        Optics.SCHLAGER_NIGHT_VIEW.value,
+        Optics.VX350_THERMAL_OPTIC.value,
+        Optics.TEPLO_OP3_SCOPE.value,
+        Optics.CORVUS_GHOSTVIEW.value,
+        Optics.DR582_HYBRID_SIGHT.value,
+        Optics.HYBRID_FIREPOINT.value,
+        Optics.SZ_VOREX_90.value,
+        Optics.BPZ40_HYBRID.value,
+        Optics.SZ_OSCAR_9.value,
+        Optics.THERMO_OPTIC_X9.value,
+        Optics.TEPLO_CLEAR_SHOT.value,
+        Optics.FTAC_CHARLIE7.value,
+        Optics.HMW_20_OPTIC.value,
+        Optics.LUCA_BANDERA_SCOPE.value,
+        Optics.DS_FARSIGHT_11.value,
+        Optics.RFL_OPTIC_3X.value,
+        Optics.DREXSOM_PRIME_90.value,
+        Optics.ARES_CLEAR_SHOT.value,
+        Optics.FSS_SPECTRE_MICROTHERM.value,
+        Optics.NYDAR_MODEL_2023.value,
+        Optics.TPS_INCENDIO_REFLEX.value,
+        Optics.CRONEN_INTLAS_MSP_12.value,
+        Optics.INTLAS_CAS_14.value,
+    ]
+}
+
+weapons_attachment_combos_dict[LMGS.BRUEN_MK9.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -4560,7 +4496,83 @@ weapons_attachment_combos_dict[WeaponEnums.LMGS.TAQ_ERADICATOR.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.LMGS.HOLGER_26.value] = {
+weapons_attachment_combos_dict[LMGS.TAQ_ERADICATOR.value] = {
+    "Optics": [
+        Optics.NO_MODIFICATIONS.value,
+        Optics.KR_INTLAS_LSJ_3.value,
+        Optics.SLATE_REFLECTOR.value,
+        Optics.XTEN_ERX_10_MINI.value,
+        Optics.JAK_BULLSEYE.value,
+        Optics.SLIMLINE_PRO.value,
+        Optics.SZ_MINI.value,
+        Optics.CRONEN_MINI_DOT.value,
+        Optics.CRONEN_MINI_PRO.value,
+        Optics.SZ_SIGMA_IV_OPTIC.value,
+        Optics.SZ_MINITAC_40.value,
+        Optics.KR_MINITAC_40_RISER.value,
+        Optics.QTG_REFLEX_SIGHT.value,
+        Optics.CAUCASUS_REFLEX_SIGHT.value,
+        Optics.MK3_REFLECTOR.value,
+        Optics.DRAGONS_EYE_OPTIC.value,
+        Optics.RHINO_REFLEX.value,
+        Optics.XRK_ON_POINT_OPTIC.value,
+        Optics.AIM_OP_V4.value,
+        Optics.DF105_REFLEX_SIGHT.value,
+        Optics.MONOCLE_CT90.value,
+        Optics.CORVUS_SOL_76.value,
+        Optics.SZ_RECHARGE_DX.value,
+        Optics.SZ_SRO_7.value,
+        Optics.CORIO_RE_X_PRO.value,
+        Optics.KR_V4_1X_RISER.value,
+        Optics.CHRIOS_HOLO.value,
+        Optics.CORIO_ENFORCER_OPTIC.value,
+        Optics.SZ_LONEWOLF_OPTIC.value,
+        Optics.KAZAN_HOLO.value,
+        Optics.SZ_BATTLE_OPTIC.value,
+        Optics.CORVUS_DOWNRANGE_00.value,
+        Optics.XTEN_ANGEL_40.value,
+        Optics.SZ_HOLOTHERM.value,
+        Optics.CORIO_ELT_10_2p5.value,
+        Optics.KR_MORTIS_PRECISION_2p5X.value,
+        Optics.CORIO_EAGLESEYE_2p5X.value,
+        Optics.SL_TRUESIGHT_2p5X.value,
+        Optics.KR_MARAUDER_9_RISER.value,
+        Optics.TOS_NIGHTFALL_2p5X_THERMAL_OPTIC.value,
+        Optics.AOK_4p0X_RQ_9_RECON.value,
+        Optics.TX4_HAVOC.value,
+        Optics.VLK_4p0_OPTIC.value,
+        Optics.SCHLAGER_3p4X.value,
+        Optics.FORGE_TAC_DELTA_4.value,
+        Optics.CRONEN_ZERO_P_OPTIC.value,
+        Optics.SZ_BULLSEYE_OPTIC.value,
+        Optics.SZ_AGGRESSOR_IR_OPTIC.value,
+        Optics.SCHLAGER_NIGHT_VIEW.value,
+        Optics.VX350_THERMAL_OPTIC.value,
+        Optics.TEPLO_OP3_SCOPE.value,
+        Optics.CORVUS_GHOSTVIEW.value,
+        Optics.DR582_HYBRID_SIGHT.value,
+        Optics.HYBRID_FIREPOINT.value,
+        Optics.SZ_VOREX_90.value,
+        Optics.BPZ40_HYBRID.value,
+        Optics.SZ_OSCAR_9.value,
+        Optics.THERMO_OPTIC_X9.value,
+        Optics.TEPLO_CLEAR_SHOT.value,
+        Optics.FTAC_CHARLIE7.value,
+        Optics.HMW_20_OPTIC.value,
+        Optics.LUCA_BANDERA_SCOPE.value,
+        Optics.DS_FARSIGHT_11.value,
+        Optics.RFL_OPTIC_3X.value,
+        Optics.DREXSOM_PRIME_90.value,
+        Optics.ARES_CLEAR_SHOT.value,
+        Optics.FSS_SPECTRE_MICROTHERM.value,
+        Optics.NYDAR_MODEL_2023.value,
+        Optics.TPS_INCENDIO_REFLEX.value,
+        Optics.CRONEN_INTLAS_MSP_12.value,
+        Optics.INTLAS_CAS_14.value,
+    ]
+}
+
+weapons_attachment_combos_dict[LMGS.HOLGER_26.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -4637,7 +4649,7 @@ weapons_attachment_combos_dict[WeaponEnums.LMGS.HOLGER_26.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.LMGS.SAKIN_MG38.value] = {
+weapons_attachment_combos_dict[LMGS.SAKIN_MG38.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -4708,7 +4720,7 @@ weapons_attachment_combos_dict[WeaponEnums.LMGS.SAKIN_MG38.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.LMGS.RAAL_MG.value] = {
+weapons_attachment_combos_dict[LMGS.RAAL_MG.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -4779,7 +4791,7 @@ weapons_attachment_combos_dict[WeaponEnums.LMGS.RAAL_MG.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.LMGS.ICARUS_556.value] = {
+weapons_attachment_combos_dict[LMGS.ICARUS_556.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -4845,7 +4857,7 @@ weapons_attachment_combos_dict[WeaponEnums.LMGS.ICARUS_556.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.LMGS.RAPP_H.value] = {
+weapons_attachment_combos_dict[LMGS.RAPP_H.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -4923,7 +4935,7 @@ weapons_attachment_combos_dict[WeaponEnums.LMGS.RAPP_H.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.LMGS.HCR_56.value] = {
+weapons_attachment_combos_dict[LMGS.HCR_56.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -5002,7 +5014,7 @@ weapons_attachment_combos_dict[WeaponEnums.LMGS.HCR_56.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.LMGS.RPK.value] = {
+weapons_attachment_combos_dict[LMGS.RPK.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -5077,7 +5089,7 @@ weapons_attachment_combos_dict[WeaponEnums.LMGS.RPK.value] = {
 
 
 # Marksman rifles
-weapons_attachment_combos_dict[WeaponEnums.MarksmanRifles.KVD_ENFORCER.value] = {
+weapons_attachment_combos_dict[MarksmanRifles.KVD_ENFORCER.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -5167,7 +5179,7 @@ weapons_attachment_combos_dict[WeaponEnums.MarksmanRifles.KVD_ENFORCER.value] = 
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.MarksmanRifles.MCW_68.value] = {
+weapons_attachment_combos_dict[MarksmanRifles.MCW_68.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -5257,7 +5269,7 @@ weapons_attachment_combos_dict[WeaponEnums.MarksmanRifles.MCW_68.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.MarksmanRifles.DM56.value] = {
+weapons_attachment_combos_dict[MarksmanRifles.DM56.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -5347,7 +5359,7 @@ weapons_attachment_combos_dict[WeaponEnums.MarksmanRifles.DM56.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.MarksmanRifles.MTZ_INTERCEPTOR.value] = {
+weapons_attachment_combos_dict[MarksmanRifles.MTZ_INTERCEPTOR.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -5437,7 +5449,7 @@ weapons_attachment_combos_dict[WeaponEnums.MarksmanRifles.MTZ_INTERCEPTOR.value]
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.MarksmanRifles.EBR_14.value] = {
+weapons_attachment_combos_dict[MarksmanRifles.EBR_14.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -5525,7 +5537,7 @@ weapons_attachment_combos_dict[WeaponEnums.MarksmanRifles.EBR_14.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.MarksmanRifles.SP_R_208.value] = {
+weapons_attachment_combos_dict[MarksmanRifles.SP_R_208.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -5613,7 +5625,7 @@ weapons_attachment_combos_dict[WeaponEnums.MarksmanRifles.SP_R_208.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.MarksmanRifles.LOCKWOOD_MK2.value] = {
+weapons_attachment_combos_dict[MarksmanRifles.LOCKWOOD_MK2.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -5700,7 +5712,7 @@ weapons_attachment_combos_dict[WeaponEnums.MarksmanRifles.LOCKWOOD_MK2.value] = 
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.MarksmanRifles.TEMPUS_TORRENT.value] = {
+weapons_attachment_combos_dict[MarksmanRifles.TEMPUS_TORRENT.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -5789,7 +5801,7 @@ weapons_attachment_combos_dict[WeaponEnums.MarksmanRifles.TEMPUS_TORRENT.value] 
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.MarksmanRifles.CROSSBOW.value] = {
+weapons_attachment_combos_dict[MarksmanRifles.CROSSBOW.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -5876,7 +5888,7 @@ weapons_attachment_combos_dict[WeaponEnums.MarksmanRifles.CROSSBOW.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.MarksmanRifles.LM_S.value] = {
+weapons_attachment_combos_dict[MarksmanRifles.LM_S.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -5946,95 +5958,6 @@ weapons_attachment_combos_dict[WeaponEnums.MarksmanRifles.LM_S.value] = {
         Optics.DREXSOM_PRIME_90.value,
         Optics.RFL_OPTIC_3X.value,
         Optics.DXS_CORIOLIS_V4.value,
-        Optics.SPX_80_6p6X.value,
-        Optics.FTAC_LOCUS_SP.value,
-        Optics.LUCA_FIELD_6.value,
-        Optics.SZ_HEATSOURCE_800.value,
-        Optics.AKALINA_LR_STALK_OPTIC.value,
-        Optics.KR_KATT_50_8X_SCOPE.value,
-        Optics.SHORT_ZOOM_6X_OPTIC.value,
-        Optics.LACHMANN_IMPACT_9.value,
-        Optics.NYDAR_MODEL_2023.value,
-        Optics.TPS_INCENDIO_REFLEX.value,
-        Optics.DEMONIC_CALL.value,
-        Optics.SZ_HM5_PRECISION_HYBRID_OPTIC.value,
-        Optics.FSS_SPECTRE_MICROTHERM.value,
-        Optics.CRONEN_INTLAS_MSP_12.value,
-        Optics.INTLAS_CAS_14.value,
-    ]
-}
-
-weapons_attachment_combos_dict[WeaponEnums.MarksmanRifles.SA_B_50.value] = {
-    "Optics": [
-        Optics.NO_MODIFICATIONS.value,
-        Optics.KR_INTLAS_LSJ_3.value,
-        Optics.SLATE_REFLECTOR.value,
-        Optics.XTEN_ERX_10_MINI.value,
-        Optics.JAK_BULLSEYE.value,
-        Optics.SLIMLINE_PRO.value,
-        Optics.SZ_MINI.value,
-        Optics.CRONEN_MINI_DOT.value,
-        Optics.CRONEN_MINI_PRO.value,
-        Optics.SZ_SIGMA_IV_OPTIC.value,
-        Optics.SZ_MINITAC_40.value,
-        Optics.KR_MINITAC_40_RISER.value,
-        Optics.QTG_REFLEX_SIGHT.value,
-        Optics.CAUCASUS_REFLEX_SIGHT.value,
-        Optics.MK3_REFLECTOR.value,
-        Optics.DRAGONS_EYE_OPTIC.value,
-        Optics.RHINO_REFLEX.value,
-        Optics.XRK_ON_POINT_OPTIC.value,
-        Optics.AIM_OP_V4.value,
-        Optics.DF105_REFLEX_SIGHT.value,
-        Optics.MONOCLE_CT90.value,
-        Optics.CORVUS_SOL_76.value,
-        Optics.SZ_RECHARGE_DX.value,
-        Optics.SZ_SRO_7.value,
-        Optics.CORIO_RE_X_PRO.value,
-        Optics.KR_V4_1X_RISER.value,
-        Optics.CHRIOS_HOLO.value,
-        Optics.CORIO_ENFORCER_OPTIC.value,
-        Optics.SZ_LONEWOLF_OPTIC.value,
-        Optics.KAZAN_HOLO.value,
-        Optics.SZ_BATTLE_OPTIC.value,
-        Optics.CORVUS_DOWNRANGE_00.value,
-        Optics.XTEN_ANGEL_40.value,
-        Optics.SZ_HOLOTHERM.value,
-        Optics.CORIO_ELT_10_2p5.value,
-        Optics.KR_MORTIS_PRECISION_2p5X.value,
-        Optics.CORIO_EAGLESEYE_2p5X.value,
-        Optics.SL_TRUESIGHT_2p5X.value,
-        Optics.KR_MARAUDER_9_RISER.value,
-        Optics.TOS_NIGHTFALL_2p5X_THERMAL_OPTIC.value,
-        Optics.AOK_4p0X_RQ_9_RECON.value,
-        Optics.TX4_HAVOC.value,
-        Optics.VLK_4p0_OPTIC.value,
-        Optics.SCHLAGER_3p4X.value,
-        Optics.FORGE_TAC_DELTA_4.value,
-        Optics.CRONEN_ZERO_P_OPTIC.value,
-        Optics.SZ_BULLSEYE_OPTIC.value,
-        Optics.CORVUS_GHOSTVIEW.value,
-        Optics.SZ_AGGRESSOR_IR_OPTIC.value,
-        Optics.SCHLAGER_NIGHT_VIEW.value,
-        Optics.VX350_THERMAL_OPTIC.value,
-        Optics.TEPLO_OP3_SCOPE.value,
-        Optics.HEINRICHTER_HYBRID_SCOPE.value,
-        Optics.ARES_CLEAR_SHOT.value,
-        Optics.DR582_HYBRID_SIGHT.value,
-        Optics.HYBRID_FIREPOINT.value,
-        Optics.SZ_VOREX_90.value,
-        Optics.BPZ40_HYBRID.value,
-        Optics.SZ_OSCAR_9.value,
-        Optics.THERMO_OPTIC_X9.value,
-        Optics.TEPLO_CLEAR_SHOT.value,
-        Optics.FTAC_CHARLIE7.value,
-        Optics.HMW_20_OPTIC.value,
-        Optics.LUCA_BANDERA_SCOPE.value,
-        Optics.DS_FARSIGHT_11.value,
-        Optics.DREXSOM_PRIME_90.value,
-        Optics.RFL_OPTIC_3X.value,
-        Optics.DXS_CORIOLIS_V4.value,
-        Optics.LACHMANN_IMPACT_9.value,
         Optics.SPX_80_6p6X.value,
         Optics.FTAC_LOCUS_SP.value,
         Optics.LUCA_FIELD_6.value,
@@ -6042,6 +5965,7 @@ weapons_attachment_combos_dict[WeaponEnums.MarksmanRifles.SA_B_50.value] = {
         Optics.AKALINA_LR_STALK_OPTIC.value,
         Optics.KR_KATT_50_8X_SCOPE.value,
         Optics.SHORT_ZOOM_6X_OPTIC.value,
+        Optics.LACHMANN_IMPACT_9.value,
         Optics.NYDAR_MODEL_2023.value,
         Optics.TPS_INCENDIO_REFLEX.value,
         Optics.DEMONIC_CALL.value,
@@ -6052,7 +5976,7 @@ weapons_attachment_combos_dict[WeaponEnums.MarksmanRifles.SA_B_50.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.MarksmanRifles.TAQ_M.value] = {
+weapons_attachment_combos_dict[MarksmanRifles.SA_B_50.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -6140,7 +6064,95 @@ weapons_attachment_combos_dict[WeaponEnums.MarksmanRifles.TAQ_M.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.SniperRifles.XRK_STALKER.value] = {
+weapons_attachment_combos_dict[MarksmanRifles.TAQ_M.value] = {
+    "Optics": [
+        Optics.NO_MODIFICATIONS.value,
+        Optics.KR_INTLAS_LSJ_3.value,
+        Optics.SLATE_REFLECTOR.value,
+        Optics.XTEN_ERX_10_MINI.value,
+        Optics.JAK_BULLSEYE.value,
+        Optics.SLIMLINE_PRO.value,
+        Optics.SZ_MINI.value,
+        Optics.CRONEN_MINI_DOT.value,
+        Optics.CRONEN_MINI_PRO.value,
+        Optics.SZ_SIGMA_IV_OPTIC.value,
+        Optics.SZ_MINITAC_40.value,
+        Optics.KR_MINITAC_40_RISER.value,
+        Optics.QTG_REFLEX_SIGHT.value,
+        Optics.CAUCASUS_REFLEX_SIGHT.value,
+        Optics.MK3_REFLECTOR.value,
+        Optics.DRAGONS_EYE_OPTIC.value,
+        Optics.RHINO_REFLEX.value,
+        Optics.XRK_ON_POINT_OPTIC.value,
+        Optics.AIM_OP_V4.value,
+        Optics.DF105_REFLEX_SIGHT.value,
+        Optics.MONOCLE_CT90.value,
+        Optics.CORVUS_SOL_76.value,
+        Optics.SZ_RECHARGE_DX.value,
+        Optics.SZ_SRO_7.value,
+        Optics.CORIO_RE_X_PRO.value,
+        Optics.KR_V4_1X_RISER.value,
+        Optics.CHRIOS_HOLO.value,
+        Optics.CORIO_ENFORCER_OPTIC.value,
+        Optics.SZ_LONEWOLF_OPTIC.value,
+        Optics.KAZAN_HOLO.value,
+        Optics.SZ_BATTLE_OPTIC.value,
+        Optics.CORVUS_DOWNRANGE_00.value,
+        Optics.XTEN_ANGEL_40.value,
+        Optics.SZ_HOLOTHERM.value,
+        Optics.CORIO_ELT_10_2p5.value,
+        Optics.KR_MORTIS_PRECISION_2p5X.value,
+        Optics.CORIO_EAGLESEYE_2p5X.value,
+        Optics.SL_TRUESIGHT_2p5X.value,
+        Optics.KR_MARAUDER_9_RISER.value,
+        Optics.TOS_NIGHTFALL_2p5X_THERMAL_OPTIC.value,
+        Optics.AOK_4p0X_RQ_9_RECON.value,
+        Optics.TX4_HAVOC.value,
+        Optics.VLK_4p0_OPTIC.value,
+        Optics.SCHLAGER_3p4X.value,
+        Optics.FORGE_TAC_DELTA_4.value,
+        Optics.CRONEN_ZERO_P_OPTIC.value,
+        Optics.SZ_BULLSEYE_OPTIC.value,
+        Optics.CORVUS_GHOSTVIEW.value,
+        Optics.SZ_AGGRESSOR_IR_OPTIC.value,
+        Optics.SCHLAGER_NIGHT_VIEW.value,
+        Optics.VX350_THERMAL_OPTIC.value,
+        Optics.TEPLO_OP3_SCOPE.value,
+        Optics.HEINRICHTER_HYBRID_SCOPE.value,
+        Optics.ARES_CLEAR_SHOT.value,
+        Optics.DR582_HYBRID_SIGHT.value,
+        Optics.HYBRID_FIREPOINT.value,
+        Optics.SZ_VOREX_90.value,
+        Optics.BPZ40_HYBRID.value,
+        Optics.SZ_OSCAR_9.value,
+        Optics.THERMO_OPTIC_X9.value,
+        Optics.TEPLO_CLEAR_SHOT.value,
+        Optics.FTAC_CHARLIE7.value,
+        Optics.HMW_20_OPTIC.value,
+        Optics.LUCA_BANDERA_SCOPE.value,
+        Optics.DS_FARSIGHT_11.value,
+        Optics.DREXSOM_PRIME_90.value,
+        Optics.RFL_OPTIC_3X.value,
+        Optics.DXS_CORIOLIS_V4.value,
+        Optics.LACHMANN_IMPACT_9.value,
+        Optics.SPX_80_6p6X.value,
+        Optics.FTAC_LOCUS_SP.value,
+        Optics.LUCA_FIELD_6.value,
+        Optics.SZ_HEATSOURCE_800.value,
+        Optics.AKALINA_LR_STALK_OPTIC.value,
+        Optics.KR_KATT_50_8X_SCOPE.value,
+        Optics.SHORT_ZOOM_6X_OPTIC.value,
+        Optics.NYDAR_MODEL_2023.value,
+        Optics.TPS_INCENDIO_REFLEX.value,
+        Optics.DEMONIC_CALL.value,
+        Optics.SZ_HM5_PRECISION_HYBRID_OPTIC.value,
+        Optics.FSS_SPECTRE_MICROTHERM.value,
+        Optics.CRONEN_INTLAS_MSP_12.value,
+        Optics.INTLAS_CAS_14.value,
+    ]
+}
+
+weapons_attachment_combos_dict[SniperRifles.XRK_STALKER.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -6219,7 +6231,7 @@ weapons_attachment_combos_dict[WeaponEnums.SniperRifles.XRK_STALKER.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.SniperRifles.KATT_AMR.value] = {
+weapons_attachment_combos_dict[SniperRifles.KATT_AMR.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -6282,7 +6294,7 @@ weapons_attachment_combos_dict[WeaponEnums.SniperRifles.KATT_AMR.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.SniperRifles.LONGBOW.value] = {
+weapons_attachment_combos_dict[SniperRifles.LONGBOW.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -6377,7 +6389,7 @@ weapons_attachment_combos_dict[WeaponEnums.SniperRifles.LONGBOW.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.SniperRifles.KV_INHIBITOR.value] = {
+weapons_attachment_combos_dict[SniperRifles.KV_INHIBITOR.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -6441,7 +6453,7 @@ weapons_attachment_combos_dict[WeaponEnums.SniperRifles.KV_INHIBITOR.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.SniperRifles.MCPR_300.value] = {
+weapons_attachment_combos_dict[SniperRifles.MCPR_300.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -6505,7 +6517,7 @@ weapons_attachment_combos_dict[WeaponEnums.SniperRifles.MCPR_300.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.SniperRifles.SIGNAL_50.value] = {
+weapons_attachment_combos_dict[SniperRifles.SIGNAL_50.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -6589,7 +6601,7 @@ weapons_attachment_combos_dict[WeaponEnums.SniperRifles.SIGNAL_50.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.SniperRifles.VICTUS_XMR.value] = {
+weapons_attachment_combos_dict[SniperRifles.VICTUS_XMR.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -6661,7 +6673,7 @@ weapons_attachment_combos_dict[WeaponEnums.SniperRifles.VICTUS_XMR.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.SniperRifles.FJX_IMPERIUM.value] = {
+weapons_attachment_combos_dict[SniperRifles.FJX_IMPERIUM.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -6725,7 +6737,7 @@ weapons_attachment_combos_dict[WeaponEnums.SniperRifles.FJX_IMPERIUM.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.SniperRifles.CARRACK_300.value] = {
+weapons_attachment_combos_dict[SniperRifles.CARRACK_300.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -6789,7 +6801,7 @@ weapons_attachment_combos_dict[WeaponEnums.SniperRifles.CARRACK_300.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.SniperRifles.LA_B_330.value] = {
+weapons_attachment_combos_dict[SniperRifles.LA_B_330.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -6853,7 +6865,7 @@ weapons_attachment_combos_dict[WeaponEnums.SniperRifles.LA_B_330.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.SniperRifles.SP_X_80.value] = {
+weapons_attachment_combos_dict[SniperRifles.SP_X_80.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
@@ -6917,11 +6929,11 @@ weapons_attachment_combos_dict[WeaponEnums.SniperRifles.SP_X_80.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.MeleePrimary.RIOT_SHIELD.value] = {
+weapons_attachment_combos_dict[MeleePrimary.RIOT_SHIELD.value] = {
     "Optics": None
 }
 
-weapons_attachment_combos_dict[WeaponEnums.HandGuns.COR_45.value] = {
+weapons_attachment_combos_dict[HandGuns.COR_45.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.SLATE_REFLECTOR.value,
@@ -6936,7 +6948,7 @@ weapons_attachment_combos_dict[WeaponEnums.HandGuns.COR_45.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.HandGuns.RENETTI.value] = {
+weapons_attachment_combos_dict[HandGuns.RENETTI.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.SLATE_REFLECTOR.value,
@@ -6949,7 +6961,7 @@ weapons_attachment_combos_dict[WeaponEnums.HandGuns.RENETTI.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.HandGuns.TYR.value] = {
+weapons_attachment_combos_dict[HandGuns.TYR.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.SLATE_REFLECTOR.value,
@@ -6988,11 +7000,11 @@ weapons_attachment_combos_dict[WeaponEnums.HandGuns.TYR.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.HandGuns.WSP_STINGER.value] = {
+weapons_attachment_combos_dict[HandGuns.WSP_STINGER.value] = {
     "Optics": None
 }
 
-weapons_attachment_combos_dict[WeaponEnums.HandGuns.TYR.value] = {
+weapons_attachment_combos_dict[HandGuns.TYR.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.SLATE_REFLECTOR.value,
@@ -7031,7 +7043,7 @@ weapons_attachment_combos_dict[WeaponEnums.HandGuns.TYR.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.HandGuns.P890.value] = {
+weapons_attachment_combos_dict[HandGuns.P890.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.SLATE_REFLECTOR.value,
@@ -7046,7 +7058,7 @@ weapons_attachment_combos_dict[WeaponEnums.HandGuns.P890.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.HandGuns.GS_50.value] = {
+weapons_attachment_combos_dict[HandGuns.GS_50.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.SLATE_REFLECTOR.value,
@@ -7077,7 +7089,7 @@ weapons_attachment_combos_dict[WeaponEnums.HandGuns.GS_50.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.HandGuns.X12.value] = {
+weapons_attachment_combos_dict[HandGuns.X12.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.SLATE_REFLECTOR.value,
@@ -7091,7 +7103,7 @@ weapons_attachment_combos_dict[WeaponEnums.HandGuns.X12.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.HandGuns.BASILISK.value] = {
+weapons_attachment_combos_dict[HandGuns.BASILISK.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.SLATE_REFLECTOR.value,
@@ -7129,7 +7141,7 @@ weapons_attachment_combos_dict[WeaponEnums.HandGuns.BASILISK.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.HandGuns.FTAC_SIEGE.value] = {
+weapons_attachment_combos_dict[HandGuns.FTAC_SIEGE.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.SLATE_REFLECTOR.value,
@@ -7147,7 +7159,7 @@ weapons_attachment_combos_dict[WeaponEnums.HandGuns.FTAC_SIEGE.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.HandGuns.GS_MAGNA.value] = {
+weapons_attachment_combos_dict[HandGuns.GS_MAGNA.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.SLATE_REFLECTOR.value,
@@ -7178,7 +7190,7 @@ weapons_attachment_combos_dict[WeaponEnums.HandGuns.GS_MAGNA.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.HandGuns.DAEMON_9MM.value] = {
+weapons_attachment_combos_dict[HandGuns.DAEMON_9MM.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.SLATE_REFLECTOR.value,
@@ -7193,7 +7205,7 @@ weapons_attachment_combos_dict[WeaponEnums.HandGuns.DAEMON_9MM.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.HandGuns.X13_AUTO.value] = {
+weapons_attachment_combos_dict[HandGuns.X13_AUTO.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
         Optics.SLATE_REFLECTOR.value,
@@ -7222,54 +7234,54 @@ weapons_attachment_combos_dict[WeaponEnums.HandGuns.X13_AUTO.value] = {
     ]
 }
 
-weapons_attachment_combos_dict[WeaponEnums.Launchers.STORMENDER.value] = {
+weapons_attachment_combos_dict[Launchers.STORMENDER.value] = {
     "Optics": None
 }
 
-weapons_attachment_combos_dict[WeaponEnums.Launchers.RGL_80.value] = {
+weapons_attachment_combos_dict[Launchers.RGL_80.value] = {
     "Optics": None
 }
 
-weapons_attachment_combos_dict[WeaponEnums.Launchers.PILA.value] = {
+weapons_attachment_combos_dict[Launchers.PILA.value] = {
     "Optics": None
 }
 
-weapons_attachment_combos_dict[WeaponEnums.Launchers.JOKR.value] = {
+weapons_attachment_combos_dict[Launchers.JOKR.value] = {
     "Optics": None
 }
 
-weapons_attachment_combos_dict[WeaponEnums.Launchers.RPG_7.value] = {
+weapons_attachment_combos_dict[Launchers.RPG_7.value] = {
     "Optics": None
 }
 
-weapons_attachment_combos_dict[WeaponEnums.Launchers.STRELA_P.value] = {
+weapons_attachment_combos_dict[Launchers.STRELA_P.value] = {
     "Optics": None
 }
 
-weapons_attachment_combos_dict[WeaponEnums.MeleeSecondary.GUTTER_KNIFE.value] = {
+weapons_attachment_combos_dict[MeleeSecondary.GUTTER_KNIFE.value] = {
     "Optics": None
 }
 
-weapons_attachment_combos_dict[WeaponEnums.MeleeSecondary.KARAMBIT.value] = {
+weapons_attachment_combos_dict[MeleeSecondary.KARAMBIT.value] = {
     "Optics": None
 }
 
-weapons_attachment_combos_dict[WeaponEnums.MeleeSecondary.TONFA.value] = {
+weapons_attachment_combos_dict[MeleeSecondary.TONFA.value] = {
     "Optics": None
 }
 
-weapons_attachment_combos_dict[WeaponEnums.MeleeSecondary.COMBAT_KNIFE.value] = {
+weapons_attachment_combos_dict[MeleeSecondary.COMBAT_KNIFE.value] = {
     "Optics": None
 }
 
-weapons_attachment_combos_dict[WeaponEnums.MeleeSecondary.DUAL_KODACHIS.value] = {
+weapons_attachment_combos_dict[MeleeSecondary.DUAL_KODACHIS.value] = {
     "Optics": None
 }
 
-weapons_attachment_combos_dict[WeaponEnums.MeleeSecondary.DUAL_KAMAS.value] = {
+weapons_attachment_combos_dict[MeleeSecondary.DUAL_KAMAS.value] = {
     "Optics": None
 }
 
-weapons_attachment_combos_dict[WeaponEnums.MeleeSecondary.PICKAXE.value] = {
+weapons_attachment_combos_dict[MeleeSecondary.PICKAXE.value] = {
     "Optics": None
 }
