@@ -5341,6 +5341,7 @@ weapons_attachment_combos_dict[SMGS.VAZNEV_9K.value] = {
     ]
 }
 
+#=========================================================================  SHOTGUNS  ==========================================================#
 weapons_attachment_combos_dict[Shotguns.LOCKWOOD_680.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
@@ -5403,6 +5404,28 @@ weapons_attachment_combos_dict[Shotguns.LOCKWOOD_680.value] = {
         Optics.FSS_SPECTRE_MICROTHERM.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,   
+    ],
+    "Muzzles": [
+        Muzzles.TECTONICA_SUPPRESSOR.value,
+        Muzzles.SA_SCHWEIGEN_DX.value,
+        Muzzles.SA_SCHWEIGEN_XS.value,
+        Muzzles.FTAC_TRIDENTCORE.value,
+        Muzzles.SA_MX_50.value,
+        Muzzles.DR_77_IRONHEAD_BRAKE.value,
+        Muzzles.SR70_TAQ_BRAKE.value,
+        Muzzles.RMGE_7.value,
+        Muzzles.LOCKWOOD_SMOOTHFIRE_12.value,
+        Muzzles.OVL_70_COMP.value,
+        Muzzles.VULTURE_CLAW_BREACHER.value,
+        Muzzles.MACK8_FROST_BITE.value,
+        Muzzles.CROWN_BREAKER_CHOKE.value,
+        Muzzles.XTEN_FULL_CHOKE.value,
+        Muzzles.XTEN_MODIFIED_CHOKE.value,
+        Muzzles.BRYSON_IMPROVED_CHOKE.value,
+        Muzzles.BRYSON_CHOKE.value,
+        Muzzles.FLASH_TWIST_90.value,
+        Muzzles.XTEN_QUADFLASH.value,
+        Muzzles.FSS_THUNDERSTRIKE_BRAKE.value,
     ]
 }
 
@@ -5468,6 +5491,28 @@ weapons_attachment_combos_dict[Shotguns.HAYMAKER.value] = {
         Optics.FSS_SPECTRE_MICROTHERM.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,   
+    ],
+    "Muzzles": [
+        Muzzles.TECTONICA_SUPPRESSOR.value,
+        Muzzles.SA_SCHWEIGEN_DX.value,
+        Muzzles.SA_SCHWEIGEN_XS.value,
+        Muzzles.FTAC_TRIDENTCORE.value,
+        Muzzles.SA_MX_50.value,
+        Muzzles.DR_77_IRONHEAD_BRAKE.value,
+        Muzzles.SR70_TAQ_BRAKE.value,
+        Muzzles.RMGE_7.value,
+        Muzzles.LOCKWOOD_SMOOTHFIRE_12.value,
+        Muzzles.OVL_70_COMP.value,
+        Muzzles.VULTURE_CLAW_BREACHER.value,
+        Muzzles.MACK8_FROST_BITE.value,
+        Muzzles.CROWN_BREAKER_CHOKE.value,
+        Muzzles.XTEN_FULL_CHOKE.value,
+        Muzzles.XTEN_MODIFIED_CHOKE.value,
+        Muzzles.BRYSON_IMPROVED_CHOKE.value,
+        Muzzles.BRYSON_CHOKE.value,
+        Muzzles.FLASH_TWIST_90.value,
+        Muzzles.XTEN_QUADFLASH.value,
+        Muzzles.FSS_THUNDERSTRIKE_BRAKE.value,
     ]
 }
 
@@ -5533,6 +5578,27 @@ weapons_attachment_combos_dict[Shotguns.RIVETER.value] = {
         Optics.FSS_SPECTRE_MICROTHERM.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,   
+    ],
+    "Muzzles": [
+        Muzzles.TECTONICA_SUPPRESSOR.value,
+        Muzzles.SA_SCHWEIGEN_DX.value,
+        Muzzles.SA_SCHWEIGEN_XS.value,
+        Muzzles.FTAC_TRIDENTCORE.value,
+        Muzzles.SA_MX_50.value,
+        Muzzles.DR_77_IRONHEAD_BRAKE.value,
+        Muzzles.SR70_TAQ_BRAKE.value,
+        Muzzles.RMGE_7.value,
+        Muzzles.LOCKWOOD_SMOOTHFIRE_12.value,
+        Muzzles.OVL_70_COMP.value,
+        Muzzles.VULTURE_CLAW_BREACHER.value,
+        Muzzles.MACK8_FROST_BITE.value,
+        Muzzles.CROWN_BREAKER_CHOKE.value,
+        Muzzles.XTEN_FULL_CHOKE.value,
+        Muzzles.BRYSON_IMPROVED_CHOKE.value,
+        Muzzles.BRYSON_CHOKE.value,
+        Muzzles.FLASH_TWIST_90.value,
+        Muzzles.XTEN_QUADFLASH.value,
+        Muzzles.FSS_THUNDERSTRIKE_BRAKE.value,
     ]
 }
 
@@ -5603,6 +5669,19 @@ weapons_attachment_combos_dict[Shotguns.LOCKWOOD_300.value] = {
         Optics.SZ_HM5_PRECISION_HYBRID_OPTIC.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,   
+    ],
+    "Muzzles": [
+        Muzzles.SAKIN_DB107.value,
+        Muzzles.TEMPUS_VOX.value,
+        Muzzles.GW_MAX_99.value,
+        Muzzles.DB_BIG_BORE_COMP.value,
+        Muzzles.DB_DREAD_COMP.value,
+        Muzzles.MACK8_SHOTGUN_BREACH.value,
+        Muzzles.XTEN_V1p3_CHOKE.value,
+        Muzzles.BRYSON_SERIES_XII_CHOKE.value,
+        Muzzles.RECKONER_COMP.value,
+        Muzzles.XTEN_V2p0_CHOKE.value,
+        Muzzles.BRYSON_SERIES_IX_CHOKE.value
     ]
 }
 
@@ -5673,6 +5752,28 @@ weapons_attachment_combos_dict[Shotguns.EXPEDITE_12.value] = {
         Optics.SZ_HM5_PRECISION_HYBRID_OPTIC.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,   
+    ],
+    "Muzzles": [
+        Muzzles.SA_SCHWEIGEN_DX.value,
+        Muzzles.SA_SCHWEIGEN_XS.value,
+        Muzzles.FTAC_TRIDENTCORE.value,
+        Muzzles.SA_MX_50.value,
+        Muzzles.DR_77_IRONHEAD_BRAKE.value,
+        Muzzles.SR70_TAQ_BRAKE.value,
+        Muzzles.RMGE_7.value,
+        Muzzles.LOCKWOOD_SMOOTHFIRE_12.value,
+        Muzzles.OVL_70_COMP.value,
+        Muzzles.LONG_HAUL_50.value,
+        Muzzles.WOLFCALL_300.value,
+        Muzzles.XTEN_FULL_CHOKE.value,
+        Muzzles.XTEN_MODIFIED_CHOKE.value,
+        Muzzles.BRYSON_IMPROVED_CHOKE.value,
+        Muzzles.BRYSON_CHOKE.value,
+        Muzzles.VULTURE_CLAW_BREACHER.value,
+        Muzzles.MACK8_FROST_BITE.value,
+        Muzzles.FLASH_TWIST_90.value,
+        Muzzles.XTEN_QUADFLASH.value,
+        Muzzles.FSS_THUNDERSTRIKE_BRAKE.value
     ]
 }
 
@@ -5743,6 +5844,28 @@ weapons_attachment_combos_dict[Shotguns.BRYSON_800.value] = {
         Optics.SZ_HM5_PRECISION_HYBRID_OPTIC.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,   
+    ],
+    "Muzzles": [
+        Muzzles.SA_SCHWEIGEN_DX.value,
+        Muzzles.SA_SCHWEIGEN_XS.value,
+        Muzzles.FTAC_TRIDENTCORE.value,
+        Muzzles.SA_MX_50.value,
+        Muzzles.DR_77_IRONHEAD_BRAKE.value,
+        Muzzles.SR70_TAQ_BRAKE.value,
+        Muzzles.RMGE_7.value,
+        Muzzles.LOCKWOOD_SMOOTHFIRE_12.value,
+        Muzzles.OVL_70_COMP.value,
+        Muzzles.LONG_HAUL_50.value,
+        Muzzles.WOLFCALL_300.value,
+        Muzzles.XTEN_FULL_CHOKE.value,
+        Muzzles.XTEN_MODIFIED_CHOKE.value,
+        Muzzles.BRYSON_IMPROVED_CHOKE.value,
+        Muzzles.BRYSON_CHOKE.value,
+        Muzzles.VULTURE_CLAW_BREACHER.value,
+        Muzzles.MACK8_FROST_BITE.value,
+        Muzzles.FLASH_TWIST_90.value,
+        Muzzles.XTEN_QUADFLASH.value,
+        Muzzles.FSS_THUNDERSTRIKE_BRAKE.value
     ]
 }
 
@@ -5813,76 +5936,28 @@ weapons_attachment_combos_dict[Shotguns.KV_BROADSIDE.value] = {
         Optics.SZ_HM5_PRECISION_HYBRID_OPTIC.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,   
-    ]
-}
-
-weapons_attachment_combos_dict[Shotguns.LOCKWOOD_300.value] = {
-    "Optics": [
-        Optics.NO_MODIFICATIONS.value,
-        Optics.KR_INTLAS_LSJ_3.value,
-        Optics.SLATE_REFLECTOR.value,
-        Optics.XTEN_ERX_10_MINI.value,
-        Optics.SLIMLINE_PRO.value,
-        Optics.SZ_MINI.value,
-        Optics.CRONEN_MINI_DOT.value,
-        Optics.CRONEN_MINI_PRO.value,
-        Optics.SZ_SIGMA_IV_OPTIC.value,
-        Optics.SZ_MINITAC_40.value,
-        Optics.KR_MINITAC_40_RISER.value,
-        Optics.QTG_REFLEX_SIGHT.value,
-        Optics.CAUCASUS_REFLEX_SIGHT.value,
-        Optics.MK3_REFLECTOR.value,
-        Optics.DRAGONS_EYE_OPTIC.value,
-        Optics.XRK_ON_POINT_OPTIC.value,
-        Optics.AIM_OP_V4.value,
-        Optics.DF105_REFLEX_SIGHT.value,
-        Optics.MONOCLE_CT90.value,
-        Optics.CORVUS_SOL_76.value,
-        Optics.SZ_RECHARGE_DX.value,
-        Optics.SZ_SRO_7.value,
-        Optics.CORIO_RE_X_PRO.value,
-        Optics.KR_V4_1X_RISER.value,
-        Optics.CHRIOS_HOLO.value,
-        Optics.CORIO_ENFORCER_OPTIC.value,
-        Optics.SZ_LONEWOLF_OPTIC.value,
-        Optics.KAZAN_HOLO.value,
-        Optics.SZ_BATTLE_OPTIC.value,
-        Optics.CORVUS_DOWNRANGE_00.value,
-        Optics.XTEN_ANGEL_40.value,
-        Optics.SZ_HOLOTHERM.value,
-        Optics.CORIO_ELT_10_2p5.value,
-        Optics.KR_MORTIS_PRECISION_2p5X.value,
-        Optics.CORIO_EAGLESEYE_2p5X.value,
-        Optics.KR_MARAUDER_9_RISER.value,
-        Optics.TOS_NIGHTFALL_2p5X_THERMAL_OPTIC.value,
-        Optics.AOK_4p0X_RQ_9_RECON.value,
-        Optics.TX4_HAVOC.value,
-        Optics.VLK_4p0_OPTIC.value,
-        Optics.SCHLAGER_3p4X.value,
-        Optics.FORGE_TAC_DELTA_4.value,
-        Optics.CRONEN_ZERO_P_OPTIC.value,
-        Optics.SZ_BULLSEYE_OPTIC.value,
-        Optics.SZ_AGGRESSOR_IR_OPTIC.value,
-        Optics.SCHLAGER_NIGHT_VIEW.value,
-        Optics.VX350_THERMAL_OPTIC.value,
-        Optics.TEPLO_OP3_SCOPE.value,
-        Optics.HEINRICHTER_HYBRID_SCOPE.value,
-        Optics.CORVUS_GHOSTVIEW.value,
-        Optics.DR582_HYBRID_SIGHT.value,
-        Optics.HYBRID_FIREPOINT.value,
-        Optics.SZ_VOREX_90.value,
-        Optics.BPZ40_HYBRID.value,
-        Optics.SZ_OSCAR_9.value,
-        Optics.THERMO_OPTIC_X9.value,
-        Optics.TEPLO_CLEAR_SHOT.value,
-        Optics.CORIO_CQC_SCOPE.value,
-        Optics.DAUNT_C80.value,
-        Optics.FSS_SPECTRE_MICROTHERM.value,
-        Optics.NYDAR_MODEL_2023.value,
-        Optics.TPS_INCENDIO_REFLEX.value,
-        Optics.SZ_HM5_PRECISION_HYBRID_OPTIC.value,
-        Optics.CRONEN_INTLAS_MSP_12.value,
-        Optics.INTLAS_CAS_14.value,   
+    ],
+    "Muzzles": [
+        Muzzles.SA_SCHWEIGEN_DX.value,
+        Muzzles.SA_SCHWEIGEN_XS.value,
+        Muzzles.FTAC_TRIDENTCORE.value,
+        Muzzles.SA_MX_50.value,
+        Muzzles.DR_77_IRONHEAD_BRAKE.value,
+        Muzzles.SR70_TAQ_BRAKE.value,
+        Muzzles.RMGE_7.value,
+        Muzzles.LOCKWOOD_SMOOTHFIRE_12.value,
+        Muzzles.OVL_70_COMP.value,
+        Muzzles.LONG_HAUL_50.value,
+        Muzzles.WOLFCALL_300.value,
+        Muzzles.XTEN_FULL_CHOKE.value,
+        Muzzles.XTEN_MODIFIED_CHOKE.value,
+        Muzzles.BRYSON_IMPROVED_CHOKE.value,
+        Muzzles.BRYSON_CHOKE.value,
+        Muzzles.VULTURE_CLAW_BREACHER.value,
+        Muzzles.MACK8_FROST_BITE.value,
+        Muzzles.FLASH_TWIST_90.value,
+        Muzzles.XTEN_QUADFLASH.value,
+        Muzzles.FSS_THUNDERSTRIKE_BRAKE.value
     ]
 }
 
@@ -5953,6 +6028,28 @@ weapons_attachment_combos_dict[Shotguns.MX_GUARDIAN.value] = {
         Optics.SZ_HM5_PRECISION_HYBRID_OPTIC.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,   
+    ],
+    "Muzzles": [
+        Muzzles.SA_SCHWEIGEN_DX.value,
+        Muzzles.SA_SCHWEIGEN_XS.value,
+        Muzzles.FTAC_TRIDENTCORE.value,
+        Muzzles.SA_MX_50.value,
+        Muzzles.DR_77_IRONHEAD_BRAKE.value,
+        Muzzles.SR70_TAQ_BRAKE.value,
+        Muzzles.RMGE_7.value,
+        Muzzles.LOCKWOOD_SMOOTHFIRE_12.value,
+        Muzzles.OVL_70_COMP.value,
+        Muzzles.LONG_HAUL_50.value,
+        Muzzles.WOLFCALL_300.value,
+        Muzzles.XTEN_FULL_CHOKE.value,
+        Muzzles.XTEN_MODIFIED_CHOKE.value,
+        Muzzles.BRYSON_IMPROVED_CHOKE.value,
+        Muzzles.BRYSON_CHOKE.value,
+        Muzzles.VULTURE_CLAW_BREACHER.value,
+        Muzzles.MACK8_FROST_BITE.value,
+        Muzzles.FLASH_TWIST_90.value,
+        Muzzles.XTEN_QUADFLASH.value,
+        Muzzles.FSS_THUNDERSTRIKE_BRAKE.value
     ]
 }
 
@@ -6023,9 +6120,32 @@ weapons_attachment_combos_dict[Shotguns.BRYSON_890.value] = {
         Optics.SZ_HM5_PRECISION_HYBRID_OPTIC.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,   
+    ],
+    "Muzzles": [
+        Muzzles.SA_SCHWEIGEN_DX.value,
+        Muzzles.SA_SCHWEIGEN_XS.value,
+        Muzzles.FTAC_TRIDENTCORE.value,
+        Muzzles.SA_MX_50.value,
+        Muzzles.DR_77_IRONHEAD_BRAKE.value,
+        Muzzles.SR70_TAQ_BRAKE.value,
+        Muzzles.RMGE_7.value,
+        Muzzles.LOCKWOOD_SMOOTHFIRE_12.value,
+        Muzzles.OVL_70_COMP.value,
+        Muzzles.LONG_HAUL_50.value,
+        Muzzles.WOLFCALL_300.value,
+        Muzzles.XTEN_FULL_CHOKE.value,
+        Muzzles.XTEN_MODIFIED_CHOKE.value,
+        Muzzles.BRYSON_IMPROVED_CHOKE.value,
+        Muzzles.BRYSON_CHOKE.value,
+        Muzzles.VULTURE_CLAW_BREACHER.value,
+        Muzzles.MACK8_FROST_BITE.value,
+        Muzzles.FLASH_TWIST_90.value,
+        Muzzles.XTEN_QUADFLASH.value,
+        Muzzles.FSS_THUNDERSTRIKE_BRAKE.value
     ]
 }
 
+#===========================================================================  LMGS  =========================================================#
 weapons_attachment_combos_dict[LMGS.TAQ_EVOLVERE.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
