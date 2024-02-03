@@ -32,8 +32,10 @@ from WeaponEnums import (
 
 weapons_attachment_combos_dict = {}
 
-
+#=======================================================================================================================================================#
 #=================================================================  Assualt Rifles  ====================================================================#
+#=======================================================================================================================================================#
+
 weapons_attachment_combos_dict[AssaultRifles.SVA_545.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
@@ -113,6 +115,7 @@ weapons_attachment_combos_dict[AssaultRifles.SVA_545.value] = {
         Optics.INTLAS_CAS_14.value,
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -236,6 +239,7 @@ weapons_attachment_combos_dict[AssaultRifles.RAM_7.value] = {
         Optics.INTLAS_CAS_14.value,
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -359,6 +363,7 @@ weapons_attachment_combos_dict[AssaultRifles.MTZ_556.value] = {
         Optics.INTLAS_CAS_14.value,
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -482,6 +487,7 @@ weapons_attachment_combos_dict[AssaultRifles.HOLGER_556.value] = {
         Optics.INTLAS_CAS_14.value,
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -605,6 +611,7 @@ weapons_attachment_combos_dict[AssaultRifles.MCW.value] = {
         Optics.INTLAS_CAS_14.value,
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -726,6 +733,7 @@ weapons_attachment_combos_dict[AssaultRifles.DG_56.value] = {
         Optics.INTLAS_CAS_14.value,
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -849,6 +857,7 @@ weapons_attachment_combos_dict[AssaultRifles.FR_556.value] = {
         Optics.INTLAS_CAS_14.value,
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -972,6 +981,7 @@ weapons_attachment_combos_dict[AssaultRifles.TAQ_56.value] = {
         Optics.INTLAS_CAS_14.value,
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -1094,6 +1104,7 @@ weapons_attachment_combos_dict[AssaultRifles.M4.value] = {
         Optics.INTLAS_CAS_14.value,
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -1218,6 +1229,7 @@ weapons_attachment_combos_dict[AssaultRifles.STB_556.value] = {
         Optics.INTLAS_CAS_14.value,
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -1340,6 +1352,7 @@ weapons_attachment_combos_dict[AssaultRifles.KASTOV_762.value] = {
         Optics.INTLAS_CAS_14.value,
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -1460,6 +1473,7 @@ weapons_attachment_combos_dict[AssaultRifles.M13B.value] = {
         Optics.INTLAS_CAS_14.value,
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -1665,6 +1679,7 @@ weapons_attachment_combos_dict[AssaultRifles.ISO_HEMLOCK.value] = {
         Optics.INTLAS_CAS_14.value,
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -1786,6 +1801,7 @@ weapons_attachment_combos_dict[AssaultRifles.TEMPUS_RAZORBACK.value] = {
         Optics.INTLAS_CAS_14.value,
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -1903,6 +1919,7 @@ weapons_attachment_combos_dict[AssaultRifles.FR_AVANCER.value] = {
         Optics.INTLAS_CAS_14.value,
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -2026,6 +2043,7 @@ weapons_attachment_combos_dict[AssaultRifles.M13C.value] = {
         Optics.INTLAS_CAS_14.value,
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -2147,6 +2165,7 @@ weapons_attachment_combos_dict[AssaultRifles.LACHMAN_556.value] = {
         Optics.INTLAS_CAS_14.value,
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -2266,6 +2285,7 @@ weapons_attachment_combos_dict[AssaultRifles.M16.value] = {
         Optics.INTLAS_CAS_14.value,
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -2380,6 +2400,7 @@ weapons_attachment_combos_dict[AssaultRifles.KASTOV_74U.value] = {
         Optics.INTLAS_CAS_14.value,
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -2502,6 +2523,7 @@ weapons_attachment_combos_dict[AssaultRifles.KASTOV_545.value] = {
         Optics.INTLAS_CAS_14.value,
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -2546,8 +2568,11 @@ weapons_attachment_combos_dict[AssaultRifles.KASTOV_545.value] = {
     ]
 }
 
-
+#========================================================================================================================================================#
 #========================================================================  Battle Rifles  ===============================================================#
+#========================================================================================================================================================#
+
+
 weapons_attachment_combos_dict[BattleRifles.BAS_B.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
@@ -2627,6 +2652,7 @@ weapons_attachment_combos_dict[BattleRifles.BAS_B.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -2748,6 +2774,7 @@ weapons_attachment_combos_dict[BattleRifles.SIDEWINDER.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -2869,6 +2896,7 @@ weapons_attachment_combos_dict[BattleRifles.MTZ_762.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -2988,6 +3016,7 @@ weapons_attachment_combos_dict[BattleRifles.LACHMAN_762.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -3108,6 +3137,7 @@ weapons_attachment_combos_dict[BattleRifles.CRONEN_SQUALL.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -3227,6 +3257,7 @@ weapons_attachment_combos_dict[BattleRifles.FTAC_RECON.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.COLOSSUS_SUPPRESSOR_L.value,
         Muzzles.NILSOUND_90.value,
@@ -3337,6 +3368,7 @@ weapons_attachment_combos_dict[BattleRifles.TAQ_V.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -3456,6 +3488,7 @@ weapons_attachment_combos_dict[BattleRifles.SO_14.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -3497,7 +3530,9 @@ weapons_attachment_combos_dict[BattleRifles.SO_14.value] = {
     ]
 }
 
+#====================================================================================================================================================#
 #========================================================================  SMGS  ====================================================================#
+#====================================================================================================================================================#
 
 weapons_attachment_combos_dict[SMGS.STRIKER.value] = {
     "Optics": [
@@ -3567,6 +3602,7 @@ weapons_attachment_combos_dict[SMGS.STRIKER.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -3675,6 +3711,7 @@ weapons_attachment_combos_dict[SMGS.WSP_SWARM.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -3783,6 +3820,7 @@ weapons_attachment_combos_dict[SMGS.AMR9.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -3883,6 +3921,7 @@ weapons_attachment_combos_dict[SMGS.WSP_9.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -3991,6 +4030,7 @@ weapons_attachment_combos_dict[SMGS.RIVAL_9.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -4099,6 +4139,7 @@ weapons_attachment_combos_dict[SMGS.STRIKER_9.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -4275,6 +4316,7 @@ weapons_attachment_combos_dict[SMGS.ISO_9MM.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -4382,6 +4424,7 @@ weapons_attachment_combos_dict[SMGS.PDSW_528.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -4489,6 +4532,7 @@ weapons_attachment_combos_dict[SMGS.VEL_46.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -4596,6 +4640,7 @@ weapons_attachment_combos_dict[SMGS.FENNEC_45.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -4704,6 +4749,7 @@ weapons_attachment_combos_dict[SMGS.BAS_P.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -4811,6 +4857,7 @@ weapons_attachment_combos_dict[SMGS.ISO_45.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -4915,6 +4962,7 @@ weapons_attachment_combos_dict[SMGS.LACHMANN_SUB.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -4981,6 +5029,7 @@ weapons_attachment_combos_dict[SMGS.FSS_HURRICANE.value] = {
         Optics.CRONEN_INTLAS_MSP_12.value,
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -5089,6 +5138,7 @@ weapons_attachment_combos_dict[SMGS.MX9.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -5195,6 +5245,7 @@ weapons_attachment_combos_dict[SMGS.MINIBAK.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -5302,6 +5353,7 @@ weapons_attachment_combos_dict[SMGS.VAZNEV_9K.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -5341,7 +5393,10 @@ weapons_attachment_combos_dict[SMGS.VAZNEV_9K.value] = {
     ]
 }
 
+#===============================================================================================================================================#
 #=========================================================================  SHOTGUNS  ==========================================================#
+#===============================================================================================================================================#
+
 weapons_attachment_combos_dict[Shotguns.LOCKWOOD_680.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
@@ -5406,6 +5461,7 @@ weapons_attachment_combos_dict[Shotguns.LOCKWOOD_680.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.TECTONICA_SUPPRESSOR.value,
         Muzzles.SA_SCHWEIGEN_DX.value,
         Muzzles.SA_SCHWEIGEN_XS.value,
@@ -5493,6 +5549,7 @@ weapons_attachment_combos_dict[Shotguns.HAYMAKER.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.TECTONICA_SUPPRESSOR.value,
         Muzzles.SA_SCHWEIGEN_DX.value,
         Muzzles.SA_SCHWEIGEN_XS.value,
@@ -5580,6 +5637,7 @@ weapons_attachment_combos_dict[Shotguns.RIVETER.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.TECTONICA_SUPPRESSOR.value,
         Muzzles.SA_SCHWEIGEN_DX.value,
         Muzzles.SA_SCHWEIGEN_XS.value,
@@ -5671,6 +5729,7 @@ weapons_attachment_combos_dict[Shotguns.LOCKWOOD_300.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SAKIN_DB107.value,
         Muzzles.TEMPUS_VOX.value,
         Muzzles.GW_MAX_99.value,
@@ -5754,6 +5813,7 @@ weapons_attachment_combos_dict[Shotguns.EXPEDITE_12.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SA_SCHWEIGEN_DX.value,
         Muzzles.SA_SCHWEIGEN_XS.value,
         Muzzles.FTAC_TRIDENTCORE.value,
@@ -5846,6 +5906,7 @@ weapons_attachment_combos_dict[Shotguns.BRYSON_800.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SA_SCHWEIGEN_DX.value,
         Muzzles.SA_SCHWEIGEN_XS.value,
         Muzzles.FTAC_TRIDENTCORE.value,
@@ -5938,6 +5999,7 @@ weapons_attachment_combos_dict[Shotguns.KV_BROADSIDE.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SA_SCHWEIGEN_DX.value,
         Muzzles.SA_SCHWEIGEN_XS.value,
         Muzzles.FTAC_TRIDENTCORE.value,
@@ -6030,6 +6092,7 @@ weapons_attachment_combos_dict[Shotguns.MX_GUARDIAN.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SA_SCHWEIGEN_DX.value,
         Muzzles.SA_SCHWEIGEN_XS.value,
         Muzzles.FTAC_TRIDENTCORE.value,
@@ -6122,6 +6185,7 @@ weapons_attachment_combos_dict[Shotguns.BRYSON_890.value] = {
         Optics.INTLAS_CAS_14.value,   
     ],
     "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SA_SCHWEIGEN_DX.value,
         Muzzles.SA_SCHWEIGEN_XS.value,
         Muzzles.FTAC_TRIDENTCORE.value,
@@ -6145,7 +6209,10 @@ weapons_attachment_combos_dict[Shotguns.BRYSON_890.value] = {
     ]
 }
 
-#===========================================================================  LMGS  =========================================================#
+#=======================================================================================================================================================#
+#===========================================================================  LMGS  ====================================================================#
+#=======================================================================================================================================================#
+
 weapons_attachment_combos_dict[LMGS.TAQ_EVOLVERE.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
@@ -6219,6 +6286,41 @@ weapons_attachment_combos_dict[LMGS.TAQ_EVOLVERE.value] = {
         Optics.TPS_INCENDIO_REFLEX.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
+        Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
+        Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
+        Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
+        Muzzles.BRUEN_HARMONIC_SUPPRESSOR_L.value,
+        Muzzles.HUSHER_65_SILENCER.value,
+        Muzzles.FR_TITAN_SILENCER.value,
+        Muzzles.POLOARFIRE_S.value,
+        Muzzles.ZLR_TALON_5.value,
+        Muzzles.ECHOLINE_GSX.value,
+        Muzzles.ZULU_60.value,
+        Muzzles.KASTOVIA_DX90.value,
+        Muzzles.STER45_SKYFURY_COMPENSATOR_L.value,
+        Muzzles.ELR_BLACKFIRE_COMPENSATOR_L.value,
+        Muzzles.T4LR_SABER_COMPENSATOR_L.value,
+        Muzzles.EX01_MATCH_COMPENSATOR_L.value,
+        Muzzles.T51R_BILLETED_BREAK_L.value,
+        Muzzles.PURIFIER_MUZZLE_BREAK_L.value,
+        Muzzles.CASUS_BREAK_L.value,
+        Muzzles.JAK_BFB.value,
+        Muzzles.TEMPUS_GH50.value,
+        Muzzles.TY_LR8.value,
+        Muzzles.LOCKSHOT_KT85.value,
+        Muzzles.SA_LEVELER_55.value,
+        Muzzles.BORE_490.value,
+        Muzzles.SAKIN_TREAD_40.value,
+        Muzzles.S37C_DL_BREACHER_DEVICE_L.value,
+        Muzzles.L4R_FLASH_HIDER.value,
+        Muzzles.EIGHT_POINT_FLASH_HIDER.value,
+        Muzzles.TZL_90_V3.value,
+        Muzzles.CRONEN_DARK_KX30.value,
+        Muzzles.WRATHGUARD_COMPENSATOR_L.value,
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
     ]
 }
 
@@ -6295,6 +6397,47 @@ weapons_attachment_combos_dict[LMGS.PULEMYOT_762.value] = {
         Optics.TPS_INCENDIO_REFLEX.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
+        Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
+        Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
+        Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
+        Muzzles.COLOSSUS_SUPPRESSOR_L.value,
+        Muzzles.BRUEN_HARMONIC_SUPPRESSOR_L.value,
+        Muzzles.HUSHER_65_SILENCER.value,
+        Muzzles.FR_TITAN_SILENCER.value,
+        Muzzles.POLOARFIRE_S.value,
+        Muzzles.ZLR_TALON_5.value,
+        Muzzles.ECHOLINE_GSX.value,
+        Muzzles.ZULU_60.value,
+        Muzzles.KASTOVIA_DX90.value,
+        Muzzles.CRONEN_SPDR.value,
+        Muzzles.STER45_SKYFURY_COMPENSATOR_L.value,
+        Muzzles.ELR_BLACKFIRE_COMPENSATOR_L.value,
+        Muzzles.T4LR_SABER_COMPENSATOR_L.value,
+        Muzzles.EX01_MATCH_COMPENSATOR_L.value,
+        Muzzles.T51R_BILLETED_BREAK_L.value,
+        Muzzles.PURIFIER_MUZZLE_BREAK_L.value,
+        Muzzles.CASUS_BREAK_L.value,
+        Muzzles.JAK_BFB.value,
+        Muzzles.TEMPUS_GH50.value,
+        Muzzles.TY_LR8.value,
+        Muzzles.LOCKSHOT_KT85.value,
+        Muzzles.SA_LEVELER_55.value,
+        Muzzles.BORE_490.value,
+        Muzzles.SAKIN_TREAD_40.value,
+        Muzzles.S37C_DL_BREACHER_DEVICE_L.value,
+        Muzzles.GL_CLEAR_BREACH.value,
+        Muzzles.TA_HUL_BREACH_KL.value,
+        Muzzles.L4R_FLASH_HIDER.value,
+        Muzzles.EIGHT_POINT_FLASH_HIDER.value,
+        Muzzles.TZL_90_V3.value,
+        Muzzles.CRONEN_DARK_KX30.value,
+        Muzzles.MONOLITHIC_SUPPRESSOR_L.value,
+        Muzzles.SONIC_SUPPRESSOR_L.value,
+        Muzzles.WRATHGUARD_COMPENSATOR_L.value,
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
     ]
 }
 
@@ -6370,6 +6513,50 @@ weapons_attachment_combos_dict[LMGS.DG_58_LSW.value] = {
         Optics.TPS_INCENDIO_REFLEX.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
+        Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
+        Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
+        Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
+        Muzzles.MONOLITHIC_SUPPRESSOR.value,
+        Muzzles.SONIC_SUPPRESSOR.value,
+        Muzzles.COLOSSUS_SUPPRESSOR.value,
+        Muzzles.BROADHEAD_3DP.value,
+        Muzzles.SILENTFIRE_XG6.value,
+        Muzzles.ECHOLINE_GSX.value,
+        Muzzles.ZULU_60.value,
+        Muzzles.HARBINGER_D20.value,
+        Muzzles.ECHOLESS_80.value,
+        Muzzles.FSS_COVERT_V.value,
+        Muzzles.GAUGE_9_MONO.value,
+        Muzzles.ELR_BLACKFIRE_COMPENSATOR.value,
+        Muzzles.WRATHGUARD_COMPENSATOR.value,
+        Muzzles.T4LR_SABER_COMPENSATOR.value,
+        Muzzles.EX01_MATCH_COMPENSATOR.value,
+        Muzzles.T51R_BILLETED_BREAK.value,
+        Muzzles.PURIFIER_MUZZLE_BREAK.value,
+        Muzzles.CASUS_BREAK.value,
+        Muzzles.ENDLESS_30_COMPENSATOR.value,
+        Muzzles.JAK_BFB.value,
+        Muzzles.RF_CROWN_50.value,
+        Muzzles.KOMODO_HEAVY.value,
+        Muzzles.XTEN_PORTED_290.value,
+        Muzzles.FJX_FULCRUM_PRO.value,
+        Muzzles.CRONEN_OP44.value,
+        Muzzles.FTAC_CASTLE_COMP.value,
+        Muzzles.XTEN_HAVOC_90.value,
+        Muzzles.SAKIN_TREAD_40.value,
+        Muzzles.S37C_DL_BREACHER_DEVICE.value,
+        Muzzles.C400_DOOR_KNOCKER.value,
+        Muzzles.JCZ_390_MUZZLE_DEVICE.value,
+        Muzzles.L4R_FLASH_HIDER.value,
+        Muzzles.CORVUS_SLASH_GEN2.value,
+        Muzzles.CRONEN_MAW_86.value,
+        Muzzles.DARK_KX30.value,
+        Muzzles.VLK_KOLOSS_FLASH_HIDER.value,
+        Muzzles.STER45_SKYFURY_COMPENSATOR.value,
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
     ]
 }
 
@@ -6446,6 +6633,50 @@ weapons_attachment_combos_dict[LMGS.BRUEN_MK9.value] = {
         Optics.TPS_INCENDIO_REFLEX.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
+        Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
+        Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
+        Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
+        Muzzles.MONOLITHIC_SUPPRESSOR.value,
+        Muzzles.SONIC_SUPPRESSOR.value,
+        Muzzles.COLOSSUS_SUPPRESSOR.value,
+        Muzzles.BROADHEAD_3DP.value,
+        Muzzles.SILENTFIRE_XG6.value,
+        Muzzles.ECHOLINE_GSX.value,
+        Muzzles.ZULU_60.value,
+        Muzzles.HARBINGER_D20.value,
+        Muzzles.ECHOLESS_80.value,
+        Muzzles.FSS_COVERT_V.value,
+        Muzzles.GAUGE_9_MONO.value,
+        Muzzles.ELR_BLACKFIRE_COMPENSATOR.value,
+        Muzzles.WRATHGUARD_COMPENSATOR.value,
+        Muzzles.T4LR_SABER_COMPENSATOR.value,
+        Muzzles.EX01_MATCH_COMPENSATOR.value,
+        Muzzles.T51R_BILLETED_BREAK.value,
+        Muzzles.PURIFIER_MUZZLE_BREAK.value,
+        Muzzles.CASUS_BREAK.value,
+        Muzzles.ENDLESS_30_COMPENSATOR.value,
+        Muzzles.JAK_BFB.value,
+        Muzzles.RF_CROWN_50.value,
+        Muzzles.KOMODO_HEAVY.value,
+        Muzzles.XTEN_PORTED_290.value,
+        Muzzles.FJX_FULCRUM_PRO.value,
+        Muzzles.CRONEN_OP44.value,
+        Muzzles.FTAC_CASTLE_COMP.value,
+        Muzzles.XTEN_HAVOC_90.value,
+        Muzzles.SAKIN_TREAD_40.value,
+        Muzzles.S37C_DL_BREACHER_DEVICE.value,
+        Muzzles.C400_DOOR_KNOCKER.value,
+        Muzzles.JCZ_390_MUZZLE_DEVICE.value,
+        Muzzles.L4R_FLASH_HIDER.value,
+        Muzzles.CORVUS_SLASH_GEN2.value,
+        Muzzles.CRONEN_MAW_86.value,
+        Muzzles.DARK_KX30.value,
+        Muzzles.VLK_KOLOSS_FLASH_HIDER.value,
+        Muzzles.STER45_SKYFURY_COMPENSATOR.value,
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
     ]
 }
 
@@ -6522,6 +6753,47 @@ weapons_attachment_combos_dict[LMGS.TAQ_ERADICATOR.value] = {
         Optics.TPS_INCENDIO_REFLEX.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
+        Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
+        Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
+        Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
+        Muzzles.COLOSSUS_SUPPRESSOR_L.value,
+        Muzzles.BRUEN_HARMONIC_SUPPRESSOR_L.value,
+        Muzzles.HUSHER_65_SILENCER.value,
+        Muzzles.FR_TITAN_SILENCER.value,
+        Muzzles.POLOARFIRE_S.value,
+        Muzzles.ZLR_TALON_5.value,
+        Muzzles.ECHOLINE_GSX.value,
+        Muzzles.ZULU_60.value,
+        Muzzles.KASTOVIA_DX90.value,
+        Muzzles.CRONEN_SPDR.value,
+        Muzzles.STER45_SKYFURY_COMPENSATOR_L.value,
+        Muzzles.ELR_BLACKFIRE_COMPENSATOR_L.value,
+        Muzzles.T4LR_SABER_COMPENSATOR_L.value,
+        Muzzles.EX01_MATCH_COMPENSATOR_L.value,
+        Muzzles.T51R_BILLETED_BREAK_L.value,
+        Muzzles.PURIFIER_MUZZLE_BREAK_L.value,
+        Muzzles.CASUS_BREAK_L.value,
+        Muzzles.JAK_BFB.value,
+        Muzzles.TEMPUS_GH50.value,
+        Muzzles.TY_LR8.value,
+        Muzzles.LOCKSHOT_KT85.value,
+        Muzzles.SA_LEVELER_55.value,
+        Muzzles.BORE_490.value,
+        Muzzles.SAKIN_TREAD_40.value,
+        Muzzles.S37C_DL_BREACHER_DEVICE_L.value,
+        Muzzles.GL_CLEAR_BREACH.value,
+        Muzzles.TA_HUL_BREACH_KL.value,
+        Muzzles.L4R_FLASH_HIDER.value,
+        Muzzles.EIGHT_POINT_FLASH_HIDER.value,
+        Muzzles.TZL_90_V3.value,
+        Muzzles.CRONEN_DARK_KX30.value,
+        Muzzles.MONOLITHIC_SUPPRESSOR_L.value,
+        Muzzles.SONIC_SUPPRESSOR_L.value,
+        Muzzles.WRATHGUARD_COMPENSATOR_L.value,
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
     ]
 }
 
@@ -6599,6 +6871,50 @@ weapons_attachment_combos_dict[LMGS.HOLGER_26.value] = {
         Optics.HOUNDEYE_INTEGRATED_OPTIC.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
+        Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
+        Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
+        Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
+        Muzzles.MONOLITHIC_SUPPRESSOR.value,
+        Muzzles.SONIC_SUPPRESSOR.value,
+        Muzzles.COLOSSUS_SUPPRESSOR.value,
+        Muzzles.BROADHEAD_3DP.value,
+        Muzzles.SILENTFIRE_XG6.value,
+        Muzzles.ECHOLINE_GSX.value,
+        Muzzles.ZULU_60.value,
+        Muzzles.HARBINGER_D20.value,
+        Muzzles.ECHOLESS_80.value,
+        Muzzles.FSS_COVERT_V.value,
+        Muzzles.GAUGE_9_MONO.value,
+        Muzzles.ELR_BLACKFIRE_COMPENSATOR.value,
+        Muzzles.WRATHGUARD_COMPENSATOR.value,
+        Muzzles.T4LR_SABER_COMPENSATOR.value,
+        Muzzles.EX01_MATCH_COMPENSATOR.value,
+        Muzzles.T51R_BILLETED_BREAK.value,
+        Muzzles.PURIFIER_MUZZLE_BREAK.value,
+        Muzzles.CASUS_BREAK.value,
+        Muzzles.ENDLESS_30_COMPENSATOR.value,
+        Muzzles.JAK_BFB.value,
+        Muzzles.RF_CROWN_50.value,
+        Muzzles.KOMODO_HEAVY.value,
+        Muzzles.XTEN_PORTED_290.value,
+        Muzzles.FJX_FULCRUM_PRO.value,
+        Muzzles.CRONEN_OP44.value,
+        Muzzles.FTAC_CASTLE_COMP.value,
+        Muzzles.XTEN_HAVOC_90.value,
+        Muzzles.SAKIN_TREAD_40.value,
+        Muzzles.C400_DOOR_KNOCKER.value,
+        Muzzles.S37C_DL_BREACHER_DEVICE.value,
+        Muzzles.JCZ_390_MUZZLE_DEVICE.value,
+        Muzzles.L4R_FLASH_HIDER.value,
+        Muzzles.CORVUS_SLASH_GEN2.value,
+        Muzzles.CRONEN_MAW_86.value,
+        Muzzles.DARK_KX30.value,
+        Muzzles.VLK_KOLOSS_FLASH_HIDER.value,
+        Muzzles.STER45_SKYFURY_COMPENSATOR.value,
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
     ]
 }
 
@@ -6670,6 +6986,46 @@ weapons_attachment_combos_dict[LMGS.SAKIN_MG38.value] = {
         Optics.FSS_SPECTRE_MICROTHERM.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
+        Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
+        Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
+        Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
+        Muzzles.COLOSSUS_SUPPRESSOR_L.value,
+        Muzzles.BRUEN_HARMONIC_SUPPRESSOR_L.value,
+        Muzzles.HUSHER_65_SILENCER.value,
+        Muzzles.FR_TITAN_SILENCER.value,
+        Muzzles.POLOARFIRE_S.value,
+        Muzzles.ZLR_TALON_5.value,
+        Muzzles.ECHOLINE_GSX.value,
+        Muzzles.ZULU_60.value,
+        Muzzles.KASTOVIA_DX90.value,
+        Muzzles.STER45_SKYFURY_COMPENSATOR_L.value,
+        Muzzles.ELR_BLACKFIRE_COMPENSATOR_L.value,
+        Muzzles.T4LR_SABER_COMPENSATOR_L.value,
+        Muzzles.EX01_MATCH_COMPENSATOR_L.value,
+        Muzzles.T51R_BILLETED_BREAK_L.value,
+        Muzzles.PURIFIER_MUZZLE_BREAK_L.value,
+        Muzzles.CASUS_BREAK_L.value,
+        Muzzles.JAK_BFB.value,
+        Muzzles.TEMPUS_GH50.value,
+        Muzzles.TY_LR8.value,
+        Muzzles.LOCKSHOT_KT85.value,
+        Muzzles.SA_LEVELER_55.value,
+        Muzzles.BORE_490.value,
+        Muzzles.SAKIN_TREAD_40.value,
+        Muzzles.S37C_DL_BREACHER_DEVICE_L.value,
+        Muzzles.GL_CLEAR_BREACH.value,
+        Muzzles.TA_HUL_BREACH_KL.value,
+        Muzzles.L4R_FLASH_HIDER.value,
+        Muzzles.EIGHT_POINT_FLASH_HIDER.value,
+        Muzzles.TZL_90_V3.value,
+        Muzzles.CRONEN_DARK_KX30.value,
+        Muzzles.MONOLITHIC_SUPPRESSOR_L.value,
+        Muzzles.SONIC_SUPPRESSOR_L.value,
+        Muzzles.WRATHGUARD_COMPENSATOR_L.value,
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
     ]
 }
 
@@ -6741,6 +7097,37 @@ weapons_attachment_combos_dict[LMGS.RAAL_MG.value] = {
         Optics.FSS_SPECTRE_MICROTHERM.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
+        Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
+        Muzzles.COLOSSUS_SUPPRESSOR_L.value,
+        Muzzles.NILSOUND_90.value,
+        Muzzles.FTAC_DREADNOUGHT.value,
+        Muzzles.FTAC_REAPER.value,
+        Muzzles.BRUEN_AGENT_90.value,
+        Muzzles.TALON_SIXTEEN.value,
+        Muzzles.EXF_RELENTLESS_40.value,
+        Muzzles.STER45_SKYFURY_COMPENSATOR_L.value,
+        Muzzles.T4LR_SABER_COMPENSATOR_L.value,
+        Muzzles.EX01_MATCH_COMPENSATOR_L.value,
+        Muzzles.CASUS_BREAK_L.value,
+        Muzzles.JAK_BFB.value,
+        Muzzles.BVM_338.value,
+        Muzzles.CRONEN_DM338.value,
+        Muzzles.SHRED_CP90.value,
+        Muzzles.XRK_KRAKEN.value,
+        Muzzles.TA_CG76.value,
+        Muzzles.AP_390_FLASH_HIDER.value,
+        Muzzles.PORTED_DZ38.value,
+        Muzzles.DARK_KX50_FLASH_HIDER.value,
+        Muzzles.DEMON_HELIX_T7.value,
+        Muzzles.SHADOWSTRIKE_SUPPRESSOR_L.value,
+        Muzzles.MONOLITHIC_SUPPRESSOR_L.value,
+        Muzzles.SONIC_SUPPRESSOR_L.value,
+        Muzzles.ELR_BLACKFIRE_COMPENSATOR_L.value,
+        Muzzles.PURIFIER_MUZZLE_BREAK_L.value,
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
     ]
 }
 
@@ -6807,6 +7194,50 @@ weapons_attachment_combos_dict[LMGS.ICARUS_556.value] = {
         Optics.FSS_SPECTRE_MICROTHERM.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
+        Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
+        Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
+        Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
+        Muzzles.MONOLITHIC_SUPPRESSOR.value,
+        Muzzles.SONIC_SUPPRESSOR.value,
+        Muzzles.COLOSSUS_SUPPRESSOR.value,
+        Muzzles.BROADHEAD_3DP.value,
+        Muzzles.SILENTFIRE_XG6.value,
+        Muzzles.ECHOLINE_GSX.value,
+        Muzzles.ZULU_60.value,
+        Muzzles.HARBINGER_D20.value,
+        Muzzles.ECHOLESS_80.value,
+        Muzzles.FSS_COVERT_V.value,
+        Muzzles.GAUGE_9_MONO.value,
+        Muzzles.ELR_BLACKFIRE_COMPENSATOR.value,
+        Muzzles.WRATHGUARD_COMPENSATOR.value,
+        Muzzles.T4LR_SABER_COMPENSATOR.value,
+        Muzzles.EX01_MATCH_COMPENSATOR.value,
+        Muzzles.T51R_BILLETED_BREAK.value,
+        Muzzles.PURIFIER_MUZZLE_BREAK.value,
+        Muzzles.CASUS_BREAK.value,
+        Muzzles.ENDLESS_30_COMPENSATOR.value,
+        Muzzles.JAK_BFB.value,
+        Muzzles.RF_CROWN_50.value,
+        Muzzles.KOMODO_HEAVY.value,
+        Muzzles.XTEN_PORTED_290.value,
+        Muzzles.FJX_FULCRUM_PRO.value,
+        Muzzles.CRONEN_OP44.value,
+        Muzzles.FTAC_CASTLE_COMP.value,
+        Muzzles.XTEN_HAVOC_90.value,
+        Muzzles.C400_DOOR_KNOCKER.value,
+        Muzzles.SAKIN_TREAD_40.value,
+        Muzzles.S37C_DL_BREACHER_DEVICE.value,
+        Muzzles.JCZ_390_MUZZLE_DEVICE.value,
+        Muzzles.L4R_FLASH_HIDER.value,
+        Muzzles.CORVUS_SLASH_GEN2.value,
+        Muzzles.CRONEN_MAW_86.value,
+        Muzzles.DARK_KX30.value,
+        Muzzles.VLK_KOLOSS_FLASH_HIDER.value,
+        Muzzles.STER45_SKYFURY_COMPENSATOR.value,
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
     ]
 }
 
@@ -6885,6 +7316,46 @@ weapons_attachment_combos_dict[LMGS.RAPP_H.value] = {
         Optics.FSS_SPECTRE_MICROTHERM.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
+        Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
+        Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
+        Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
+        Muzzles.COLOSSUS_SUPPRESSOR_L.value,
+        Muzzles.BRUEN_HARMONIC_SUPPRESSOR_L.value,
+        Muzzles.HUSHER_65_SILENCER.value,
+        Muzzles.FR_TITAN_SILENCER.value,
+        Muzzles.POLOARFIRE_S.value,
+        Muzzles.ZLR_TALON_5.value,
+        Muzzles.ECHOLINE_GSX.value,
+        Muzzles.ZULU_60.value,
+        Muzzles.KASTOVIA_DX90.value,
+        Muzzles.STER45_SKYFURY_COMPENSATOR_L.value,
+        Muzzles.ELR_BLACKFIRE_COMPENSATOR_L.value,
+        Muzzles.T4LR_SABER_COMPENSATOR_L.value,
+        Muzzles.EX01_MATCH_COMPENSATOR_L.value,
+        Muzzles.T51R_BILLETED_BREAK_L.value,
+        Muzzles.PURIFIER_MUZZLE_BREAK_L.value,
+        Muzzles.CASUS_BREAK_L.value,
+        Muzzles.JAK_BFB.value,
+        Muzzles.TEMPUS_GH50.value,
+        Muzzles.TY_LR8.value,
+        Muzzles.LOCKSHOT_KT85.value,
+        Muzzles.SA_LEVELER_55.value,
+        Muzzles.BORE_490.value,
+        Muzzles.SAKIN_TREAD_40.value,
+        Muzzles.S37C_DL_BREACHER_DEVICE_L.value,
+        Muzzles.GL_CLEAR_BREACH.value,
+        Muzzles.TA_HUL_BREACH_KL.value,
+        Muzzles.L4R_FLASH_HIDER.value,
+        Muzzles.EIGHT_POINT_FLASH_HIDER.value,
+        Muzzles.TZL_90_V3.value,
+        Muzzles.CRONEN_DARK_KX30.value,
+        Muzzles.MONOLITHIC_SUPPRESSOR_L.value,
+        Muzzles.SONIC_SUPPRESSOR_L.value,
+        Muzzles.WRATHGUARD_COMPENSATOR_L.value,
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
     ]
 }
 
@@ -6964,6 +7435,50 @@ weapons_attachment_combos_dict[LMGS.HCR_56.value] = {
         Optics.FSS_SPECTRE_MICROTHERM.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
+        Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
+        Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
+        Muzzles.HMRES_MOD_SUPPRESSOR.value,
+        Muzzles.MONOLITHIC_SUPPRESSOR.value,
+        Muzzles.SONIC_SUPPRESSOR.value,
+        Muzzles.COLOSSUS_SUPPRESSOR.value,
+        Muzzles.BROADHEAD_3DP.value,
+        Muzzles.SILENTFIRE_XG6.value,
+        Muzzles.ECHOLINE_GSX.value,
+        Muzzles.ZULU_60.value,
+        Muzzles.HARBINGER_D20.value,
+        Muzzles.ECHOLESS_80.value,
+        Muzzles.FSS_COVERT_V.value,
+        Muzzles.GAUGE_9_MONO.value,
+        Muzzles.ELR_BLACKFIRE_COMPENSATOR.value,
+        Muzzles.WRATHGUARD_COMPENSATOR.value,
+        Muzzles.T4LR_SABER_COMPENSATOR.value,
+        Muzzles.EX01_MATCH_COMPENSATOR.value,
+        Muzzles.T51R_BILLETED_BREAK.value,
+        Muzzles.PURIFIER_MUZZLE_BREAK.value,
+        Muzzles.CASUS_BREAK.value,
+        Muzzles.ENDLESS_30_COMPENSATOR.value,
+        Muzzles.JAK_BFB.value,
+        Muzzles.RF_CROWN_50.value,
+        Muzzles.KOMODO_HEAVY.value,
+        Muzzles.XTEN_PORTED_290.value,
+        Muzzles.FJX_FULCRUM_PRO.value,
+        Muzzles.CRONEN_OP44.value,
+        Muzzles.FTAC_CASTLE_COMP.value,
+        Muzzles.XTEN_HAVOC_90.value,
+        Muzzles.SAKIN_TREAD_40.value,
+        Muzzles.S37C_DL_BREACHER_DEVICE.value,
+        Muzzles.C400_DOOR_KNOCKER.value,
+        Muzzles.JCZ_390_MUZZLE_DEVICE.value,
+        Muzzles.L4R_FLASH_HIDER.value,
+        Muzzles.CORVUS_SLASH_GEN2.value,
+        Muzzles.CRONEN_MAW_86.value,
+        Muzzles.DARK_KX30.value,
+        Muzzles.VLK_KOLOSS_FLASH_HIDER.value,
+        Muzzles.STER45_SKYFURY_COMPENSATOR.value,
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
     ]
 }
 
@@ -7037,11 +7552,54 @@ weapons_attachment_combos_dict[LMGS.RPK.value] = {
         Optics.FSS_SPECTRE_MICROTHERM.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
+        Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
+        Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
+        Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
+        Muzzles.COLOSSUS_SUPPRESSOR_L.value,
+        Muzzles.BRUEN_HARMONIC_SUPPRESSOR_L.value,
+        Muzzles.HUSHER_65_SILENCER.value,
+        Muzzles.FR_TITAN_SILENCER.value,
+        Muzzles.POLOARFIRE_S.value,
+        Muzzles.ZLR_TALON_5.value,
+        Muzzles.ECHOLINE_GSX.value,
+        Muzzles.ZULU_60.value,
+        Muzzles.KASTOVIA_DX90.value,
+        Muzzles.STER45_SKYFURY_COMPENSATOR_L.value,
+        Muzzles.ELR_BLACKFIRE_COMPENSATOR_L.value,
+        Muzzles.T4LR_SABER_COMPENSATOR_L.value,
+        Muzzles.EX01_MATCH_COMPENSATOR_L.value,
+        Muzzles.T51R_BILLETED_BREAK_L.value,
+        Muzzles.PURIFIER_MUZZLE_BREAK_L.value,
+        Muzzles.CASUS_BREAK_L.value,
+        Muzzles.JAK_BFB.value,
+        Muzzles.TEMPUS_GH50.value,
+        Muzzles.TY_LR8.value,
+        Muzzles.LOCKSHOT_KT85.value,
+        Muzzles.SA_LEVELER_55.value,
+        Muzzles.BORE_490.value,
+        Muzzles.SAKIN_TREAD_40.value,
+        Muzzles.S37C_DL_BREACHER_DEVICE_L.value,
+        Muzzles.TA_HUL_BREACH_KL.value,
+        Muzzles.GL_CLEAR_BREACH.value,
+        Muzzles.L4R_FLASH_HIDER.value,
+        Muzzles.EIGHT_POINT_FLASH_HIDER.value,
+        Muzzles.TZL_90_V3.value,
+        Muzzles.CRONEN_DARK_KX30.value,
+        Muzzles.MONOLITHIC_SUPPRESSOR_L.value,
+        Muzzles.SONIC_SUPPRESSOR_L.value,
+        Muzzles.WRATHGUARD_COMPENSATOR_L.value,
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
     ]
 }
 
+#======================================================================================================================================================#
+#============================================================================  Marksman Rifles ========================================================#
+#======================================================================================================================================================#
 
-# Marksman rifles
+
 weapons_attachment_combos_dict[MarksmanRifles.KVD_ENFORCER.value] = {
     "Optics": [
         Optics.NO_MODIFICATIONS.value,
@@ -7129,6 +7687,44 @@ weapons_attachment_combos_dict[MarksmanRifles.KVD_ENFORCER.value] = {
         Optics.SZ_HM5_PRECISION_HYBRID_OPTIC.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
+        Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
+        Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
+        Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
+        Muzzles.COLOSSUS_SUPPRESSOR_L.value,
+        Muzzles.BRUEN_HARMONIC_SUPPRESSOR_L.value,
+        Muzzles.HUSHER_65_SILENCER.value,
+        Muzzles.FR_TITAN_SILENCER.value,
+        Muzzles.POLOARFIRE_S.value,
+        Muzzles.ZLR_TALON_5.value,
+        Muzzles.ECHOLINE_GSX.value,
+        Muzzles.ZULU_60.value,
+        Muzzles.KASTOVIA_DX90.value,
+        Muzzles.STER45_SKYFURY_COMPENSATOR_L.value,
+        Muzzles.ELR_BLACKFIRE_COMPENSATOR_L.value,
+        Muzzles.T4LR_SABER_COMPENSATOR_L.value,
+        Muzzles.EX01_MATCH_COMPENSATOR_L.value,
+        Muzzles.PURIFIER_MUZZLE_BREAK_L.value,
+        Muzzles.CASUS_BREAK_L.value,
+        Muzzles.JAK_BFB.value,
+        Muzzles.TEMPUS_GH50.value,
+        Muzzles.TY_LR8.value,
+        Muzzles.LOCKSHOT_KT85.value,
+        Muzzles.SA_LEVELER_55.value,
+        Muzzles.BORE_490.value,
+        Muzzles.SAKIN_TREAD_40.value,
+        Muzzles.S37C_DL_BREACHER_DEVICE_L.value,
+        Muzzles.GL_CLEAR_BREACH.value,
+        Muzzles.TA_HUL_BREACH_KL.value,
+        Muzzles.L4R_FLASH_HIDER.value,
+        Muzzles.EIGHT_POINT_FLASH_HIDER.value,
+        Muzzles.TZL_90_V3.value,
+        Muzzles.CRONEN_DARK_KX30.value,
+        Muzzles.MONOLITHIC_SUPPRESSOR_L.value,
+        Muzzles.SONIC_SUPPRESSOR_L.value,
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
     ]
 }
 
@@ -7219,6 +7815,37 @@ weapons_attachment_combos_dict[MarksmanRifles.MCW_68.value] = {
         Optics.SZ_HM5_PRECISION_HYBRID_OPTIC.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
+        Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
+        Muzzles.COLOSSUS_SUPPRESSOR_L.value,
+        Muzzles.NILSOUND_90.value,
+        Muzzles.FTAC_DREADNOUGHT.value,
+        Muzzles.FTAC_REAPER.value,
+        Muzzles.BRUEN_AGENT_90.value,
+        Muzzles.TALON_SIXTEEN.value,
+        Muzzles.EXF_RELENTLESS_40.value,
+        Muzzles.STER45_SKYFURY_COMPENSATOR_L.value,
+        Muzzles.T4LR_SABER_COMPENSATOR_L.value,
+        Muzzles.EX01_MATCH_COMPENSATOR_L.value,
+        Muzzles.CASUS_BREAK_L.value,
+        Muzzles.JAK_BFB.value,
+        Muzzles.BVM_338.value,
+        Muzzles.CRONEN_DM338.value,
+        Muzzles.SHRED_CP90.value,
+        Muzzles.XRK_KRAKEN.value,
+        Muzzles.TA_CG76.value,
+        Muzzles.AP_390_FLASH_HIDER.value,
+        Muzzles.PORTED_DZ38.value,
+        Muzzles.DARK_KX50_FLASH_HIDER.value,
+        Muzzles.DEMON_HELIX_T7.value,
+        Muzzles.SHADOWSTRIKE_SUPPRESSOR_L.value,
+        Muzzles.MONOLITHIC_SUPPRESSOR_L.value,
+        Muzzles.SONIC_SUPPRESSOR_L.value,
+        Muzzles.ELR_BLACKFIRE_COMPENSATOR_L.value,
+        Muzzles.PURIFIER_MUZZLE_BREAK_L.value,
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
     ]
 }
 
@@ -7309,6 +7936,50 @@ weapons_attachment_combos_dict[MarksmanRifles.DM56.value] = {
         Optics.SZ_HM5_PRECISION_HYBRID_OPTIC.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
+        Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
+        Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
+        Muzzles.HMRES_MOD_SUPPRESSOR.value,
+        Muzzles.MONOLITHIC_SUPPRESSOR.value,
+        Muzzles.SONIC_SUPPRESSOR.value,
+        Muzzles.COLOSSUS_SUPPRESSOR.value,
+        Muzzles.BROADHEAD_3DP.value,
+        Muzzles.SILENTFIRE_XG6.value,
+        Muzzles.ECHOLINE_GSX.value,
+        Muzzles.ZULU_60.value,
+        Muzzles.HARBINGER_D20.value,
+        Muzzles.ECHOLESS_80.value,
+        Muzzles.FSS_COVERT_V.value,
+        Muzzles.GAUGE_9_MONO.value,
+        Muzzles.ELR_BLACKFIRE_COMPENSATOR.value,
+        Muzzles.WRATHGUARD_COMPENSATOR.value,
+        Muzzles.T4LR_SABER_COMPENSATOR.value,
+        Muzzles.EX01_MATCH_COMPENSATOR.value,
+        Muzzles.T51R_BILLETED_BREAK.value,
+        Muzzles.PURIFIER_MUZZLE_BREAK.value,
+        Muzzles.CASUS_BREAK.value,
+        Muzzles.ENDLESS_30_COMPENSATOR.value,
+        Muzzles.JAK_BFB.value,
+        Muzzles.RF_CROWN_50.value,
+        Muzzles.KOMODO_HEAVY.value,
+        Muzzles.XTEN_PORTED_290.value,
+        Muzzles.FJX_FULCRUM_PRO.value,
+        Muzzles.CRONEN_OP44.value,
+        Muzzles.FTAC_CASTLE_COMP.value,
+        Muzzles.XTEN_HAVOC_90.value,
+        Muzzles.SAKIN_TREAD_40.value,
+        Muzzles.S37C_DL_BREACHER_DEVICE.value,
+        Muzzles.C400_DOOR_KNOCKER.value,
+        Muzzles.JCZ_390_MUZZLE_DEVICE.value,
+        Muzzles.L4R_FLASH_HIDER.value,
+        Muzzles.CORVUS_SLASH_GEN2.value,
+        Muzzles.CRONEN_MAW_86.value,
+        Muzzles.DARK_KX30.value,
+        Muzzles.VLK_KOLOSS_FLASH_HIDER.value,
+        Muzzles.STER45_SKYFURY_COMPENSATOR.value,
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
     ]
 }
 
@@ -7399,6 +8070,37 @@ weapons_attachment_combos_dict[MarksmanRifles.MTZ_INTERCEPTOR.value] = {
         Optics.SZ_HM5_PRECISION_HYBRID_OPTIC.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
+        Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
+        Muzzles.COLOSSUS_SUPPRESSOR_L.value,
+        Muzzles.NILSOUND_90.value,
+        Muzzles.FTAC_DREADNOUGHT.value,
+        Muzzles.FTAC_REAPER.value,
+        Muzzles.BRUEN_AGENT_90.value,
+        Muzzles.TALON_SIXTEEN.value,
+        Muzzles.EXF_RELENTLESS_40.value,
+        Muzzles.STER45_SKYFURY_COMPENSATOR_L.value,
+        Muzzles.T4LR_SABER_COMPENSATOR_L.value,
+        Muzzles.EX01_MATCH_COMPENSATOR_L.value,
+        Muzzles.CASUS_BREAK_L.value,
+        Muzzles.JAK_BFB.value,
+        Muzzles.BVM_338.value,
+        Muzzles.CRONEN_DM338.value,
+        Muzzles.SHRED_CP90.value,
+        Muzzles.XRK_KRAKEN.value,
+        Muzzles.TA_CG76.value,
+        Muzzles.AP_390_FLASH_HIDER.value,
+        Muzzles.PORTED_DZ38.value,
+        Muzzles.DARK_KX50_FLASH_HIDER.value,
+        Muzzles.DEMON_HELIX_T7.value,
+        Muzzles.SHADOWSTRIKE_SUPPRESSOR_L.value,
+        Muzzles.MONOLITHIC_SUPPRESSOR_L.value,
+        Muzzles.SONIC_SUPPRESSOR_L.value,
+        Muzzles.ELR_BLACKFIRE_COMPENSATOR_L.value,
+        Muzzles.PURIFIER_MUZZLE_BREAK_L.value,
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
     ]
 }
 
@@ -7487,6 +8189,46 @@ weapons_attachment_combos_dict[MarksmanRifles.EBR_14.value] = {
         Optics.FSS_SPECTRE_MICROTHERM.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
+        Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
+        Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
+        Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
+        Muzzles.COLOSSUS_SUPPRESSOR_L.value,
+        Muzzles.BRUEN_HARMONIC_SUPPRESSOR_L.value,
+        Muzzles.HUSHER_65_SILENCER.value,
+        Muzzles.FR_TITAN_SILENCER.value,
+        Muzzles.POLOARFIRE_S.value,
+        Muzzles.ZLR_TALON_5.value,
+        Muzzles.ECHOLINE_GSX.value,
+        Muzzles.ZULU_60.value,
+        Muzzles.KASTOVIA_DX90.value,
+        Muzzles.STER45_SKYFURY_COMPENSATOR_L.value,
+        Muzzles.ELR_BLACKFIRE_COMPENSATOR_L.value,
+        Muzzles.T4LR_SABER_COMPENSATOR_L.value,
+        Muzzles.EX01_MATCH_COMPENSATOR_L.value,
+        Muzzles.T51R_BILLETED_BREAK_L.value,
+        Muzzles.PURIFIER_MUZZLE_BREAK_L.value,
+        Muzzles.CASUS_BREAK_L.value,
+        Muzzles.JAK_BFB.value,
+        Muzzles.TEMPUS_GH50.value,
+        Muzzles.TY_LR8.value,
+        Muzzles.LOCKSHOT_KT85.value,
+        Muzzles.SA_LEVELER_55.value,
+        Muzzles.BORE_490.value,
+        Muzzles.SAKIN_TREAD_40.value,
+        Muzzles.L4R_FLASH_HIDER.value,
+        Muzzles.EIGHT_POINT_FLASH_HIDER.value,
+        Muzzles.TZL_90_V3.value,
+        Muzzles.CRONEN_DARK_KX30.value,
+        Muzzles.S37C_DL_BREACHER_DEVICE_L.value,
+        Muzzles.GL_CLEAR_BREACH.value,
+        Muzzles.TA_HUL_BREACH_KL.value,
+        Muzzles.MONOLITHIC_SUPPRESSOR_L.value,
+        Muzzles.SONIC_SUPPRESSOR_L.value,
+        Muzzles.WRATHGUARD_COMPENSATOR_L.value,
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
     ]
 }
 
@@ -7575,6 +8317,46 @@ weapons_attachment_combos_dict[MarksmanRifles.SP_R_208.value] = {
         Optics.FSS_SPECTRE_MICROTHERM.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
+        Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
+        Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
+        Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
+        Muzzles.COLOSSUS_SUPPRESSOR_L.value,
+        Muzzles.BRUEN_HARMONIC_SUPPRESSOR_L.value,
+        Muzzles.HUSHER_65_SILENCER.value,
+        Muzzles.FR_TITAN_SILENCER.value,
+        Muzzles.POLOARFIRE_S.value,
+        Muzzles.ZLR_TALON_5.value,
+        Muzzles.ECHOLINE_GSX.value,
+        Muzzles.ZULU_60.value,
+        Muzzles.KASTOVIA_DX90.value,
+        Muzzles.STER45_SKYFURY_COMPENSATOR_L.value,
+        Muzzles.ELR_BLACKFIRE_COMPENSATOR_L.value,
+        Muzzles.T4LR_SABER_COMPENSATOR_L.value,
+        Muzzles.EX01_MATCH_COMPENSATOR_L.value,
+        Muzzles.T51R_BILLETED_BREAK_L.value,
+        Muzzles.PURIFIER_MUZZLE_BREAK_L.value,
+        Muzzles.CASUS_BREAK_L.value,
+        Muzzles.JAK_BFB.value,
+        Muzzles.TEMPUS_GH50.value,
+        Muzzles.TY_LR8.value,
+        Muzzles.LOCKSHOT_KT85.value,
+        Muzzles.SA_LEVELER_55.value,
+        Muzzles.BORE_490.value,
+        Muzzles.SAKIN_TREAD_40.value,
+        Muzzles.L4R_FLASH_HIDER.value,
+        Muzzles.EIGHT_POINT_FLASH_HIDER.value,
+        Muzzles.TZL_90_V3.value,
+        Muzzles.CRONEN_DARK_KX30.value,
+        Muzzles.S37C_DL_BREACHER_DEVICE_L.value,
+        Muzzles.GL_CLEAR_BREACH.value,
+        Muzzles.TA_HUL_BREACH_KL.value,
+        Muzzles.MONOLITHIC_SUPPRESSOR_L.value,
+        Muzzles.SONIC_SUPPRESSOR_L.value,
+        Muzzles.WRATHGUARD_COMPENSATOR_L.value,
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
     ]
 }
 
@@ -7662,6 +8444,37 @@ weapons_attachment_combos_dict[MarksmanRifles.LOCKWOOD_MK2.value] = {
         Optics.FSS_SPECTRE_MICROTHERM.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
+        Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
+        Muzzles.COLOSSUS_SUPPRESSOR_L.value,
+        Muzzles.NILSOUND_90.value,
+        Muzzles.FTAC_DREADNOUGHT.value,
+        Muzzles.FTAC_REAPER.value,
+        Muzzles.BRUEN_AGENT_90.value,
+        Muzzles.TALON_SIXTEEN.value,
+        Muzzles.EXF_RELENTLESS_40.value,
+        Muzzles.STER45_SKYFURY_COMPENSATOR_L.value,
+        Muzzles.T4LR_SABER_COMPENSATOR_L.value,
+        Muzzles.EX01_MATCH_COMPENSATOR_L.value,
+        Muzzles.CASUS_BREAK_L.value,
+        Muzzles.JAK_BFB.value,
+        Muzzles.BVM_338.value,
+        Muzzles.CRONEN_DM338.value,
+        Muzzles.SHRED_CP90.value,
+        Muzzles.XRK_KRAKEN.value,
+        Muzzles.TA_CG76.value,
+        Muzzles.AP_390_FLASH_HIDER.value,
+        Muzzles.PORTED_DZ38.value,
+        Muzzles.DARK_KX50_FLASH_HIDER.value,
+        Muzzles.DEMON_HELIX_T7.value,
+        Muzzles.SHADOWSTRIKE_SUPPRESSOR_L.value,
+        Muzzles.MONOLITHIC_SUPPRESSOR_L.value,
+        Muzzles.SONIC_SUPPRESSOR_L.value,
+        Muzzles.ELR_BLACKFIRE_COMPENSATOR_L.value,
+        Muzzles.PURIFIER_MUZZLE_BREAK_L.value,
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
     ]
 }
 
@@ -7751,6 +8564,46 @@ weapons_attachment_combos_dict[MarksmanRifles.TEMPUS_TORRENT.value] = {
         Optics.FSS_SPECTRE_MICROTHERM.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
+        Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
+        Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
+        Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
+        Muzzles.COLOSSUS_SUPPRESSOR_L.value,
+        Muzzles.BRUEN_HARMONIC_SUPPRESSOR_L.value,
+        Muzzles.HUSHER_65_SILENCER.value,
+        Muzzles.FR_TITAN_SILENCER.value,
+        Muzzles.POLOARFIRE_S.value,
+        Muzzles.ZLR_TALON_5.value,
+        Muzzles.ECHOLINE_GSX.value,
+        Muzzles.ZULU_60.value,
+        Muzzles.KASTOVIA_DX90.value,
+        Muzzles.STER45_SKYFURY_COMPENSATOR_L.value,
+        Muzzles.ELR_BLACKFIRE_COMPENSATOR_L.value,
+        Muzzles.T4LR_SABER_COMPENSATOR_L.value,
+        Muzzles.EX01_MATCH_COMPENSATOR_L.value,
+        Muzzles.T51R_BILLETED_BREAK_L.value,
+        Muzzles.PURIFIER_MUZZLE_BREAK_L.value,
+        Muzzles.CASUS_BREAK_L.value,
+        Muzzles.JAK_BFB.value,
+        Muzzles.TEMPUS_GH50.value,
+        Muzzles.TY_LR8.value,
+        Muzzles.LOCKSHOT_KT85.value,
+        Muzzles.SA_LEVELER_55.value,
+        Muzzles.BORE_490.value,
+        Muzzles.SAKIN_TREAD_40.value,
+        Muzzles.L4R_FLASH_HIDER.value,
+        Muzzles.EIGHT_POINT_FLASH_HIDER.value,
+        Muzzles.TZL_90_V3.value,
+        Muzzles.CRONEN_DARK_KX30.value,
+        Muzzles.S37C_DL_BREACHER_DEVICE_L.value,
+        Muzzles.GL_CLEAR_BREACH.value,
+        Muzzles.TA_HUL_BREACH_KL.value,
+        Muzzles.MONOLITHIC_SUPPRESSOR_L.value,
+        Muzzles.SONIC_SUPPRESSOR_L.value,
+        Muzzles.WRATHGUARD_COMPENSATOR_L.value,
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
     ]
 }
 
@@ -7838,7 +8691,8 @@ weapons_attachment_combos_dict[MarksmanRifles.CROSSBOW.value] = {
         Optics.FSS_SPECTRE_MICROTHERM.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,
-    ]
+    ],
+    "Muzzles": None,
 }
 
 weapons_attachment_combos_dict[MarksmanRifles.LM_S.value] = {
@@ -7926,6 +8780,46 @@ weapons_attachment_combos_dict[MarksmanRifles.LM_S.value] = {
         Optics.FSS_SPECTRE_MICROTHERM.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
+        Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
+        Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
+        Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
+        Muzzles.COLOSSUS_SUPPRESSOR_L.value,
+        Muzzles.BRUEN_HARMONIC_SUPPRESSOR_L.value,
+        Muzzles.HUSHER_65_SILENCER.value,
+        Muzzles.FR_TITAN_SILENCER.value,
+        Muzzles.POLOARFIRE_S.value,
+        Muzzles.ZLR_TALON_5.value,
+        Muzzles.ECHOLINE_GSX.value,
+        Muzzles.ZULU_60.value,
+        Muzzles.KASTOVIA_DX90.value,
+        Muzzles.STER45_SKYFURY_COMPENSATOR_L.value,
+        Muzzles.ELR_BLACKFIRE_COMPENSATOR_L.value,
+        Muzzles.T4LR_SABER_COMPENSATOR_L.value,
+        Muzzles.EX01_MATCH_COMPENSATOR_L.value,
+        Muzzles.T51R_BILLETED_BREAK_L.value,
+        Muzzles.PURIFIER_MUZZLE_BREAK_L.value,
+        Muzzles.CASUS_BREAK_L.value,
+        Muzzles.JAK_BFB.value,
+        Muzzles.TEMPUS_GH50.value,
+        Muzzles.TY_LR8.value,
+        Muzzles.LOCKSHOT_KT85.value,
+        Muzzles.SA_LEVELER_55.value,
+        Muzzles.BORE_490.value,
+        Muzzles.SAKIN_TREAD_40.value,
+        Muzzles.L4R_FLASH_HIDER.value,
+        Muzzles.EIGHT_POINT_FLASH_HIDER.value,
+        Muzzles.TZL_90_V3.value,
+        Muzzles.CRONEN_DARK_KX30.value,
+        Muzzles.S37C_DL_BREACHER_DEVICE_L.value,
+        Muzzles.GL_CLEAR_BREACH.value,
+        Muzzles.TA_HUL_BREACH_KL.value,
+        Muzzles.MONOLITHIC_SUPPRESSOR_L.value,
+        Muzzles.SONIC_SUPPRESSOR_L.value,
+        Muzzles.WRATHGUARD_COMPENSATOR_L.value,
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
     ]
 }
 
@@ -8014,6 +8908,46 @@ weapons_attachment_combos_dict[MarksmanRifles.SA_B_50.value] = {
         Optics.FSS_SPECTRE_MICROTHERM.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
+        Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
+        Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
+        Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
+        Muzzles.COLOSSUS_SUPPRESSOR_L.value,
+        Muzzles.BRUEN_HARMONIC_SUPPRESSOR_L.value,
+        Muzzles.HUSHER_65_SILENCER.value,
+        Muzzles.FR_TITAN_SILENCER.value,
+        Muzzles.POLOARFIRE_S.value,
+        Muzzles.ZLR_TALON_5.value,
+        Muzzles.ECHOLINE_GSX.value,
+        Muzzles.ZULU_60.value,
+        Muzzles.KASTOVIA_DX90.value,
+        Muzzles.STER45_SKYFURY_COMPENSATOR_L.value,
+        Muzzles.ELR_BLACKFIRE_COMPENSATOR_L.value,
+        Muzzles.T4LR_SABER_COMPENSATOR_L.value,
+        Muzzles.EX01_MATCH_COMPENSATOR_L.value,
+        Muzzles.T51R_BILLETED_BREAK_L.value,
+        Muzzles.PURIFIER_MUZZLE_BREAK_L.value,
+        Muzzles.CASUS_BREAK_L.value,
+        Muzzles.JAK_BFB.value,
+        Muzzles.TEMPUS_GH50.value,
+        Muzzles.TY_LR8.value,
+        Muzzles.LOCKSHOT_KT85.value,
+        Muzzles.SA_LEVELER_55.value,
+        Muzzles.BORE_490.value,
+        Muzzles.SAKIN_TREAD_40.value,
+        Muzzles.L4R_FLASH_HIDER.value,
+        Muzzles.EIGHT_POINT_FLASH_HIDER.value,
+        Muzzles.TZL_90_V3.value,
+        Muzzles.CRONEN_DARK_KX30.value,
+        Muzzles.S37C_DL_BREACHER_DEVICE_L.value,
+        Muzzles.GL_CLEAR_BREACH.value,
+        Muzzles.TA_HUL_BREACH_KL.value,
+        Muzzles.MONOLITHIC_SUPPRESSOR_L.value,
+        Muzzles.SONIC_SUPPRESSOR_L.value,
+        Muzzles.WRATHGUARD_COMPENSATOR_L.value,
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
     ]
 }
 
@@ -8102,8 +9036,52 @@ weapons_attachment_combos_dict[MarksmanRifles.TAQ_M.value] = {
         Optics.FSS_SPECTRE_MICROTHERM.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
+        Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
+        Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
+        Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
+        Muzzles.COLOSSUS_SUPPRESSOR_L.value,
+        Muzzles.BRUEN_HARMONIC_SUPPRESSOR_L.value,
+        Muzzles.HUSHER_65_SILENCER.value,
+        Muzzles.FR_TITAN_SILENCER.value,
+        Muzzles.POLOARFIRE_S.value,
+        Muzzles.ZLR_TALON_5.value,
+        Muzzles.ECHOLINE_GSX.value,
+        Muzzles.ZULU_60.value,
+        Muzzles.KASTOVIA_DX90.value,
+        Muzzles.STER45_SKYFURY_COMPENSATOR_L.value,
+        Muzzles.ELR_BLACKFIRE_COMPENSATOR_L.value,
+        Muzzles.T4LR_SABER_COMPENSATOR_L.value,
+        Muzzles.EX01_MATCH_COMPENSATOR_L.value,
+        Muzzles.T51R_BILLETED_BREAK_L.value,
+        Muzzles.PURIFIER_MUZZLE_BREAK_L.value,
+        Muzzles.CASUS_BREAK_L.value,
+        Muzzles.JAK_BFB.value,
+        Muzzles.TEMPUS_GH50.value,
+        Muzzles.TY_LR8.value,
+        Muzzles.LOCKSHOT_KT85.value,
+        Muzzles.SA_LEVELER_55.value,
+        Muzzles.BORE_490.value,
+        Muzzles.SAKIN_TREAD_40.value,
+        Muzzles.L4R_FLASH_HIDER.value,
+        Muzzles.EIGHT_POINT_FLASH_HIDER.value,
+        Muzzles.TZL_90_V3.value,
+        Muzzles.CRONEN_DARK_KX30.value,
+        Muzzles.S37C_DL_BREACHER_DEVICE_L.value,
+        Muzzles.GL_CLEAR_BREACH.value,
+        Muzzles.TA_HUL_BREACH_KL.value,
+        Muzzles.MONOLITHIC_SUPPRESSOR_L.value,
+        Muzzles.SONIC_SUPPRESSOR_L.value,
+        Muzzles.WRATHGUARD_COMPENSATOR_L.value,
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
     ]
 }
+
+#====================================================================================================================================================#
+#====================================================================  Sniper Rifles  ===============================================================#
+#====================================================================================================================================================#
 
 weapons_attachment_combos_dict[SniperRifles.XRK_STALKER.value] = {
     "Optics": [
@@ -8181,6 +9159,9 @@ weapons_attachment_combos_dict[SniperRifles.XRK_STALKER.value] = {
         Optics.TPS_INCENDIO_REFLEX.value,
         Optics.SZ_HM5_PRECISION_HYBRID_OPTIC.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
     ]
 }
 
@@ -8244,6 +9225,9 @@ weapons_attachment_combos_dict[SniperRifles.KATT_AMR.value] = {
         Optics.TPS_INCENDIO_REFLEX.value,
         Optics.SZ_HM5_PRECISION_HYBRID_OPTIC.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
     ]
 }
 
@@ -8339,6 +9323,9 @@ weapons_attachment_combos_dict[SniperRifles.LONGBOW.value] = {
         Optics.SZ_HM5_PRECISION_HYBRID_OPTIC.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
     ]
 }
 
@@ -8403,6 +9390,9 @@ weapons_attachment_combos_dict[SniperRifles.KV_INHIBITOR.value] = {
         Optics.TPS_INCENDIO_REFLEX.value,
         Optics.SZ_HM5_PRECISION_HYBRID_OPTIC.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
     ]
 }
 
@@ -8467,6 +9457,9 @@ weapons_attachment_combos_dict[SniperRifles.MCPR_300.value] = {
         Optics.TPS_INCENDIO_REFLEX.value,
         Optics.SZ_HM5_PRECISION_HYBRID_OPTIC.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
     ]
 }
 
@@ -8551,6 +9544,9 @@ weapons_attachment_combos_dict[SniperRifles.SIGNAL_50.value] = {
         Optics.TPS_INCENDIO_REFLEX.value,
         Optics.SZ_HM5_PRECISION_HYBRID_OPTIC.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
     ]
 }
 
@@ -8623,6 +9619,9 @@ weapons_attachment_combos_dict[SniperRifles.VICTUS_XMR.value] = {
         Optics.TPS_INCENDIO_REFLEX.value,
         Optics.SZ_HM5_PRECISION_HYBRID_OPTIC.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
     ]
 }
 
@@ -8687,6 +9686,9 @@ weapons_attachment_combos_dict[SniperRifles.FJX_IMPERIUM.value] = {
         Optics.TPS_INCENDIO_REFLEX.value,
         Optics.SZ_HM5_PRECISION_HYBRID_OPTIC.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
     ]
 }
 
@@ -8751,6 +9753,9 @@ weapons_attachment_combos_dict[SniperRifles.CARRACK_300.value] = {
         Optics.TPS_INCENDIO_REFLEX.value,
         Optics.SZ_HM5_PRECISION_HYBRID_OPTIC.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
     ]
 }
 
@@ -8815,6 +9820,9 @@ weapons_attachment_combos_dict[SniperRifles.LA_B_330.value] = {
         Optics.TPS_INCENDIO_REFLEX.value,
         Optics.SZ_HM5_PRECISION_HYBRID_OPTIC.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
     ]
 }
 
@@ -8879,11 +9887,15 @@ weapons_attachment_combos_dict[SniperRifles.SP_X_80.value] = {
         Optics.TPS_INCENDIO_REFLEX.value,
         Optics.SZ_HM5_PRECISION_HYBRID_OPTIC.value,
         Optics.INTLAS_CAS_14.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
     ]
 }
 
 weapons_attachment_combos_dict[MeleePrimary.RIOT_SHIELD.value] = {
-    "Optics": None
+    "Optics": None,
+    "Muzzles": None,
 }
 
 weapons_attachment_combos_dict[HandGuns.COR_45.value] = {
@@ -8898,6 +9910,9 @@ weapons_attachment_combos_dict[HandGuns.COR_45.value] = {
         Optics.SZ_MINITAC_40.value,
         Optics.XTEN_ERX_10_MINI.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
     ]
 }
 
@@ -8911,6 +9926,9 @@ weapons_attachment_combos_dict[HandGuns.RENETTI.value] = {
         Optics.CRONEN_MINI_PRO.value,
         Optics.SZ_SIGMA_IV_OPTIC.value,
         Optics.SZ_MINITAC_40.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
     ]
 }
 
@@ -8950,11 +9968,15 @@ weapons_attachment_combos_dict[HandGuns.TYR.value] = {
         Optics.LUCA_BANDERA_SCOPE.value,
         Optics.DS_FARSIGHT_11.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
     ]
 }
 
 weapons_attachment_combos_dict[HandGuns.WSP_STINGER.value] = {
-    "Optics": None
+    "Optics": None,
+    "Muzzles": None,
 }
 
 weapons_attachment_combos_dict[HandGuns.TYR.value] = {
@@ -8993,6 +10015,9 @@ weapons_attachment_combos_dict[HandGuns.TYR.value] = {
         Optics.LUCA_BANDERA_SCOPE.value,
         Optics.DS_FARSIGHT_11.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
     ]
 }
 
@@ -9008,6 +10033,9 @@ weapons_attachment_combos_dict[HandGuns.P890.value] = {
         Optics.SZ_MINITAC_40.value,
         Optics.FSS_SPECTRE_MICROTHERM.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
     ]
 }
 
@@ -9039,6 +10067,9 @@ weapons_attachment_combos_dict[HandGuns.GS_50.value] = {
         Optics.SZ_HOLOTHERM.value,
         Optics.XTEN_ANGEL_40.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
     ]
 }
 
@@ -9053,6 +10084,9 @@ weapons_attachment_combos_dict[HandGuns.X12.value] = {
         Optics.SZ_SIGMA_IV_OPTIC.value,
         Optics.SZ_MINITAC_40.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
     ]
 }
 
@@ -9091,6 +10125,9 @@ weapons_attachment_combos_dict[HandGuns.BASILISK.value] = {
         Optics.FSS_SPECTRE_MICROTHERM.value,
         Optics.NYDAR_MODEL_2023.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
     ]
 }
 
@@ -9109,6 +10146,9 @@ weapons_attachment_combos_dict[HandGuns.FTAC_SIEGE.value] = {
         Optics.CORVUS_SOL_76.value,
         Optics.SZ_RECHARGE_DX.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
     ]
 }
 
@@ -9140,6 +10180,9 @@ weapons_attachment_combos_dict[HandGuns.GS_MAGNA.value] = {
         Optics.SZ_HOLOTHERM.value,
         Optics.XTEN_ANGEL_40.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
     ]
 }
 
@@ -9155,6 +10198,9 @@ weapons_attachment_combos_dict[HandGuns.DAEMON_9MM.value] = {
         Optics.SZ_MINITAC_40.value,
         Optics.FSS_SPECTRE_MICROTHERM.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
     ]
 }
 
@@ -9184,57 +10230,73 @@ weapons_attachment_combos_dict[HandGuns.X13_AUTO.value] = {
         Optics.SZ_HOLOTHERM.value,
         Optics.XTEN_ANGEL_40.value,
         Optics.CRONEN_INTLAS_MSP_12.value,
+    ],
+    "Muzzles": [
+        Muzzles.NO_MODIFICATIONS.value,
     ]
 }
 
 weapons_attachment_combos_dict[Launchers.STORMENDER.value] = {
-    "Optics": None
+    "Optics": None,
+    "Muzzles": None,
 }
 
 weapons_attachment_combos_dict[Launchers.RGL_80.value] = {
-    "Optics": None
+    "Optics": None,
+    "Muzzles": None,
 }
 
 weapons_attachment_combos_dict[Launchers.PILA.value] = {
-    "Optics": None
+    "Optics": None,
+    "Muzzles": None,
 }
 
 weapons_attachment_combos_dict[Launchers.JOKR.value] = {
-    "Optics": None
+    "Optics": None,
+    "Muzzles": None,
 }
 
 weapons_attachment_combos_dict[Launchers.RPG_7.value] = {
-    "Optics": None
+    "Optics": None,
+    "Muzzles": None,
 }
 
 weapons_attachment_combos_dict[Launchers.STRELA_P.value] = {
-    "Optics": None
+    "Optics": None,
+    "Muzzles": None,
 }
 
 weapons_attachment_combos_dict[MeleeSecondary.GUTTER_KNIFE.value] = {
-    "Optics": None
+    "Optics": None,
+    "Muzzles": None,
 }
 
 weapons_attachment_combos_dict[MeleeSecondary.KARAMBIT.value] = {
-    "Optics": None
+    "Optics": None,
+    "Muzzles": None,
 }
 
 weapons_attachment_combos_dict[MeleeSecondary.TONFA.value] = {
-    "Optics": None
+    "Optics": None,
+    "Muzzles": None,
 }
 
 weapons_attachment_combos_dict[MeleeSecondary.COMBAT_KNIFE.value] = {
-    "Optics": None
+    "Optics": None,
+    "Muzzles": None,
 }
 
 weapons_attachment_combos_dict[MeleeSecondary.DUAL_KODACHIS.value] = {
-    "Optics": None
+    "Optics": None,
+    "Muzzles": None,
 }
 
 weapons_attachment_combos_dict[MeleeSecondary.DUAL_KAMAS.value] = {
-    "Optics": None
+    "Optics": None,
+    "Muzzles": None,
 }
 
 weapons_attachment_combos_dict[MeleeSecondary.PICKAXE.value] = {
-    "Optics": None
+    "Optics": None,
+    "Muzzles": None,
 }
