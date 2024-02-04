@@ -463,6 +463,10 @@ class Underbarrels(Enum):
     # added for TEMPUS RAZORBACK Assault Rifle
     DM_PROTO_GRIP = "DM PROTO-GRIP"
 
+    # added for WSP SWARM
+    WSP_VENOM_GRIP = "WSP VENOM GRIP"
+    WSP_LIBERATOR_INTEGRATED_FOREGRIP = "WSP LIBERATOR INTEGRATED FOREGRIP"
+
 # class Attachments(Enum):
 #     MUZZLES = Muzzles
 #     BARRELS = Barrels
