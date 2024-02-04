@@ -386,7 +386,8 @@ class TriggerActions(Enum):
     pass
 
 class Underbarrels(Enum):
-    # added for SVA 545 Assault Rifle
+    # added for SVA 545 Assault 
+    NO_MODIFICATIONS = "NO MODIFICATIONS"
     JAK_PURIFIER = "JAK PURIFIER"
     XRK_EDGE_BW_4_HANDSTOP = "XRK EDGE BW-4 HANDSTOP"
     FTAC_MSP_98_HANDSTOP = "FTAC MSP-98 HANDSTOP"
@@ -439,6 +440,28 @@ class Underbarrels(Enum):
     FTAC_SP_10_ANGLED_GRIP = "FTAC SP-10 ANGLED GRIP"
     KIMURA_SERAPHIC_VERTICAL_GRIP = "KIMURA SERAPHIC VERTICAL GRIP"
     CORVUS_TORCH = "CORVUS TORCH"
+
+    # added for RAM-7 Assault Rifle
+    SPW_40MM_HE = "SPW 40MM HE"
+    SPW_40MM_DRILL = "SPW 40MM DRILL"
+    
+    # added for DG-56 Assault Rifle
+    TTL_GS_40 = "TTL-GS 40"
+
+    # added for FR AVANCER Assault Rifle
+    FR_AVANCER_BIPOD = "FR AVANCER BIPOD"
+    TL40_FIRE_DRAKE = "TL40 FIRE DRAKE"
+    TL40_DRILL = "TL40 DRILL"
+
+    # added for TAQ-56 Assault Rifle
+    HELLSCREAM_40MM = "HELLSCREAM 40MM"
+    HELLSCREAM_40MM_DRILL = "HELLSCREAM 40MM DRILL"
+
+    # added for KASTOV762 Assault Rifle
+    KL40_M2_DRILL = "KL40-M2 DRILL"
+
+    # added for TEMPUS RAZORBACK Assault Rifle
+    DM_PROTO_GRIP = "DM PROTO-GRIP"
 
 # class Attachments(Enum):
 #     MUZZLES = Muzzles

@@ -100,6 +100,9 @@ armory_unlocks = {
             Optics.CRONEN_INTLAS_MSP_12.value,
             Optics.INTLAS_CAS_14.value,
         ],
+        "Underbarrels": [
+            Underbarrels.JAK_PURIFIER.value,
+        ],
         "Stocks": [
             "MCW FULL AUTO CONVERTER",
             "WSP AKIMBO BRACE STOCK"
