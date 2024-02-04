@@ -1,8 +1,10 @@
 """
 This file includes a dictionary for every weapon and the weapon's available attachements.
 """
-# underbarrel locked but available
+# underbarrel locked but available with certain attachments
 #  lockwood mk2 marksman rifle
+#  cor 45 handgun
+#  X13 auto handgun
 
 from AttachmentEnums import (
     Optics,
@@ -216,6 +218,7 @@ weapons_attachment_combos_dict[AssaultRifles.SVA_545.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
         Underbarrels.CORVUS_TORCH.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[AssaultRifles.RAM_7.value] = {
@@ -395,6 +398,7 @@ weapons_attachment_combos_dict[AssaultRifles.RAM_7.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
         Underbarrels.CORVUS_TORCH.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[AssaultRifles.MTZ_556.value] = {
@@ -574,6 +578,7 @@ weapons_attachment_combos_dict[AssaultRifles.MTZ_556.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
         Underbarrels.CORVUS_TORCH.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[AssaultRifles.HOLGER_556.value] = {
@@ -753,6 +758,7 @@ weapons_attachment_combos_dict[AssaultRifles.HOLGER_556.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
         Underbarrels.CORVUS_TORCH.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[AssaultRifles.MCW.value] = {
@@ -932,6 +938,7 @@ weapons_attachment_combos_dict[AssaultRifles.MCW.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
         Underbarrels.CORVUS_TORCH.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[AssaultRifles.DG_56.value] = {
@@ -1108,6 +1115,7 @@ weapons_attachment_combos_dict[AssaultRifles.DG_56.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
         Underbarrels.CORVUS_TORCH.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[AssaultRifles.FR_556.value] = {
@@ -1279,6 +1287,7 @@ weapons_attachment_combos_dict[AssaultRifles.FR_556.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
         Underbarrels.TL40_DRILL.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[AssaultRifles.TAQ_56.value] = {
@@ -1457,6 +1466,7 @@ weapons_attachment_combos_dict[AssaultRifles.TAQ_56.value] = {
         Underbarrels.HELLSCREAM_40MM_DRILL.value,
         Underbarrels.CORVUS_TORCH.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[AssaultRifles.M4.value] = {
@@ -1634,6 +1644,7 @@ weapons_attachment_combos_dict[AssaultRifles.M4.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
         Underbarrels.CORVUS_TORCH.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[AssaultRifles.STB_556.value] = {
@@ -1811,6 +1822,7 @@ weapons_attachment_combos_dict[AssaultRifles.STB_556.value] = {
         Underbarrels.CORNERSTONE_BIPOD.value,
         Underbarrels.XTEN_STABLE_SHOT.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[AssaultRifles.KASTOV_762.value] = {
@@ -1985,6 +1997,7 @@ weapons_attachment_combos_dict[AssaultRifles.KASTOV_762.value] = {
         Underbarrels.KL40_M2_DRILL.value,
         Underbarrels.CORVUS_TORCH.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[AssaultRifles.M13B.value] = {
@@ -2163,6 +2176,7 @@ weapons_attachment_combos_dict[AssaultRifles.M13B.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
         Underbarrels.CORVUS_TORCH.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[AssaultRifles.CHIMERA.value] = {
@@ -2291,6 +2305,7 @@ weapons_attachment_combos_dict[AssaultRifles.CHIMERA.value] = {
         Underbarrels.FTAC_SP_10_ANGLED_GRIP.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[AssaultRifles.ISO_HEMLOCK.value] = {
@@ -2469,6 +2484,7 @@ weapons_attachment_combos_dict[AssaultRifles.ISO_HEMLOCK.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
         Underbarrels.CORVUS_TORCH.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[AssaultRifles.TEMPUS_RAZORBACK.value] = {
@@ -2644,6 +2660,7 @@ weapons_attachment_combos_dict[AssaultRifles.TEMPUS_RAZORBACK.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
         Underbarrels.TL40_DRILL.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[AssaultRifles.FR_AVANCER.value] = {
@@ -2809,6 +2826,7 @@ weapons_attachment_combos_dict[AssaultRifles.FR_AVANCER.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
         Underbarrels.TL40_DRILL.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[AssaultRifles.M13C.value] = {
@@ -2987,6 +3005,7 @@ weapons_attachment_combos_dict[AssaultRifles.M13C.value] = {
         Underbarrels.CORVUS_MASTERKEY.value,
         Underbarrels.CORVUS_TORCH.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[AssaultRifles.LACHMAN_556.value] = {
@@ -3162,6 +3181,7 @@ weapons_attachment_combos_dict[AssaultRifles.LACHMAN_556.value] = {
         Underbarrels.TL40_DRILL.value,
         Underbarrels.CORVUS_TORCH.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[AssaultRifles.M16.value] = {
@@ -3336,6 +3356,7 @@ weapons_attachment_combos_dict[AssaultRifles.M16.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
         Underbarrels.CORVUS_TORCH.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[AssaultRifles.KASTOV_74U.value] = {
@@ -3494,6 +3515,7 @@ weapons_attachment_combos_dict[AssaultRifles.KASTOV_74U.value] = {
         Underbarrels.FTAC_SP_10_ANGLED_GRIP.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[AssaultRifles.KASTOV_545.value] = {
@@ -3671,6 +3693,7 @@ weapons_attachment_combos_dict[AssaultRifles.KASTOV_545.value] = {
         Underbarrels.KL40_M2_DRILL.value,
         Underbarrels.CORVUS_TORCH.value,
     ],
+    "CarryHandles": [],
 }
 
 #========================================================================================================================================================#
@@ -3853,6 +3876,7 @@ weapons_attachment_combos_dict[BattleRifles.BAS_B.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
         Underbarrels.CORVUS_TORCH.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[BattleRifles.SIDEWINDER.value] = {
@@ -4030,6 +4054,7 @@ weapons_attachment_combos_dict[BattleRifles.SIDEWINDER.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
         Underbarrels.CORVUS_TORCH.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[BattleRifles.MTZ_762.value] = {
@@ -4207,6 +4232,7 @@ weapons_attachment_combos_dict[BattleRifles.MTZ_762.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
         Underbarrels.CORVUS_TORCH.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[BattleRifles.LACHMAN_762.value] = {
@@ -4378,6 +4404,7 @@ weapons_attachment_combos_dict[BattleRifles.LACHMAN_762.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
         Underbarrels.TL40_DRILL.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[BattleRifles.CRONEN_SQUALL.value] = {
@@ -4553,6 +4580,7 @@ weapons_attachment_combos_dict[BattleRifles.CRONEN_SQUALL.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
         Underbarrels.CORVUS_TORCH.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[BattleRifles.FTAC_RECON.value] = {
@@ -4717,6 +4745,7 @@ weapons_attachment_combos_dict[BattleRifles.FTAC_RECON.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
         Underbarrels.CORVUS_TORCH.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[BattleRifles.TAQ_V.value] = {
@@ -4892,6 +4921,7 @@ weapons_attachment_combos_dict[BattleRifles.TAQ_V.value] = {
         Underbarrels.HELLSCREAM_40MM_DRILL.value,
         Underbarrels.CORVUS_TORCH.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[BattleRifles.SO_14.value] = {
@@ -5062,6 +5092,7 @@ weapons_attachment_combos_dict[BattleRifles.SO_14.value] = {
         Underbarrels.FTAC_SP_10_ANGLED_GRIP.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 #====================================================================================================================================================#
@@ -5220,6 +5251,7 @@ weapons_attachment_combos_dict[SMGS.STRIKER.value] = {
         Underbarrels.BRUEN_WARRIOR_GRIP.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[SMGS.WSP_SWARM.value] = {
@@ -5376,6 +5408,7 @@ weapons_attachment_combos_dict[SMGS.WSP_SWARM.value] = {
         Underbarrels.WSP_LIBERATOR_INTEGRATED_FOREGRIP.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[SMGS.AMR9.value] = {
@@ -5531,6 +5564,7 @@ weapons_attachment_combos_dict[SMGS.AMR9.value] = {
         Underbarrels.BRUEN_WARRIOR_GRIP.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[SMGS.WSP_9.value] = {
@@ -5676,6 +5710,7 @@ weapons_attachment_combos_dict[SMGS.WSP_9.value] = {
         Underbarrels.BRUEN_WARRIOR_GRIP.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[SMGS.RIVAL_9.value] = {
@@ -5830,6 +5865,7 @@ weapons_attachment_combos_dict[SMGS.RIVAL_9.value] = {
         Underbarrels.BRUEN_WARRIOR_GRIP.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[SMGS.STRIKER_9.value] = {
@@ -5984,6 +6020,7 @@ weapons_attachment_combos_dict[SMGS.STRIKER_9.value] = {
         Underbarrels.BRUEN_WARRIOR_GRIP.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[SMGS.LACHMANN_SHROUD.value] = {
@@ -6090,6 +6127,7 @@ weapons_attachment_combos_dict[SMGS.LACHMANN_SHROUD.value] = {
         Underbarrels.BRUEN_WARRIOR_GRIP.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[SMGS.ISO_9MM.value] = {
@@ -6238,6 +6276,7 @@ weapons_attachment_combos_dict[SMGS.ISO_9MM.value] = {
         Underbarrels.PHASE_3_GRIP.value,
         Underbarrels.BRUEN_HEAVY_SUPPORT_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[SMGS.PDSW_528.value] = {
@@ -6347,6 +6386,7 @@ weapons_attachment_combos_dict[SMGS.PDSW_528.value] = {
         Muzzles.L4R_FLASH_HIDER.value
     ],
     "Underbarrels": [],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[SMGS.VEL_46.value] = {
@@ -6500,6 +6540,7 @@ weapons_attachment_combos_dict[SMGS.VEL_46.value] = {
         Underbarrels.BRUEN_WARRIOR_GRIP.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[SMGS.FENNEC_45.value] = {
@@ -6647,6 +6688,7 @@ weapons_attachment_combos_dict[SMGS.FENNEC_45.value] = {
         Underbarrels.BRUEN_WARRIOR_GRIP.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[SMGS.BAS_P.value] = {
@@ -6795,6 +6837,7 @@ weapons_attachment_combos_dict[SMGS.BAS_P.value] = {
         Underbarrels.BRUEN_WARRIOR_GRIP.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[SMGS.ISO_45.value] = {
@@ -6948,6 +6991,7 @@ weapons_attachment_combos_dict[SMGS.ISO_45.value] = {
         Underbarrels.BRUEN_WARRIOR_GRIP.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[SMGS.LACHMANN_SUB.value] = {
@@ -7091,6 +7135,7 @@ weapons_attachment_combos_dict[SMGS.LACHMANN_SUB.value] = {
         Underbarrels.BRUEN_WARRIOR_GRIP.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[SMGS.FSS_HURRICANE.value] = {
@@ -7203,6 +7248,7 @@ weapons_attachment_combos_dict[SMGS.FSS_HURRICANE.value] = {
         Underbarrels.BRUEN_WARRIOR_GRIP.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[SMGS.MX9.value] = {
@@ -7313,6 +7359,7 @@ weapons_attachment_combos_dict[SMGS.MX9.value] = {
         Muzzles.L4R_FLASH_HIDER.value,
     ],
     "Underbarrels": [],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[SMGS.MINIBAK.value] = {
@@ -7421,6 +7468,7 @@ weapons_attachment_combos_dict[SMGS.MINIBAK.value] = {
         Muzzles.L4R_FLASH_HIDER.value,
     ],
     "Underbarrels": [],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[SMGS.VAZNEV_9K.value] = {
@@ -7574,6 +7622,7 @@ weapons_attachment_combos_dict[SMGS.VAZNEV_9K.value] = {
         Underbarrels.BRUEN_WARRIOR_GRIP.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 #===============================================================================================================================================#
@@ -7711,6 +7760,7 @@ weapons_attachment_combos_dict[Shotguns.LOCKWOOD_680.value] = {
         Underbarrels.BRUEN_WARRIOR_GRIP.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[Shotguns.HAYMAKER.value] = {
@@ -7844,6 +7894,7 @@ weapons_attachment_combos_dict[Shotguns.HAYMAKER.value] = {
         Underbarrels.BRUEN_WARRIOR_GRIP.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[Shotguns.RIVETER.value] = {
@@ -7981,6 +8032,7 @@ weapons_attachment_combos_dict[Shotguns.RIVETER.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
         Underbarrels.CORVUS_TORCH.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[Shotguns.LOCKWOOD_300.value] = {
@@ -8110,6 +8162,7 @@ weapons_attachment_combos_dict[Shotguns.LOCKWOOD_300.value] = {
         Underbarrels.BRUEN_WARRIOR_GRIP.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[Shotguns.EXPEDITE_12.value] = {
@@ -8248,6 +8301,7 @@ weapons_attachment_combos_dict[Shotguns.EXPEDITE_12.value] = {
         Underbarrels.BRUEN_WARRIOR_GRIP.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[Shotguns.BRYSON_800.value] = {
@@ -8386,6 +8440,7 @@ weapons_attachment_combos_dict[Shotguns.BRYSON_800.value] = {
         Underbarrels.BRUEN_WARRIOR_GRIP.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[Shotguns.KV_BROADSIDE.value] = {
@@ -8533,6 +8588,7 @@ weapons_attachment_combos_dict[Shotguns.KV_BROADSIDE.value] = {
         Underbarrels.KL40_M2_DRILL.value,
         Underbarrels.CORVUS_TORCH.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[Shotguns.MX_GUARDIAN.value] = {
@@ -8648,6 +8704,7 @@ weapons_attachment_combos_dict[Shotguns.MX_GUARDIAN.value] = {
         Underbarrels.BRUEN_WARRIOR_GRIP.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[Shotguns.BRYSON_890.value] = {
@@ -8786,6 +8843,7 @@ weapons_attachment_combos_dict[Shotguns.BRYSON_890.value] = {
         Underbarrels.BRUEN_WARRIOR_GRIP.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 #=======================================================================================================================================================#
@@ -8923,6 +8981,7 @@ weapons_attachment_combos_dict[LMGS.TAQ_EVOLVERE.value] = {
         Underbarrels.BO52_GRIP.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[LMGS.PULEMYOT_762.value] = {
@@ -9071,6 +9130,7 @@ weapons_attachment_combos_dict[LMGS.PULEMYOT_762.value] = {
         Underbarrels.PULEMYOT_BIPOD.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[LMGS.DG_58_LSW.value] = {
@@ -9243,6 +9303,7 @@ weapons_attachment_combos_dict[LMGS.DG_58_LSW.value] = {
         Underbarrels.BO52_GRIP.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[LMGS.BRUEN_MK9.value] = {
@@ -9411,6 +9472,7 @@ weapons_attachment_combos_dict[LMGS.BRUEN_MK9.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
         Underbarrels.BRUEN_MK9_BIPOD.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[LMGS.TAQ_ERADICATOR.value] = {
@@ -9581,6 +9643,7 @@ weapons_attachment_combos_dict[LMGS.TAQ_ERADICATOR.value] = {
         Underbarrels.BO52_GRIP.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[LMGS.HOLGER_26.value] = {
@@ -9755,6 +9818,7 @@ weapons_attachment_combos_dict[LMGS.HOLGER_26.value] = {
         Underbarrels.BO52_GRIP.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[LMGS.SAKIN_MG38.value] = {
@@ -9910,6 +9974,7 @@ weapons_attachment_combos_dict[LMGS.SAKIN_MG38.value] = {
         Underbarrels.SOSHKI.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[LMGS.RAAL_MG.value] = {
@@ -10019,6 +10084,7 @@ weapons_attachment_combos_dict[LMGS.RAAL_MG.value] = {
         Underbarrels.SA_SIDE_GRIP.value,
         Underbarrels.RAAL_BIPOD.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[LMGS.ICARUS_556.value] = {
@@ -10174,6 +10240,7 @@ weapons_attachment_combos_dict[LMGS.ICARUS_556.value] = {
         Underbarrels.XTEN_STABLE_SHOT.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[LMGS.RAPP_H.value] = {
@@ -10340,6 +10407,7 @@ weapons_attachment_combos_dict[LMGS.RAPP_H.value] = {
         Underbarrels.BO52_GRIP.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[LMGS.HCR_56.value] = {
@@ -10506,6 +10574,7 @@ weapons_attachment_combos_dict[LMGS.HCR_56.value] = {
         Underbarrels.BRUEN_HEAVY_BIPOD.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[LMGS.RPK.value] = {
@@ -10662,6 +10731,7 @@ weapons_attachment_combos_dict[LMGS.RPK.value] = {
         Underbarrels.RPK_BIPOD.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 #======================================================================================================================================================#
@@ -10845,6 +10915,7 @@ weapons_attachment_combos_dict[MarksmanRifles.KVD_ENFORCER.value] = {
         Underbarrels.XTEN_STABLE_SHOT.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[MarksmanRifles.MCW_68.value] = {
@@ -11016,6 +11087,7 @@ weapons_attachment_combos_dict[MarksmanRifles.MCW_68.value] = {
         Underbarrels.XTEN_STABLE_SHOT.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[MarksmanRifles.DM56.value] = {
@@ -11200,6 +11272,7 @@ weapons_attachment_combos_dict[MarksmanRifles.DM56.value] = {
         Underbarrels.XTEN_STABLE_SHOT.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[MarksmanRifles.MTZ_INTERCEPTOR.value] = {
@@ -11371,6 +11444,7 @@ weapons_attachment_combos_dict[MarksmanRifles.MTZ_INTERCEPTOR.value] = {
         Underbarrels.XTEN_STABLE_SHOT.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[MarksmanRifles.EBR_14.value] = {
@@ -11549,6 +11623,7 @@ weapons_attachment_combos_dict[MarksmanRifles.EBR_14.value] = {
         Underbarrels.XTEN_STABLE_SHOT.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[MarksmanRifles.SP_R_208.value] = {
@@ -11683,6 +11758,7 @@ weapons_attachment_combos_dict[MarksmanRifles.SP_R_208.value] = {
         Underbarrels.CORNERSTONE_BIPOD.value,
         Underbarrels.XTEN_STABLE_SHOT.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[MarksmanRifles.LOCKWOOD_MK2.value] = {
@@ -11802,6 +11878,7 @@ weapons_attachment_combos_dict[MarksmanRifles.LOCKWOOD_MK2.value] = {
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
     ],
     "Underbarrels": [],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[MarksmanRifles.TEMPUS_TORRENT.value] = {
@@ -11984,6 +12061,7 @@ weapons_attachment_combos_dict[MarksmanRifles.TEMPUS_TORRENT.value] = {
         Underbarrels.CORVUS_MASTERKEY.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[MarksmanRifles.CROSSBOW.value] = {
@@ -12119,6 +12197,7 @@ weapons_attachment_combos_dict[MarksmanRifles.CROSSBOW.value] = {
         Underbarrels.CORE_BP2.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[MarksmanRifles.LM_S.value] = {
@@ -12297,6 +12376,7 @@ weapons_attachment_combos_dict[MarksmanRifles.LM_S.value] = {
         Underbarrels.XTEN_STABLE_SHOT.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[MarksmanRifles.SA_B_50.value] = {
@@ -12449,6 +12529,7 @@ weapons_attachment_combos_dict[MarksmanRifles.SA_B_50.value] = {
         Underbarrels.CORNERSTONE_BIPOD.value,
         Underbarrels.XTEN_STABLE_SHOT.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[MarksmanRifles.TAQ_M.value] = {
@@ -12627,6 +12708,7 @@ weapons_attachment_combos_dict[MarksmanRifles.TAQ_M.value] = {
         Underbarrels.XTEN_STABLE_SHOT.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 #====================================================================================================================================================#
@@ -12739,7 +12821,8 @@ weapons_attachment_combos_dict[SniperRifles.XRK_STALKER.value] = {
         Underbarrels.LEVEL_AIM_BIPOD.value,
         Underbarrels.CORNERSTONE_BIPOD.value,
         Underbarrels.XTEN_STABLE_SHOT.value,
-    ]
+    ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[SniperRifles.KATT_AMR.value] = {
@@ -12830,6 +12913,7 @@ weapons_attachment_combos_dict[SniperRifles.KATT_AMR.value] = {
         Muzzles.MAMMOTH_50_SUPPRESSOR.value,
     ],
     "Underbarrels": [],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[SniperRifles.LONGBOW.value] = {
@@ -13014,6 +13098,7 @@ weapons_attachment_combos_dict[SniperRifles.LONGBOW.value] = {
         Underbarrels.XTEN_STABLE_SHOT.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[SniperRifles.KV_INHIBITOR.value] = {
@@ -13157,6 +13242,7 @@ weapons_attachment_combos_dict[SniperRifles.KV_INHIBITOR.value] = {
         Underbarrels.XTEN_STABLE_SHOT.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[SniperRifles.MCPR_300.value] = {
@@ -13257,6 +13343,7 @@ weapons_attachment_combos_dict[SniperRifles.MCPR_300.value] = {
         Underbarrels.CORNERSTONE_BIPOD.value,
         Underbarrels.XTEN_STABLE_SHOT.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[SniperRifles.SIGNAL_50.value] = {
@@ -13411,6 +13498,7 @@ weapons_attachment_combos_dict[SniperRifles.SIGNAL_50.value] = {
         Underbarrels.BRUEN_WARRIOR_GRIP.value,
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[SniperRifles.VICTUS_XMR.value] = {
@@ -13513,6 +13601,7 @@ weapons_attachment_combos_dict[SniperRifles.VICTUS_XMR.value] = {
         Underbarrels.CORNERSTONE_BIPOD.value,
         Underbarrels.XTEN_STABLE_SHOT.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[SniperRifles.FJX_IMPERIUM.value] = {
@@ -13709,6 +13798,7 @@ weapons_attachment_combos_dict[SniperRifles.CARRACK_300.value] = {
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
     ],
     "Underbarrels": [],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[SniperRifles.LA_B_330.value] = {
@@ -13809,6 +13899,7 @@ weapons_attachment_combos_dict[SniperRifles.LA_B_330.value] = {
         Underbarrels.CORNERSTONE_BIPOD.value,
         Underbarrels.XTEN_STABLE_SHOT.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[SniperRifles.SP_X_80.value] = {
@@ -13909,13 +14000,14 @@ weapons_attachment_combos_dict[SniperRifles.SP_X_80.value] = {
         Underbarrels.CORNERSTONE_BIPOD.value,
         Underbarrels.XTEN_STABLE_SHOT.value,
     ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[MeleePrimary.RIOT_SHIELD.value] = {
     "Optics": [],
     "Muzzles": [],
     "Underbarrels": [],
-
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[HandGuns.COR_45.value] = {
@@ -13953,8 +14045,10 @@ weapons_attachment_combos_dict[HandGuns.COR_45.value] = {
         Muzzles.STER45_SKYFURY_COMPENSATOR_XS.value,
         Muzzles.ELR_BLACKFIRE_COMPENSATOR_XS.value,
         Muzzles.VP27_MINI_BRAKE_XS.value,
-        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
-    ]
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
+    ],
+    "Underbarrels": [],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[HandGuns.RENETTI.value] = {
@@ -13990,8 +14084,10 @@ weapons_attachment_combos_dict[HandGuns.RENETTI.value] = {
         Muzzles.STER45_SKYFURY_COMPENSATOR_XS.value,
         Muzzles.ELR_BLACKFIRE_COMPENSATOR_XS.value,
         Muzzles.VP27_MINI_BRAKE_XS.value,
-        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
-    ]
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
+    ],
+    "Underbarrels": [],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[HandGuns.TYR.value] = {
@@ -14055,7 +14151,53 @@ weapons_attachment_combos_dict[HandGuns.TYR.value] = {
         Muzzles.CRONEN_DARK_KX30.value,
         Muzzles.WRATHGUARD_COMPENSATOR_L.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
-    ]
+    ],
+    "Underbarrels": [
+        Underbarrels.NO_MODIFICATIONS.value,
+        Underbarrels.FTAC_SP_10_ANGLED_GRIP.value,
+        Underbarrels.FTAC_RS_9_STEALTH_ANGLED_GRIP.value,
+        Underbarrels.BRUEN_BASTION_ANGLED_GRIP.value,
+        Underbarrels.CHEWK_ANGLED_GRIP.value,
+        Underbarrels.BRUEN_HEAVY_SUPPORT_GRIP.value,
+        Underbarrels.COMMANDO_FOREGRIP.value,
+        Underbarrels.EDGE_47_GRIP.value,
+        Underbarrels.DEMO_FIRM_GRIP.value,
+        Underbarrels.XTEN_GRAVEDIGGER.value,
+        Underbarrels.FTAC_RIPPER_56.value,
+        Underbarrels.DEMO_CLEANSHOT_40.value,
+        Underbarrels.DEMO_IMP_44_GRIP.value,
+        Underbarrels.FTAC_TIGER_GRIP.value,
+        Underbarrels.FSS_SHARKFIN_90.value,
+        Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
+        Underbarrels.FTAC_MSP_98_HANDSTOP.value,
+        Underbarrels.DR_6_HANDSTOP.value,
+        Underbarrels.XTEN_PHANTOM_5_HANDSTOP.value,
+        Underbarrels.XTEN_TX_12_HANDSTOP.value,
+        Underbarrels.KIMURA_RYN_03_VERTICAL_GRIP.value,
+        Underbarrels.SL_SKELETAL_VERTICAL_GRIP.value,
+        Underbarrels.HOLGER_VERTICAL_GRIP.value,
+        Underbarrels.BRUEN_TACTICAL_VERTICAL_GRIP.value,
+        Underbarrels.BRUEN_PIVOT_VERTICAL_GRIP.value,
+        Underbarrels.MERC_FOREGRIP.value,
+        Underbarrels.LOCKGRIP_PRECISION_40.value,
+        Underbarrels.HEX_40_GRIP.value,
+        Underbarrels.SCHLAGER_TANGO.value,
+        Underbarrels.VX_PINEAPPLE.value,
+        Underbarrels.OP_X9_FOREGRIP.value,
+        Underbarrels.OPERATOR_FOREGRIP.value,
+        Underbarrels.TV_WRECKER_GRIP.value,
+        Underbarrels.BRUEN_TILT_GRIP.value,
+        Underbarrels.CRONEN_GROOVESHOT_GRIP.value,
+        Underbarrels.EXF_BACKDRAFT_GRIP.value,
+        Underbarrels.BRUEN_WARRIOR_GRIP.value,
+        Underbarrels.BIPOD_V9_GRIP.value,
+        Underbarrels.CORE_BP2.value,
+        Underbarrels.LEVEL_AIM_BIPOD.value,
+        Underbarrels.CORNERSTONE_BIPOD.value,
+        Underbarrels.XTEN_STABLE_SHOT.value,
+        Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
+    ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[HandGuns.WSP_STINGER.value] = {
@@ -14097,8 +14239,10 @@ weapons_attachment_combos_dict[HandGuns.WSP_STINGER.value] = {
         Muzzles.VP27_MINI_BRAKE_S.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
         Muzzles.S37C_DL_BREACHER_DEVICE_S.value,
-        Muzzles.L4R_FLASH_HIDER.value
-    ]
+        Muzzles.L4R_FLASH_HIDER.value,
+    ],
+    "Underbarrels": [],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[HandGuns.P890.value] = {
@@ -14136,8 +14280,10 @@ weapons_attachment_combos_dict[HandGuns.P890.value] = {
         Muzzles.STER45_SKYFURY_COMPENSATOR_XS.value,
         Muzzles.ELR_BLACKFIRE_COMPENSATOR_XS.value,
         Muzzles.VP27_MINI_BRAKE_XS.value,
-        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
-    ]
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
+    ],
+    "Underbarrels": [],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[HandGuns.GS_50.value] = {
@@ -14176,8 +14322,10 @@ weapons_attachment_combos_dict[HandGuns.GS_50.value] = {
         Muzzles.FTAC_FIFTY_COMP.value,
         Muzzles.POTATO_MASHER.value,
         Muzzles.SA_PEAK_77.value,
-        Muzzles.GW_FLASH_FIFTY.value
-    ]
+        Muzzles.GW_FLASH_FIFTY.value,
+    ],
+    "Underbarrels": [],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[HandGuns.X12.value] = {
@@ -14214,8 +14362,10 @@ weapons_attachment_combos_dict[HandGuns.X12.value] = {
         Muzzles.STER45_SKYFURY_COMPENSATOR_XS.value,
         Muzzles.ELR_BLACKFIRE_COMPENSATOR_XS.value,
         Muzzles.VP27_MINI_BRAKE_XS.value,
-        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
-    ]
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
+    ],
+    "Underbarrels": [],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[HandGuns.BASILISK.value] = {
@@ -14259,8 +14409,10 @@ weapons_attachment_combos_dict[HandGuns.BASILISK.value] = {
         Muzzles.RVS607_COMPENSATOR.value,
         Muzzles.FSS_KL30.value,
         Muzzles.FTAC_H50_PORTED.value,
-        Muzzles.FSS_VMW_FLASH_HIDER.value
-    ]
+        Muzzles.FSS_VMW_FLASH_HIDER.value,
+    ],
+    "Underbarrels": [],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[HandGuns.FTAC_SIEGE.value] = {
@@ -14315,7 +14467,13 @@ weapons_attachment_combos_dict[HandGuns.FTAC_SIEGE.value] = {
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
         Muzzles.L4R_FLASH_HIDER.value,
         Muzzles.S37C_DL_BREACHER_DEVICE_S.value,
-    ]
+    ],
+    "Underbarrels": [
+        Underbarrels.REBEL_HX.value,
+        Underbarrels.S40_H_GRIP.value,
+        Underbarrels.WEDGE_GRIP.value,
+    ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[HandGuns.GS_MAGNA.value] = {
@@ -14355,7 +14513,23 @@ weapons_attachment_combos_dict[HandGuns.GS_MAGNA.value] = {
         Muzzles.POTATO_MASHER.value,
         Muzzles.SA_PEAK_77.value,
         Muzzles.GW_FLASH_FIFTY.value,
-    ]
+    ],
+    "Underbarrels": [
+        Underbarrels.OP_X9_FOREGRIP.value,
+        Underbarrels.OPERATOR_FOREGRIP.value,
+        Underbarrels.TV_WRECKER_GRIP.value,
+        Underbarrels.BRUEN_TILT_GRIP.value,
+        Underbarrels.CRONEN_GROOVESHOT_GRIP.value,
+        Underbarrels.EXF_BACKDRAFT_GRIP.value,
+        Underbarrels.BRUEN_WARRIOR_GRIP.value,
+        Underbarrels.KIMURA_RYN_03_VERTICAL_GRIP.value,
+        Underbarrels.SL_SKELETAL_VERTICAL_GRIP.value,
+        Underbarrels.HOLGER_VERTICAL_GRIP.value,
+        Underbarrels.BRUEN_TACTICAL_VERTICAL_GRIP.value,
+        Underbarrels.BRUEN_PIVOT_VERTICAL_GRIP.value,
+        Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
+    ],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[HandGuns.DAEMON_9MM.value] = {
@@ -14393,8 +14567,10 @@ weapons_attachment_combos_dict[HandGuns.DAEMON_9MM.value] = {
         Muzzles.STER45_SKYFURY_COMPENSATOR_XS.value,
         Muzzles.ELR_BLACKFIRE_COMPENSATOR_XS.value,
         Muzzles.VP27_MINI_BRAKE_XS.value,
-        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
-    ]
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
+    ],
+    "Underbarrels": [],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[HandGuns.X13_AUTO.value] = {
@@ -14446,71 +14622,99 @@ weapons_attachment_combos_dict[HandGuns.X13_AUTO.value] = {
         Muzzles.STER45_SKYFURY_COMPENSATOR_XS.value,
         Muzzles.ELR_BLACKFIRE_COMPENSATOR_XS.value,
         Muzzles.VP27_MINI_BRAKE_XS.value,
-        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
-    ]
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
+    ],
+    "Underbarrels": [],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[Launchers.STORMENDER.value] = {
-    "Optics": None,
-    "Muzzles": None,
+    "Optics": [],
+    "Muzzles": [],
+    "Underbarrels": [],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[Launchers.RGL_80.value] = {
-    "Optics": None,
-    "Muzzles": None,
+    "Optics": [],
+    "Muzzles": [],
+    "Underbarrels": [],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[Launchers.PILA.value] = {
-    "Optics": None,
-    "Muzzles": None,
+    "Optics": [],
+    "Muzzles": [],
+    "Underbarrels": [],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[Launchers.JOKR.value] = {
-    "Optics": None,
-    "Muzzles": None,
+    "Optics": [],
+    "Muzzles": [],
+    "Underbarrels": [],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[Launchers.RPG_7.value] = {
-    "Optics": None,
-    "Muzzles": None,
+    "Optics": [],
+    "Muzzles": [],
+    "Underbarrels": [],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[Launchers.STRELA_P.value] = {
-    "Optics": None,
-    "Muzzles": None,
+    "Optics": [],
+    "Muzzles": [],
+    "Underbarrels": [],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[MeleeSecondary.GUTTER_KNIFE.value] = {
-    "Optics": None,
-    "Muzzles": None,
+    "Optics": [],
+    "Muzzles": [],
+    "Underbarrels": [],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[MeleeSecondary.KARAMBIT.value] = {
-    "Optics": None,
-    "Muzzles": None,
+    "Optics": [],
+    "Muzzles": [],
+    "Underbarrels": [],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[MeleeSecondary.TONFA.value] = {
-    "Optics": None,
-    "Muzzles": None,
+    "Optics": [],
+    "Muzzles": [],
+    "Underbarrels": [],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[MeleeSecondary.COMBAT_KNIFE.value] = {
-    "Optics": None,
-    "Muzzles": None,
+    "Optics": [],
+    "Muzzles": [],
+    "Underbarrels": [],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[MeleeSecondary.DUAL_KODACHIS.value] = {
-    "Optics": None,
-    "Muzzles": None,
+    "Optics": [],
+    "Muzzles": [],
+    "Underbarrels": [],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[MeleeSecondary.DUAL_KAMAS.value] = {
-    "Optics": None,
-    "Muzzles": None,
+    "Optics": [],
+    "Muzzles": [],
+    "Underbarrels": [],
+    "CarryHandles": [],
 }
 
 weapons_attachment_combos_dict[MeleeSecondary.PICKAXE.value] = {
-    "Optics": None,
-    "Muzzles": None,
+    "Optics": [],
+    "Muzzles": [],
+    "Underbarrels": [],
+    "CarryHandles": [],
 }

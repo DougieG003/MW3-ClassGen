@@ -501,6 +501,11 @@ class Underbarrels(Enum):
     # added for RPK LMG
     RPK_BIPOD = "RPK BIPOD"
 
+    # added for FTAC SIEGE Handgun
+    REBEL_HX = "REBEL-HX"
+    S40_H_GRIP = "S40-H GRIP"
+    WEDGE_GRIP = "WEDGE GRIP"
+
 # class Attachments(Enum):
 #     MUZZLES = Muzzles
 #     BARRELS = Barrels
