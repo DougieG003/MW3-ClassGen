@@ -28,6 +28,11 @@ class Barrels(Enum):
 class Bolts(Enum):
     pass
 
+class CarryHandles(Enum):
+    # added for FJX IMPERIUM Sniper Rifle
+    FIELD_WRAPPED_HANDLE = "FIELD-WRAPPED HANDLE"
+    KEYSTONE_HANDLE = "KEYSTONE HANDLE"
+
 class Combs(Enum):
     pass
 

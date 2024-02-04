@@ -8,6 +8,7 @@ from AttachmentEnums import (
     Optics,
     Muzzles,
     Underbarrels,
+    CarryHandles,
     RearGrips,
     AmmoTypes,
     Combs,
@@ -12733,6 +12734,11 @@ weapons_attachment_combos_dict[SniperRifles.XRK_STALKER.value] = {
         Muzzles.LEGION_FIRE_COMP.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
         Muzzles.MAMMOTH_50_SUPPRESSOR.value,
+    ],
+    "Underbarrels": [
+        Underbarrels.LEVEL_AIM_BIPOD.value,
+        Underbarrels.CORNERSTONE_BIPOD.value,
+        Underbarrels.XTEN_STABLE_SHOT.value,
     ]
 }
 
@@ -12822,7 +12828,8 @@ weapons_attachment_combos_dict[SniperRifles.KATT_AMR.value] = {
         Muzzles.LEGION_FIRE_COMP.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
         Muzzles.MAMMOTH_50_SUPPRESSOR.value,
-    ]
+    ],
+    "Underbarrels": [],
 }
 
 weapons_attachment_combos_dict[SniperRifles.LONGBOW.value] = {
@@ -12961,7 +12968,52 @@ weapons_attachment_combos_dict[SniperRifles.LONGBOW.value] = {
         Muzzles.VLK_KOLOSS_FLASH_HIDER.value,
         Muzzles.STER45_SKYFURY_COMPENSATOR.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
-    ]
+    ],
+    "Underbarrels": [
+        Underbarrels.NO_MODIFICATIONS.value,
+        Underbarrels.FTAC_SP_10_ANGLED_GRIP.value,
+        Underbarrels.FTAC_RS_9_STEALTH_ANGLED_GRIP.value,
+        Underbarrels.BRUEN_BASTION_ANGLED_GRIP.value,
+        Underbarrels.CHEWK_ANGLED_GRIP.value,
+        Underbarrels.BRUEN_HEAVY_SUPPORT_GRIP.value,
+        Underbarrels.FTAC_RIPPER_56.value,
+        Underbarrels.DEMO_CLEANSHOT_40.value,
+        Underbarrels.DEMO_IMP_44_GRIP.value,
+        Underbarrels.FTAC_TIGER_GRIP.value,
+        Underbarrels.FSS_SHARKFIN_90.value,
+        Underbarrels.AGENT_GRIP.value,
+        Underbarrels.BRUEN_SYNC_SHOT_GRIP.value,
+        Underbarrels.XTEN_DROP_GRIP.value,
+        Underbarrels.XTEN_NEXUS_GRIP.value,
+        Underbarrels.PHASE_3_GRIP.value,
+        Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
+        Underbarrels.FTAC_MSP_98_HANDSTOP.value,
+        Underbarrels.DR_6_HANDSTOP.value,
+        Underbarrels.XTEN_PHANTOM_5_HANDSTOP.value,
+        Underbarrels.KIMURA_RYN_03_VERTICAL_GRIP.value,
+        Underbarrels.SL_SKELETAL_VERTICAL_GRIP.value,
+        Underbarrels.HOLGER_VERTICAL_GRIP.value,
+        Underbarrels.BRUEN_TACTICAL_VERTICAL_GRIP.value,
+        Underbarrels.BRUEN_PIVOT_VERTICAL_GRIP.value,
+        Underbarrels.MERC_FOREGRIP.value,
+        Underbarrels.LOCKGRIP_PRECISION_40.value,
+        Underbarrels.HEX_40_GRIP.value,
+        Underbarrels.SCHLAGER_TANGO.value,
+        Underbarrels.VX_PINEAPPLE.value,
+        Underbarrels.OP_X9_FOREGRIP.value,
+        Underbarrels.OPERATOR_FOREGRIP.value,
+        Underbarrels.TV_WRECKER_GRIP.value,
+        Underbarrels.BRUEN_TILT_GRIP.value,
+        Underbarrels.CRONEN_GROOVESHOT_GRIP.value,
+        Underbarrels.EXF_BACKDRAFT_GRIP.value,
+        Underbarrels.BRUEN_WARRIOR_GRIP.value,
+        Underbarrels.BIPOD_V9_GRIP.value,
+        Underbarrels.CORE_BP2.value,
+        Underbarrels.LEVEL_AIM_BIPOD.value,
+        Underbarrels.CORNERSTONE_BIPOD.value,
+        Underbarrels.XTEN_STABLE_SHOT.value,
+        Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
+    ],
 }
 
 weapons_attachment_combos_dict[SniperRifles.KV_INHIBITOR.value] = {
@@ -13054,8 +13106,57 @@ weapons_attachment_combos_dict[SniperRifles.KV_INHIBITOR.value] = {
         Muzzles.SONIC_SUPPRESSOR_L.value,
         Muzzles.ELR_BLACKFIRE_COMPENSATOR_L.value,
         Muzzles.PURIFIER_MUZZLE_BRAKE_L.value,
-        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
-    ]
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
+    ],
+    "Underbarrels": [
+        Underbarrels.NO_MODIFICATIONS.value,
+        Underbarrels.FTAC_SP_10_ANGLED_GRIP.value,
+        Underbarrels.FTAC_RS_9_STEALTH_ANGLED_GRIP.value,
+        Underbarrels.BRUEN_BASTION_ANGLED_GRIP.value,
+        Underbarrels.CHEWK_ANGLED_GRIP.value,
+        Underbarrels.BRUEN_HEAVY_SUPPORT_GRIP.value,
+        Underbarrels.COMMANDO_FOREGRIP.value,
+        Underbarrels.EDGE_47_GRIP.value,
+        Underbarrels.DEMO_FIRM_GRIP.value,
+        Underbarrels.XTEN_GRAVEDIGGER.value,
+        Underbarrels.FTAC_RIPPER_56.value,
+        Underbarrels.DEMO_CLEANSHOT_40.value,
+        Underbarrels.DEMO_IMP_44_GRIP.value,
+        Underbarrels.FTAC_TIGER_GRIP.value,
+        Underbarrels.FSS_SHARKFIN_90.value,
+        Underbarrels.AGENT_GRIP.value,
+        Underbarrels.BRUEN_SYNC_SHOT_GRIP.value,
+        Underbarrels.XTEN_DROP_GRIP.value,
+        Underbarrels.XTEN_NEXUS_GRIP.value,
+        Underbarrels.PHASE_3_GRIP.value,
+        Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
+        Underbarrels.FTAC_MSP_98_HANDSTOP.value,
+        Underbarrels.DR_6_HANDSTOP.value,
+        Underbarrels.XTEN_PHANTOM_5_HANDSTOP.value,
+        Underbarrels.XTEN_TX_12_HANDSTOP.value,
+        Underbarrels.KIMURA_RYN_03_VERTICAL_GRIP.value,
+        Underbarrels.SL_SKELETAL_VERTICAL_GRIP.value,
+        Underbarrels.HOLGER_VERTICAL_GRIP.value,
+        Underbarrels.BRUEN_TACTICAL_VERTICAL_GRIP.value,
+        Underbarrels.BRUEN_PIVOT_VERTICAL_GRIP.value,
+        Underbarrels.MERC_FOREGRIP.value,
+        Underbarrels.LOCKGRIP_PRECISION_40.value,
+        Underbarrels.HEX_40_GRIP.value,
+        Underbarrels.SCHLAGER_TANGO.value,
+        Underbarrels.VX_PINEAPPLE.value,
+        Underbarrels.OP_X9_FOREGRIP.value,
+        Underbarrels.OPERATOR_FOREGRIP.value,
+        Underbarrels.TV_WRECKER_GRIP.value,
+        Underbarrels.BRUEN_TILT_GRIP.value,
+        Underbarrels.CRONEN_GROOVESHOT_GRIP.value,
+        Underbarrels.EXF_BACKDRAFT_GRIP.value,
+        Underbarrels.BRUEN_WARRIOR_GRIP.value,
+        Underbarrels.BIPOD_V9_GRIP.value,
+        Underbarrels.LEVEL_AIM_BIPOD.value,
+        Underbarrels.CORNERSTONE_BIPOD.value,
+        Underbarrels.XTEN_STABLE_SHOT.value,
+        Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
+    ],
 }
 
 weapons_attachment_combos_dict[SniperRifles.MCPR_300.value] = {
@@ -13149,8 +13250,13 @@ weapons_attachment_combos_dict[SniperRifles.MCPR_300.value] = {
         Muzzles.SONIC_SUPPRESSOR_L.value,
         Muzzles.ELR_BLACKFIRE_COMPENSATOR_L.value,
         Muzzles.PURIFIER_MUZZLE_BRAKE_L.value,
-        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
-    ]
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
+    ],
+    "Underbarrels": [
+        Underbarrels.LEVEL_AIM_BIPOD.value,
+        Underbarrels.CORNERSTONE_BIPOD.value,
+        Underbarrels.XTEN_STABLE_SHOT.value,
+    ],
 }
 
 weapons_attachment_combos_dict[SniperRifles.SIGNAL_50.value] = {
@@ -13259,7 +13365,52 @@ weapons_attachment_combos_dict[SniperRifles.SIGNAL_50.value] = {
         Muzzles.DEMON_HELIX_XL.value,
         Muzzles.MAMMOTH_50_SUPPRESSOR.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
-    ]
+    ],
+    "Underbarrels": [
+        Underbarrels.LEVEL_AIM_BIPOD.value,
+        Underbarrels.CORNERSTONE_BIPOD.value,
+        Underbarrels.XTEN_STABLE_SHOT.value,
+        Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
+        Underbarrels.FTAC_MSP_98_HANDSTOP.value,
+        Underbarrels.DR_6_HANDSTOP.value,
+        Underbarrels.XTEN_PHANTOM_5_HANDSTOP.value,
+        Underbarrels.XTEN_TX_12_HANDSTOP.value,
+        Underbarrels.FTAC_SP_10_ANGLED_GRIP.value,
+        Underbarrels.FTAC_RS_9_STEALTH_ANGLED_GRIP.value,
+        Underbarrels.BRUEN_BASTION_ANGLED_GRIP.value,
+        Underbarrels.CHEWK_ANGLED_GRIP.value,
+        Underbarrels.COMMANDO_FOREGRIP.value,
+        Underbarrels.EDGE_47_GRIP.value,
+        Underbarrels.DEMO_FIRM_GRIP.value,
+        Underbarrels.XTEN_GRAVEDIGGER.value,
+        Underbarrels.FTAC_RIPPER_56.value,
+        Underbarrels.DEMO_CLEANSHOT_40.value,
+        Underbarrels.DEMO_IMP_44_GRIP.value,
+        Underbarrels.FTAC_TIGER_GRIP.value,
+        Underbarrels.FSS_SHARKFIN_90.value,
+        Underbarrels.AGENT_GRIP.value,
+        Underbarrels.BRUEN_SYNC_SHOT_GRIP.value,
+        Underbarrels.XTEN_DROP_GRIP.value,
+        Underbarrels.BRUEN_HEAVY_SUPPORT_GRIP.value,
+        Underbarrels.KIMURA_RYN_03_VERTICAL_GRIP.value,
+        Underbarrels.SL_SKELETAL_VERTICAL_GRIP.value,
+        Underbarrels.HOLGER_VERTICAL_GRIP.value,
+        Underbarrels.BRUEN_TACTICAL_VERTICAL_GRIP.value,
+        Underbarrels.BRUEN_PIVOT_VERTICAL_GRIP.value,
+        Underbarrels.MERC_FOREGRIP.value,
+        Underbarrels.LOCKGRIP_PRECISION_40.value,
+        Underbarrels.HEX_40_GRIP.value,
+        Underbarrels.SCHLAGER_TANGO.value,
+        Underbarrels.VX_PINEAPPLE.value,
+        Underbarrels.OP_X9_FOREGRIP.value,
+        Underbarrels.OPERATOR_FOREGRIP.value,
+        Underbarrels.TV_WRECKER_GRIP.value,
+        Underbarrels.BRUEN_TILT_GRIP.value,
+        Underbarrels.CRONEN_GROOVESHOT_GRIP.value,
+        Underbarrels.EXF_BACKDRAFT_GRIP.value,
+        Underbarrels.BRUEN_WARRIOR_GRIP.value,
+        Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
+    ],
 }
 
 weapons_attachment_combos_dict[SniperRifles.VICTUS_XMR.value] = {
@@ -13356,7 +13507,12 @@ weapons_attachment_combos_dict[SniperRifles.VICTUS_XMR.value] = {
         Muzzles.DEMON_HELIX_XL.value,
         Muzzles.MAMMOTH_50_SUPPRESSOR.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
-    ]
+    ],
+    "Underbarrels": [
+        Underbarrels.LEVEL_AIM_BIPOD.value,
+        Underbarrels.CORNERSTONE_BIPOD.value,
+        Underbarrels.XTEN_STABLE_SHOT.value,
+    ],
 }
 
 weapons_attachment_combos_dict[SniperRifles.FJX_IMPERIUM.value] = {
@@ -13450,8 +13606,13 @@ weapons_attachment_combos_dict[SniperRifles.FJX_IMPERIUM.value] = {
         Muzzles.SONIC_SUPPRESSOR_L.value,
         Muzzles.ELR_BLACKFIRE_COMPENSATOR_L.value,
         Muzzles.PURIFIER_MUZZLE_BRAKE_L.value,
-        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
-    ]
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
+    ],
+    "Underbarrels": [],
+    "CarryHandles": [
+        CarryHandles.FIELD_WRAPPED_HANDLE.value,
+        CarryHandles.KEYSTONE_HANDLE.value,
+    ],
 }
 
 weapons_attachment_combos_dict[SniperRifles.CARRACK_300.value] = {
@@ -13545,8 +13706,9 @@ weapons_attachment_combos_dict[SniperRifles.CARRACK_300.value] = {
         Muzzles.SONIC_SUPPRESSOR_L.value,
         Muzzles.ELR_BLACKFIRE_COMPENSATOR_L.value,
         Muzzles.PURIFIER_MUZZLE_BRAKE_L.value,
-        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
-    ]
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
+    ],
+    "Underbarrels": [],
 }
 
 weapons_attachment_combos_dict[SniperRifles.LA_B_330.value] = {
@@ -13640,8 +13802,13 @@ weapons_attachment_combos_dict[SniperRifles.LA_B_330.value] = {
         Muzzles.SONIC_SUPPRESSOR_L.value,
         Muzzles.ELR_BLACKFIRE_COMPENSATOR_L.value,
         Muzzles.PURIFIER_MUZZLE_BRAKE_L.value,
-        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
-    ]
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
+    ],
+    "Underbarrels": [
+        Underbarrels.LEVEL_AIM_BIPOD.value,
+        Underbarrels.CORNERSTONE_BIPOD.value,
+        Underbarrels.XTEN_STABLE_SHOT.value,
+    ],
 }
 
 weapons_attachment_combos_dict[SniperRifles.SP_X_80.value] = {
@@ -13735,13 +13902,20 @@ weapons_attachment_combos_dict[SniperRifles.SP_X_80.value] = {
         Muzzles.SONIC_SUPPRESSOR_L.value,
         Muzzles.ELR_BLACKFIRE_COMPENSATOR_L.value,
         Muzzles.PURIFIER_MUZZLE_BRAKE_L.value,
-        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
-    ]
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
+    ],
+    "Underbarrels": [
+        Underbarrels.LEVEL_AIM_BIPOD.value,
+        Underbarrels.CORNERSTONE_BIPOD.value,
+        Underbarrels.XTEN_STABLE_SHOT.value,
+    ],
 }
 
 weapons_attachment_combos_dict[MeleePrimary.RIOT_SHIELD.value] = {
-    "Optics": None,
-    "Muzzles": None,
+    "Optics": [],
+    "Muzzles": [],
+    "Underbarrels": [],
+
 }
 
 weapons_attachment_combos_dict[HandGuns.COR_45.value] = {
