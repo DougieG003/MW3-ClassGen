@@ -12120,6 +12120,24 @@ weapons_attachment_combos_dict[MarksmanRifles.KVD_ENFORCER.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
+        Lasers.CS15_SCARLET_BOX_LASER.value,
+        Lasers.PRO_SAPPHIRE_BOX_LASER.value,
+        Lasers.VERDANT_HOOK_BOX_LASER.value,
+        Lasers.SZ_1MW_PEQ.value,
+        Lasers.SCHLAGER_PEQ_BOX_IV.value,
+        Lasers.CORIO_LAZ_44_V3.value,
+        Lasers.FSS_OLE_V_LASER.value,
+        Lasers.CANTED_VIBRO_DOT_7.value,
+        Lasers.LASER_BOX_1MW.value,
+        Lasers.STOVL_DR_LASER_BOX.value,
+        Lasers.CORVUS_PEQ_BEAM_5.value,
+        Lasers.FTAC_GRIMLINE_LASER.value,
+        Lasers.LUMINATE_44.value,
+        Lasers.DXS_FLASH_90.value,
+    ],
 }
 
 weapons_attachment_combos_dict[MarksmanRifles.MCW_68.value] = {
@@ -12292,6 +12310,24 @@ weapons_attachment_combos_dict[MarksmanRifles.MCW_68.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
+        Lasers.CS15_SCARLET_BOX_LASER.value,
+        Lasers.PRO_SAPPHIRE_BOX_LASER.value,
+        Lasers.VERDANT_HOOK_BOX_LASER.value,
+        Lasers.SZ_1MW_PEQ.value,
+        Lasers.SCHLAGER_PEQ_BOX_IV.value,
+        Lasers.CORIO_LAZ_44_V3.value,
+        Lasers.FSS_OLE_V_LASER.value,
+        Lasers.CANTED_VIBRO_DOT_7.value,
+        Lasers.LASER_BOX_1MW.value,
+        Lasers.STOVL_DR_LASER_BOX.value,
+        Lasers.CORVUS_PEQ_BEAM_5.value,
+        Lasers.FTAC_GRIMLINE_LASER.value,
+        Lasers.LUMINATE_44.value,
+        Lasers.DXS_FLASH_90.value,
+    ],
 }
 
 weapons_attachment_combos_dict[MarksmanRifles.DM56.value] = {
@@ -12477,6 +12513,24 @@ weapons_attachment_combos_dict[MarksmanRifles.DM56.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
+        Lasers.CS15_SCARLET_BOX_LASER.value,
+        Lasers.PRO_SAPPHIRE_BOX_LASER.value,
+        Lasers.VERDANT_HOOK_BOX_LASER.value,
+        Lasers.SZ_1MW_PEQ.value,
+        Lasers.SCHLAGER_PEQ_BOX_IV.value,
+        Lasers.CORIO_LAZ_44_V3.value,
+        Lasers.FSS_OLE_V_LASER.value,
+        Lasers.CANTED_VIBRO_DOT_7.value,
+        Lasers.LASER_BOX_1MW.value,
+        Lasers.STOVL_DR_LASER_BOX.value,
+        Lasers.CORVUS_PEQ_BEAM_5.value,
+        Lasers.FTAC_GRIMLINE_LASER.value,
+        Lasers.LUMINATE_44.value,
+        Lasers.DXS_FLASH_90.value,
+    ],
 }
 
 weapons_attachment_combos_dict[MarksmanRifles.MTZ_INTERCEPTOR.value] = {
@@ -12649,6 +12703,24 @@ weapons_attachment_combos_dict[MarksmanRifles.MTZ_INTERCEPTOR.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
+        Lasers.CS15_SCARLET_BOX_LASER.value,
+        Lasers.PRO_SAPPHIRE_BOX_LASER.value,
+        Lasers.VERDANT_HOOK_BOX_LASER.value,
+        Lasers.SZ_1MW_PEQ.value,
+        Lasers.SCHLAGER_PEQ_BOX_IV.value,
+        Lasers.CORIO_LAZ_44_V3.value,
+        Lasers.FSS_OLE_V_LASER.value,
+        Lasers.CANTED_VIBRO_DOT_7.value,
+        Lasers.LASER_BOX_1MW.value,
+        Lasers.STOVL_DR_LASER_BOX.value,
+        Lasers.CORVUS_PEQ_BEAM_5.value,
+        Lasers.FTAC_GRIMLINE_LASER.value,
+        Lasers.LUMINATE_44.value,
+        Lasers.DXS_FLASH_90.value,
+    ],
 }
 
 weapons_attachment_combos_dict[MarksmanRifles.EBR_14.value] = {
@@ -12828,6 +12900,24 @@ weapons_attachment_combos_dict[MarksmanRifles.EBR_14.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
+        Lasers.CS15_SCARLET_BOX_LASER.value,
+        Lasers.PRO_SAPPHIRE_BOX_LASER.value,
+        Lasers.VERDANT_HOOK_BOX_LASER.value,
+        Lasers.SZ_1MW_PEQ.value,
+        Lasers.SCHLAGER_PEQ_BOX_IV.value,
+        Lasers.CORIO_LAZ_44_V3.value,
+        Lasers.FSS_OLE_V_LASER.value,
+        Lasers.CANTED_VIBRO_DOT_7.value,
+        Lasers.LASER_BOX_1MW.value,
+        Lasers.STOVL_DR_LASER_BOX.value,
+        Lasers.CORVUS_PEQ_BEAM_5.value,
+        Lasers.FTAC_GRIMLINE_LASER.value,
+        Lasers.LUMINATE_44.value,
+        Lasers.DXS_FLASH_90.value,
+    ],
 }
 
 weapons_attachment_combos_dict[MarksmanRifles.SP_R_208.value] = {
@@ -12963,6 +13053,24 @@ weapons_attachment_combos_dict[MarksmanRifles.SP_R_208.value] = {
         Underbarrels.XTEN_STABLE_SHOT.value,
     ],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
+        Lasers.CS15_SCARLET_BOX_LASER.value,
+        Lasers.PRO_SAPPHIRE_BOX_LASER.value,
+        Lasers.VERDANT_HOOK_BOX_LASER.value,
+        Lasers.SZ_1MW_PEQ.value,
+        Lasers.SCHLAGER_PEQ_BOX_IV.value,
+        Lasers.CORIO_LAZ_44_V3.value,
+        Lasers.FSS_OLE_V_LASER.value,
+        Lasers.CANTED_VIBRO_DOT_7.value,
+        Lasers.LASER_BOX_1MW.value,
+        Lasers.STOVL_DR_LASER_BOX.value,
+        Lasers.CORVUS_PEQ_BEAM_5.value,
+        Lasers.FTAC_GRIMLINE_LASER.value,
+        Lasers.LUMINATE_44.value,
+        Lasers.DXS_FLASH_90.value,
+    ],
 }
 
 weapons_attachment_combos_dict[MarksmanRifles.LOCKWOOD_MK2.value] = {
@@ -13083,6 +13191,24 @@ weapons_attachment_combos_dict[MarksmanRifles.LOCKWOOD_MK2.value] = {
     ],
     "Underbarrels": [],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.CS15_SCARLET_CYLINDRICAL_LASER.value,
+        Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
+        Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
+        Lasers.ARTEMIS_LASER_1MW.value,
+        Lasers.QUICK_FIRE_LASER_1MW.value,
+        Lasers.ACCU_SHOT_5MW_LASER.value,
+        Lasers.VLK_LZR_7MW.value,
+        Lasers.CANTED_LASER_7MW.value,
+        Lasers.SCHLAGER_ULO_66_LASER.value,
+        Lasers.STOVL_TAC_LASER.value,
+        Lasers.HIPSHOT_L20.value,
+        Lasers.POINT_G3P_04.value,
+        Lasers.FJX_ULTRABEAM_XR.value,
+        Lasers.EXF_SOLARFLARE.value,
+        Lasers.KIMURA_RYL33_LASER_LIGHT.value,
+    ],
 }
 
 weapons_attachment_combos_dict[MarksmanRifles.TEMPUS_TORRENT.value] = {
@@ -13266,6 +13392,24 @@ weapons_attachment_combos_dict[MarksmanRifles.TEMPUS_TORRENT.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
+        Lasers.CS15_SCARLET_BOX_LASER.value,
+        Lasers.PRO_SAPPHIRE_BOX_LASER.value,
+        Lasers.VERDANT_HOOK_BOX_LASER.value,
+        Lasers.SZ_1MW_PEQ.value,
+        Lasers.SCHLAGER_PEQ_BOX_IV.value,
+        Lasers.CORIO_LAZ_44_V3.value,
+        Lasers.FSS_OLE_V_LASER.value,
+        Lasers.CANTED_VIBRO_DOT_7.value,
+        Lasers.LASER_BOX_1MW.value,
+        Lasers.STOVL_DR_LASER_BOX.value,
+        Lasers.CORVUS_PEQ_BEAM_5.value,
+        Lasers.FTAC_GRIMLINE_LASER.value,
+        Lasers.LUMINATE_44.value,
+        Lasers.DXS_FLASH_90.value,
+    ],
 }
 
 weapons_attachment_combos_dict[MarksmanRifles.CROSSBOW.value] = {
@@ -13402,6 +13546,21 @@ weapons_attachment_combos_dict[MarksmanRifles.CROSSBOW.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.ARTEMIS_LASER_1MW.value,
+        Lasers.QUICK_FIRE_LASER_1MW.value,
+        Lasers.ACCU_SHOT_5MW_LASER.value,
+        Lasers.VLK_LZR_7MW.value,
+        Lasers.CANTED_LASER_7MW.value,
+        Lasers.SCHLAGER_ULO_66_LASER.value,
+        Lasers.STOVL_TAC_LASER.value,
+        Lasers.HIPSHOT_L20.value,
+        Lasers.POINT_G3P_04.value,
+        Lasers.FJX_ULTRABEAM_XR.value,
+        Lasers.EXF_SOLARFLARE.value,
+        Lasers.KIMURA_RYL33_LASER_LIGHT.value,
+    ],
 }
 
 weapons_attachment_combos_dict[MarksmanRifles.LM_S.value] = {
@@ -13581,6 +13740,24 @@ weapons_attachment_combos_dict[MarksmanRifles.LM_S.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
+        Lasers.CS15_SCARLET_BOX_LASER.value,
+        Lasers.PRO_SAPPHIRE_BOX_LASER.value,
+        Lasers.VERDANT_HOOK_BOX_LASER.value,
+        Lasers.SZ_1MW_PEQ.value,
+        Lasers.SCHLAGER_PEQ_BOX_IV.value,
+        Lasers.CORIO_LAZ_44_V3.value,
+        Lasers.FSS_OLE_V_LASER.value,
+        Lasers.CANTED_VIBRO_DOT_7.value,
+        Lasers.LASER_BOX_1MW.value,
+        Lasers.STOVL_DR_LASER_BOX.value,
+        Lasers.CORVUS_PEQ_BEAM_5.value,
+        Lasers.FTAC_GRIMLINE_LASER.value,
+        Lasers.LUMINATE_44.value,
+        Lasers.DXS_FLASH_90.value,
+    ],
 }
 
 weapons_attachment_combos_dict[MarksmanRifles.SA_B_50.value] = {
@@ -13734,6 +13911,24 @@ weapons_attachment_combos_dict[MarksmanRifles.SA_B_50.value] = {
         Underbarrels.XTEN_STABLE_SHOT.value,
     ],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
+        Lasers.CS15_SCARLET_BOX_LASER.value,
+        Lasers.PRO_SAPPHIRE_BOX_LASER.value,
+        Lasers.VERDANT_HOOK_BOX_LASER.value,
+        Lasers.SZ_1MW_PEQ.value,
+        Lasers.SCHLAGER_PEQ_BOX_IV.value,
+        Lasers.CORIO_LAZ_44_V3.value,
+        Lasers.FSS_OLE_V_LASER.value,
+        Lasers.CANTED_VIBRO_DOT_7.value,
+        Lasers.LASER_BOX_1MW.value,
+        Lasers.STOVL_DR_LASER_BOX.value,
+        Lasers.CORVUS_PEQ_BEAM_5.value,
+        Lasers.FTAC_GRIMLINE_LASER.value,
+        Lasers.LUMINATE_44.value,
+        Lasers.DXS_FLASH_90.value,
+    ],
 }
 
 weapons_attachment_combos_dict[MarksmanRifles.TAQ_M.value] = {
@@ -13913,6 +14108,24 @@ weapons_attachment_combos_dict[MarksmanRifles.TAQ_M.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
+        Lasers.CS15_SCARLET_BOX_LASER.value,
+        Lasers.PRO_SAPPHIRE_BOX_LASER.value,
+        Lasers.VERDANT_HOOK_BOX_LASER.value,
+        Lasers.SZ_1MW_PEQ.value,
+        Lasers.SCHLAGER_PEQ_BOX_IV.value,
+        Lasers.CORIO_LAZ_44_V3.value,
+        Lasers.FSS_OLE_V_LASER.value,
+        Lasers.CANTED_VIBRO_DOT_7.value,
+        Lasers.LASER_BOX_1MW.value,
+        Lasers.STOVL_DR_LASER_BOX.value,
+        Lasers.CORVUS_PEQ_BEAM_5.value,
+        Lasers.FTAC_GRIMLINE_LASER.value,
+        Lasers.LUMINATE_44.value,
+        Lasers.DXS_FLASH_90.value,
+    ],
 }
 
 #====================================================================================================================================================#
@@ -14027,6 +14240,22 @@ weapons_attachment_combos_dict[SniperRifles.XRK_STALKER.value] = {
         Underbarrels.XTEN_STABLE_SHOT.value,
     ],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
+        Lasers.PRO_SAPPHIRE_BOX_LASER.value,
+        Lasers.VERDANT_HOOK_BOX_LASER.value,
+        Lasers.SZ_1MW_PEQ.value,
+        Lasers.SCHLAGER_PEQ_BOX_IV.value,
+        Lasers.CORIO_LAZ_44_V3.value,
+        Lasers.FSS_OLE_V_LASER.value,
+        Lasers.LASER_BOX_1MW.value,
+        Lasers.STOVL_DR_LASER_BOX.value,
+        Lasers.CORVUS_PEQ_BEAM_5.value,
+        Lasers.FTAC_GRIMLINE_LASER.value,
+        Lasers.LUMINATE_44.value,
+        Lasers.DXS_FLASH_90.value,
+    ],
 }
 
 weapons_attachment_combos_dict[SniperRifles.KATT_AMR.value] = {
@@ -14118,6 +14347,22 @@ weapons_attachment_combos_dict[SniperRifles.KATT_AMR.value] = {
     ],
     "Underbarrels": [],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
+        Lasers.PRO_SAPPHIRE_BOX_LASER.value,
+        Lasers.VERDANT_HOOK_BOX_LASER.value,
+        Lasers.SZ_1MW_PEQ.value,
+        Lasers.SCHLAGER_PEQ_BOX_IV.value,
+        Lasers.CORIO_LAZ_44_V3.value,
+        Lasers.FSS_OLE_V_LASER.value,
+        Lasers.LASER_BOX_1MW.value,
+        Lasers.STOVL_DR_LASER_BOX.value,
+        Lasers.CORVUS_PEQ_BEAM_5.value,
+        Lasers.FTAC_GRIMLINE_LASER.value,
+        Lasers.LUMINATE_44.value,
+        Lasers.DXS_FLASH_90.value,
+    ],
 }
 
 weapons_attachment_combos_dict[SniperRifles.LONGBOW.value] = {
@@ -14303,6 +14548,22 @@ weapons_attachment_combos_dict[SniperRifles.LONGBOW.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
+        Lasers.PRO_SAPPHIRE_BOX_LASER.value,
+        Lasers.VERDANT_HOOK_BOX_LASER.value,
+        Lasers.SZ_1MW_PEQ.value,
+        Lasers.SCHLAGER_PEQ_BOX_IV.value,
+        Lasers.CORIO_LAZ_44_V3.value,
+        Lasers.FSS_OLE_V_LASER.value,
+        Lasers.LASER_BOX_1MW.value,
+        Lasers.STOVL_DR_LASER_BOX.value,
+        Lasers.CORVUS_PEQ_BEAM_5.value,
+        Lasers.FTAC_GRIMLINE_LASER.value,
+        Lasers.LUMINATE_44.value,
+        Lasers.DXS_FLASH_90.value,
+    ],
 }
 
 weapons_attachment_combos_dict[SniperRifles.KV_INHIBITOR.value] = {
@@ -14447,6 +14708,22 @@ weapons_attachment_combos_dict[SniperRifles.KV_INHIBITOR.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
+        Lasers.PRO_SAPPHIRE_BOX_LASER.value,
+        Lasers.VERDANT_HOOK_BOX_LASER.value,
+        Lasers.SZ_1MW_PEQ.value,
+        Lasers.SCHLAGER_PEQ_BOX_IV.value,
+        Lasers.CORIO_LAZ_44_V3.value,
+        Lasers.FSS_OLE_V_LASER.value,
+        Lasers.LASER_BOX_1MW.value,
+        Lasers.STOVL_DR_LASER_BOX.value,
+        Lasers.CORVUS_PEQ_BEAM_5.value,
+        Lasers.FTAC_GRIMLINE_LASER.value,
+        Lasers.LUMINATE_44.value,
+        Lasers.DXS_FLASH_90.value,
+    ],
 }
 
 weapons_attachment_combos_dict[SniperRifles.MCPR_300.value] = {
@@ -14548,6 +14825,23 @@ weapons_attachment_combos_dict[SniperRifles.MCPR_300.value] = {
         Underbarrels.XTEN_STABLE_SHOT.value,
     ],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
+        Lasers.VERDANT_HOOK_BOX_LASER.value,
+        Lasers.PRO_SAPPHIRE_BOX_LASER.value,
+        Lasers.SZ_1MW_PEQ.value,
+        Lasers.SCHLAGER_PEQ_BOX_IV.value,
+        Lasers.CORIO_LAZ_44_V3.value,
+        Lasers.FSS_OLE_V_LASER.value,
+        Lasers.CANTED_VIBRO_DOT_7.value,
+        Lasers.LASER_BOX_1MW.value,
+        Lasers.STOVL_DR_LASER_BOX.value,
+        Lasers.CORVUS_PEQ_BEAM_5.value,
+        Lasers.FTAC_GRIMLINE_LASER.value,
+        Lasers.LUMINATE_44.value,
+        Lasers.DXS_FLASH_90.value,
+    ],
 }
 
 weapons_attachment_combos_dict[SniperRifles.SIGNAL_50.value] = {
@@ -14703,6 +14997,22 @@ weapons_attachment_combos_dict[SniperRifles.SIGNAL_50.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
+        Lasers.VERDANT_HOOK_BOX_LASER.value,
+        Lasers.PRO_SAPPHIRE_BOX_LASER.value,
+        Lasers.SZ_1MW_PEQ.value,
+        Lasers.SCHLAGER_PEQ_BOX_IV.value,
+        Lasers.CORIO_LAZ_44_V3.value,
+        Lasers.FSS_OLE_V_LASER.value,
+        Lasers.LASER_BOX_1MW.value,
+        Lasers.STOVL_DR_LASER_BOX.value,
+        Lasers.CORVUS_PEQ_BEAM_5.value,
+        Lasers.FTAC_GRIMLINE_LASER.value,
+        Lasers.LUMINATE_44.value,
+        Lasers.DXS_FLASH_90.value,
+    ],
 }
 
 weapons_attachment_combos_dict[SniperRifles.VICTUS_XMR.value] = {
@@ -14806,6 +15116,22 @@ weapons_attachment_combos_dict[SniperRifles.VICTUS_XMR.value] = {
         Underbarrels.XTEN_STABLE_SHOT.value,
     ],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
+        Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
+        Lasers.ARTEMIS_LASER_1MW.value,
+        Lasers.QUICK_FIRE_LASER_1MW.value,
+        Lasers.ACCU_SHOT_5MW_LASER.value,
+        Lasers.VLK_LZR_7MW.value,
+        Lasers.SCHLAGER_ULO_66_LASER.value,
+        Lasers.STOVL_TAC_LASER.value,
+        Lasers.HIPSHOT_L20.value,
+        Lasers.POINT_G3P_04.value,
+        Lasers.FJX_ULTRABEAM_XR.value,
+        Lasers.EXF_SOLARFLARE.value,
+        Lasers.KIMURA_RYL33_LASER_LIGHT.value,
+    ],
 }
 
 weapons_attachment_combos_dict[SniperRifles.FJX_IMPERIUM.value] = {
@@ -14906,6 +15232,22 @@ weapons_attachment_combos_dict[SniperRifles.FJX_IMPERIUM.value] = {
         CarryHandles.FIELD_WRAPPED_HANDLE.value,
         CarryHandles.KEYSTONE_HANDLE.value,
     ],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
+        Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
+        Lasers.ARTEMIS_LASER_1MW.value,
+        Lasers.QUICK_FIRE_LASER_1MW.value,
+        Lasers.ACCU_SHOT_5MW_LASER.value,
+        Lasers.VLK_LZR_7MW.value,
+        Lasers.SCHLAGER_ULO_66_LASER.value,
+        Lasers.STOVL_TAC_LASER.value,
+        Lasers.HIPSHOT_L20.value,
+        Lasers.POINT_G3P_04.value,
+        Lasers.FJX_ULTRABEAM_XR.value,
+        Lasers.EXF_SOLARFLARE.value,
+        Lasers.KIMURA_RYL33_LASER_LIGHT.value,
+    ],
 }
 
 weapons_attachment_combos_dict[SniperRifles.CARRACK_300.value] = {
@@ -15003,6 +15345,22 @@ weapons_attachment_combos_dict[SniperRifles.CARRACK_300.value] = {
     ],
     "Underbarrels": [],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
+        Lasers.VERDANT_HOOK_BOX_LASER.value,
+        Lasers.PRO_SAPPHIRE_BOX_LASER.value,
+        Lasers.ARTEMIS_LASER_1MW.value,
+        Lasers.QUICK_FIRE_LASER_1MW.value,
+        Lasers.ACCU_SHOT_5MW_LASER.value,
+        Lasers.VLK_LZR_7MW.value,
+        Lasers.SCHLAGER_ULO_66_LASER.value,
+        Lasers.STOVL_TAC_LASER.value,
+        Lasers.HIPSHOT_L20.value,
+        Lasers.POINT_G3P_04.value,
+        Lasers.FJX_ULTRABEAM_XR.value,
+        Lasers.EXF_SOLARFLARE.value,
+    ],
 }
 
 weapons_attachment_combos_dict[SniperRifles.LA_B_330.value] = {
@@ -15104,6 +15462,22 @@ weapons_attachment_combos_dict[SniperRifles.LA_B_330.value] = {
         Underbarrels.XTEN_STABLE_SHOT.value,
     ],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
+        Lasers.VERDANT_HOOK_BOX_LASER.value,
+        Lasers.PRO_SAPPHIRE_BOX_LASER.value,
+        Lasers.SZ_1MW_PEQ.value,
+        Lasers.SCHLAGER_PEQ_BOX_IV.value,
+        Lasers.CORIO_LAZ_44_V3.value,
+        Lasers.FSS_OLE_V_LASER.value,
+        Lasers.LASER_BOX_1MW.value,
+        Lasers.STOVL_DR_LASER_BOX.value,
+        Lasers.CORVUS_PEQ_BEAM_5.value,
+        Lasers.FTAC_GRIMLINE_LASER.value,
+        Lasers.LUMINATE_44.value,
+        Lasers.DXS_FLASH_90.value,
+    ],
 }
 
 weapons_attachment_combos_dict[SniperRifles.SP_X_80.value] = {
@@ -15205,14 +15579,49 @@ weapons_attachment_combos_dict[SniperRifles.SP_X_80.value] = {
         Underbarrels.XTEN_STABLE_SHOT.value,
     ],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
+        Lasers.VERDANT_HOOK_BOX_LASER.value,
+        Lasers.PRO_SAPPHIRE_BOX_LASER.value,
+        Lasers.SZ_1MW_PEQ.value,
+        Lasers.SCHLAGER_PEQ_BOX_IV.value,
+        Lasers.CORIO_LAZ_44_V3.value,
+        Lasers.FSS_OLE_V_LASER.value,
+        Lasers.LASER_BOX_1MW.value,
+        Lasers.STOVL_DR_LASER_BOX.value,
+        Lasers.CORVUS_PEQ_BEAM_5.value,
+        Lasers.FTAC_GRIMLINE_LASER.value,
+        Lasers.LUMINATE_44.value,
+        Lasers.DXS_FLASH_90.value,
+    ],
 }
+
+#==============================================================================================================================================#
+#================================================================  Melee Primary  =============================================================#
+#==============================================================================================================================================#
 
 weapons_attachment_combos_dict[MeleePrimary.RIOT_SHIELD.value] = {
     "Optics": [],
     "Muzzles": [],
     "Underbarrels": [],
     "CarryHandles": [],
+    "Lasers": [],
+    "Arms": [],
+    "AmmoTypes": [],
+    "RearGrips": [],
+    "TriggerActions": [],
+    "Stocks": [],
+    "Magazines": [],
+    "Guards": [],
+    "Combs": [],
+    "Bolts": [],
+    "Barrels": [],
 }
+
+#==============================================================================================================================================#
+#================================================================  Handguns  ==================================================================#
+#==============================================================================================================================================#
 
 weapons_attachment_combos_dict[HandGuns.COR_45.value] = {
     "Optics": [
@@ -15253,6 +15662,19 @@ weapons_attachment_combos_dict[HandGuns.COR_45.value] = {
     ],
     "Underbarrels": [],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.KR_HX_15_LASER_LIGHT.value,
+        Lasers.PRO_SAPPHIRE_MOUNTED_LASER.value,
+        Lasers.VERDANT_HOOK_MOUNTED_LASER.value,
+        Lasers.SERIES_710_PISTOL_LASER.value,
+        Lasers.FJX_DIOD_70.value,
+        Lasers.XTEN_SIDEARM_L400.value,
+        Lasers.PISTOL_LASER_1MW.value,
+        Lasers.DZM_1000_L.value,
+        Lasers.FTAC_VORTEX_200.value,
+        Lasers.CS15_SCARLET_MOUNTED_LASER.value,
+    ],
 }
 
 weapons_attachment_combos_dict[HandGuns.RENETTI.value] = {
@@ -15292,6 +15714,18 @@ weapons_attachment_combos_dict[HandGuns.RENETTI.value] = {
     ],
     "Underbarrels": [],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.KR_HX_15_LASER_LIGHT.value,
+        Lasers.PRO_SAPPHIRE_MOUNTED_LASER.value,
+        Lasers.VERDANT_HOOK_MOUNTED_LASER.value,
+        Lasers.SERIES_710_PISTOL_LASER.value,
+        Lasers.FJX_DIOD_70.value,
+        Lasers.XTEN_SIDEARM_L400.value,
+        Lasers.DZM_1000_L.value,
+        Lasers.FTAC_VORTEX_200.value,
+        Lasers.CS15_SCARLET_MOUNTED_LASER.value,
+    ],
 }
 
 weapons_attachment_combos_dict[HandGuns.TYR.value] = {
@@ -15402,10 +15836,23 @@ weapons_attachment_combos_dict[HandGuns.TYR.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.KR_HX_15_LASER_LIGHT.value,
+        Lasers.PRO_SAPPHIRE_MOUNTED_LASER.value,
+        Lasers.VERDANT_HOOK_MOUNTED_LASER.value,
+        Lasers.SERIES_710_PISTOL_LASER.value,
+        Lasers.FJX_DIOD_70.value,
+        Lasers.XTEN_SIDEARM_L400.value,
+        Lasers.PISTOL_LASER_1MW.value,
+        Lasers.DZM_1000_L.value,
+        Lasers.FTAC_VORTEX_200.value,
+        Lasers.CS15_SCARLET_MOUNTED_LASER.value,
+    ],
 }
 
 weapons_attachment_combos_dict[HandGuns.WSP_STINGER.value] = {
-    "Optics": None,
+    "Optics": [],
     "Muzzles": [
         Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
@@ -15447,6 +15894,19 @@ weapons_attachment_combos_dict[HandGuns.WSP_STINGER.value] = {
     ],
     "Underbarrels": [],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.KR_HX_15_LASER_LIGHT.value,
+        Lasers.PRO_SAPPHIRE_MOUNTED_LASER.value,
+        Lasers.VERDANT_HOOK_MOUNTED_LASER.value,
+        Lasers.SERIES_710_PISTOL_LASER.value,
+        Lasers.FJX_DIOD_70.value,
+        Lasers.XTEN_SIDEARM_L400.value,
+        Lasers.PISTOL_LASER_1MW.value,
+        Lasers.DZM_1000_L.value,
+        Lasers.FTAC_VORTEX_200.value,
+        Lasers.CS15_SCARLET_MOUNTED_LASER.value,
+    ],
 }
 
 weapons_attachment_combos_dict[HandGuns.P890.value] = {
@@ -15488,6 +15948,19 @@ weapons_attachment_combos_dict[HandGuns.P890.value] = {
     ],
     "Underbarrels": [],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.KR_HX_15_LASER_LIGHT.value,
+        Lasers.PRO_SAPPHIRE_MOUNTED_LASER.value,
+        Lasers.VERDANT_HOOK_MOUNTED_LASER.value,
+        Lasers.SERIES_710_PISTOL_LASER.value,
+        Lasers.FJX_DIOD_70.value,
+        Lasers.XTEN_SIDEARM_L400.value,
+        Lasers.PISTOL_LASER_1MW.value,
+        Lasers.DZM_1000_L.value,
+        Lasers.FTAC_VORTEX_200.value,
+        Lasers.CS15_SCARLET_MOUNTED_LASER.value,
+    ],
 }
 
 weapons_attachment_combos_dict[HandGuns.GS_50.value] = {
@@ -15530,6 +16003,19 @@ weapons_attachment_combos_dict[HandGuns.GS_50.value] = {
     ],
     "Underbarrels": [],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.KR_HX_15_LASER_LIGHT.value,
+        Lasers.PRO_SAPPHIRE_MOUNTED_LASER.value,
+        Lasers.VERDANT_HOOK_MOUNTED_LASER.value,
+        Lasers.SERIES_710_PISTOL_LASER.value,
+        Lasers.FJX_DIOD_70.value,
+        Lasers.XTEN_SIDEARM_L400.value,
+        Lasers.PISTOL_LASER_1MW.value,
+        Lasers.DZM_1000_L.value,
+        Lasers.FTAC_VORTEX_200.value,
+        Lasers.CS15_SCARLET_MOUNTED_LASER.value,
+    ],
 }
 
 weapons_attachment_combos_dict[HandGuns.X12.value] = {
@@ -15570,6 +16056,19 @@ weapons_attachment_combos_dict[HandGuns.X12.value] = {
     ],
     "Underbarrels": [],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.KR_HX_15_LASER_LIGHT.value,
+        Lasers.PRO_SAPPHIRE_MOUNTED_LASER.value,
+        Lasers.VERDANT_HOOK_MOUNTED_LASER.value,
+        Lasers.SERIES_710_PISTOL_LASER.value,
+        Lasers.FJX_DIOD_70.value,
+        Lasers.XTEN_SIDEARM_L400.value,
+        Lasers.PISTOL_LASER_1MW.value,
+        Lasers.DZM_1000_L.value,
+        Lasers.FTAC_VORTEX_200.value,
+        Lasers.CS15_SCARLET_MOUNTED_LASER.value,
+    ],
 }
 
 weapons_attachment_combos_dict[HandGuns.BASILISK.value] = {
@@ -15617,6 +16116,12 @@ weapons_attachment_combos_dict[HandGuns.BASILISK.value] = {
     ],
     "Underbarrels": [],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.BASILISK_GRIP_LASER.value,
+        Lasers.REVO_LSD_7MW.value,
+        Lasers.CORVUS_LZR_790.value,
+    ],
 }
 
 weapons_attachment_combos_dict[HandGuns.FTAC_SIEGE.value] = {
@@ -15678,6 +16183,19 @@ weapons_attachment_combos_dict[HandGuns.FTAC_SIEGE.value] = {
         Underbarrels.WEDGE_GRIP.value,
     ],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.KR_HX_15_LASER_LIGHT.value,
+        Lasers.PRO_SAPPHIRE_MOUNTED_LASER.value,
+        Lasers.VERDANT_HOOK_MOUNTED_LASER.value,
+        Lasers.SERIES_710_PISTOL_LASER.value,
+        Lasers.FJX_DIOD_70.value,
+        Lasers.XTEN_SIDEARM_L400.value,
+        Lasers.PISTOL_LASER_1MW.value,
+        Lasers.DZM_1000_L.value,
+        Lasers.FTAC_VORTEX_200.value,
+        Lasers.CS15_SCARLET_MOUNTED_LASER.value,
+    ],
 }
 
 weapons_attachment_combos_dict[HandGuns.GS_MAGNA.value] = {
@@ -15734,6 +16252,7 @@ weapons_attachment_combos_dict[HandGuns.GS_MAGNA.value] = {
         Underbarrels.KIMURA_SERAPHIC_VERTICAL_GRIP.value,
     ],
     "CarryHandles": [],
+    "Lasers": [],
 }
 
 weapons_attachment_combos_dict[HandGuns.DAEMON_9MM.value] = {
@@ -15775,6 +16294,19 @@ weapons_attachment_combos_dict[HandGuns.DAEMON_9MM.value] = {
     ],
     "Underbarrels": [],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.KR_HX_15_LASER_LIGHT.value,
+        Lasers.PRO_SAPPHIRE_MOUNTED_LASER.value,
+        Lasers.VERDANT_HOOK_MOUNTED_LASER.value,
+        Lasers.SERIES_710_PISTOL_LASER.value,
+        Lasers.FJX_DIOD_70.value,
+        Lasers.XTEN_SIDEARM_L400.value,
+        Lasers.PISTOL_LASER_1MW.value,
+        Lasers.DZM_1000_L.value,
+        Lasers.FTAC_VORTEX_200.value,
+        Lasers.CS15_SCARLET_MOUNTED_LASER.value,
+    ],
 }
 
 weapons_attachment_combos_dict[HandGuns.X13_AUTO.value] = {
@@ -15830,13 +16362,41 @@ weapons_attachment_combos_dict[HandGuns.X13_AUTO.value] = {
     ],
     "Underbarrels": [],
     "CarryHandles": [],
+    "Lasers": [
+        Lasers.NO_MODIFICATIONS.value,
+        Lasers.KR_HX_15_LASER_LIGHT.value,
+        Lasers.PRO_SAPPHIRE_MOUNTED_LASER.value,
+        Lasers.VERDANT_HOOK_MOUNTED_LASER.value,
+        Lasers.SERIES_710_PISTOL_LASER.value,
+        Lasers.FJX_DIOD_70.value,
+        Lasers.XTEN_SIDEARM_L400.value,
+        Lasers.PISTOL_LASER_1MW.value,
+        Lasers.DZM_1000_L.value,
+        Lasers.FTAC_VORTEX_200.value,
+        Lasers.CS15_SCARLET_MOUNTED_LASER.value,
+    ],
 }
+
+#==============================================================================================================================================#
+#================================================================ Launchers  ==================================================================#
+#==============================================================================================================================================#
 
 weapons_attachment_combos_dict[Launchers.STORMENDER.value] = {
     "Optics": [],
     "Muzzles": [],
     "Underbarrels": [],
     "CarryHandles": [],
+    "Lasers": [],
+    "Arms": [],
+    "AmmoTypes": [],
+    "RearGrips": [],
+    "TriggerActions": [],
+    "Stocks": [],
+    "Magazines": [],
+    "Guards": [],
+    "Combs": [],
+    "Bolts": [],
+    "Barrels": [],
 }
 
 weapons_attachment_combos_dict[Launchers.RGL_80.value] = {
@@ -15844,6 +16404,17 @@ weapons_attachment_combos_dict[Launchers.RGL_80.value] = {
     "Muzzles": [],
     "Underbarrels": [],
     "CarryHandles": [],
+    "Lasers": [],
+    "Arms": [],
+    "AmmoTypes": [],
+    "RearGrips": [],
+    "TriggerActions": [],
+    "Stocks": [],
+    "Magazines": [],
+    "Guards": [],
+    "Combs": [],
+    "Bolts": [],
+    "Barrels": [],
 }
 
 weapons_attachment_combos_dict[Launchers.PILA.value] = {
@@ -15851,6 +16422,17 @@ weapons_attachment_combos_dict[Launchers.PILA.value] = {
     "Muzzles": [],
     "Underbarrels": [],
     "CarryHandles": [],
+    "Lasers": [],
+    "Arms": [],
+    "AmmoTypes": [],
+    "RearGrips": [],
+    "TriggerActions": [],
+    "Stocks": [],
+    "Magazines": [],
+    "Guards": [],
+    "Combs": [],
+    "Bolts": [],
+    "Barrels": [],
 }
 
 weapons_attachment_combos_dict[Launchers.JOKR.value] = {
@@ -15858,6 +16440,17 @@ weapons_attachment_combos_dict[Launchers.JOKR.value] = {
     "Muzzles": [],
     "Underbarrels": [],
     "CarryHandles": [],
+    "Lasers": [],
+    "Arms": [],
+    "AmmoTypes": [],
+    "RearGrips": [],
+    "TriggerActions": [],
+    "Stocks": [],
+    "Magazines": [],
+    "Guards": [],
+    "Combs": [],
+    "Bolts": [],
+    "Barrels": [],
 }
 
 weapons_attachment_combos_dict[Launchers.RPG_7.value] = {
@@ -15865,6 +16458,17 @@ weapons_attachment_combos_dict[Launchers.RPG_7.value] = {
     "Muzzles": [],
     "Underbarrels": [],
     "CarryHandles": [],
+    "Lasers": [],
+    "Arms": [],
+    "AmmoTypes": [],
+    "RearGrips": [],
+    "TriggerActions": [],
+    "Stocks": [],
+    "Magazines": [],
+    "Guards": [],
+    "Combs": [],
+    "Bolts": [],
+    "Barrels": [],
 }
 
 weapons_attachment_combos_dict[Launchers.STRELA_P.value] = {
@@ -15872,13 +16476,39 @@ weapons_attachment_combos_dict[Launchers.STRELA_P.value] = {
     "Muzzles": [],
     "Underbarrels": [],
     "CarryHandles": [],
+    "Lasers": [],
+    "Arms": [],
+    "AmmoTypes": [],
+    "RearGrips": [],
+    "TriggerActions": [],
+    "Stocks": [],
+    "Magazines": [],
+    "Guards": [],
+    "Combs": [],
+    "Bolts": [],
+    "Barrels": [],
 }
+
+#==============================================================================================================================================#
+#================================================================  Melee Secondary  ===========================================================#
+#==============================================================================================================================================#
 
 weapons_attachment_combos_dict[MeleeSecondary.GUTTER_KNIFE.value] = {
     "Optics": [],
     "Muzzles": [],
     "Underbarrels": [],
     "CarryHandles": [],
+    "Lasers": [],
+    "Arms": [],
+    "AmmoTypes": [],
+    "RearGrips": [],
+    "TriggerActions": [],
+    "Stocks": [],
+    "Magazines": [],
+    "Guards": [],
+    "Combs": [],
+    "Bolts": [],
+    "Barrels": [],
 }
 
 weapons_attachment_combos_dict[MeleeSecondary.KARAMBIT.value] = {
@@ -15886,6 +16516,17 @@ weapons_attachment_combos_dict[MeleeSecondary.KARAMBIT.value] = {
     "Muzzles": [],
     "Underbarrels": [],
     "CarryHandles": [],
+    "Lasers": [],
+    "Arms": [],
+    "AmmoTypes": [],
+    "RearGrips": [],
+    "TriggerActions": [],
+    "Stocks": [],
+    "Magazines": [],
+    "Guards": [],
+    "Combs": [],
+    "Bolts": [],
+    "Barrels": [],
 }
 
 weapons_attachment_combos_dict[MeleeSecondary.TONFA.value] = {
@@ -15893,6 +16534,17 @@ weapons_attachment_combos_dict[MeleeSecondary.TONFA.value] = {
     "Muzzles": [],
     "Underbarrels": [],
     "CarryHandles": [],
+    "Lasers": [],
+    "Arms": [],
+    "AmmoTypes": [],
+    "RearGrips": [],
+    "TriggerActions": [],
+    "Stocks": [],
+    "Magazines": [],
+    "Guards": [],
+    "Combs": [],
+    "Bolts": [],
+    "Barrels": [],
 }
 
 weapons_attachment_combos_dict[MeleeSecondary.COMBAT_KNIFE.value] = {
@@ -15900,6 +16552,17 @@ weapons_attachment_combos_dict[MeleeSecondary.COMBAT_KNIFE.value] = {
     "Muzzles": [],
     "Underbarrels": [],
     "CarryHandles": [],
+    "Lasers": [],
+    "Arms": [],
+    "AmmoTypes": [],
+    "RearGrips": [],
+    "TriggerActions": [],
+    "Stocks": [],
+    "Magazines": [],
+    "Guards": [],
+    "Combs": [],
+    "Bolts": [],
+    "Barrels": [],
 }
 
 weapons_attachment_combos_dict[MeleeSecondary.DUAL_KODACHIS.value] = {
@@ -15907,6 +16570,17 @@ weapons_attachment_combos_dict[MeleeSecondary.DUAL_KODACHIS.value] = {
     "Muzzles": [],
     "Underbarrels": [],
     "CarryHandles": [],
+    "Lasers": [],
+    "Arms": [],
+    "AmmoTypes": [],
+    "RearGrips": [],
+    "TriggerActions": [],
+    "Stocks": [],
+    "Magazines": [],
+    "Guards": [],
+    "Combs": [],
+    "Bolts": [],
+    "Barrels": [],
 }
 
 weapons_attachment_combos_dict[MeleeSecondary.DUAL_KAMAS.value] = {
@@ -15914,6 +16588,17 @@ weapons_attachment_combos_dict[MeleeSecondary.DUAL_KAMAS.value] = {
     "Muzzles": [],
     "Underbarrels": [],
     "CarryHandles": [],
+    "Lasers": [],
+    "Arms": [],
+    "AmmoTypes": [],
+    "RearGrips": [],
+    "TriggerActions": [],
+    "Stocks": [],
+    "Magazines": [],
+    "Guards": [],
+    "Combs": [],
+    "Bolts": [],
+    "Barrels": [],
 }
 
 weapons_attachment_combos_dict[MeleeSecondary.PICKAXE.value] = {
@@ -15921,4 +16606,15 @@ weapons_attachment_combos_dict[MeleeSecondary.PICKAXE.value] = {
     "Muzzles": [],
     "Underbarrels": [],
     "CarryHandles": [],
+    "Lasers": [],
+    "Arms": [],
+    "AmmoTypes": [],
+    "RearGrips": [],
+    "TriggerActions": [],
+    "Stocks": [],
+    "Magazines": [],
+    "Guards": [],
+    "Combs": [],
+    "Bolts": [],
+    "Barrels": [],
 }
