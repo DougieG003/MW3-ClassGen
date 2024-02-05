@@ -327,7 +327,6 @@ class Muzzles(Enum):
     # added for FTAC SIEGE Handgun
     FTAC_SIEGE_CONTROL = "FTAC SIEGE CONTROL"
 
-
 class Optics(Enum):
     NO_MODIFICATIONS = "NO MODIFICATIONS"
     KR_INTLAS_LSJ_3 = "KR INTLAS LSJ-3"
