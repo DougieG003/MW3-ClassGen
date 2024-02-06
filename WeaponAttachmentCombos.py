@@ -8,6 +8,8 @@ This file includes a dictionary for every weapon and the weapon's available atta
 #  cor 45 handgun
 #  X13 auto handgun
 
+# MCW Assault Rifle - KIMURA_SILENTSHOT_INTEGRAL_SUPPRESSOR barrel disables muzzle
+
 from AttachmentEnums import (
     AmmoTypes,
     Arms,
@@ -88,6 +90,13 @@ weapons_attachment_combos_dict[AssaultRifles.SVA_545.value] = {
         Muzzles.VLK_KOLOSS_FLASH_HIDER.value,
         Muzzles.STER45_SKYFURY_COMPENSATOR.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
+    ],
+    "Barrels": [
+        Barrels.STV_PRECISION_BARREL.value,
+        Barrels.WARPIG_SHORT_BARREL.value,
+        Barrels.SA_LIGHTWEIGHT_CQC_BARREL.value,
+        Barrels.SVA_5_SHORT_BARREL.value,
+        Barrels.NT_QUIETUS_SUPPRESSED_BARREL.value,
     ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
@@ -287,6 +296,16 @@ weapons_attachment_combos_dict[AssaultRifles.RAM_7.value] = {
         Muzzles.STER45_SKYFURY_COMPENSATOR.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
     ],
+    "Barrels": [
+        Barrels.FSS_IMPERATOR_LIGHT_BARREL.value,
+        Barrels.XRK_COREMARK_40_HEAVY_BARREL.value,
+        Barrels.SPEEDWAY_V5_SHORT_BARREL.value,
+        Barrels.CRONEN_HEADWIND_LONG_BARREL.value,
+        Barrels.BOREAL_6C_SUPPRESSED_BARREL.value,
+        Barrels.XTEN_FRL_3_HEAVY_BARREL.value,
+        Barrels.FSS_FULLSTOP_BARREL.value,
+        Barrels.SO_KLONDIKE_45_LONG_BARREL.value,
+    ],    
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
@@ -482,6 +501,14 @@ weapons_attachment_combos_dict[AssaultRifles.MTZ_556.value] = {
         Muzzles.STER45_SKYFURY_COMPENSATOR.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
     ],
+    "Barrels": [
+        Barrels.MTZ_CLINCH_PRO_BARREL.value,
+        Barrels.MTZ_VLDL_3568_BARREL.value,
+        Barrels.MTZ_ROWAN_XL_356.value,
+        Barrels.MTZ_DRIFTER_HEAVY_LONG_BARREL.value,
+        Barrels.MTZ_PARA_LONG_BARREL.value,
+        Barrels.MTZ_NATTER_HEAVY_SHORT_BARREL.value,
+    ],      
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
@@ -680,6 +707,12 @@ weapons_attachment_combos_dict[AssaultRifles.HOLGER_556.value] = {
         Muzzles.STER45_SKYFURY_COMPENSATOR.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
     ],
+    "Barrels": [
+        Barrels.CROSS_X_SHORT_BARREL.value,
+        Barrels.BANNER_80_LIGHT_BARREL.value,
+        Barrels.CHRIOS_6_MATCH.value,
+        Barrels.LM_INFLIX_SHORT_HEAVY_BARREL.value,
+    ],      
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
@@ -878,6 +911,15 @@ weapons_attachment_combos_dict[AssaultRifles.MCW.value] = {
         Muzzles.STER45_SKYFURY_COMPENSATOR.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
     ],
+    "Barrels": [
+        Barrels.MCW_16p5_CYCLONE_LONG_BARREL.value,
+        Barrels.SL_CRATER_HEAVY_BARREL.value,
+        Barrels.KIMURA_BLACKIRON_HEAVY_SHORT_BARREL.value,
+        Barrels.SECOND_LINE_MAMMOTH_HEAVY_BARREL.value,
+        Barrels.ORCHESTRA_40_SHORT_HEAVY_BARREL.value,
+        Barrels.KR_MIDNIGHT_13_BARREL.value,
+        Barrels.KIMURA_SILENTSHOT_INTEGRAL_SUPPRESSOR.value,
+    ], 
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
@@ -1076,6 +1118,13 @@ weapons_attachment_combos_dict[AssaultRifles.DG_56.value] = {
         Muzzles.STER45_SKYFURY_COMPENSATOR.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
     ],
+    "Barrels": [
+        Barrels.DG_56_LS18_BARREL.value,
+        Barrels.CDG_T_25_LIGHT_BARREL.value,
+        Barrels.AIGUO_DEFENDER_SHORT_BARREL.value,
+        Barrels.CULPA_OGS_LIGHT_BARREL.value,
+        Barrels.DG_58_MICRO_BARREL.value,
+    ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
@@ -1271,6 +1320,11 @@ weapons_attachment_combos_dict[AssaultRifles.FR_556.value] = {
         Muzzles.STER45_SKYFURY_COMPENSATOR.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
     ],
+    "Barrels": [
+        Barrels.FR435_435MM.value,
+        Barrels.FR_LONGBORE_600MM.value,
+        Barrels.FR_MINIBORE_395MM.value,
+    ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
@@ -1460,6 +1514,10 @@ weapons_attachment_combos_dict[AssaultRifles.TAQ_56.value] = {
         Muzzles.VLK_KOLOSS_FLASH_HIDER.value,
         Muzzles.STER45_SKYFURY_COMPENSATOR.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
+    ],
+    "Barrels": [
+        Barrels.TACSHORT_12_BARREL.value,
+        Barrels.TUNDRA_PRO_17p5_BARREL.value,
     ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
@@ -1658,6 +1716,15 @@ weapons_attachment_combos_dict[AssaultRifles.M4.value] = {
         Muzzles.STER45_SKYFURY_COMPENSATOR.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
     ],
+    "Barrels": [
+        Barrels.HIGHTOWER_20_BARREL.value,
+        Barrels.EXF_419MM_BARREL.value,
+        Barrels.CARBINE_SHROUD_14.value,
+        Barrels.T_H4_11p5_BARREL.value,
+        Barrels.CARBINE_SHROUD_11p5.value,
+        Barrels.TEMPUS_TRENCH_PRO.value,
+        Barrels.TEMPUS_FIREBRAND_7p5.value,
+    ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
@@ -1854,6 +1921,14 @@ weapons_attachment_combos_dict[AssaultRifles.STB_556.value] = {
         Muzzles.STER45_SKYFURY_COMPENSATOR.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
     ],
+    "Barrels": [
+        Barrels.BRUEN_TURACO_686MM.value,
+        Barrels.FTAC_FB20.value,
+        Barrels.BRUEN_GUERILLA_18.value,
+        Barrels.BRUEN_S620_20.value,
+        Barrels.REAR_GUARD_508MM.value,
+        Barrels.BRUEN_S901_16p5_BARREL.value,
+    ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
         Lasers.CS15_SCARLET_CYLINDRICAL_LASER.value,
@@ -2046,6 +2121,13 @@ weapons_attachment_combos_dict[AssaultRifles.KASTOV_762.value] = {
         Muzzles.SONIC_SUPPRESSOR_L.value,
         Muzzles.WRATHGUARD_COMPENSATOR_L.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
+    ],
+    "Barrels": [
+        Barrels.KAS_10_584MM_BARREL.value,
+        Barrels.KAS_7_406MM.value,
+        Barrels.IG_K30_406MM.value,
+        Barrels.KASTOVIA_343.value,
+        Barrels.SAKIN_KL_342MM.value,
     ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
@@ -2243,6 +2325,11 @@ weapons_attachment_combos_dict[AssaultRifles.M13B.value] = {
         Muzzles.STER45_SKYFURY_COMPENSATOR.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
     ],
+    "Barrels": [
+        Barrels.BRUEN_ECHELON_14.value,
+        Barrels.BRUEN_B_M20_7.value,
+        Barrels.M13C_FACTORY_BARREL.value,
+    ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
         Lasers.CS15_SCARLET_CYLINDRICAL_LASER.value,
@@ -2397,6 +2484,11 @@ weapons_attachment_combos_dict[AssaultRifles.M13B.value] = {
 
 weapons_attachment_combos_dict[AssaultRifles.CHIMERA.value] = {
     "Muzzles": [],
+    "Barrels": [
+        Barrels.SA_PHOENIX_10.value,
+        Barrels.EXF_OP_40_5p5.value,
+        Barrels.EXF_VORPAL_6p5.value,
+    ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
         Lasers.CS15_SCARLET_CYLINDRICAL_LASER.value,
@@ -2586,6 +2678,13 @@ weapons_attachment_combos_dict[AssaultRifles.ISO_HEMLOCK.value] = {
         Muzzles.VLK_KOLOSS_FLASH_HIDER.value,
         Muzzles.STER45_SKYFURY_COMPENSATOR.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
+    ],
+    "Barrels": [
+        Barrels.RCQ_7.value,
+        Barrels.SERIES_4_MR.value,
+        Barrels.CIPHER_121.value,
+        Barrels.LR_30_56.value,
+        Barrels.FIELDER_T50.value,
     ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
@@ -2784,6 +2883,12 @@ weapons_attachment_combos_dict[AssaultRifles.TEMPUS_RAZORBACK.value] = {
         Muzzles.STER45_SKYFURY_COMPENSATOR.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
     ],
+    "Barrels": [
+        Barrels.TACK_2L_18.value,
+        Barrels.FRENZY_IX_13.value,
+        Barrels.TANKR_V_16.value,
+        Barrels.IO_XL_17.value,
+    ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
@@ -2978,6 +3083,11 @@ weapons_attachment_combos_dict[AssaultRifles.FR_AVANCER.value] = {
         Muzzles.STER45_SKYFURY_COMPENSATOR.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
     ],
+    "Barrels": [
+        Barrels.FR_LONGBORE_600MM.value,
+        Barrels.FR435_435MM.value,
+        Barrels.FR_MINIBORE_395MM.value,
+    ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
@@ -3161,6 +3271,11 @@ weapons_attachment_combos_dict[AssaultRifles.M13C.value] = {
         Muzzles.VLK_KOLOSS_FLASH_HIDER.value,
         Muzzles.STER45_SKYFURY_COMPENSATOR.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
+    ],
+    "Barrels": [
+        Barrels.BRUEN_FCT_6_10.value,
+        Barrels.BRUEN_C_M20_7.value,
+        Barrels.BRUEN_ECHELON_14.value,
     ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
@@ -3359,6 +3474,13 @@ weapons_attachment_combos_dict[AssaultRifles.LACHMAN_556.value] = {
         Muzzles.STER45_SKYFURY_COMPENSATOR.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
     ],
+    "Barrels": [
+        Barrels.LACHMANN_RAPP_15p9_BARREL.value,
+        Barrels.LACHMANN_NOVA.value,
+        Barrels.LM_AURORA_90_BARREL.value,
+        Barrels.LACHSTRIKE_10p6_BARREL.value,
+        Barrels.LACH_12_BARREL.value,
+    ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
@@ -3553,6 +3675,12 @@ weapons_attachment_combos_dict[AssaultRifles.M16.value] = {
         Muzzles.STER45_SKYFURY_COMPENSATOR.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
     ],
+    "Barrels": [
+        Barrels.CARBINE_SHROUD_14.value,
+        Barrels.DEMO_501_FACTORY.value,
+        Barrels.T_H4_11p5_BARREL.value,
+        Barrels.CARBINE_SHROUD_11p5.value,
+    ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
@@ -3746,6 +3874,12 @@ weapons_attachment_combos_dict[AssaultRifles.KASTOV_74U.value] = {
         Muzzles.STER45_SKYFURY_COMPENSATOR.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
     ],
+    "Barrels": [
+        Barrels.SA_ULTRA_III.value,
+        Barrels.SHORTTAC_190MM.value,
+        Barrels.BR209_BARREL.value,
+        Barrels.KSTV_17.value,
+    ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
@@ -3922,6 +4056,12 @@ weapons_attachment_combos_dict[AssaultRifles.KASTOV_545.value] = {
         Muzzles.VLK_KOLOSS_FLASH_HIDER.value,
         Muzzles.STER45_SKYFURY_COMPENSATOR.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
+    ],
+    "Barrels": [
+        Barrels.KAS_7_406MM.value,
+        Barrels.KASTOVIA_406.value,
+        Barrels.IG_K30_406MM.value,
+        Barrels.SAKIN_KL_342MM.value,
     ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
