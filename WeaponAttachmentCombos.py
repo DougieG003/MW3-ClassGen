@@ -4261,6 +4261,13 @@ weapons_attachment_combos_dict[BattleRifles.BAS_B.value] = {
         Muzzles.WRATHGUARD_COMPENSATOR_L.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
     ],
+    "Barrels": [
+        Barrels.BRUEN_VENOM_LONG_BARREL.value,
+        Barrels.SHORT_8_BRUEN_SZ_45_BARREL.value,
+        Barrels.WYVERNS_RESPITE_LONG_BARREL.value,
+        Barrels.CRIPPLING_MALICE_LIGHT_BARREL.value,
+        Barrels.LIGHT_9_BRUEN_WYVERN_SHORT_BARREL.value,
+    ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
@@ -4456,6 +4463,15 @@ weapons_attachment_combos_dict[BattleRifles.SIDEWINDER.value] = {
         Muzzles.SONIC_SUPPRESSOR_L.value,
         Muzzles.WRATHGUARD_COMPENSATOR_L.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
+    ],
+    "Barrels": [
+        Barrels.RATTLEBACK_DEADEYE_16_BARREL.value,
+        Barrels.ORCHESTRA_40_SHORT_HEAVY_BARREL.value,
+        Barrels.TEMPUS_PREDATOR_PRECISION_BARREL.value,
+        Barrels.RATTLEBACK_PRO_14p5_MAW_BARREL.value,
+        Barrels.HEAVY_BARREL_76L_P.value,
+        Barrels.HUNTSMAN_SERIES_R_INTEGRATED_SUPPRESSOR_BARREL.value,
+        Barrels.SL_CRATER_HEAVY_BARREL.value,
     ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
@@ -4653,6 +4669,11 @@ weapons_attachment_combos_dict[BattleRifles.MTZ_762.value] = {
         Muzzles.WRATHGUARD_COMPENSATOR_L.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
     ],
+    "Barrels": [
+        Barrels.MTZ_ROWAN_XL_356.value,
+        Barrels.MTZ_CLINCH_PRO_BARREL.value,
+        Barrels.MTZ_PRECISION_BLACKTHORN_BARREL.value,
+    ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
         Lasers.SZ_1MW_PEQ.value,
@@ -4848,6 +4869,14 @@ weapons_attachment_combos_dict[BattleRifles.LACHMAN_762.value] = {
         Muzzles.WRATHGUARD_COMPENSATOR_L.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value
     ],
+    "Barrels": [
+        Barrels.ROMEO_FT_16_BARREL.value,
+        Barrels.LACHMANN_RAPP_15p9_BARREL.value,
+        Barrels.LACHMANN_NOVA.value,
+        Barrels.LM_AURORA_90_BARREL.value,
+        Barrels.LACHSTRIKE_10p6_BARREL.value,
+        Barrels.MEER_56_11_FACTORY_BARREL.value,
+    ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
@@ -5038,6 +5067,11 @@ weapons_attachment_combos_dict[BattleRifles.CRONEN_SQUALL.value] = {
         Muzzles.WRATHGUARD_COMPENSATOR_L.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
     ],
+    "Barrels": [
+        Barrels.SB6p8_16.value,
+        Barrels.LR6p8_22.value,
+        Barrels.HR6p8_BARREL.value,
+    ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
@@ -5221,6 +5255,12 @@ weapons_attachment_combos_dict[BattleRifles.FTAC_RECON.value] = {
         Muzzles.ELR_BLACKFIRE_COMPENSATOR_L.value,
         Muzzles.PURIFIER_MUZZLE_BRAKE_L.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
+    ],
+    "Barrels": [
+        Barrels.EXF_419MM_BARREL.value,
+        Barrels.BULL_RIDER_16p5.value,
+        Barrels.TEMPUS_TRENCH_PRO.value,
+        Barrels.TEMPUS_FIREBRAND_7p5.value,
     ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
@@ -5415,6 +5455,10 @@ weapons_attachment_combos_dict[BattleRifles.TAQ_V.value] = {
         Muzzles.WRATHGUARD_COMPENSATOR_L.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
     ],
+    "Barrels": [
+        Barrels.LANCE_50_12_BARREL.value,
+        Barrels.PRECISION_6_18_BARREL.value,
+    ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
@@ -5608,6 +5652,12 @@ weapons_attachment_combos_dict[BattleRifles.SO_14.value] = {
         Muzzles.SONIC_SUPPRESSOR_L.value,
         Muzzles.WRATHGUARD_COMPENSATOR_L.value,
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
+    ],
+    "Barrels": [
+        Barrels.FACTORY_FOURTEEN_22_BARREL.value,
+        Barrels.BOREMASTER_22_BARREL.value,
+        Barrels.T300_18_BARREL.value,
+        Barrels.CHROME_LINED_RFX40_16_BARREL.value,
     ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
