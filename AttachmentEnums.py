@@ -760,7 +760,10 @@ class Barrels(Enum):
     IMPACT_POINT = "IMPACT POINT"
 
 class Arms(Enum):
-    pass
+    THUNDER_200_LB = "THUNDER 200 LB"
+    CARBON_ELITE_V3 = "CARBON ELITE V3"
+    SO_MOMENTI = "SO MOMENTI"
+    QUILL_XE_100_LB = "QUILL XE 100 LB"
 
 class Lasers(Enum):
     # added for SVA 545 Assault Rifle
@@ -922,7 +925,15 @@ class Optics(Enum):
     INTLAS_CAS_14 = "INTLAS CAS-14"
 
 class Stocks(Enum):
-    pass
+    # added for SVA 545 Assault Rifle
+    FSS_RAVAGER_45_STOCK = "FSS RAVAGER-45 STOCK"
+    FT_TAC_ELITE_V3_STOCK = "FT TAC-ELITE V3 STOCK"
+    MANE_V6_STOCK = "MANE V6 STOCK"
+    MAKEEV_R11_STOCK = "MAKEEV R11 STOCK"
+    SKELLY_FOLDING_STOCK = "SKELLY FOLDING STOCK"
+    SVA_FACTORY_STOCK = "SVA FACTORY STOCK"
+    NO_STOCK = "NO STOCK"
+    SMOOTH_FIRE_SNIPER_STOCK = "SMOOTH FIRE SNIPER STOCK"
 
 class Combs(Enum):
     pass
@@ -934,7 +945,8 @@ class Bolts(Enum):
     pass
 
 class Levers(Enum):
-    pass
+    STALLION_LEVER = "STALLION LEVER"
+    LONGHORN_LEVER = "LONGHORN LEVER"
 
 class RearGrips(Enum):
     pass
