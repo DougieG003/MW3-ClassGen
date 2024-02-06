@@ -9,6 +9,16 @@ This file includes a dictionary for every weapon and the weapon's available atta
 #  X13 auto handgun
 
 # MCW Assault Rifle - KIMURA_SILENTSHOT_INTEGRAL_SUPPRESSOR barrel disables muzzle
+# SIDEWINDER Battle Rifle, MCW 6.8 marksman rifle - HUNTSMAN_SERIES_R_INTEGRATED_SUPPRESSOR_BARREL disables muzzle
+# WSP SWARM SMG - WSP_INFILTRATOR_INTREGRATED_SUPPRESSOR barrel disables muzzle
+# AMR9 SMG - TECTONIC_MICRO_INTEGRAL_SUPPRESSOR barrel disables muzzle
+# AMR9 SMG - NIMBUS_6_INTEGRATED_SUPPRESSOR disables muzzle
+# WSP-9 SMG - WSP_INFILTRATOR_INTREGRATED_SUPPRESSOR barrel disables muzzle
+# BRYSON 800 shotgun - XRK_CQB_8_BARREL disables underbarrels
+# KVD ENFORCER marksman rifle, KV INHIBITOR sniper rifle - KAS_7_INTEGRATED_SUPPRESSOR disables muzzle
+# XRK STALKER sniper rifle - XRK_STOIC_4_SUPPRESSED_BARREL disables muzzle
+# LONGBOW sniper rifle - TAC_BRUTE_SUPPRESSED_BARREL disables muzzle
+# MCPR sniper rifle - SILENTFIRE_19_BARREL disables muzzle
 
 from AttachmentEnums import (
     AmmoTypes,
@@ -5851,6 +5861,11 @@ weapons_attachment_combos_dict[SMGS.STRIKER.value] = {
         Muzzles.S37C_DL_BREACHER_DEVICE_S.value,
         Muzzles.L4R_FLASH_HIDER.value,
     ],
+    "Barrels": [
+        Barrels.STRIKER_ELITE_LONG_BARREL.value,
+        Barrels.STRIKER_RECON_LONG_BARREL.value,
+        Barrels.STRIKER_STUBBY_BARREL.value,
+    ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
         Lasers.CS15_SCARLET_CYLINDRICAL_LASER.value,
@@ -6023,6 +6038,15 @@ weapons_attachment_combos_dict[SMGS.WSP_SWARM.value] = {
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
         Muzzles.S37C_DL_BREACHER_DEVICE_S.value,
         Muzzles.L4R_FLASH_HIDER.value,
+    ],
+    "Barrels": [
+        Barrels.PESTILENCE_12_SHORT_COMPENSATED_BARREL.value,
+        Barrels.WSP_OPTAC_LONG_BARREL.value,
+        Barrels.WSP_RUTHLESS_L_BARREL.value,
+        Barrels.WSP_RECKLESS_90_LONG_BARREL.value,
+        Barrels.WSP_ZIP_BARREL.value,
+        Barrels.NOXIOUS_SHORT_COMPENSATED_BARREL.value,
+        Barrels.WSP_INFILTRATOR_INTEGRATED_SUPPRESSOR.value,
     ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
@@ -6200,6 +6224,13 @@ weapons_attachment_combos_dict[SMGS.AMR9.value] = {
         Muzzles.S37C_DL_BREACHER_DEVICE_S.value,
         Muzzles.L4R_FLASH_HIDER.value,
     ],
+    "Barrels": [
+        Barrels.AMR9_ENFORCER_LONG_BARREL.value,
+        Barrels.TECTONIC_MICRO_INTEGRAL_SUPPRESSOR.value,
+        Barrels.TECTONIC_HERALD_LIGHT_BARREL.value,
+        Barrels.AMR9_COMMANDO_PRO_BARREL.value,
+        Barrels.NIMBUS_6_INTEGRATED_SUPPRESSOR.value,
+    ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
         Lasers.CS15_SCARLET_CYLINDRICAL_LASER.value,
@@ -6372,6 +6403,14 @@ weapons_attachment_combos_dict[SMGS.WSP_9.value] = {
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
         Muzzles.S37C_DL_BREACHER_DEVICE_S.value,
         Muzzles.L4R_FLASH_HIDER.value,
+    ],
+    "Barrels": [
+        Barrels.PESTILENCE_12_SHORT_COMPENSATED_BARREL.value,
+        Barrels.WSP_OPTAC_LONG_BARREL.value,
+        Barrels.WSP_ZIP_BARREL.value,
+        Barrels.WSP_RECKLESS_90_LONG_BARREL.value,
+        Barrels.WSP_INFILTRATOR_INTEGRATED_SUPPRESSOR.value,
+        Barrels.HISS_SHORT_LIGHT_BARREL.value,
     ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
@@ -6563,6 +6602,11 @@ weapons_attachment_combos_dict[SMGS.RIVAL_9.value] = {
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,   
     ],
+    "Barrels": [
+        Barrels.RIVAL_C_CLEARSHOT_BARREL.value,
+        Barrels.RIVAL_38E_FIRE_STARTER_BARREL.value,
+        Barrels.RIVAL_IGS_800_BARRE.value,
+    ],
     "Muzzles": [
         Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
@@ -6710,6 +6754,11 @@ weapons_attachment_combos_dict[SMGS.STRIKER_9.value] = {
         Muzzles.S37C_DL_BREACHER_DEVICE_S.value,
         Muzzles.L4R_FLASH_HIDER.value,
     ],
+    "Barrels": [
+        Barrels.STRIKER_STUBBY_BARREL.value,
+        Barrels.STRIKER_ELITE_LONG_BARREL.value,
+        Barrels.STRIKER_RECON_LONG_BARREL.value,
+    ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
         Lasers.CS15_SCARLET_CYLINDRICAL_LASER.value,
@@ -6844,6 +6893,10 @@ weapons_attachment_combos_dict[SMGS.STRIKER_9.value] = {
 
 weapons_attachment_combos_dict[SMGS.LACHMANN_SHROUD.value] = {
     "Muzzles": [],
+    "Barrels": [
+        Barrels.GRAPPLE_VI_170MM.value,
+        Barrels.DARKSTAR_114MM.value,
+    ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
         Lasers.CS15_SCARLET_CYLINDRICAL_LASER.value,
@@ -7006,6 +7059,13 @@ weapons_attachment_combos_dict[SMGS.ISO_9MM.value] = {
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
         Muzzles.S37C_DL_BREACHER_DEVICE_S.value,
         Muzzles.L4R_FLASH_HIDER.value
+    ],
+    "Barrels": [
+        Barrels.ISO_45_FACTORY.value,
+        Barrels.EX_RAPTOR_V2_7.value,
+        Barrels.PTX_TRAINER_9.value,
+        Barrels.XLB_S_16.value,
+        Barrels.AXEBLADE_6.value,
     ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
@@ -7174,6 +7234,14 @@ weapons_attachment_combos_dict[SMGS.PDSW_528.value] = {
         Muzzles.S37C_DL_BREACHER_DEVICE_S.value,
         Muzzles.L4R_FLASH_HIDER.value
     ],
+    "Barrels": [
+        Barrels.DUKE_30_9p5.value,
+        Barrels.FTAC_SERIES_IX_14p5.value,
+        Barrels.FTAC_DEFENSE_14p5.value,
+        Barrels.CORVUS_PRORANGE_17.value,
+        Barrels.CLOAK_90_16.value,
+        Barrels.CLOAK_90_18p75.value,
+    ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
         Lasers.CS15_SCARLET_CYLINDRICAL_LASER.value,
@@ -7301,6 +7369,15 @@ weapons_attachment_combos_dict[SMGS.VEL_46.value] = {
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
         Muzzles.S37C_DL_BREACHER_DEVICE_S.value,
         Muzzles.L4R_FLASH_HIDER.value
+    ],
+    "Barrels": [
+        Barrels.TANGO_228_BARREL.value,
+        Barrels.SCHLAGER_RV_B.value,
+        Barrels.SCHLAGER_L203_BARREL.value,
+        Barrels.LACH_DX_203MM.value,
+        Barrels.LACHMANN_DART_165MM.value,
+        Barrels.LACH_152_ZULU.value,
+        Barrels.LM_SERIES_7.value,
     ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
@@ -7474,6 +7551,15 @@ weapons_attachment_combos_dict[SMGS.FENNEC_45.value] = {
         Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
         Muzzles.S37C_DL_BREACHER_DEVICE_S.value,
         Muzzles.L4R_FLASH_HIDER.value,
+    ],
+    "Barrels": [
+        Barrels.TANGO_228_BARREL.value,
+        Barrels.SCHLAGER_RV_B.value,
+        Barrels.SCHLAGER_L203_BARREL.value,
+        Barrels.LACH_DX_203MM.value,
+        Barrels.LACHMANN_DART_165MM.value,
+        Barrels.LACH_152_ZULU.value,
+        Barrels.LM_SERIES_7.value,
     ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
