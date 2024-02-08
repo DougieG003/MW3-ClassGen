@@ -1525,7 +1525,7 @@ class Wires(Enum):
     STRAND_16_CABLE = "16 STRAND CABLE"
     STRAND_28_CABLE = "28 STRAND CABLE"
 
-class AmmoType(Enum):
+class AmmoTypes(Enum):
     # from https://game8.co/games/Modern-Warfare-3/archives/431912
     # used CHAT GPT to generate list, alphabetical order was done manually
     AET_ROUNDS_12_7X55MM = "12.7X55MM AET ROUNDS"
