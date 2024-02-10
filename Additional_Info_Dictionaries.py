@@ -181,3 +181,15 @@ armory_unlocks = {
     ],
 }
 
+battle_pass_unlocks = {
+    "Weapons": {
+        "AssaultRifles": [
+            AssaultRifles.TR_76_GEIST.value,
+            AssaultRifles.BP50.value,
+        ],
+        "SMGS": [
+            SMGS.HRM_9.value,
+        ]
+    }
+}
+

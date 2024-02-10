@@ -1,7 +1,7 @@
 """
 This file includes a dictionary for every weapon and the weapon's available attachements.
 """
-# HRM9 SMG and TL-GEIST AR not included
+# HRM9 SMG , BP50 Assault Rifle not included
 
 # underbarrel locked but available with certain attachments
 #  lockwood mk2 marksman rifle

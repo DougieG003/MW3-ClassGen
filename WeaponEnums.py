@@ -5,6 +5,7 @@ Enums to hold the names of all weapons.
 from enum import Enum
 
 class AssaultRifles(Enum):
+    BP50 = "BP50"
     SVA_545 = "SVA 545"
     RAM_7 = "RAM-7"
     MTZ_556 = "MTZ-556"
