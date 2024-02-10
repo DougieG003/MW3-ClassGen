@@ -43,7 +43,9 @@ from OperatorItemsEnums import (
 )
 
 aftermarket_parts = {
-    "Muzzles": [],
+    "Muzzles": [
+        Muzzles.JAK_BFB.value,
+    ],
     "Barrels": [],
     "Arms": [],
     "Lasers": [],
