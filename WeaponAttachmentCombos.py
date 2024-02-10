@@ -1,7 +1,7 @@
 """
 This file includes a dictionary for every weapon and the weapon's available attachements.
 """
-# HRM9 SMG , BP50 Assault Rifle not included
+# HRM9 and RAM-9 SMG , BP50 Assault Rifle not included
 
 # underbarrel locked but available with certain attachments
 #  lockwood mk2 marksman rifle
@@ -20,6 +20,7 @@ This file includes a dictionary for every weapon and the weapon's available atta
 # XRK STALKER sniper rifle - XRK_STOIC_4_SUPPRESSED_BARREL disables muzzle
 # LONGBOW sniper rifle - TAC_BRUTE_SUPPRESSED_BARREL disables muzzle
 # MCPR sniper rifle - SILENTFIRE_19_BARREL disables muzzle
+# ISO 9MM SMG - AXEBLADE barrel disables muzzle
 
 from AttachmentEnums import (
     Muzzles,
@@ -39,6 +40,7 @@ from AttachmentEnums import (
     AmmoTypes,
     Underbarrels,
     CarryHandles,
+    ConversionKits,
 )
 from WeaponEnums import (
     AssaultRifles,
@@ -53,7 +55,6 @@ from WeaponEnums import (
     Launchers,
     MeleeSecondary,
 )
-
 
 weapons_attachment_combos_dict = {}
 
@@ -5221,6 +5222,7 @@ weapons_attachment_combos_dict[AssaultRifles.KASTOV_545.value] = {
 #========================================================================================================================================================#
 
 weapons_attachment_combos_dict[BattleRifles.BAS_B.value] = {
+
     "Muzzles": [
         Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
@@ -5366,16 +5368,42 @@ weapons_attachment_combos_dict[BattleRifles.BAS_B.value] = {
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,   
     ],
-    "Stocks": [],
+    "Stocks": [
+        Stocks.RAVAGE_CS.value,
+        Stocks.RAVAGE_20_HEAVY_STOCK.value,
+        Stocks.BRUEN_LAUR4_LIGHT_PRECISION_STOCK.value,
+        Stocks.NO_STOCK.value,
+        Stocks.BRUEN_FLASH_V8_LIGHT_STOCK.value,
+        Stocks.BRUEN_MINUTEMAN_STOCK.value,
+    ],
     "Combs": [],
     "Guards": [],
     "Bolts": [],
     "Levers": [],
-    "RearGrips": [],
+    "RearGrips": [
+        RearGrips.STT88_GRIP.value,
+        RearGrips.TOURNEY_TAC_GRIP.value,
+        RearGrips.BRUEN_AGRO_76_GRIP.value,
+    ],
     "TriggerActions": [],
-    "Magazines": [],
+    "Magazines": [
+        Magazines.ROUND_30.value,
+        Magazines.ROUND_45.value,
+    ],
     "Wires": [],
-    "AmmoTypes": [],
+    "AmmoTypes": [
+        AmmoTypes.FRANGIBLE_277.value,
+        AmmoTypes.HOLLOWPOINT_277.value,
+        AmmoTypes.TRACER_277.value,
+        AmmoTypes.ARMOR_PIERCING_277.value,
+        AmmoTypes.OVERPRESSURED_P_277.value,
+        AmmoTypes.INCENDIARY_277.value,
+        AmmoTypes.LOW_GRAIN_ROUNDS_277.value,
+        AmmoTypes.HIGH_GRAIN_ROUNDS_277.value,
+        AmmoTypes.ROUND_NOSE_277.value,
+        AmmoTypes.MONO_277.value,
+        AmmoTypes.HIGH_VELOCITY_277.value,
+    ],
     "Underbarrels": [
         Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.JAK_PURIFIER.value,
@@ -5582,16 +5610,40 @@ weapons_attachment_combos_dict[BattleRifles.SIDEWINDER.value] = {
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,   
     ],
-    "Stocks": [],
+    "Stocks": [
+        Stocks.MCW_IRONBARK_TACTICAL_STOCK.value,
+        Stocks.SL_WARFORGED_PRECISION_STOCK.value,
+        Stocks.RB_REGAL_HEAVY_STOCK.value,
+        Stocks.RB_PRECISION_HEAVY_STOCK.value,
+        Stocks.A90_VENOM_STOCK.value,
+    ],
     "Combs": [],
     "Guards": [],
     "Bolts": [],
     "Levers": [],
-    "RearGrips": [],
+    "RearGrips": [
+        RearGrips.RB_BOREALIS_GRIP.value,
+        RearGrips.RB_RAPIDSTRIKE_GRIP.value,
+        RearGrips.RB_PALM_SHELF_GRIP.value,
+    ],
     "TriggerActions": [],
-    "Magazines": [],
+    "Magazines": [
+        Magazines.ROUND_10.value,
+        Magazines.ROUND_15.value,
+        Magazines.ROUND_30_DRUM.value,
+    ],
     "Wires": [],
-    "AmmoTypes": [],
+    "AmmoTypes": [
+        AmmoTypes.HUNTSMAN_LOW_GRAIN_ROUNDS_450.value,
+        AmmoTypes.HUNTSMAN_HIGH_GRAIN_ROUNDS_450.value,
+        AmmoTypes.HUNTSMAN_ROUND_NOSE_450.value,
+        AmmoTypes.HUNTSMAN_MONO_450.value,
+        AmmoTypes.HUNTSMAN_FRANGIBLE_450.value,
+        AmmoTypes.HUNTSMAN_HOLLOWPOINT_450.value,
+        AmmoTypes.HUNTSMAN_ARMOR_PIERCING_450.value,
+        AmmoTypes.HUNTSMAN_OVERPRESSURED_P_450.value,
+        AmmoTypes.HUNTSMAN_HIGH_VELOCITY_450.value,
+    ],
     "Underbarrels": [
         Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.JAK_PURIFIER.value,
@@ -5648,6 +5700,9 @@ weapons_attachment_combos_dict[BattleRifles.SIDEWINDER.value] = {
         Underbarrels.CORVUS_TORCH.value,
     ],
     "CarryHandles": [],
+    "ConversionKits": [
+        ConversionKits.JAK_THUNDER_LMG_KIT.value,
+    ],
 }
 
 weapons_attachment_combos_dict[BattleRifles.MTZ_762.value] = {

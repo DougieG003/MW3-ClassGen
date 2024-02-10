@@ -189,6 +189,7 @@ battle_pass_unlocks = {
         ],
         "SMGS": [
             SMGS.HRM_9.value,
+            SMGS.RAM_9.value,
         ]
     }
 }

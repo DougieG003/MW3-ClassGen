@@ -42,6 +42,7 @@ class BattleRifles(Enum):
 
 
 class SMGS(Enum):
+    RAM_9 = "RAM-9"
     STRIKER = "STRIKER"
     HRM_9 = "HRM-9"
     WSP_SWARM = "WSP SWARM"
