@@ -12,6 +12,7 @@ class Vest(Enum):
     CCT_COMMS_VEST = "CCT COMMS VEST"
     OVERKILL_VEST = "OVERKILL VEST"
     ASSASSIN_VEST = "ASSASSIN VEST"
+    NINJA_VEST = "NINJA VEST"
 
 
 class Tactical(Enum):

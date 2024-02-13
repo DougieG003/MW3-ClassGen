@@ -39,6 +39,7 @@ class BattleRifles(Enum):
     FTAC_RECON = "FTAC RECON"
     TAQ_V = "TAQ-V"
     SO_14 = "SO-14"
+    SOA_SUBVERTER = "SOA SUBVERTER"
 
 
 class SMGS(Enum):
@@ -156,3 +157,4 @@ class MeleeSecondary(Enum):
     DUAL_KODACHIS = "DUAL KODACHIS"
     DUAL_KAMAS = "DUAL KAMAS"
     PICKAXE = "PICKAXE"
+    SOULRENDER = "SOULRENDER"
