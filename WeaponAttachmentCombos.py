@@ -3,7 +3,7 @@ This file includes a dictionary for every weapon and the weapon's available atta
 """
 #TODO
 # ADD HRM9 to smgs
-# Add NO_MODIFICATIONS to all lists if not already there
+# Decide if we should add or remove NO_MODIFICATIONS to all lists if not already there
 
 # HRM9 and RAM-9 SMG, BP50 Assault Rifle not included
 
@@ -16954,7 +16954,12 @@ weapons_attachment_combos_dict[MarksmanRifles.TEMPUS_TORRENT.value] = {
 weapons_attachment_combos_dict[MarksmanRifles.CROSSBOW.value] = {
     "Muzzles": [],
     "Barrels": [],
-    "Arms": [],
+    "Arms": [
+        Arms.THUNDER_200_LB.value,
+        Arms.CARBON_ELITE_V3.value,
+        Arms.SO_MOMENTI.value,
+        Arms.QUILL_XE_100_LB.value,
+    ],
     "Lasers": [
         Lasers.NO_MODIFICATIONS.value,
         Lasers.ARTEMIS_LASER_1MW.value,
@@ -17054,15 +17059,27 @@ weapons_attachment_combos_dict[MarksmanRifles.CROSSBOW.value] = {
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,
     ],
-    "Stocks": [],
+    "Stocks": [
+        Stocks.FT_APEX_1_5.value,
+        Stocks.FT_DART_CB.value,
+        Stocks.FTAC_PIERCER.value,
+        Stocks.SPEEDTRAK_ECHO.value,
+    ],
     "Combs": [],
     "Guards": [],
-    "Bolts": [],
+    "Bolts": [
+        Bolts.BRIGHTBLAZE_20_BOLTS.value,
+        Bolts.BLASTCAP_20_BOLTS.value,
+        Bolts.FTAC_CAUSTIC_20_BOLTS.value,
+    ],
     "Levers": [],
     "RearGrips": [],
     "TriggerActions": [],
     "Magazines": [],
-    "Wires": [],
+    "Wires": [
+        Wires.STRAND_28_CABLE.value,
+        Wires.STRAND_16_CABLE.value,
+    ],
     "Rails": [],
     "AmmoTypes": [],
     "Underbarrels": [
@@ -17265,17 +17282,40 @@ weapons_attachment_combos_dict[MarksmanRifles.LM_S.value] = {
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,
     ],
-    "Stocks": [],
+    "Stocks": [
+        Stocks.RAPP_762_FACTORY.value,
+        Stocks.LACHMANN_S76_FACTORY_STOCK.value,
+        Stocks.MEER_RECOIL_56_FACTORY_STOCK.value,
+        Stocks.FT_MOBILE_STOCK.value,
+    ],
     "Combs": [],
     "Guards": [],
     "Bolts": [],
     "Levers": [],
-    "RearGrips": [],
+    "RearGrips": [
+        RearGrips.LACHMANN_TCG_10.value,
+        RearGrips.LM_CRONUS_GRIP.value,
+        RearGrips.LMK64_GRIP.value,
+    ],
     "TriggerActions": [],
-    "Magazines": [],
+    "Magazines": [
+        Magazines.ROUND_20.value,
+        Magazines.ROUND_15.value,
+    ],
     "Wires": [],
     "Rails": [],
-    "AmmoTypes": [],
+    "AmmoTypes": [
+        AmmoTypes.LOW_GRAIN_ROUNDS_7_62X51MM.value,
+        AmmoTypes.HIGH_GRAIN_ROUNDS_7_62X51MM.value,
+        AmmoTypes.HOLLOWPOINT_7_62X51MM.value,
+        AmmoTypes.ARMOR_PIERCING_7_62X51MM.value,
+        AmmoTypes.FRANGIBLE_7_62X51MM.value,
+        AmmoTypes.OVERPRESSURED_P_7_62X51MM.value,
+        AmmoTypes.HIGH_VELOCITY_7_62X51MM.value,
+        AmmoTypes.INCENDIARY_7_62X51MM.value,
+        AmmoTypes.ROUND_NOSE_7_62X51MM.value,
+        AmmoTypes.MONO_7_62X51MM.value,
+    ],
     "Underbarrels": [
         Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
@@ -17481,17 +17521,38 @@ weapons_attachment_combos_dict[MarksmanRifles.SA_B_50.value] = {
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,
     ],
-    "Stocks": [],
+    "Stocks": [
+        Stocks.FTAC_EZX_PRO.value,
+        Stocks.ASSAULT_60_STOCK.value,
+        Stocks.XRK_SPECTER_MOD.value,
+    ],
     "Combs": [],
     "Guards": [],
-    "Bolts": [],
+    "Bolts": [
+        Bolts.ZLR_REINFORCED_LOCKBOLT.value,
+        Bolts.FSS_ST87_BOLT.value,
+    ],
     "Levers": [],
-    "RearGrips": [],
+    "RearGrips": [
+        RearGrips.SCHLAGER_MATCH_GRIP.value,
+        RearGrips.CRONEN_GRIP_WRAP.value,
+        RearGrips.BRUEN_LYNX_GRIP.value,
+    ],
     "TriggerActions": [],
-    "Magazines": [],
+    "Magazines": [
+        Magazines.ROUND_5.value,
+        Magazines.ROUND_15.value,
+    ],
     "Wires": [],
     "Rails": [],
-    "AmmoTypes": [],
+    "AmmoTypes": [
+        AmmoTypes.FRANGIBLE_308.value,
+        AmmoTypes.HOLLOWPOINT_308.value,
+        AmmoTypes.ARMOR_PIERCING_308.value,
+        AmmoTypes.OVERPRESSURED_P_308.value,
+        AmmoTypes.HIGH_VELOCITY_308.value,
+        AmmoTypes.INCENDIARY_308.value,
+    ],
     "Underbarrels": [
         Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.FTAC_SP_10_ANGLED_GRIP.value,
@@ -17669,17 +17730,37 @@ weapons_attachment_combos_dict[MarksmanRifles.TAQ_M.value] = {
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,
     ],
-    "Stocks": [],
+    "Stocks": [
+        Stocks.TV_BALLAST_STOCK.value,
+        Stocks.TACTIQUE_BRUTE_STOCK.value,
+        Stocks.TACVERTE_CORE_STOCK.value,
+        Stocks.TV_XLINE_PRO.value,
+    ],
     "Combs": [],
     "Guards": [],
     "Bolts": [],
     "Levers": [],
-    "RearGrips": [],
+    "RearGrips": [
+        RearGrips.XRK_RESPONSE_GRIP.value,
+        RearGrips.FSS_COMBAT_GRIP.value,
+        RearGrips.DEMO_CLEANSHOT_GRIP.value,
+        RearGrips.TV_ERGO_GRIP.value,
+    ],
     "TriggerActions": [],
-    "Magazines": [],
+    "Magazines": [
+        Magazines.ROUND_15.value,
+        Magazines.ROUND_20.value,
+    ],
     "Wires": [],
     "Rails": [],
-    "AmmoTypes": [],
+    "AmmoTypes": [
+        AmmoTypes.HOLLOWPOINT_6_5MM.value,
+        AmmoTypes.ARMOR_PIERCING_6_5MM.value,
+        AmmoTypes.FRANGIBLE_6_5MM.value,
+        AmmoTypes.OVERPRESSURED_P_6_5MM.value,
+        AmmoTypes.HIGH_VELOCITY_6_5MM.value,
+        AmmoTypes.INCENDIARY_6_5MM.value,
+    ],
     "Underbarrels": [
         Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
