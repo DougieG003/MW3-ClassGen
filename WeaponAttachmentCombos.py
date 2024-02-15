@@ -40,7 +40,7 @@ This file includes a dictionary for every weapon and the weapon's available atta
 # RENETTI handgun - underbarrel disabled unless conversion kit equipped
 # x13 handgun - stock and underbarrel disabled unless impact_point barrel equipeed
 
-from AttachmentEnums import (
+from .AttachmentEnums import (
     Muzzles,
     Barrels,
     Arms,
@@ -62,7 +62,7 @@ from AttachmentEnums import (
     CarryHandles,
     ConversionKits,
 )
-from WeaponEnums import (
+from .WeaponEnums import (
     AssaultRifles,
     BattleRifles,
     SMGS,
@@ -20910,12 +20910,35 @@ weapons_attachment_combos_dict[HandGuns.DAEMON_9MM.value] = {
     "Guards": [],
     "Bolts": [],
     "Levers": [],
-    "RearGrips": [],
-    "TriggerActions": [],
-    "Magazines": [],
+    "RearGrips": [
+        RearGrips.RAZORLEAF_GRIP.value,
+        RearGrips.MAGWELL_GRIP.value,
+        RearGrips.DAEMON_HAND.value,
+        RearGrips.SGT_GRIP.value,
+        RearGrips.AKIMBO_9MM_DAEMON.value,
+    ],
+    "TriggerActions": [
+        TriggerActions.PRECISION_TRIGGER.value,
+        TriggerActions.DEX8_TRIGGER.value,
+        TriggerActions.RAPID_30_TRIGGER.value,
+    ],
+    "Magazines": [
+        Magazines.ROUND_20.value,
+        Magazines.ROUND_26.value,
+    ],
     "Wires": [],
     "Rails": [],
-    "AmmoTypes": [],
+    "AmmoTypes": [
+        AmmoTypes.LOW_GRAIN_ROUNDS_9MM.value,
+        AmmoTypes.HARDENED_ROUNDS_9MM.value,
+        AmmoTypes.FRANGIBLE_9MM.value,
+        AmmoTypes.HOLLOWPOINT_9MM.value,
+        AmmoTypes.ARMOR_PIERCING_9MM.value,
+        AmmoTypes.OVERPRESSURED_P_9MM.value,
+        AmmoTypes.HIGH_VELOCITY_9MM.value,
+        AmmoTypes.AET_ROUNDS_9MM.value,
+        AmmoTypes.HIGH_GRAIN_ROUNDS_9MM.value,
+    ],
     "Underbarrels": [],
     "CarryHandles": [],
     "ConversionKits": [],
