@@ -3,7 +3,7 @@ This file includes a dictionary for every weapon and the weapon's available atta
 """
 #TODO
 # ADD HRM9 to smgs
-# Decide if we should add or remove NO_MODIFICATIONS to all lists if not already there
+# Decide if we should add or remove  to all lists if not already there
 # add loaders before wires in each weapon dict
 
 # HRM9 and RAM-9 SMG, BP50 Assault Rifle not included
@@ -84,7 +84,6 @@ weapons_attachment_combos_dict = {}
 
 weapons_attachment_combos_dict[AssaultRifles.SVA_545.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -136,7 +135,6 @@ weapons_attachment_combos_dict[AssaultRifles.SVA_545.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -154,7 +152,6 @@ weapons_attachment_combos_dict[AssaultRifles.SVA_545.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -267,7 +264,6 @@ weapons_attachment_combos_dict[AssaultRifles.SVA_545.value] = {
         AmmoTypes.OVERPRESSURED_P_5_45.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.JAK_PURIFIER.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
@@ -327,7 +323,6 @@ weapons_attachment_combos_dict[AssaultRifles.SVA_545.value] = {
 
 weapons_attachment_combos_dict[AssaultRifles.RAM_7.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -382,7 +377,6 @@ weapons_attachment_combos_dict[AssaultRifles.RAM_7.value] = {
     ],    
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.SZ_1MW_PEQ.value,
         Lasers.SCHLAGER_PEQ_BOX_IV.value,
@@ -397,7 +391,6 @@ weapons_attachment_combos_dict[AssaultRifles.RAM_7.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -513,7 +506,6 @@ weapons_attachment_combos_dict[AssaultRifles.RAM_7.value] = {
         AmmoTypes.HIGH_VELOCITY_5_56.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.JAK_PURIFIER.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
@@ -573,7 +565,6 @@ weapons_attachment_combos_dict[AssaultRifles.RAM_7.value] = {
 
 weapons_attachment_combos_dict[AssaultRifles.MTZ_556.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -626,7 +617,6 @@ weapons_attachment_combos_dict[AssaultRifles.MTZ_556.value] = {
     ],      
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -644,7 +634,6 @@ weapons_attachment_combos_dict[AssaultRifles.MTZ_556.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -759,7 +748,6 @@ weapons_attachment_combos_dict[AssaultRifles.MTZ_556.value] = {
         AmmoTypes.INCENDIARY_5_56.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.JAK_PURIFIER.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
@@ -819,7 +807,6 @@ weapons_attachment_combos_dict[AssaultRifles.MTZ_556.value] = {
 
 weapons_attachment_combos_dict[AssaultRifles.HOLGER_556.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -870,7 +857,6 @@ weapons_attachment_combos_dict[AssaultRifles.HOLGER_556.value] = {
     ],      
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -888,7 +874,6 @@ weapons_attachment_combos_dict[AssaultRifles.HOLGER_556.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -1001,7 +986,6 @@ weapons_attachment_combos_dict[AssaultRifles.HOLGER_556.value] = {
         AmmoTypes.INCENDIARY_5_56.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.JAK_PURIFIER.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
@@ -1061,7 +1045,6 @@ weapons_attachment_combos_dict[AssaultRifles.HOLGER_556.value] = {
 
 weapons_attachment_combos_dict[AssaultRifles.MCW.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -1115,7 +1098,6 @@ weapons_attachment_combos_dict[AssaultRifles.MCW.value] = {
     ], 
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -1133,7 +1115,6 @@ weapons_attachment_combos_dict[AssaultRifles.MCW.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -1247,7 +1228,6 @@ weapons_attachment_combos_dict[AssaultRifles.MCW.value] = {
         AmmoTypes.INCENDIARY_5_56.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.JAK_PURIFIER.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
@@ -1309,7 +1289,6 @@ weapons_attachment_combos_dict[AssaultRifles.MCW.value] = {
 
 weapons_attachment_combos_dict[AssaultRifles.DG_56.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -1361,7 +1340,6 @@ weapons_attachment_combos_dict[AssaultRifles.DG_56.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -1379,7 +1357,6 @@ weapons_attachment_combos_dict[AssaultRifles.DG_56.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -1489,7 +1466,6 @@ weapons_attachment_combos_dict[AssaultRifles.DG_56.value] = {
         AmmoTypes.NATO_OVERPRESSURED_P_5_56.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.JAK_PURIFIER.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
@@ -1548,7 +1524,6 @@ weapons_attachment_combos_dict[AssaultRifles.DG_56.value] = {
 
 weapons_attachment_combos_dict[AssaultRifles.FR_556.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -1598,7 +1573,6 @@ weapons_attachment_combos_dict[AssaultRifles.FR_556.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -1616,7 +1590,6 @@ weapons_attachment_combos_dict[AssaultRifles.FR_556.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -1729,7 +1702,6 @@ weapons_attachment_combos_dict[AssaultRifles.FR_556.value] = {
         AmmoTypes.INCENDIARY_5_56.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
         Underbarrels.XTEN_PHANTOM_5_HANDSTOP.value,
@@ -1781,7 +1753,6 @@ weapons_attachment_combos_dict[AssaultRifles.FR_556.value] = {
 
 weapons_attachment_combos_dict[AssaultRifles.TAQ_56.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -1830,7 +1801,6 @@ weapons_attachment_combos_dict[AssaultRifles.TAQ_56.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -1848,7 +1818,6 @@ weapons_attachment_combos_dict[AssaultRifles.TAQ_56.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -1958,7 +1927,6 @@ weapons_attachment_combos_dict[AssaultRifles.TAQ_56.value] = {
         AmmoTypes.HIGH_VELOCITY_5_56.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -2017,7 +1985,6 @@ weapons_attachment_combos_dict[AssaultRifles.TAQ_56.value] = {
 
 weapons_attachment_combos_dict[AssaultRifles.M4.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -2071,7 +2038,6 @@ weapons_attachment_combos_dict[AssaultRifles.M4.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -2089,7 +2055,6 @@ weapons_attachment_combos_dict[AssaultRifles.M4.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -2204,7 +2169,6 @@ weapons_attachment_combos_dict[AssaultRifles.M4.value] = {
         AmmoTypes.HIGH_VELOCITY_5_56.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -2263,7 +2227,6 @@ weapons_attachment_combos_dict[AssaultRifles.M4.value] = {
 
 weapons_attachment_combos_dict[AssaultRifles.STB_556.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -2316,7 +2279,6 @@ weapons_attachment_combos_dict[AssaultRifles.STB_556.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.CS15_SCARLET_CYLINDRICAL_LASER.value,
         Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
         Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
@@ -2334,7 +2296,6 @@ weapons_attachment_combos_dict[AssaultRifles.STB_556.value] = {
         Lasers.KIMURA_RYL33_LASER_LIGHT.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -2447,7 +2408,6 @@ weapons_attachment_combos_dict[AssaultRifles.STB_556.value] = {
         AmmoTypes.HIGH_VELOCITY_5_56.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -2504,7 +2464,6 @@ weapons_attachment_combos_dict[AssaultRifles.STB_556.value] = {
 
 weapons_attachment_combos_dict[AssaultRifles.KASTOV_762.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -2553,7 +2512,6 @@ weapons_attachment_combos_dict[AssaultRifles.KASTOV_762.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -2571,7 +2529,6 @@ weapons_attachment_combos_dict[AssaultRifles.KASTOV_762.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -2685,7 +2642,6 @@ weapons_attachment_combos_dict[AssaultRifles.KASTOV_762.value] = {
         AmmoTypes.HIGH_VELOCITY_7_62X39MM.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -2744,7 +2700,6 @@ weapons_attachment_combos_dict[AssaultRifles.KASTOV_762.value] = {
 
 weapons_attachment_combos_dict[AssaultRifles.M13B.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -2794,7 +2749,6 @@ weapons_attachment_combos_dict[AssaultRifles.M13B.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.CS15_SCARLET_CYLINDRICAL_LASER.value,
         Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
         Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
@@ -2812,7 +2766,6 @@ weapons_attachment_combos_dict[AssaultRifles.M13B.value] = {
         Lasers.KIMURA_RYL33_LASER_LIGHT.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -2923,7 +2876,6 @@ weapons_attachment_combos_dict[AssaultRifles.M13B.value] = {
         AmmoTypes.HIGH_VELOCITY_5_56.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -2989,7 +2941,6 @@ weapons_attachment_combos_dict[AssaultRifles.CHIMERA.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.CS15_SCARLET_CYLINDRICAL_LASER.value,
         Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
         Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
@@ -3007,7 +2958,6 @@ weapons_attachment_combos_dict[AssaultRifles.CHIMERA.value] = {
         Lasers.KIMURA_RYL33_LASER_LIGHT.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -3116,7 +3066,6 @@ weapons_attachment_combos_dict[AssaultRifles.CHIMERA.value] = {
         AmmoTypes.BLACKOUT_MONO.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -3168,7 +3117,6 @@ weapons_attachment_combos_dict[AssaultRifles.CHIMERA.value] = {
 
 weapons_attachment_combos_dict[AssaultRifles.ISO_HEMLOCK.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -3220,7 +3168,6 @@ weapons_attachment_combos_dict[AssaultRifles.ISO_HEMLOCK.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -3238,7 +3185,6 @@ weapons_attachment_combos_dict[AssaultRifles.ISO_HEMLOCK.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -3357,7 +3303,6 @@ weapons_attachment_combos_dict[AssaultRifles.ISO_HEMLOCK.value] = {
         AmmoTypes.BLACKOUT_MONO.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -3416,7 +3361,6 @@ weapons_attachment_combos_dict[AssaultRifles.ISO_HEMLOCK.value] = {
 
 weapons_attachment_combos_dict[AssaultRifles.TEMPUS_RAZORBACK.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -3467,7 +3411,6 @@ weapons_attachment_combos_dict[AssaultRifles.TEMPUS_RAZORBACK.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -3485,7 +3428,6 @@ weapons_attachment_combos_dict[AssaultRifles.TEMPUS_RAZORBACK.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -3596,7 +3538,6 @@ weapons_attachment_combos_dict[AssaultRifles.TEMPUS_RAZORBACK.value] = {
         AmmoTypes.HIGH_VELOCITY_5_56.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -3654,7 +3595,6 @@ weapons_attachment_combos_dict[AssaultRifles.TEMPUS_RAZORBACK.value] = {
 
 weapons_attachment_combos_dict[AssaultRifles.FR_AVANCER.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -3704,7 +3644,6 @@ weapons_attachment_combos_dict[AssaultRifles.FR_AVANCER.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -3722,7 +3661,6 @@ weapons_attachment_combos_dict[AssaultRifles.FR_AVANCER.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -3829,7 +3767,6 @@ weapons_attachment_combos_dict[AssaultRifles.FR_AVANCER.value] = {
         AmmoTypes.INCENDIARY_5_56.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
         Underbarrels.XTEN_PHANTOM_5_HANDSTOP.value,
@@ -3881,7 +3818,6 @@ weapons_attachment_combos_dict[AssaultRifles.FR_AVANCER.value] = {
 
 weapons_attachment_combos_dict[AssaultRifles.M13C.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -3931,7 +3867,6 @@ weapons_attachment_combos_dict[AssaultRifles.M13C.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.CS15_SCARLET_CYLINDRICAL_LASER.value,
         Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
         Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
@@ -3949,7 +3884,6 @@ weapons_attachment_combos_dict[AssaultRifles.M13C.value] = {
         Lasers.KIMURA_RYL33_LASER_LIGHT.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -4058,7 +3992,6 @@ weapons_attachment_combos_dict[AssaultRifles.M13C.value] = {
         AmmoTypes.BLACKOUT_MONO.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -4117,7 +4050,6 @@ weapons_attachment_combos_dict[AssaultRifles.M13C.value] = {
 
 weapons_attachment_combos_dict[AssaultRifles.TR_76_GEIST.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.JAK_BFB.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
@@ -4166,7 +4098,6 @@ weapons_attachment_combos_dict[AssaultRifles.TR_76_GEIST.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.CS15_SCARLET_CYLINDRICAL_LASER.value,
         Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
         Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
@@ -4184,7 +4115,6 @@ weapons_attachment_combos_dict[AssaultRifles.TR_76_GEIST.value] = {
         Lasers.KIMURA_RYL33_LASER_LIGHT.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.JAK_BULLSEYE.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
@@ -4293,7 +4223,6 @@ weapons_attachment_combos_dict[AssaultRifles.TR_76_GEIST.value] = {
         AmmoTypes.HIGH_VELOCITY_7_62X39MM.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -4349,7 +4278,6 @@ weapons_attachment_combos_dict[AssaultRifles.TR_76_GEIST.value] = {
 
 weapons_attachment_combos_dict[AssaultRifles.LACHMAN_556.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -4401,7 +4329,6 @@ weapons_attachment_combos_dict[AssaultRifles.LACHMAN_556.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -4419,7 +4346,6 @@ weapons_attachment_combos_dict[AssaultRifles.LACHMAN_556.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -4529,7 +4455,6 @@ weapons_attachment_combos_dict[AssaultRifles.LACHMAN_556.value] = {
         AmmoTypes.HIGH_VELOCITY_5_56.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -4587,7 +4512,6 @@ weapons_attachment_combos_dict[AssaultRifles.LACHMAN_556.value] = {
 
 weapons_attachment_combos_dict[AssaultRifles.M16.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -4638,7 +4562,6 @@ weapons_attachment_combos_dict[AssaultRifles.M16.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -4656,7 +4579,6 @@ weapons_attachment_combos_dict[AssaultRifles.M16.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -4766,7 +4688,6 @@ weapons_attachment_combos_dict[AssaultRifles.M16.value] = {
         AmmoTypes.HIGH_VELOCITY_5_56.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -4825,7 +4746,6 @@ weapons_attachment_combos_dict[AssaultRifles.M16.value] = {
 
 weapons_attachment_combos_dict[AssaultRifles.KASTOV_74U.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -4876,7 +4796,6 @@ weapons_attachment_combos_dict[AssaultRifles.KASTOV_74U.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -4894,7 +4813,6 @@ weapons_attachment_combos_dict[AssaultRifles.KASTOV_74U.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -4997,7 +4915,6 @@ weapons_attachment_combos_dict[AssaultRifles.KASTOV_74U.value] = {
         AmmoTypes.OVERPRESSURED_P_5_45.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -5045,7 +4962,6 @@ weapons_attachment_combos_dict[AssaultRifles.KASTOV_74U.value] = {
 
 weapons_attachment_combos_dict[AssaultRifles.KASTOV_545.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -5096,7 +5012,6 @@ weapons_attachment_combos_dict[AssaultRifles.KASTOV_545.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -5114,7 +5029,6 @@ weapons_attachment_combos_dict[AssaultRifles.KASTOV_545.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -5226,7 +5140,6 @@ weapons_attachment_combos_dict[AssaultRifles.KASTOV_545.value] = {
         AmmoTypes.OVERPRESSURED_P_5_45.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -5288,9 +5201,7 @@ weapons_attachment_combos_dict[AssaultRifles.KASTOV_545.value] = {
 #========================================================================================================================================================#
 
 weapons_attachment_combos_dict[BattleRifles.BAS_B.value] = {
-
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -5340,7 +5251,6 @@ weapons_attachment_combos_dict[BattleRifles.BAS_B.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -5358,7 +5268,6 @@ weapons_attachment_combos_dict[BattleRifles.BAS_B.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -5472,7 +5381,6 @@ weapons_attachment_combos_dict[BattleRifles.BAS_B.value] = {
         AmmoTypes.HIGH_VELOCITY_277.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.JAK_PURIFIER.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
@@ -5532,7 +5440,6 @@ weapons_attachment_combos_dict[BattleRifles.BAS_B.value] = {
 
 weapons_attachment_combos_dict[BattleRifles.SIDEWINDER.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -5584,7 +5491,6 @@ weapons_attachment_combos_dict[BattleRifles.SIDEWINDER.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -5602,7 +5508,6 @@ weapons_attachment_combos_dict[BattleRifles.SIDEWINDER.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -5714,7 +5619,6 @@ weapons_attachment_combos_dict[BattleRifles.SIDEWINDER.value] = {
         AmmoTypes.HUNTSMAN_HIGH_VELOCITY_450.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.JAK_PURIFIER.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
@@ -5776,7 +5680,6 @@ weapons_attachment_combos_dict[BattleRifles.SIDEWINDER.value] = {
 
 weapons_attachment_combos_dict[BattleRifles.MTZ_762.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -5824,7 +5727,6 @@ weapons_attachment_combos_dict[BattleRifles.MTZ_762.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SZ_1MW_PEQ.value,
         Lasers.SCHLAGER_PEQ_BOX_IV.value,
         Lasers.CORIO_LAZ_44_V3.value,
@@ -5842,7 +5744,6 @@ weapons_attachment_combos_dict[BattleRifles.MTZ_762.value] = {
         Lasers.VERDANT_HOOK_BOX_LASER.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -5955,7 +5856,6 @@ weapons_attachment_combos_dict[BattleRifles.MTZ_762.value] = {
         AmmoTypes.MONO_7_62X51MM.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.JAK_PURIFIER.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
@@ -6017,7 +5917,6 @@ weapons_attachment_combos_dict[BattleRifles.MTZ_762.value] = {
 
 weapons_attachment_combos_dict[BattleRifles.LACHMAN_762.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -6067,7 +5966,6 @@ weapons_attachment_combos_dict[BattleRifles.LACHMAN_762.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -6085,7 +5983,6 @@ weapons_attachment_combos_dict[BattleRifles.LACHMAN_762.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -6198,7 +6095,6 @@ weapons_attachment_combos_dict[BattleRifles.LACHMAN_762.value] = {
         AmmoTypes.MONO_7_62X51MM.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -6255,7 +6151,6 @@ weapons_attachment_combos_dict[BattleRifles.LACHMAN_762.value] = {
 
 weapons_attachment_combos_dict[BattleRifles.CRONEN_SQUALL.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -6302,7 +6197,6 @@ weapons_attachment_combos_dict[BattleRifles.CRONEN_SQUALL.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -6320,7 +6214,6 @@ weapons_attachment_combos_dict[BattleRifles.CRONEN_SQUALL.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -6435,7 +6328,6 @@ weapons_attachment_combos_dict[BattleRifles.CRONEN_SQUALL.value] = {
         AmmoTypes.INCENDIARY_6_8.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -6494,7 +6386,6 @@ weapons_attachment_combos_dict[BattleRifles.CRONEN_SQUALL.value] = {
 
 weapons_attachment_combos_dict[BattleRifles.FTAC_RECON.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.COLOSSUS_SUPPRESSOR_L.value,
         Muzzles.NILSOUND_90.value,
@@ -6532,7 +6423,6 @@ weapons_attachment_combos_dict[BattleRifles.FTAC_RECON.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -6550,7 +6440,6 @@ weapons_attachment_combos_dict[BattleRifles.FTAC_RECON.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -6658,7 +6547,6 @@ weapons_attachment_combos_dict[BattleRifles.FTAC_RECON.value] = {
         AmmoTypes.HIGH_VELOCITY_458.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -6717,7 +6605,6 @@ weapons_attachment_combos_dict[BattleRifles.FTAC_RECON.value] = {
 
 weapons_attachment_combos_dict[BattleRifles.TAQ_V.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -6763,7 +6650,6 @@ weapons_attachment_combos_dict[BattleRifles.TAQ_V.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -6781,7 +6667,6 @@ weapons_attachment_combos_dict[BattleRifles.TAQ_V.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -6892,7 +6777,6 @@ weapons_attachment_combos_dict[BattleRifles.TAQ_V.value] = {
         AmmoTypes.MONO_7_62X51MM.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -6951,7 +6835,6 @@ weapons_attachment_combos_dict[BattleRifles.TAQ_V.value] = {
 
 weapons_attachment_combos_dict[BattleRifles.SO_14.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -6999,7 +6882,6 @@ weapons_attachment_combos_dict[BattleRifles.SO_14.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -7017,7 +6899,6 @@ weapons_attachment_combos_dict[BattleRifles.SO_14.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -7126,7 +7007,6 @@ weapons_attachment_combos_dict[BattleRifles.SO_14.value] = {
         AmmoTypes.MONO_7_62X51MM.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -7185,7 +7065,6 @@ weapons_attachment_combos_dict[BattleRifles.SO_14.value] = {
 
 weapons_attachment_combos_dict[SMGS.STRIKER.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -7231,7 +7110,6 @@ weapons_attachment_combos_dict[SMGS.STRIKER.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.CS15_SCARLET_CYLINDRICAL_LASER.value,
         Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
         Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
@@ -7249,7 +7127,6 @@ weapons_attachment_combos_dict[SMGS.STRIKER.value] = {
         Lasers.KIMURA_RYL33_LASER_LIGHT.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.JAK_BULLSEYE.value,
@@ -7349,7 +7226,6 @@ weapons_attachment_combos_dict[SMGS.STRIKER.value] = {
         AmmoTypes.AUTO_OVERPRESSURED_P_45.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -7399,7 +7275,6 @@ weapons_attachment_combos_dict[SMGS.STRIKER.value] = {
 
 weapons_attachment_combos_dict[SMGS.WSP_SWARM.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -7449,7 +7324,6 @@ weapons_attachment_combos_dict[SMGS.WSP_SWARM.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.CS15_SCARLET_CYLINDRICAL_LASER.value,
         Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
         Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
@@ -7467,7 +7341,6 @@ weapons_attachment_combos_dict[SMGS.WSP_SWARM.value] = {
         Lasers.KIMURA_RYL33_LASER_LIGHT.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.JAK_BULLSEYE.value,
@@ -7569,7 +7442,6 @@ weapons_attachment_combos_dict[SMGS.WSP_SWARM.value] = {
         AmmoTypes.HIGH_VELOCITY_9MM.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -7623,7 +7495,6 @@ weapons_attachment_combos_dict[SMGS.WSP_SWARM.value] = {
 
 weapons_attachment_combos_dict[SMGS.AMR9.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -7672,7 +7543,6 @@ weapons_attachment_combos_dict[SMGS.AMR9.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.CS15_SCARLET_CYLINDRICAL_LASER.value,
         Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
         Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
@@ -7690,7 +7560,6 @@ weapons_attachment_combos_dict[SMGS.AMR9.value] = {
         Lasers.KIMURA_RYL33_LASER_LIGHT.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.JAK_BULLSEYE.value,
@@ -7794,7 +7663,6 @@ weapons_attachment_combos_dict[SMGS.AMR9.value] = {
         AmmoTypes.HIGH_VELOCITY_9MM.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -7846,7 +7714,6 @@ weapons_attachment_combos_dict[SMGS.AMR9.value] = {
 
 weapons_attachment_combos_dict[SMGS.WSP_9.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -7895,7 +7762,6 @@ weapons_attachment_combos_dict[SMGS.WSP_9.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.CS15_SCARLET_CYLINDRICAL_LASER.value,
         Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
         Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
@@ -7913,7 +7779,6 @@ weapons_attachment_combos_dict[SMGS.WSP_9.value] = {
         Lasers.KIMURA_RYL33_LASER_LIGHT.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.JAK_BULLSEYE.value,
@@ -8004,7 +7869,6 @@ weapons_attachment_combos_dict[SMGS.WSP_9.value] = {
         AmmoTypes.HIGH_VELOCITY_9MM.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -8055,8 +7919,69 @@ weapons_attachment_combos_dict[SMGS.WSP_9.value] = {
 }
 
 weapons_attachment_combos_dict[SMGS.RIVAL_9.value] = {
+    "Muzzles": [
+        Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
+        Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
+        Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
+        Muzzles.COLOSSUS_SUPPRESSOR_S.value,
+        Muzzles.COLOSSUS_SUPPRESSOR.value,
+        Muzzles.XTEN_RR_40.value,
+        Muzzles.FORGE_DX90_F.value,
+        Muzzles.SA_SCHALLDAMPFER_99.value,
+        Muzzles.SINGUARD_MKV.value,
+        Muzzles.EXF_HUNTRESS_90.value,
+        Muzzles.XTEN_BLACK_KITE.value,
+        Muzzles.FSS_COVERT_IV.value,
+        Muzzles.STER45_SKYFURY_COMPENSATOR_S.value,
+        Muzzles.ELR_BLACKFIRE_COMPENSATOR_S.value,
+        Muzzles.T4LR_SABER_COMPENSATOR_S.value,
+        Muzzles.PURIFIER_MUZZLE_BRAKE_S.value,
+        Muzzles.ENDLESS_30_COMPENSATOR.value,
+        Muzzles.JAK_BFB.value,
+        Muzzles.BRUEN_PENDULUM.value,
+        Muzzles.AVR_T90_COMP.value,
+        Muzzles.LACERTA_COMPENSATOR.value,
+        Muzzles.FTAC_CASTLE_COMP.value,
+        Muzzles.XTEN_RAZOR_COMP.value,
+        Muzzles.XRK_SANDSTORM.value,
+        Muzzles.LOCKSHOT_KT85.value,
+        Muzzles.BRUEN_CUBIC_COMP.value,
+        Muzzles.XRK_KNOCKOUT_BREACH.value,
+        Muzzles.TA_HUL_BREACH.value,
+        Muzzles.SPIRAL_V3p5_FLASH_HIDER.value,
+        Muzzles.FOX_202_FLASH_HIDER.value,
+        Muzzles.SONIC_SUPPRESSOR_S.value,
+        Muzzles.WRATHGUARD_COMPENSATOR_S.value,
+        Muzzles.T51R_BILLETED_BRAKE_S.value,
+        Muzzles.VP27_MINI_BRAKE_S.value,
+        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
+        Muzzles.S37C_DL_BREACHER_DEVICE_S.value,
+        Muzzles.L4R_FLASH_HIDER.value,
+    ],
+    "Barrels": [
+        Barrels.RIVAL_C_CLEARSHOT_BARREL.value,
+        Barrels.RIVAL_38E_FIRE_STARTER_BARREL.value,
+        Barrels.RIVAL_IGS_800_BARRE.value,
+    ],
+    "Arms": [],
+    "Lasers": [
+        Lasers.CS15_SCARLET_CYLINDRICAL_LASER.value,
+        Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
+        Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
+        Lasers.ARTEMIS_LASER_1MW.value,
+        Lasers.QUICK_FIRE_LASER_1MW.value,
+        Lasers.ACCU_SHOT_5MW_LASER.value,
+        Lasers.VLK_LZR_7MW.value,
+        Lasers.CANTED_LASER_7MW.value,
+        Lasers.SCHLAGER_ULO_66_LASER.value,
+        Lasers.STOVL_TAC_LASER.value,
+        Lasers.HIPSHOT_L20.value,
+        Lasers.POINT_G3P_04.value,
+        Lasers.FJX_ULTRABEAM_XR.value,
+        Lasers.EXF_SOLARFLARE.value,
+        Lasers.KIMURA_RYL33_LASER_LIGHT.value,
+    ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.JAK_BULLSEYE.value,
@@ -8121,70 +8046,6 @@ weapons_attachment_combos_dict[SMGS.RIVAL_9.value] = {
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,   
     ],
-    "Barrels": [
-        Barrels.RIVAL_C_CLEARSHOT_BARREL.value,
-        Barrels.RIVAL_38E_FIRE_STARTER_BARREL.value,
-        Barrels.RIVAL_IGS_800_BARRE.value,
-    ],
-    "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
-        Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
-        Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
-        Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
-        Muzzles.COLOSSUS_SUPPRESSOR_S.value,
-        Muzzles.COLOSSUS_SUPPRESSOR.value,
-        Muzzles.XTEN_RR_40.value,
-        Muzzles.FORGE_DX90_F.value,
-        Muzzles.SA_SCHALLDAMPFER_99.value,
-        Muzzles.SINGUARD_MKV.value,
-        Muzzles.EXF_HUNTRESS_90.value,
-        Muzzles.XTEN_BLACK_KITE.value,
-        Muzzles.FSS_COVERT_IV.value,
-        Muzzles.STER45_SKYFURY_COMPENSATOR_S.value,
-        Muzzles.ELR_BLACKFIRE_COMPENSATOR_S.value,
-        Muzzles.T4LR_SABER_COMPENSATOR_S.value,
-        Muzzles.PURIFIER_MUZZLE_BRAKE_S.value,
-        Muzzles.ENDLESS_30_COMPENSATOR.value,
-        Muzzles.JAK_BFB.value,
-        Muzzles.BRUEN_PENDULUM.value,
-        Muzzles.AVR_T90_COMP.value,
-        Muzzles.LACERTA_COMPENSATOR.value,
-        Muzzles.FTAC_CASTLE_COMP.value,
-        Muzzles.XTEN_RAZOR_COMP.value,
-        Muzzles.XRK_SANDSTORM.value,
-        Muzzles.LOCKSHOT_KT85.value,
-        Muzzles.BRUEN_CUBIC_COMP.value,
-        Muzzles.XRK_KNOCKOUT_BREACH.value,
-        Muzzles.TA_HUL_BREACH.value,
-        Muzzles.SPIRAL_V3p5_FLASH_HIDER.value,
-        Muzzles.FOX_202_FLASH_HIDER.value,
-        Muzzles.SONIC_SUPPRESSOR_S.value,
-        Muzzles.WRATHGUARD_COMPENSATOR_S.value,
-        Muzzles.T51R_BILLETED_BRAKE_S.value,
-        Muzzles.VP27_MINI_BRAKE_S.value,
-        Muzzles.ZEHMN35_COMPENSATED_FLASH_HIDER.value,
-        Muzzles.S37C_DL_BREACHER_DEVICE_S.value,
-        Muzzles.L4R_FLASH_HIDER.value,
-    ],
-    "Arms": [],
-    "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
-        Lasers.CS15_SCARLET_CYLINDRICAL_LASER.value,
-        Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
-        Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
-        Lasers.ARTEMIS_LASER_1MW.value,
-        Lasers.QUICK_FIRE_LASER_1MW.value,
-        Lasers.ACCU_SHOT_5MW_LASER.value,
-        Lasers.VLK_LZR_7MW.value,
-        Lasers.CANTED_LASER_7MW.value,
-        Lasers.SCHLAGER_ULO_66_LASER.value,
-        Lasers.STOVL_TAC_LASER.value,
-        Lasers.HIPSHOT_L20.value,
-        Lasers.POINT_G3P_04.value,
-        Lasers.FJX_ULTRABEAM_XR.value,
-        Lasers.EXF_SOLARFLARE.value,
-        Lasers.KIMURA_RYL33_LASER_LIGHT.value,
-    ],
     "Stocks": [
         Stocks.EXF_CLOSE_QUARTERS_ASSAULT_STOCK.value,
         Stocks.MTZ_STOCKLESS_MOD.value,
@@ -8219,7 +8080,6 @@ weapons_attachment_combos_dict[SMGS.RIVAL_9.value] = {
         AmmoTypes.HIGH_VELOCITY_9MM.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -8271,7 +8131,6 @@ weapons_attachment_combos_dict[SMGS.RIVAL_9.value] = {
 
 weapons_attachment_combos_dict[SMGS.STRIKER_9.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -8317,7 +8176,6 @@ weapons_attachment_combos_dict[SMGS.STRIKER_9.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.CS15_SCARLET_CYLINDRICAL_LASER.value,
         Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
         Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
@@ -8335,7 +8193,6 @@ weapons_attachment_combos_dict[SMGS.STRIKER_9.value] = {
         Lasers.KIMURA_RYL33_LASER_LIGHT.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.JAK_BULLSEYE.value,
@@ -8437,7 +8294,6 @@ weapons_attachment_combos_dict[SMGS.STRIKER_9.value] = {
         AmmoTypes.HIGH_VELOCITY_9MM.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -8493,7 +8349,6 @@ weapons_attachment_combos_dict[SMGS.LACHMANN_SHROUD.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.CS15_SCARLET_CYLINDRICAL_LASER.value,
         Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
         Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
@@ -8511,7 +8366,6 @@ weapons_attachment_combos_dict[SMGS.LACHMANN_SHROUD.value] = {
         Lasers.KIMURA_RYL33_LASER_LIGHT.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.JAK_BULLSEYE.value,
@@ -8603,7 +8457,6 @@ weapons_attachment_combos_dict[SMGS.LACHMANN_SHROUD.value] = {
         AmmoTypes.SUB_OP_9MM.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -8646,7 +8499,6 @@ weapons_attachment_combos_dict[SMGS.LACHMANN_SHROUD.value] = {
 
 weapons_attachment_combos_dict[SMGS.ISO_9MM.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -8693,7 +8545,6 @@ weapons_attachment_combos_dict[SMGS.ISO_9MM.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.CS15_SCARLET_CYLINDRICAL_LASER.value,
         Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
         Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
@@ -8711,7 +8562,6 @@ weapons_attachment_combos_dict[SMGS.ISO_9MM.value] = {
         Lasers.KIMURA_RYL33_LASER_LIGHT.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.JAK_BULLSEYE.value,
@@ -8810,7 +8660,6 @@ weapons_attachment_combos_dict[SMGS.ISO_9MM.value] = {
         AmmoTypes.HIGH_VELOCITY_9MM.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.KIMURA_RYN_03_VERTICAL_GRIP.value,
         Underbarrels.SL_SKELETAL_VERTICAL_GRIP.value,
         Underbarrels.HOLGER_VERTICAL_GRIP.value,
@@ -8855,7 +8704,6 @@ weapons_attachment_combos_dict[SMGS.ISO_9MM.value] = {
 
 weapons_attachment_combos_dict[SMGS.PDSW_528.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -8903,7 +8751,6 @@ weapons_attachment_combos_dict[SMGS.PDSW_528.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.CS15_SCARLET_CYLINDRICAL_LASER.value,
         Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
         Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
@@ -8921,7 +8768,6 @@ weapons_attachment_combos_dict[SMGS.PDSW_528.value] = {
         Lasers.KIMURA_RYL33_LASER_LIGHT.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.JAK_BULLSEYE.value,
@@ -9069,7 +8915,6 @@ weapons_attachment_combos_dict[SMGS.PDSW_528.value] = {
 
 weapons_attachment_combos_dict[SMGS.VEL_46.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -9118,7 +8963,6 @@ weapons_attachment_combos_dict[SMGS.VEL_46.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.CS15_SCARLET_CYLINDRICAL_LASER.value,
         Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
         Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
@@ -9136,7 +8980,6 @@ weapons_attachment_combos_dict[SMGS.VEL_46.value] = {
         Lasers.KIMURA_RYL33_LASER_LIGHT.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.JAK_BULLSEYE.value,
@@ -9231,7 +9074,6 @@ weapons_attachment_combos_dict[SMGS.VEL_46.value] = {
         AmmoTypes.OVERPRESSURED_P_4_6MM.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -9281,7 +9123,6 @@ weapons_attachment_combos_dict[SMGS.VEL_46.value] = {
 
 weapons_attachment_combos_dict[SMGS.FENNEC_45.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -9329,7 +9170,6 @@ weapons_attachment_combos_dict[SMGS.FENNEC_45.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.CS15_SCARLET_CYLINDRICAL_LASER.value,
         Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
         Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
@@ -9347,7 +9187,6 @@ weapons_attachment_combos_dict[SMGS.FENNEC_45.value] = {
         Lasers.KIMURA_RYL33_LASER_LIGHT.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.JAK_BULLSEYE.value,
@@ -9445,7 +9284,6 @@ weapons_attachment_combos_dict[SMGS.FENNEC_45.value] = {
         AmmoTypes.AUTO_OVERPRESSURED_P_45.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -9488,7 +9326,6 @@ weapons_attachment_combos_dict[SMGS.FENNEC_45.value] = {
 
 weapons_attachment_combos_dict[SMGS.BAS_P.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -9534,7 +9371,6 @@ weapons_attachment_combos_dict[SMGS.BAS_P.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.CS15_SCARLET_CYLINDRICAL_LASER.value,
         Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
         Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
@@ -9552,7 +9388,6 @@ weapons_attachment_combos_dict[SMGS.BAS_P.value] = {
         Lasers.KIMURA_RYL33_LASER_LIGHT.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.JAK_BULLSEYE.value,
@@ -9649,7 +9484,6 @@ weapons_attachment_combos_dict[SMGS.BAS_P.value] = {
         AmmoTypes.HIGH_VELOCITY_9MM.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -9694,7 +9528,6 @@ weapons_attachment_combos_dict[SMGS.BAS_P.value] = {
 
 weapons_attachment_combos_dict[SMGS.ISO_45.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -9741,7 +9574,6 @@ weapons_attachment_combos_dict[SMGS.ISO_45.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.CS15_SCARLET_CYLINDRICAL_LASER.value,
         Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
         Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
@@ -9759,7 +9591,6 @@ weapons_attachment_combos_dict[SMGS.ISO_45.value] = {
         Lasers.KIMURA_RYL33_LASER_LIGHT.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.JAK_BULLSEYE.value,
@@ -9857,7 +9688,6 @@ weapons_attachment_combos_dict[SMGS.ISO_45.value] = {
         AmmoTypes.AUTO_OVERPRESSURED_P_45.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -9907,7 +9737,6 @@ weapons_attachment_combos_dict[SMGS.ISO_45.value] = {
 
 weapons_attachment_combos_dict[SMGS.LACHMANN_SUB.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -9952,7 +9781,6 @@ weapons_attachment_combos_dict[SMGS.LACHMANN_SUB.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.CS15_SCARLET_CYLINDRICAL_LASER.value,
         Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
         Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
@@ -9970,7 +9798,6 @@ weapons_attachment_combos_dict[SMGS.LACHMANN_SUB.value] = {
         Lasers.KIMURA_RYL33_LASER_LIGHT.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.JAK_BULLSEYE.value,
@@ -10065,7 +9892,6 @@ weapons_attachment_combos_dict[SMGS.LACHMANN_SUB.value] = {
         AmmoTypes.HIGH_VELOCITY_9MM.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -10108,7 +9934,6 @@ weapons_attachment_combos_dict[SMGS.LACHMANN_SUB.value] = {
 
 weapons_attachment_combos_dict[SMGS.FSS_HURRICANE.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -10152,7 +9977,6 @@ weapons_attachment_combos_dict[SMGS.FSS_HURRICANE.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -10170,7 +9994,6 @@ weapons_attachment_combos_dict[SMGS.FSS_HURRICANE.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.JAK_BULLSEYE.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -10223,7 +10046,6 @@ weapons_attachment_combos_dict[SMGS.FSS_HURRICANE.value] = {
         AmmoTypes.OVERPRESSURED_P_5_7X28MM.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -10273,7 +10095,6 @@ weapons_attachment_combos_dict[SMGS.FSS_HURRICANE.value] = {
 
 weapons_attachment_combos_dict[SMGS.MX9.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -10318,7 +10139,6 @@ weapons_attachment_combos_dict[SMGS.MX9.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.CS15_SCARLET_CYLINDRICAL_LASER.value,
         Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
         Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
@@ -10336,7 +10156,6 @@ weapons_attachment_combos_dict[SMGS.MX9.value] = {
         Lasers.KIMURA_RYL33_LASER_LIGHT.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.JAK_BULLSEYE.value,
@@ -10438,7 +10257,6 @@ weapons_attachment_combos_dict[SMGS.MX9.value] = {
 
 weapons_attachment_combos_dict[SMGS.MINIBAK.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -10481,7 +10299,6 @@ weapons_attachment_combos_dict[SMGS.MINIBAK.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -10499,7 +10316,6 @@ weapons_attachment_combos_dict[SMGS.MINIBAK.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.JAK_BULLSEYE.value,
@@ -10599,7 +10415,6 @@ weapons_attachment_combos_dict[SMGS.MINIBAK.value] = {
 
 weapons_attachment_combos_dict[SMGS.VAZNEV_9K.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -10643,7 +10458,6 @@ weapons_attachment_combos_dict[SMGS.VAZNEV_9K.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -10661,7 +10475,6 @@ weapons_attachment_combos_dict[SMGS.VAZNEV_9K.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.JAK_BULLSEYE.value,
@@ -10760,7 +10573,6 @@ weapons_attachment_combos_dict[SMGS.VAZNEV_9K.value] = {
         AmmoTypes.HIGH_VELOCITY_9MM.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -10814,7 +10626,6 @@ weapons_attachment_combos_dict[SMGS.VAZNEV_9K.value] = {
 
 weapons_attachment_combos_dict[Shotguns.LOCKWOOD_680.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.TECTONICA_SUPPRESSOR.value,
         Muzzles.SA_SCHWEIGEN_DX.value,
         Muzzles.SA_SCHWEIGEN_XS.value,
@@ -10844,7 +10655,6 @@ weapons_attachment_combos_dict[Shotguns.LOCKWOOD_680.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.ARTEMIS_LASER_1MW.value,
         Lasers.QUICK_FIRE_LASER_1MW.value,
         Lasers.ACCU_SHOT_5MW_LASER.value,
@@ -10859,7 +10669,6 @@ weapons_attachment_combos_dict[Shotguns.LOCKWOOD_680.value] = {
         Lasers.KIMURA_RYL33_LASER_LIGHT.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.KR_MINITAC_40_RISER.value,
@@ -10956,7 +10765,6 @@ weapons_attachment_combos_dict[Shotguns.LOCKWOOD_680.value] = {
         AmmoTypes.GAUGE_EXPLOSIVE_12.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.FTAC_SP_10_ANGLED_GRIP.value,
         Underbarrels.FTAC_RS_9_STEALTH_ANGLED_GRIP.value,
         Underbarrels.BRUEN_BASTION_ANGLED_GRIP.value,
@@ -11006,7 +10814,6 @@ weapons_attachment_combos_dict[Shotguns.LOCKWOOD_680.value] = {
 
 weapons_attachment_combos_dict[Shotguns.HAYMAKER.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.TECTONICA_SUPPRESSOR.value,
         Muzzles.SA_SCHWEIGEN_DX.value,
         Muzzles.SA_SCHWEIGEN_XS.value,
@@ -11034,7 +10841,6 @@ weapons_attachment_combos_dict[Shotguns.HAYMAKER.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
         Lasers.VERDANT_HOOK_BOX_LASER.value,
@@ -11051,7 +10857,6 @@ weapons_attachment_combos_dict[Shotguns.HAYMAKER.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.KR_MINITAC_40_RISER.value,
@@ -11145,7 +10950,6 @@ weapons_attachment_combos_dict[Shotguns.HAYMAKER.value] = {
         AmmoTypes.GAUGE_DRAGONS_BREATH_12.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.FTAC_SP_10_ANGLED_GRIP.value,
         Underbarrels.FTAC_RS_9_STEALTH_ANGLED_GRIP.value,
         Underbarrels.BRUEN_BASTION_ANGLED_GRIP.value,
@@ -11195,7 +10999,6 @@ weapons_attachment_combos_dict[Shotguns.HAYMAKER.value] = {
 
 weapons_attachment_combos_dict[Shotguns.RIVETER.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.TECTONICA_SUPPRESSOR.value,
         Muzzles.SA_SCHWEIGEN_DX.value,
         Muzzles.SA_SCHWEIGEN_XS.value,
@@ -11223,7 +11026,6 @@ weapons_attachment_combos_dict[Shotguns.RIVETER.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
         Lasers.VERDANT_HOOK_BOX_LASER.value,
@@ -11240,7 +11042,6 @@ weapons_attachment_combos_dict[Shotguns.RIVETER.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.KR_MINITAC_40_RISER.value,
@@ -11333,7 +11134,6 @@ weapons_attachment_combos_dict[Shotguns.RIVETER.value] = {
         AmmoTypes.GAUGE_INCENDIARY_410.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.JAK_PURIFIER.value,
         Underbarrels.FTAC_SP_10_ANGLED_GRIP.value,
         Underbarrels.FTAC_RS_9_STEALTH_ANGLED_GRIP.value,
@@ -11388,7 +11188,6 @@ weapons_attachment_combos_dict[Shotguns.RIVETER.value] = {
 
 weapons_attachment_combos_dict[Shotguns.LOCKWOOD_300.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SAKIN_DB107.value,
         Muzzles.TEMPUS_VOX.value,
         Muzzles.GW_MAX_99.value,
@@ -11409,7 +11208,6 @@ weapons_attachment_combos_dict[Shotguns.LOCKWOOD_300.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
         Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
         Lasers.ARTEMIS_LASER_1MW.value,
@@ -11426,7 +11224,6 @@ weapons_attachment_combos_dict[Shotguns.LOCKWOOD_300.value] = {
         Lasers.KIMURA_RYL33_LASER_LIGHT.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -11519,7 +11316,6 @@ weapons_attachment_combos_dict[Shotguns.LOCKWOOD_300.value] = {
         AmmoTypes.GAUGE_DRAGONS_BREATH_12.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -11569,7 +11365,6 @@ weapons_attachment_combos_dict[Shotguns.LOCKWOOD_300.value] = {
 
 weapons_attachment_combos_dict[Shotguns.EXPEDITE_12.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SA_SCHWEIGEN_DX.value,
         Muzzles.SA_SCHWEIGEN_XS.value,
         Muzzles.FTAC_TRIDENTCORE.value,
@@ -11600,7 +11395,6 @@ weapons_attachment_combos_dict[Shotguns.EXPEDITE_12.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
         Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
         Lasers.ARTEMIS_LASER_1MW.value,
@@ -11617,7 +11411,6 @@ weapons_attachment_combos_dict[Shotguns.EXPEDITE_12.value] = {
         Lasers.KIMURA_RYL33_LASER_LIGHT.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -11717,7 +11510,6 @@ weapons_attachment_combos_dict[Shotguns.EXPEDITE_12.value] = {
         AmmoTypes.GAUGE_DRAGONS_BREATH_12.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -11767,7 +11559,6 @@ weapons_attachment_combos_dict[Shotguns.EXPEDITE_12.value] = {
 
 weapons_attachment_combos_dict[Shotguns.BRYSON_800.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SA_SCHWEIGEN_DX.value,
         Muzzles.SA_SCHWEIGEN_XS.value,
         Muzzles.FTAC_TRIDENTCORE.value,
@@ -11800,7 +11591,6 @@ weapons_attachment_combos_dict[Shotguns.BRYSON_800.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
         Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
         Lasers.ARTEMIS_LASER_1MW.value,
@@ -11817,7 +11607,6 @@ weapons_attachment_combos_dict[Shotguns.BRYSON_800.value] = {
         Lasers.KIMURA_RYL33_LASER_LIGHT.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -11910,7 +11699,6 @@ weapons_attachment_combos_dict[Shotguns.BRYSON_800.value] = {
         AmmoTypes.GAUGE_DRAGONS_BREATH_12.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -11960,7 +11748,6 @@ weapons_attachment_combos_dict[Shotguns.BRYSON_800.value] = {
 
 weapons_attachment_combos_dict[Shotguns.KV_BROADSIDE.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SA_SCHWEIGEN_DX.value,
         Muzzles.SA_SCHWEIGEN_XS.value,
         Muzzles.FTAC_TRIDENTCORE.value,
@@ -11994,7 +11781,6 @@ weapons_attachment_combos_dict[Shotguns.KV_BROADSIDE.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
         Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
         Lasers.ARTEMIS_LASER_1MW.value,
@@ -12011,7 +11797,6 @@ weapons_attachment_combos_dict[Shotguns.KV_BROADSIDE.value] = {
         Lasers.KIMURA_RYL33_LASER_LIGHT.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -12112,7 +11897,6 @@ weapons_attachment_combos_dict[Shotguns.KV_BROADSIDE.value] = {
         AmmoTypes.GAUGE_EXPLOSIVE_12.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.FTAC_SP_10_ANGLED_GRIP.value,
         Underbarrels.FTAC_RS_9_STEALTH_ANGLED_GRIP.value,
         Underbarrels.BRUEN_BASTION_ANGLED_GRIP.value,
@@ -12171,7 +11955,6 @@ weapons_attachment_combos_dict[Shotguns.KV_BROADSIDE.value] = {
 
 weapons_attachment_combos_dict[Shotguns.MX_GUARDIAN.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SA_SCHWEIGEN_DX.value,
         Muzzles.SA_SCHWEIGEN_XS.value,
         Muzzles.FTAC_TRIDENTCORE.value,
@@ -12200,7 +11983,6 @@ weapons_attachment_combos_dict[Shotguns.MX_GUARDIAN.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
         Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
         Lasers.ARTEMIS_LASER_1MW.value,
@@ -12217,7 +11999,6 @@ weapons_attachment_combos_dict[Shotguns.MX_GUARDIAN.value] = {
         Lasers.KIMURA_RYL33_LASER_LIGHT.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -12313,7 +12094,6 @@ weapons_attachment_combos_dict[Shotguns.MX_GUARDIAN.value] = {
         AmmoTypes.GAUGE_DRAGONS_BREATH_12.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.BRUEN_HEAVY_SUPPORT_GRIP.value,
         Underbarrels.KIMURA_RYN_03_VERTICAL_GRIP.value,
         Underbarrels.SL_SKELETAL_VERTICAL_GRIP.value,
@@ -12340,7 +12120,6 @@ weapons_attachment_combos_dict[Shotguns.MX_GUARDIAN.value] = {
 
 weapons_attachment_combos_dict[Shotguns.BRYSON_890.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SA_SCHWEIGEN_DX.value,
         Muzzles.SA_SCHWEIGEN_XS.value,
         Muzzles.FTAC_TRIDENTCORE.value,
@@ -12371,7 +12150,6 @@ weapons_attachment_combos_dict[Shotguns.BRYSON_890.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
         Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
         Lasers.ARTEMIS_LASER_1MW.value,
@@ -12388,7 +12166,6 @@ weapons_attachment_combos_dict[Shotguns.BRYSON_890.value] = {
         Lasers.KIMURA_RYL33_LASER_LIGHT.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -12484,7 +12261,6 @@ weapons_attachment_combos_dict[Shotguns.BRYSON_890.value] = {
         AmmoTypes.GAUGE_DRAGONS_BREATH_12.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -12538,7 +12314,6 @@ weapons_attachment_combos_dict[Shotguns.BRYSON_890.value] = {
 
 weapons_attachment_combos_dict[LMGS.TAQ_EVOLVERE.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -12579,7 +12354,6 @@ weapons_attachment_combos_dict[LMGS.TAQ_EVOLVERE.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.SZ_1MW_PEQ.value,
         Lasers.SCHLAGER_PEQ_BOX_IV.value,
@@ -12594,7 +12368,6 @@ weapons_attachment_combos_dict[LMGS.TAQ_EVOLVERE.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -12709,7 +12482,6 @@ weapons_attachment_combos_dict[LMGS.TAQ_EVOLVERE.value] = {
         AmmoTypes.NATO_LOW_GRAIN_ROUNDS_5_56.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.KIMURA_RYN_03_VERTICAL_GRIP.value,
         Underbarrels.SL_SKELETAL_VERTICAL_GRIP.value,
         Underbarrels.HOLGER_VERTICAL_GRIP.value,
@@ -12736,7 +12508,6 @@ weapons_attachment_combos_dict[LMGS.TAQ_EVOLVERE.value] = {
 
 weapons_attachment_combos_dict[LMGS.PULEMYOT_762.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -12784,7 +12555,6 @@ weapons_attachment_combos_dict[LMGS.PULEMYOT_762.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
         Lasers.VERDANT_HOOK_BOX_LASER.value,
@@ -12801,7 +12571,6 @@ weapons_attachment_combos_dict[LMGS.PULEMYOT_762.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -12913,7 +12682,6 @@ weapons_attachment_combos_dict[LMGS.PULEMYOT_762.value] = {
         AmmoTypes.INCENDIARY_7_62X54MMR.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.BRUEN_HEAVY_SUPPORT_GRIP.value,
         Underbarrels.KIMURA_RYN_03_VERTICAL_GRIP.value,
         Underbarrels.SL_SKELETAL_VERTICAL_GRIP.value,
@@ -12951,7 +12719,6 @@ weapons_attachment_combos_dict[LMGS.PULEMYOT_762.value] = {
 
 weapons_attachment_combos_dict[LMGS.DG_58_LSW.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -13002,7 +12769,6 @@ weapons_attachment_combos_dict[LMGS.DG_58_LSW.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
         Lasers.VERDANT_HOOK_BOX_LASER.value,
@@ -13019,7 +12785,6 @@ weapons_attachment_combos_dict[LMGS.DG_58_LSW.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -13125,7 +12890,6 @@ weapons_attachment_combos_dict[LMGS.DG_58_LSW.value] = {
         AmmoTypes.TRACER_5_8X42.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -13185,7 +12949,6 @@ weapons_attachment_combos_dict[LMGS.DG_58_LSW.value] = {
 
 weapons_attachment_combos_dict[LMGS.BRUEN_MK9.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -13236,7 +12999,6 @@ weapons_attachment_combos_dict[LMGS.BRUEN_MK9.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
         Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
         Lasers.ARTEMIS_LASER_1MW.value,
@@ -13253,7 +13015,6 @@ weapons_attachment_combos_dict[LMGS.BRUEN_MK9.value] = {
         Lasers.KIMURA_RYL33_LASER_LIGHT.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -13326,7 +13087,7 @@ weapons_attachment_combos_dict[LMGS.BRUEN_MK9.value] = {
         Optics.INTLAS_CAS_14.value,
     ],
     "Stocks": [
-        Stocks.NO_MODIFICATIONS.value,
+        Stocks,
         Stocks.LANE_56_STOCK.value,
         Stocks.FT_IRONBAR_STOCK.value,
         Stocks.TOUR_56_STOCK.value,
@@ -13362,7 +13123,6 @@ weapons_attachment_combos_dict[LMGS.BRUEN_MK9.value] = {
         AmmoTypes.INCENDIARY_5_56.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -13415,7 +13175,6 @@ weapons_attachment_combos_dict[LMGS.BRUEN_MK9.value] = {
 
 weapons_attachment_combos_dict[LMGS.TAQ_ERADICATOR.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -13462,7 +13221,6 @@ weapons_attachment_combos_dict[LMGS.TAQ_ERADICATOR.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
         Lasers.VERDANT_HOOK_BOX_LASER.value,
@@ -13479,7 +13237,6 @@ weapons_attachment_combos_dict[LMGS.TAQ_ERADICATOR.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -13551,19 +13308,42 @@ weapons_attachment_combos_dict[LMGS.TAQ_ERADICATOR.value] = {
         Optics.CRONEN_INTLAS_MSP_12.value,
         Optics.INTLAS_CAS_14.value,
     ],
-    "Stocks": [],
+    "Stocks": [
+        Stocks.TACTIQUE_BRUTE_STOCK.value,
+        Stocks.TV_XLINE_PRO.value,
+        Stocks.TACVERTE_CORE_STOCK.value,
+        Stocks.TV_BALLAST_STOCK.value,
+    ],
     "Combs": [],
     "Guards": [],
     "Bolts": [],
     "Levers": [],
-    "RearGrips": [],
+    "RearGrips": [
+        RearGrips.XRK_RESPONSE_GRIP.value,
+        RearGrips.FSS_COMBAT_GRIP.value,
+        RearGrips.MARKSMAN_PALM_GRIP.value,
+        RearGrips.DEMO_CLEANSHOT_GRIP.value,
+    ],
     "TriggerActions": [],
-    "Magazines": [],
+    "Magazines": [
+        Magazines.ROUND_45.value,
+        Magazines.ROUND_150_DRUM.value,
+    ],
     "Wires": [],
     "Rails": [],
-    "AmmoTypes": [],
+    "AmmoTypes": [
+        AmmoTypes.FRANGIBLE_7_62X51MM.value,
+        AmmoTypes.HOLLOWPOINT_7_62X51MM.value,
+        AmmoTypes.ARMOR_PIERCING_7_62X51MM.value,
+        AmmoTypes.OVERPRESSURED_P_7_62X51MM.value,
+        AmmoTypes.HIGH_VELOCITY_7_62X51MM.value,
+        AmmoTypes.INCENDIARY_7_62X51MM.value,
+        AmmoTypes.HIGH_GRAIN_ROUNDS_12_7X55MM.value,
+        AmmoTypes.LOW_GRAIN_ROUNDS_12_7X55MM.value,
+        AmmoTypes.ROUND_NOSE_7_62X51MM.value,
+        AmmoTypes.MONO_7_62X51MM.value,
+    ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -13621,7 +13401,6 @@ weapons_attachment_combos_dict[LMGS.TAQ_ERADICATOR.value] = {
 
 weapons_attachment_combos_dict[LMGS.HOLGER_26.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -13672,7 +13451,6 @@ weapons_attachment_combos_dict[LMGS.HOLGER_26.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
         Lasers.VERDANT_HOOK_BOX_LASER.value,
@@ -13689,7 +13467,6 @@ weapons_attachment_combos_dict[LMGS.HOLGER_26.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -13797,7 +13574,6 @@ weapons_attachment_combos_dict[LMGS.HOLGER_26.value] = {
         AmmoTypes.INCENDIARY_5_56.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -13855,7 +13631,6 @@ weapons_attachment_combos_dict[LMGS.HOLGER_26.value] = {
 
 weapons_attachment_combos_dict[LMGS.SAKIN_MG38.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -13901,7 +13676,6 @@ weapons_attachment_combos_dict[LMGS.SAKIN_MG38.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
         Lasers.VERDANT_HOOK_BOX_LASER.value,
@@ -13919,7 +13693,6 @@ weapons_attachment_combos_dict[LMGS.SAKIN_MG38.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -14020,7 +13793,6 @@ weapons_attachment_combos_dict[LMGS.SAKIN_MG38.value] = {
         AmmoTypes.MONO_7_62X51MM.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.SAKIN_SIDE_GRIP.value,
         Underbarrels.CRONEN_WL55.value,
         Underbarrels.BRUEN_WARRIOR_LMG.value,
@@ -14069,7 +13841,6 @@ weapons_attachment_combos_dict[LMGS.SAKIN_MG38.value] = {
 
 weapons_attachment_combos_dict[LMGS.RAAL_MG.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.COLOSSUS_SUPPRESSOR_L.value,
         Muzzles.NILSOUND_90.value,
@@ -14106,7 +13877,6 @@ weapons_attachment_combos_dict[LMGS.RAAL_MG.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
         Lasers.VERDANT_HOOK_BOX_LASER.value,
@@ -14124,7 +13894,6 @@ weapons_attachment_combos_dict[LMGS.RAAL_MG.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -14223,7 +13992,6 @@ weapons_attachment_combos_dict[LMGS.RAAL_MG.value] = {
         AmmoTypes.MAG_ROUND_NOSE_338.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.DEMO_NARROW_GRIP.value,
         Underbarrels.XRK_DUNE_GRIP.value,
         Underbarrels.SA_SIDE_GRIP.value,
@@ -14235,7 +14003,6 @@ weapons_attachment_combos_dict[LMGS.RAAL_MG.value] = {
 
 weapons_attachment_combos_dict[LMGS.ICARUS_556.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -14284,7 +14051,6 @@ weapons_attachment_combos_dict[LMGS.ICARUS_556.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
         Lasers.VERDANT_HOOK_BOX_LASER.value,
@@ -14302,7 +14068,6 @@ weapons_attachment_combos_dict[LMGS.ICARUS_556.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -14400,7 +14165,6 @@ weapons_attachment_combos_dict[LMGS.ICARUS_556.value] = {
         AmmoTypes.INCENDIARY_5_56.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.FTAC_SP_10_ANGLED_GRIP.value,
         Underbarrels.FTAC_RS_9_STEALTH_ANGLED_GRIP.value,
         Underbarrels.BRUEN_BASTION_ANGLED_GRIP.value,
@@ -14450,7 +14214,6 @@ weapons_attachment_combos_dict[LMGS.ICARUS_556.value] = {
 
 weapons_attachment_combos_dict[LMGS.RAPP_H.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -14497,7 +14260,6 @@ weapons_attachment_combos_dict[LMGS.RAPP_H.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
         Lasers.VERDANT_HOOK_BOX_LASER.value,
@@ -14515,7 +14277,6 @@ weapons_attachment_combos_dict[LMGS.RAPP_H.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -14621,7 +14382,6 @@ weapons_attachment_combos_dict[LMGS.RAPP_H.value] = {
         AmmoTypes.MONO_7_62X51MM.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.FTAC_SP_10_ANGLED_GRIP.value,
         Underbarrels.FTAC_RS_9_STEALTH_ANGLED_GRIP.value,
         Underbarrels.BRUEN_BASTION_ANGLED_GRIP.value,
@@ -14674,7 +14434,6 @@ weapons_attachment_combos_dict[LMGS.RAPP_H.value] = {
 
 weapons_attachment_combos_dict[LMGS.HCR_56.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -14725,7 +14484,6 @@ weapons_attachment_combos_dict[LMGS.HCR_56.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
         Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
         Lasers.CS15_SCARLET_CYLINDRICAL_LASER.value,
@@ -14743,7 +14501,6 @@ weapons_attachment_combos_dict[LMGS.HCR_56.value] = {
         Lasers.KIMURA_RYL33_LASER_LIGHT.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -14856,7 +14613,6 @@ weapons_attachment_combos_dict[LMGS.HCR_56.value] = {
         AmmoTypes.INCENDIARY_5_56.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.FTAC_SP_10_ANGLED_GRIP.value,
         Underbarrels.FTAC_RS_9_STEALTH_ANGLED_GRIP.value,
         Underbarrels.BRUEN_BASTION_ANGLED_GRIP.value,
@@ -14904,7 +14660,6 @@ weapons_attachment_combos_dict[LMGS.HCR_56.value] = {
 
 weapons_attachment_combos_dict[LMGS.RPK.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -14950,7 +14705,6 @@ weapons_attachment_combos_dict[LMGS.RPK.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
         Lasers.VERDANT_HOOK_BOX_LASER.value,
@@ -14968,7 +14722,6 @@ weapons_attachment_combos_dict[LMGS.RPK.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -15077,7 +14830,6 @@ weapons_attachment_combos_dict[LMGS.RPK.value] = {
         AmmoTypes.INCENDIARY_7_62X39MM.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.FTAC_SP_10_ANGLED_GRIP.value,
         Underbarrels.FTAC_RS_9_STEALTH_ANGLED_GRIP.value,
         Underbarrels.BRUEN_BASTION_ANGLED_GRIP.value,
@@ -15129,7 +14881,6 @@ weapons_attachment_combos_dict[LMGS.RPK.value] = {
 
 weapons_attachment_combos_dict[MarksmanRifles.KVD_ENFORCER.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -15175,7 +14926,6 @@ weapons_attachment_combos_dict[MarksmanRifles.KVD_ENFORCER.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -15193,7 +14943,6 @@ weapons_attachment_combos_dict[MarksmanRifles.KVD_ENFORCER.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -15320,7 +15069,6 @@ weapons_attachment_combos_dict[MarksmanRifles.KVD_ENFORCER.value] = {
         AmmoTypes.MONO_7_62X54MMR.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -15375,7 +15123,6 @@ weapons_attachment_combos_dict[MarksmanRifles.KVD_ENFORCER.value] = {
 
 weapons_attachment_combos_dict[MarksmanRifles.MCW_68.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.COLOSSUS_SUPPRESSOR_L.value,
         Muzzles.NILSOUND_90.value,
@@ -15415,7 +15162,6 @@ weapons_attachment_combos_dict[MarksmanRifles.MCW_68.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -15433,7 +15179,6 @@ weapons_attachment_combos_dict[MarksmanRifles.MCW_68.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -15556,7 +15301,6 @@ weapons_attachment_combos_dict[MarksmanRifles.MCW_68.value] = {
         AmmoTypes.WRATH_SPIRE_POINT_ROUNDS_6_8.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -15613,7 +15357,6 @@ weapons_attachment_combos_dict[MarksmanRifles.MCW_68.value] = {
 
 weapons_attachment_combos_dict[MarksmanRifles.DM56.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -15664,7 +15407,6 @@ weapons_attachment_combos_dict[MarksmanRifles.DM56.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -15682,7 +15424,6 @@ weapons_attachment_combos_dict[MarksmanRifles.DM56.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -15804,7 +15545,6 @@ weapons_attachment_combos_dict[MarksmanRifles.DM56.value] = {
         AmmoTypes.INCENDIARY_5_56.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -15861,7 +15601,6 @@ weapons_attachment_combos_dict[MarksmanRifles.DM56.value] = {
 
 weapons_attachment_combos_dict[MarksmanRifles.MTZ_INTERCEPTOR.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.COLOSSUS_SUPPRESSOR_L.value,
         Muzzles.NILSOUND_90.value,
@@ -15897,7 +15636,6 @@ weapons_attachment_combos_dict[MarksmanRifles.MTZ_INTERCEPTOR.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -15915,7 +15653,6 @@ weapons_attachment_combos_dict[MarksmanRifles.MTZ_INTERCEPTOR.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -16034,7 +15771,6 @@ weapons_attachment_combos_dict[MarksmanRifles.MTZ_INTERCEPTOR.value] = {
         AmmoTypes.MONO_7_62X51MM.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -16089,7 +15825,6 @@ weapons_attachment_combos_dict[MarksmanRifles.MTZ_INTERCEPTOR.value] = {
 
 weapons_attachment_combos_dict[MarksmanRifles.EBR_14.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -16136,7 +15871,6 @@ weapons_attachment_combos_dict[MarksmanRifles.EBR_14.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -16154,7 +15888,6 @@ weapons_attachment_combos_dict[MarksmanRifles.EBR_14.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -16276,7 +16009,6 @@ weapons_attachment_combos_dict[MarksmanRifles.EBR_14.value] = {
         AmmoTypes.MONO_7_62X51MM.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -16331,7 +16063,6 @@ weapons_attachment_combos_dict[MarksmanRifles.EBR_14.value] = {
 
 weapons_attachment_combos_dict[MarksmanRifles.SP_R_208.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -16379,7 +16110,6 @@ weapons_attachment_combos_dict[MarksmanRifles.SP_R_208.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -16397,7 +16127,6 @@ weapons_attachment_combos_dict[MarksmanRifles.SP_R_208.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -16517,7 +16246,6 @@ weapons_attachment_combos_dict[MarksmanRifles.SP_R_208.value] = {
         AmmoTypes.MONO_7_62X51MM.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.LEVEL_AIM_BIPOD.value,
         Underbarrels.CORNERSTONE_BIPOD.value,
         Underbarrels.XTEN_STABLE_SHOT.value,
@@ -16528,7 +16256,6 @@ weapons_attachment_combos_dict[MarksmanRifles.SP_R_208.value] = {
 
 weapons_attachment_combos_dict[MarksmanRifles.LOCKWOOD_MK2.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.COLOSSUS_SUPPRESSOR_L.value,
         Muzzles.NILSOUND_90.value,
@@ -16567,7 +16294,6 @@ weapons_attachment_combos_dict[MarksmanRifles.LOCKWOOD_MK2.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.CS15_SCARLET_CYLINDRICAL_LASER.value,
         Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
         Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
@@ -16585,7 +16311,6 @@ weapons_attachment_combos_dict[MarksmanRifles.LOCKWOOD_MK2.value] = {
         Lasers.KIMURA_RYL33_LASER_LIGHT.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -16708,7 +16433,6 @@ weapons_attachment_combos_dict[MarksmanRifles.LOCKWOOD_MK2.value] = {
 
 weapons_attachment_combos_dict[MarksmanRifles.TEMPUS_TORRENT.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -16755,7 +16479,6 @@ weapons_attachment_combos_dict[MarksmanRifles.TEMPUS_TORRENT.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -16773,7 +16496,6 @@ weapons_attachment_combos_dict[MarksmanRifles.TEMPUS_TORRENT.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -16901,7 +16623,6 @@ weapons_attachment_combos_dict[MarksmanRifles.TEMPUS_TORRENT.value] = {
         AmmoTypes.MONO_7_62X51MM.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -16967,7 +16688,6 @@ weapons_attachment_combos_dict[MarksmanRifles.CROSSBOW.value] = {
         Arms.QUILL_XE_100_LB.value,
     ],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.ARTEMIS_LASER_1MW.value,
         Lasers.QUICK_FIRE_LASER_1MW.value,
         Lasers.ACCU_SHOT_5MW_LASER.value,
@@ -16982,7 +16702,6 @@ weapons_attachment_combos_dict[MarksmanRifles.CROSSBOW.value] = {
         Lasers.KIMURA_RYL33_LASER_LIGHT.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -17089,7 +16808,6 @@ weapons_attachment_combos_dict[MarksmanRifles.CROSSBOW.value] = {
     "Rails": [],
     "AmmoTypes": [],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -17141,7 +16859,6 @@ weapons_attachment_combos_dict[MarksmanRifles.CROSSBOW.value] = {
 
 weapons_attachment_combos_dict[MarksmanRifles.LM_S.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -17186,7 +16903,6 @@ weapons_attachment_combos_dict[MarksmanRifles.LM_S.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -17204,7 +16920,6 @@ weapons_attachment_combos_dict[MarksmanRifles.LM_S.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -17323,7 +17038,6 @@ weapons_attachment_combos_dict[MarksmanRifles.LM_S.value] = {
         AmmoTypes.MONO_7_62X51MM.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -17378,7 +17092,6 @@ weapons_attachment_combos_dict[MarksmanRifles.LM_S.value] = {
 
 weapons_attachment_combos_dict[MarksmanRifles.SA_B_50.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -17425,7 +17138,6 @@ weapons_attachment_combos_dict[MarksmanRifles.SA_B_50.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -17443,7 +17155,6 @@ weapons_attachment_combos_dict[MarksmanRifles.SA_B_50.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -17560,7 +17271,6 @@ weapons_attachment_combos_dict[MarksmanRifles.SA_B_50.value] = {
         AmmoTypes.INCENDIARY_308.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.FTAC_SP_10_ANGLED_GRIP.value,
         Underbarrels.FTAC_RS_9_STEALTH_ANGLED_GRIP.value,
         Underbarrels.BRUEN_BASTION_ANGLED_GRIP.value,
@@ -17589,7 +17299,6 @@ weapons_attachment_combos_dict[MarksmanRifles.SA_B_50.value] = {
 
 weapons_attachment_combos_dict[MarksmanRifles.TAQ_M.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_L.value,
@@ -17634,7 +17343,6 @@ weapons_attachment_combos_dict[MarksmanRifles.TAQ_M.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.CS15_SCARLET_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -17652,7 +17360,6 @@ weapons_attachment_combos_dict[MarksmanRifles.TAQ_M.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
@@ -17768,7 +17475,6 @@ weapons_attachment_combos_dict[MarksmanRifles.TAQ_M.value] = {
         AmmoTypes.INCENDIARY_6_5MM.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.XRK_EDGE_BW_4_HANDSTOP.value,
         Underbarrels.FTAC_MSP_98_HANDSTOP.value,
         Underbarrels.DR_6_HANDSTOP.value,
@@ -17827,7 +17533,6 @@ weapons_attachment_combos_dict[MarksmanRifles.TAQ_M.value] = {
 
 weapons_attachment_combos_dict[SniperRifles.XRK_STALKER.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SA_SHROUD_FLASH_HIDER.value,
         Muzzles.DEMON_HELIX_XL.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_XL.value,
@@ -17860,7 +17565,6 @@ weapons_attachment_combos_dict[SniperRifles.XRK_STALKER.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
         Lasers.VERDANT_HOOK_BOX_LASER.value,
@@ -17876,7 +17580,6 @@ weapons_attachment_combos_dict[SniperRifles.XRK_STALKER.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.QTG_REFLEX_SIGHT.value,
         Optics.DRAGONS_EYE_OPTIC.value,
@@ -18001,7 +17704,6 @@ weapons_attachment_combos_dict[SniperRifles.XRK_STALKER.value] = {
 
 weapons_attachment_combos_dict[SniperRifles.KATT_AMR.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SA_SHROUD_FLASH_HIDER.value,
         Muzzles.DEMON_HELIX_XL.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_XL.value,
@@ -18033,7 +17735,6 @@ weapons_attachment_combos_dict[SniperRifles.KATT_AMR.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
         Lasers.VERDANT_HOOK_BOX_LASER.value,
@@ -18049,7 +17750,6 @@ weapons_attachment_combos_dict[SniperRifles.KATT_AMR.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.CORIO_ELT_10_2p5.value,
         Optics.KR_MORTIS_PRECISION_2p5X.value,
@@ -18152,7 +17852,6 @@ weapons_attachment_combos_dict[SniperRifles.KATT_AMR.value] = {
 
 weapons_attachment_combos_dict[SniperRifles.LONGBOW.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR.value,
         Muzzles.HMRES_MOD_SUPPRESSOR.value,
@@ -18202,7 +17901,6 @@ weapons_attachment_combos_dict[SniperRifles.LONGBOW.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
         Lasers.VERDANT_HOOK_BOX_LASER.value,
@@ -18218,7 +17916,6 @@ weapons_attachment_combos_dict[SniperRifles.LONGBOW.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.JAK_BULLSEYE.value,
@@ -18351,7 +18048,6 @@ weapons_attachment_combos_dict[SniperRifles.LONGBOW.value] = {
         AmmoTypes.HIGH_VELOCITY_7_62X39MM.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.FTAC_SP_10_ANGLED_GRIP.value,
         Underbarrels.FTAC_RS_9_STEALTH_ANGLED_GRIP.value,
         Underbarrels.BRUEN_BASTION_ANGLED_GRIP.value,
@@ -18403,7 +18099,6 @@ weapons_attachment_combos_dict[SniperRifles.LONGBOW.value] = {
 
 weapons_attachment_combos_dict[SniperRifles.KV_INHIBITOR.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.COLOSSUS_SUPPRESSOR_XL.value,
         Muzzles.NILSOUND_90.value,
@@ -18441,7 +18136,6 @@ weapons_attachment_combos_dict[SniperRifles.KV_INHIBITOR.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
         Lasers.VERDANT_HOOK_BOX_LASER.value,
@@ -18457,7 +18151,6 @@ weapons_attachment_combos_dict[SniperRifles.KV_INHIBITOR.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.CORIO_ELT_10_2p5.value,
         Optics.KR_MORTIS_PRECISION_2p5X.value,
@@ -18558,7 +18251,6 @@ weapons_attachment_combos_dict[SniperRifles.KV_INHIBITOR.value] = {
         AmmoTypes.MAGNUM_ROUND_NOSE_338.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.FTAC_SP_10_ANGLED_GRIP.value,
         Underbarrels.FTAC_RS_9_STEALTH_ANGLED_GRIP.value,
         Underbarrels.BRUEN_BASTION_ANGLED_GRIP.value,
@@ -18612,7 +18304,6 @@ weapons_attachment_combos_dict[SniperRifles.KV_INHIBITOR.value] = {
 
 weapons_attachment_combos_dict[SniperRifles.MCPR_300.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.COLOSSUS_SUPPRESSOR_L.value,
         Muzzles.NILSOUND_90.value,
@@ -18649,7 +18340,6 @@ weapons_attachment_combos_dict[SniperRifles.MCPR_300.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.VERDANT_HOOK_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -18666,7 +18356,6 @@ weapons_attachment_combos_dict[SniperRifles.MCPR_300.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.CRONEN_IRONS.value,
         Optics.CORIO_ELT_10_2p5.value,
@@ -18770,7 +18459,6 @@ weapons_attachment_combos_dict[SniperRifles.MCPR_300.value] = {
 
 weapons_attachment_combos_dict[SniperRifles.SIGNAL_50.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_XL.value,
         Muzzles.XRK_NIGHTFALL_SUPPRESSOR_XL.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_XL.value,
@@ -18802,7 +18490,6 @@ weapons_attachment_combos_dict[SniperRifles.SIGNAL_50.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.VERDANT_HOOK_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -18818,7 +18505,6 @@ weapons_attachment_combos_dict[SniperRifles.SIGNAL_50.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.QTG_REFLEX_SIGHT.value,
         Optics.DRAGONS_EYE_OPTIC.value,
@@ -18980,7 +18666,6 @@ weapons_attachment_combos_dict[SniperRifles.SIGNAL_50.value] = {
 
 weapons_attachment_combos_dict[SniperRifles.VICTUS_XMR.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_XL.value,
         Muzzles.XRK_NIGHTFALL_SUPPRESSOR_XL.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_XL.value,
@@ -19012,7 +18697,6 @@ weapons_attachment_combos_dict[SniperRifles.VICTUS_XMR.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
         Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
         Lasers.ARTEMIS_LASER_1MW.value,
@@ -19028,7 +18712,6 @@ weapons_attachment_combos_dict[SniperRifles.VICTUS_XMR.value] = {
         Lasers.KIMURA_RYL33_LASER_LIGHT.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.CHRIOS_HOLO.value,
         Optics.CORIO_ENFORCER_OPTIC.value,
@@ -19142,7 +18825,6 @@ weapons_attachment_combos_dict[SniperRifles.VICTUS_XMR.value] = {
 
 weapons_attachment_combos_dict[SniperRifles.FJX_IMPERIUM.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.COLOSSUS_SUPPRESSOR_L.value,
         Muzzles.NILSOUND_90.value,
@@ -19181,7 +18863,6 @@ weapons_attachment_combos_dict[SniperRifles.FJX_IMPERIUM.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.VERDANT_HOOK_CYLINDRICAL_LASER.value,
         Lasers.PRO_SAPPHIRE_CYLINDRICAL_LASER.value,
         Lasers.ARTEMIS_LASER_1MW.value,
@@ -19197,7 +18878,6 @@ weapons_attachment_combos_dict[SniperRifles.FJX_IMPERIUM.value] = {
         Lasers.KIMURA_RYL33_LASER_LIGHT.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.CORIO_ELT_10_2p5.value,
         Optics.KR_MORTIS_PRECISION_2p5X.value,
@@ -19302,7 +18982,6 @@ weapons_attachment_combos_dict[SniperRifles.FJX_IMPERIUM.value] = {
 
 weapons_attachment_combos_dict[SniperRifles.CARRACK_300.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.COLOSSUS_SUPPRESSOR_L.value,
         Muzzles.NILSOUND_90.value,
@@ -19342,7 +19021,6 @@ weapons_attachment_combos_dict[SniperRifles.CARRACK_300.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.VERDANT_HOOK_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -19358,7 +19036,6 @@ weapons_attachment_combos_dict[SniperRifles.CARRACK_300.value] = {
         Lasers.EXF_SOLARFLARE.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.CORIO_ELT_10_2p5.value,
         Optics.KR_MORTIS_PRECISION_2p5X.value,
@@ -19453,7 +19130,6 @@ weapons_attachment_combos_dict[SniperRifles.CARRACK_300.value] = {
 
 weapons_attachment_combos_dict[SniperRifles.LA_B_330.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.COLOSSUS_SUPPRESSOR_L.value,
         Muzzles.NILSOUND_90.value,
@@ -19491,7 +19167,6 @@ weapons_attachment_combos_dict[SniperRifles.LA_B_330.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.VERDANT_HOOK_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -19507,7 +19182,6 @@ weapons_attachment_combos_dict[SniperRifles.LA_B_330.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.CORIO_ELT_10_2p5.value,
         Optics.KR_MORTIS_PRECISION_2p5X.value,
@@ -19608,7 +19282,6 @@ weapons_attachment_combos_dict[SniperRifles.LA_B_330.value] = {
 
 weapons_attachment_combos_dict[SniperRifles.SP_X_80.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.VT7_SPIRITFIRE_SUPPRESSOR_L.value,
         Muzzles.COLOSSUS_SUPPRESSOR_L.value,
         Muzzles.NILSOUND_90.value,
@@ -19646,7 +19319,6 @@ weapons_attachment_combos_dict[SniperRifles.SP_X_80.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.SL_RAZORHAWK_LASER_LIGHT.value,
         Lasers.VERDANT_HOOK_BOX_LASER.value,
         Lasers.PRO_SAPPHIRE_BOX_LASER.value,
@@ -19662,7 +19334,6 @@ weapons_attachment_combos_dict[SniperRifles.SP_X_80.value] = {
         Lasers.DXS_FLASH_90.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.KR_INTLAS_LSJ_3.value,
         Optics.CORIO_ELT_10_2p5.value,
         Optics.KR_MORTIS_PRECISION_2p5X.value,
@@ -19793,7 +19464,6 @@ weapons_attachment_combos_dict[MeleePrimary.RIOT_SHIELD.value] = {
 
 weapons_attachment_combos_dict[HandGuns.COR_45.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_XS.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_XS.value,
         Muzzles.SONIC_SUPPRESSOR_XS.value,
@@ -19822,7 +19492,6 @@ weapons_attachment_combos_dict[HandGuns.COR_45.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.KR_HX_15_LASER_LIGHT.value,
         Lasers.PRO_SAPPHIRE_MOUNTED_LASER.value,
         Lasers.VERDANT_HOOK_MOUNTED_LASER.value,
@@ -19835,7 +19504,6 @@ weapons_attachment_combos_dict[HandGuns.COR_45.value] = {
         Lasers.CS15_SCARLET_MOUNTED_LASER.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.SLIMLINE_PRO.value,
         Optics.SZ_MINI.value,
@@ -19897,7 +19565,6 @@ weapons_attachment_combos_dict[HandGuns.COR_45.value] = {
 
 weapons_attachment_combos_dict[HandGuns.RENETTI.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_XS.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_XS.value,
         Muzzles.SONIC_SUPPRESSOR_XS.value,
@@ -19927,7 +19594,6 @@ weapons_attachment_combos_dict[HandGuns.RENETTI.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.KR_HX_15_LASER_LIGHT.value,
         Lasers.PRO_SAPPHIRE_MOUNTED_LASER.value,
         Lasers.VERDANT_HOOK_MOUNTED_LASER.value,
@@ -19939,7 +19605,6 @@ weapons_attachment_combos_dict[HandGuns.RENETTI.value] = {
         Lasers.CS15_SCARLET_MOUNTED_LASER.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.SLIMLINE_PRO.value,
         Optics.SZ_MINI.value,
@@ -19993,7 +19658,6 @@ weapons_attachment_combos_dict[HandGuns.RENETTI.value] = {
 
 weapons_attachment_combos_dict[HandGuns.TYR.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.STER45_SKYFURY_COMPENSATOR_L.value,
         Muzzles.ELR_BLACKFIRE_COMPENSATOR_L.value,
         Muzzles.T4LR_SABER_COMPENSATOR_L.value,
@@ -20025,7 +19689,6 @@ weapons_attachment_combos_dict[HandGuns.TYR.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.KR_HX_15_LASER_LIGHT.value,
         Lasers.PRO_SAPPHIRE_MOUNTED_LASER.value,
         Lasers.VERDANT_HOOK_MOUNTED_LASER.value,
@@ -20038,7 +19701,6 @@ weapons_attachment_combos_dict[HandGuns.TYR.value] = {
         Lasers.CS15_SCARLET_MOUNTED_LASER.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
         Optics.SLIMLINE_PRO.value,
@@ -20109,7 +19771,6 @@ weapons_attachment_combos_dict[HandGuns.TYR.value] = {
         AmmoTypes.SNAKESHOT_12_7X55MM.value,
     ],
     "Underbarrels": [
-        Underbarrels.NO_MODIFICATIONS.value,
         Underbarrels.FTAC_SP_10_ANGLED_GRIP.value,
         Underbarrels.FTAC_RS_9_STEALTH_ANGLED_GRIP.value,
         Underbarrels.BRUEN_BASTION_ANGLED_GRIP.value,
@@ -20161,7 +19822,6 @@ weapons_attachment_combos_dict[HandGuns.TYR.value] = {
 
 weapons_attachment_combos_dict[HandGuns.WSP_STINGER.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -20206,7 +19866,6 @@ weapons_attachment_combos_dict[HandGuns.WSP_STINGER.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.KR_HX_15_LASER_LIGHT.value,
         Lasers.PRO_SAPPHIRE_MOUNTED_LASER.value,
         Lasers.VERDANT_HOOK_MOUNTED_LASER.value,
@@ -20258,7 +19917,6 @@ weapons_attachment_combos_dict[HandGuns.WSP_STINGER.value] = {
 
 weapons_attachment_combos_dict[HandGuns.P890.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_XS.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_XS.value,
         Muzzles.SONIC_SUPPRESSOR_XS.value,
@@ -20289,7 +19947,6 @@ weapons_attachment_combos_dict[HandGuns.P890.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.KR_HX_15_LASER_LIGHT.value,
         Lasers.PRO_SAPPHIRE_MOUNTED_LASER.value,
         Lasers.VERDANT_HOOK_MOUNTED_LASER.value,
@@ -20302,7 +19959,6 @@ weapons_attachment_combos_dict[HandGuns.P890.value] = {
         Lasers.CS15_SCARLET_MOUNTED_LASER.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.SLIMLINE_PRO.value,
         Optics.SZ_MINI.value,
@@ -20354,7 +20010,6 @@ weapons_attachment_combos_dict[HandGuns.P890.value] = {
 
 weapons_attachment_combos_dict[HandGuns.GS_50.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.EXF_FIFTY_GS.value,
         Muzzles.MATUZEK_CROWN.value,
         Muzzles.FTAC_FIFTY_COMP.value,
@@ -20370,7 +20025,6 @@ weapons_attachment_combos_dict[HandGuns.GS_50.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.KR_HX_15_LASER_LIGHT.value,
         Lasers.PRO_SAPPHIRE_MOUNTED_LASER.value,
         Lasers.VERDANT_HOOK_MOUNTED_LASER.value,
@@ -20383,7 +20037,6 @@ weapons_attachment_combos_dict[HandGuns.GS_50.value] = {
         Lasers.CS15_SCARLET_MOUNTED_LASER.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.SLIMLINE_PRO.value,
         Optics.SZ_MINI.value,
@@ -20447,7 +20100,6 @@ weapons_attachment_combos_dict[HandGuns.GS_50.value] = {
 
 weapons_attachment_combos_dict[HandGuns.X12.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_XS.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_XS.value,
         Muzzles.SONIC_SUPPRESSOR_XS.value,
@@ -20476,7 +20128,6 @@ weapons_attachment_combos_dict[HandGuns.X12.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.KR_HX_15_LASER_LIGHT.value,
         Lasers.PRO_SAPPHIRE_MOUNTED_LASER.value,
         Lasers.VERDANT_HOOK_MOUNTED_LASER.value,
@@ -20489,7 +20140,6 @@ weapons_attachment_combos_dict[HandGuns.X12.value] = {
         Lasers.CS15_SCARLET_MOUNTED_LASER.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.SLIMLINE_PRO.value,
         Optics.SZ_MINI.value,
@@ -20542,7 +20192,6 @@ weapons_attachment_combos_dict[HandGuns.X12.value] = {
 
 weapons_attachment_combos_dict[HandGuns.BASILISK.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.RVS607_COMPENSATOR.value,
         Muzzles.FSS_KL30.value,
         Muzzles.FTAC_H50_PORTED.value,
@@ -20557,13 +20206,11 @@ weapons_attachment_combos_dict[HandGuns.BASILISK.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.BASILISK_GRIP_LASER.value,
         Lasers.REVO_LSD_7MW.value,
         Lasers.CORVUS_LZR_790.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.XTEN_ERX_10_MINI.value,
         Optics.SLIMLINE_PRO.value,
@@ -20638,7 +20285,6 @@ weapons_attachment_combos_dict[HandGuns.BASILISK.value] = {
 
 weapons_attachment_combos_dict[HandGuns.FTAC_SIEGE.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.SHADOWSTRIKE_SUPPRESSOR_S.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_S.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_S.value,
@@ -20685,7 +20331,6 @@ weapons_attachment_combos_dict[HandGuns.FTAC_SIEGE.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.KR_HX_15_LASER_LIGHT.value,
         Lasers.PRO_SAPPHIRE_MOUNTED_LASER.value,
         Lasers.VERDANT_HOOK_MOUNTED_LASER.value,
@@ -20698,7 +20343,6 @@ weapons_attachment_combos_dict[HandGuns.FTAC_SIEGE.value] = {
         Lasers.CS15_SCARLET_MOUNTED_LASER.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.SLIMLINE_PRO.value,
         Optics.SZ_MINI.value,
@@ -20758,7 +20402,6 @@ weapons_attachment_combos_dict[HandGuns.FTAC_SIEGE.value] = {
 
 weapons_attachment_combos_dict[HandGuns.GS_MAGNA.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.EXF_FIFTY_GS.value,
         Muzzles.MATUZEK_CROWN.value,
         Muzzles.FTAC_FIFTY_COMP.value,
@@ -20775,7 +20418,6 @@ weapons_attachment_combos_dict[HandGuns.GS_MAGNA.value] = {
     "Arms": [],
     "Lasers": [],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.SLIMLINE_PRO.value,
         Optics.SZ_MINI.value,
@@ -20849,7 +20491,6 @@ weapons_attachment_combos_dict[HandGuns.GS_MAGNA.value] = {
 
 weapons_attachment_combos_dict[HandGuns.DAEMON_9MM.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_XS.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_XS.value,
         Muzzles.SONIC_SUPPRESSOR_XS.value,
@@ -20881,7 +20522,6 @@ weapons_attachment_combos_dict[HandGuns.DAEMON_9MM.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.KR_HX_15_LASER_LIGHT.value,
         Lasers.PRO_SAPPHIRE_MOUNTED_LASER.value,
         Lasers.VERDANT_HOOK_MOUNTED_LASER.value,
@@ -20894,7 +20534,6 @@ weapons_attachment_combos_dict[HandGuns.DAEMON_9MM.value] = {
         Lasers.CS15_SCARLET_MOUNTED_LASER.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.SLIMLINE_PRO.value,
         Optics.SZ_MINI.value,
@@ -20946,7 +20585,6 @@ weapons_attachment_combos_dict[HandGuns.DAEMON_9MM.value] = {
 
 weapons_attachment_combos_dict[HandGuns.X13_AUTO.value] = {
     "Muzzles": [
-        Muzzles.NO_MODIFICATIONS.value,
         Muzzles.HMRES_MOD_SUPPRESSOR_XS.value,
         Muzzles.MONOLITHIC_SUPPRESSOR_XS.value,
         Muzzles.SONIC_SUPPRESSOR_XS.value,
@@ -20976,7 +20614,6 @@ weapons_attachment_combos_dict[HandGuns.X13_AUTO.value] = {
     ],
     "Arms": [],
     "Lasers": [
-        Lasers.NO_MODIFICATIONS.value,
         Lasers.KR_HX_15_LASER_LIGHT.value,
         Lasers.PRO_SAPPHIRE_MOUNTED_LASER.value,
         Lasers.VERDANT_HOOK_MOUNTED_LASER.value,
@@ -20989,7 +20626,6 @@ weapons_attachment_combos_dict[HandGuns.X13_AUTO.value] = {
         Lasers.CS15_SCARLET_MOUNTED_LASER.value,
     ],
     "Optics": [
-        Optics.NO_MODIFICATIONS.value,
         Optics.SLATE_REFLECTOR.value,
         Optics.SLIMLINE_PRO.value,
         Optics.SZ_MINI.value,
