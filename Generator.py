@@ -614,7 +614,7 @@ def _reroll_all(first_roll:bool = False):
 
 if __name__ == "__main__":
     root_window = tkinter.Tk()
-    root_window.title = "MW3 Random Class Generator"
+    root_window.title("MW3 Random Class Generator")
     root_window.geometry("800x750")
 
     # reroll button at top of root window
