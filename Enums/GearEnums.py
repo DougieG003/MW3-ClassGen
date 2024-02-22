@@ -1,6 +1,4 @@
-"""
-Enums to hold names of gear.
-"""
+"""Enums to hold names of gear."""
 
 from enum import Enum
 
@@ -58,7 +56,7 @@ class FieldUpgrade(Enum):
     DDOS = "DDOS"
     RECON_DRONE = "RECON DRONE"
     DEAD_SILENCE = "DEAD SILENCE"
-    LOADOUT_DROP = "LOADOUT DROP"
+    # LOADOUT_DROP = "LOADOUT DROP"
     PORTABLE_RADAR = "PORTABLE RADAR"
     SMOKE_AIRDROP = "SMOKE AIRDROP"
     SUPPRESSION_MINE = "SUPPRESSION MINE"
@@ -80,7 +78,7 @@ class Boots(Enum):
     RUNNING_SNEAKERS = "RUNNING SNEAKERS"
     TACTICAL_PADS = "TACTICAL PADS"
     STALKER_BOOTS = "STALKER BOOTS"
-    COVERT_SNEAKERS = "COVER SNEAKERS"
+    COVERT_SNEAKERS = "COVERT SNEAKERS"
 
 
 class Gear(Enum):
@@ -96,3 +94,58 @@ class Gear(Enum):
     HIJACKED_IFF_STROBE = "HIJACKED IFF STROBE"
     GHOST_TV_CAMO = "GHOST T/V CAMO"
     EOD_PADDING = "EOD PADDING"
+
+
+class Killstreaks4(Enum):
+    UAV = "UAV"
+    SAM_TURRET = "SAM TURRET"
+    MOSQUITO_DRONE = "MOSQUITO DRONE"
+    BOMB_DRONE = "BOMB DRONE"
+
+class Killstreaks5(Enum):
+    COUNTER_UAV = "COUNTER UAV"
+    GUARDIAN_SC = "GUARDIAN-SC"
+    CARE_PACAKAGE = "CARE PACKAGE"
+
+class Killstreaks6(Enum):
+    CLUSTER_MINE = "CLUSTER MINE"
+    PRECISION_AIRSTRIKE = "PRECISION AIRSTRIKE"
+    CRUISE_MISSLE = "CRUISE MISSLE"
+
+class Killstreaks7(Enum):
+    SAE = "SAE"
+    MORTAR_STRIKE = "MORTAR STRIKE"
+    REMOTE_TURRET = "REMOTE TURRET"
+
+class Killstreaks8(Enum):
+    WHEELSON = "WHEELSON"
+    OVERWATCH_HELO = "OVERWATCH HELO"
+    JUGGERNAUT_RECON = "JUGGERNAUT RECON"
+
+class Killstreaks10(Enum):
+    EMERGENCY_AIRDROP = "EMERGENCY AIRDROP"
+    CARPET_BOMB = "CARPET BOMB"
+    VTOL_JET = "VTOL JET"
+
+class Killstreaks12(Enum):
+    ADVANCED_UAV = "ADVANCED UAV"
+    GUNSHIP = "GUNSHIP"
+    CHOPPER_GUNNER = "CHOPPER GUNNER"
+
+class Killstreaks13(Enum):
+    EMP = "EMP"
+
+class Killstreaks15(Enum):
+    JUGGERNAUT = "JUGGERNAUT"
+    SWARM = "SWARM"
+
+class Killstreaks(Enum):
+    FOUR_KILLS = Killstreaks4
+    FIVE_KILLS = Killstreaks5
+    SIX_KILLS = Killstreaks6
+    SEVEN_KILLS = Killstreaks7
+    EIGHT_KILLS = Killstreaks8
+    TEN_KILLS = Killstreaks10
+    TWELVE_KILLS = Killstreaks12
+    THIRTEEN_KILLS = Killstreaks13
+    FIFTEEN_KILLS = Killstreaks15

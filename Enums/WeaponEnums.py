@@ -1,6 +1,4 @@
-"""
-Enums to hold the names of all weapons.
-"""
+"""Enums to hold the names of all weapons."""
 
 from enum import Enum
 
@@ -29,7 +27,6 @@ class AssaultRifles(Enum):
     KASTOV_74U = "KASTOV-74U"
     KASTOV_545 = "KASTOV 545"
 
-
 class BattleRifles(Enum):
     BAS_B = "BAS-B"
     SIDEWINDER = "SIDEWINDER"
@@ -40,7 +37,6 @@ class BattleRifles(Enum):
     TAQ_V = "TAQ-V"
     SO_14 = "SO-14"
     SOA_SUBVERTER = "SOA SUBVERTER"
-
 
 class SMGS(Enum):
     RAM_9 = "RAM-9"
@@ -64,7 +60,6 @@ class SMGS(Enum):
     MINIBAK = "MINIBAK"
     VAZNEV_9K = "VAZNEV-9K"
 
-
 class Shotguns(Enum):
     LOCKWOOD_680 = "LOCKWOOD 680"
     HAYMAKER = "HAYMAKER"
@@ -75,7 +70,6 @@ class Shotguns(Enum):
     KV_BROADSIDE = "KV BROADSIDE"
     MX_GUARDIAN = "MX GUARDIAN"
     BRYSON_890 = "BRYSON 890"
-
 
 class LMGS(Enum):
     TAQ_EVOLVERE = "TAQ EVOLVERE"
@@ -91,7 +85,6 @@ class LMGS(Enum):
     HCR_56 = "HCR 56"
     RPK = "RPK"
 
-
 class MarksmanRifles(Enum):
     KVD_ENFORCER = "KVD ENFORCER"
     MCW_68 = "MCW 6.8"
@@ -106,7 +99,6 @@ class MarksmanRifles(Enum):
     SA_B_50 = "SA-B 50"
     TAQ_M = "TAZ-M"
 
-
 class SniperRifles(Enum):
     XRK_STALKER = "XRK STALKER"
     KATT_AMR = "KATT-AMR"
@@ -120,11 +112,9 @@ class SniperRifles(Enum):
     LA_B_330 = "LA-B 330"
     SP_X_80 = "SP-X 80"
 
-
 class MeleePrimary(Enum):
     RIOT_SHIELD = "RIOT SHIELD"
     
-
 class HandGuns(Enum):
     COR_45 = "COR-45"
     RENETTI = "RENETTI"
@@ -139,7 +129,6 @@ class HandGuns(Enum):
     DAEMON_9MM = "9MM DAEMON"
     X13_AUTO = "X13 AUTO"
 
-
 class Launchers(Enum):
     STORMENDER = "STORMENDER"
     RGL_80 = "RGL-80"
@@ -147,7 +136,6 @@ class Launchers(Enum):
     JOKR = "JOKR"
     RPG_7 = "RPG-7"
     STRELA_P = "STRELA-P"
-
 
 class MeleeSecondary(Enum):
     GUTTER_KNIFE = "GUTTER KNIFE"
@@ -158,3 +146,18 @@ class MeleeSecondary(Enum):
     DUAL_KAMAS = "DUAL KAMAS"
     PICKAXE = "PICKAXE"
     SOULRENDER = "SOULRENDER"
+
+class PrimaryWeapons(Enum):
+    ASSAULT_RIFLES = AssaultRifles
+    BATTLE_RIFLES = BattleRifles
+    SUB_MACHINE_GUN = SMGS
+    SHOTGUNS = Shotguns
+    LIGHT_MACHINE_GUNS = LMGS
+    MARKSMAN_RIFLES = MarksmanRifles
+    SNIPER_RIFLES = SniperRifles
+    MELEE_PRIMARY = MeleePrimary
+
+class SecondaryWeapons(Enum):
+    HANDGUNS = HandGuns
+    LAUNCHERS = Launchers
+    MELEE_SECONDARY = MeleeSecondary

@@ -1,0 +1,1 @@
+"""Module for additional information about weapons and attachments."""

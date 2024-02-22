@@ -933,6 +933,7 @@ class Optics(Enum):
     HOUNDEYE_INTEGRATED_OPTIC = "HOUNDEYE INTEGRATED OPTIC"
     CRONEN_INTLAS_MSP_12 = "CRONEN INTLAS MSP-12"
     INTLAS_CAS_14 = "INTLAS CAS-14"
+    JAK_GLASSLESS_OPTIC = "JAK GLASSLESS OPTIC"
 
 class Stocks(Enum):
     # from https://game8.co/games/Modern-Warfare-3/archives/431917
@@ -1858,6 +1859,7 @@ class Underbarrels(Enum):
     HEX_40_GRIP = "HEX-40 GRIP"
     HOLGER_VERTICAL_GRIP = "HOLGER VERTICAL GRIP"
     HOUND_9G_GRIP = "HOUND-9G GRIP"
+    JAK_LIMB_RIPPER = "JAK LIMB RIPPER"
     JAK_PURIFIER = "JAK PURIFIER"
     KL40_M2 = "KL40-M2"
     KL40_M2_DRILL = "KL40-M2 DRILL"
@@ -1913,6 +1915,7 @@ class ConversionKits(Enum):
     JAK_ANNIHILATOR_BULLPUP_KIT = "JAK ANNIHILATOR BULLPUP KIT"
     JAK_BACKSAW_KIT = "JAK BACKSAW KIT"
     JAK_BEHOLDER_RIFLE_KIT = "JAK BEHOLDER RIFLE KIT"
+    JAK_BURNOUT_KIT = "JAK BURNOUT KIT"
     JAK_ETTIN_DOUBLE_BARREL = "JAK ETTIN DOUBLE BARREL"
     JAK_FEROCITY_CARBINE_KIT = "JAK FEROCITY CARBINE KIT"
     JAK_HEADHUNTER_CARBINE_CONVERSION = "JAK HEADHUNTER CARBINE CONVERSION"
@@ -1925,23 +1928,29 @@ class ConversionKits(Enum):
     JAK_THUNDER_LMG_KIT = "JAK THUNDER LMG KIT"
     JAK_TYRANT_762_KIT = "JAK TYRANT 762 KIT"
     MCW_6_8_FULL_AUTO_CONVERSION = "MCW 6.8 FULL-AUTO CONVERSION"
-    NO_MODIFICATIONS = "NO MODIFICATIONS"
     WSP_AKIMBO_BRACE_STOCK = "WSP AKIMBO BRACE STOCK"
     XRK_IP_V2_CONVERSION_KIT = "XRK IP-V2 CONVERSION KIT"
 
 
 
-# class Attachments(Enum):
-#     MUZZLES = Muzzles
-#     BARRELS = Barrels
-#     LASERS = Lasers
-#     OPTICS = Optics
-#     STOCKS = Stocks
-#     COMBS = Combs
-#     BOLTS = Bolts
-#     REAR_GRIPS = RearGrips
-#     TRIGGER_ACTIONS = TriggerActions
-#     MAGAZINES = Magazines
-#     AMMO_TYPES = AmmoTypes
-#     UNDERBARRELS = Underbarrels
-#     GUARDS = Guards
+class Attachments(Enum):
+    MUZZLES = Muzzles
+    BARRELS = Barrels
+    ARMS = Arms
+    LASERS = Lasers
+    OPTICS = Optics
+    STOCKS = Stocks
+    COMBS = Combs
+    GUARDS = Guards
+    BOLTS = Bolts
+    LEVERS = Levers
+    REAR_GRIPS = RearGrips
+    TRIGGER_ACTIONS = TriggerActions
+    MAGAZINES = Magazines
+    LOADERS = Loaders
+    WIRES = Wires
+    RAILS = Rails
+    AMMO_TYPES = AmmoTypes
+    UNDERBARRELS = Underbarrels
+    CARRY_HANDLES = CarryHandles
+    CONVERSION_KITS = ConversionKits
