@@ -179,15 +179,16 @@ def _choose_attachments(weapon_enum, number_of_attachments: int = 5):
         for i in range(number_of_attachments):
             category_choice = _choose_attachment_category(available_attachment_categories=available_attachment_categories)
 
-            attachment_category_disabled = _check_attachment_category_disabled(
+            attachment_category_equippable = _equippable_status(
                 weapon_enum=weapon_enum,
-                weapon_attachment_category_enum=category_choice,
+                attachment_category_enum=category_choice,
                 chosen_attachment_categories=chosen_attachment_categories,
+                attachment_enum = None,
                 chosen_attachments=chosen_attachments,
             )
 
-            if attachment_category_disabled is True:
-                # remove category from available attachments and chose new attachment category again
+            if attachment_category_equippable == equippable_false_str:
+                # remove category from available_attachments_categories and chose new attachment category again
                 available_attachment_categories.remove(category_choice)
                 i -= 1
                 continue
@@ -199,13 +200,14 @@ def _choose_attachments(weapon_enum, number_of_attachments: int = 5):
             attachments_in_category = weapons_attachment_combos_dict[weapon_enum][category_choice]
             chosen_attachment = _choose_attachment(available_attachments=attachments_in_category)
 
-            attachment_disabled = _check_attachment_disabled(
+            attachment_equippable = _equippable_status(
                 weapon_enum=weapon_enum,
                 weapon_attachment_enum=chosen_attachment,
                 chosen_attachment_categories=chosen_attachment_categories,
+                attachment_enum = chosen_attachment,
                 chosen_attachments=chosen_attachments,
             )
-            while attachment_disabled is True:
+            while attachment_equippable == equippable_false_str:
                 # remove attachment and try picking new attachment
                 attachments_in_category.remove(chosen_attachment)
                 chosen_attachment = _choose_attachment(available_attachments=attachments_in_category)
@@ -322,7 +324,7 @@ def _choose_attachment(available_attachments: list):
     attachment_choice = choice(available_attachments)
     return attachment_choice
 
-def equippable_status(
+def _equippable_status(
         weapon_enum,
         attachment_category_enum: Attachments,
         chosen_attachment_categories: list,
@@ -1132,8 +1134,8 @@ def equippable_status(
         else:
             return equippable_false_str
 
-    # mcw assault rifle - jak raven kit allows new ammo and disables other ammo 
-    # enables blackout low and high grain, round nose, mono, .300 blk frangible, hollowpoint, armor pierce, overpressured +P 
+    # mcw assault rifle - jak raven kit enables ammo types below
+        # blackout low and high grain, round nose, mono, .300 blk frangible, hollowpoint, armor pierce, overpressured +P 
     elif (
         weapon_enum == PrimaryWeapons.ASSAULT_RIFLES.value.MCW
         and
@@ -1213,6 +1215,9 @@ def equippable_status(
             return equippable_true_str
         else:
             return equippable_false_str
+        
+    else:
+        return equippable_true_str
     
 
     # jak signal burst on holger AR disables laser

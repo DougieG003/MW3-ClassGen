@@ -1,4 +1,4 @@
-('C:\\Users\\dmgri\\Documents\\Coding\\Github\\Personal\\MW3-ClassGen\\build\\Generator\\PYZ-00.pyz',
+('C:\\Users\\dmgri\\Documents\\Coding\\Github\\Personal\\MW3-ClassGen\\build\\generator\\PYZ-00.pyz',
  [('Enums',
    'C:\\Users\\dmgri\\Documents\\Coding\\Github\\Personal\\MW3-ClassGen\\Enums\\__init__.py',
    'PYMODULE'),

@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['Generator.py'],
+    ['generator.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -21,7 +21,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='Generator',
+    name='generator',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
