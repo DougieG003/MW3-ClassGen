@@ -1,4 +1,7 @@
+# -*- coding: utf-8 -*-
+
 """File for storing additional information about weapons and attachments."""
+
 from enum import Enum
 from datetime import date
 

@@ -17,7 +17,7 @@ maintainers = [
   {name = "Doug Griep", email = "dmgriep@gmail.com"}
 ]
 description = "A very basic class generator for Modern Warfare 3"
-keywords = ["mw3", "random class", "random class generator", "class generator", "cod", "call of duty"]
+keywords = ["mw3", "random class", "random class generator", "class generator", "CoD", "Call of Duty"]
 readme = "README.md"
 license = {file = "LICENSE"}
 classifiers = [

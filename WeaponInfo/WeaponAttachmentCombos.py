@@ -1,43 +1,12 @@
+# -*- coding: utf-8 -*-
+
 """This file includes a dictionary for every weapon and the weapon's available attachements."""
+
 #TODO
-# ADD HRM9 to smgs
+# Add HRM9 to smgs
+# Add weapon attachment if statements for certain combos
 
 # RAM-9 SMG, BP50 Assault Rifle in weapons ENUMS but not included in attachment combo dict
-
-# underbarrel locked but available with certain attachments
-#  lockwood mk2 marksman rifle
-#  cor 45 handgun
-#  X13 auto handgun
-
-# CHIMERA Assault Rifle - if barrel attached, muzzle available
-# MCW Assault Rifle - KIMURA_SILENTSHOT_INTEGRAL_SUPPRESSOR barrel disables muzzle
-# SIDEWINDER Battle Rifle, MCW 6.8 marksman rifle - HUNTSMAN_SERIES_R_INTEGRATED_SUPPRESSOR_BARREL disables muzzle
-# WSP SWARM SMG - WSP_INFILTRATOR_INTREGRATED_SUPPRESSOR barrel disables muzzle
-# AMR9 SMG - TECTONIC_MICRO_INTEGRAL_SUPPRESSOR barrel disables muzzle
-# AMR9 SMG - NIMBUS_6_INTEGRATED_SUPPRESSOR disables muzzle
-# WSP-9 SMG - WSP_INFILTRATOR_INTREGRATED_SUPPRESSOR barrel disables muzzle
-# BRYSON 800 shotgun - XRK_CQB_8_BARREL disables underbarrels
-# KVD ENFORCER marksman rifle, KV INHIBITOR sniper rifle - KAS_7_INTEGRATED_SUPPRESSOR disables muzzle
-# XRK STALKER sniper rifle - XRK_STOIC_4_SUPPRESSED_BARREL disables muzzle
-# LONGBOW sniper rifle - TAC_BRUTE_SUPPRESSED_BARREL disables muzzle
-# MCPR sniper rifle - SILENTFIRE_19_BARREL disables muzzle
-# ISO 9MM SMG - AXEBLADE barrel disables muzzle
-# SIDEWINDER BR - jak thunder conversion kit disables magazine
-# so 14 battle rifle - rear grip disabled by default unless FTAC stock or SOR55 stock equipped
-# lachmann shroud smg - muzzle disabled
-# pdsw smg - muzzle disabled when cloak90 barrel equipped
-# pdsw smg - underbarrel disabled when duke30 or ftacSeriesIX barrel equipped
-# lockwood 680 shotgun - rear grip disabled when no stock or sawed off stock equipped
-# taq evolvere lmg - 556 and nato rounds only when 100/200 round 556 belt magazine equipped
-# ebr marksman rifle - cant equip comb unless so-90 factory stock equipped
-# lockwood mk2 marksman rifle - canot equp comb when cut off stock equipped
-# COR45 handgun - conversion kit disabled trigger action
-# COR45 handgun - underbarrel disabled unless conversion kit equipped
-# RENETTI handgun - underbarrel disabled unless conversion kit equipped
-# x13 handgun - stock and underbarrel disabled unless impact_point barrel equipped
-# fjx imperium sniper rifle - fjx kilo tac stock disables rear grip
-# mcw assault rifle - jak raven kit allows new ammo and disables other ammo - blackout low and high grain, round nose, mono, .300 blk frangible, hollowpoint, armor pierce, overpressured +P, 
-# x12 akimbo disables stock
 
 from Enums.AttachmentEnums import (
     Muzzles,
