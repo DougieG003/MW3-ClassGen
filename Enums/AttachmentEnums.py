@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """File for holding a list of all attachments for weapons - primary and secondary."""
 
 from enum import Enum

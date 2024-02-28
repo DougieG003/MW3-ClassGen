@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """Enums to hold the names of all weapons."""
 
 from enum import Enum

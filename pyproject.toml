@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "mw3_class_generator_dmg"
-version = "0.0.1"
+version = "0.0.2"
 requires-python = ">=3.8"
 dependencies = [
   "python>=3.8",
@@ -17,7 +17,7 @@ maintainers = [
   {name = "Doug Griep", email = "dmgriep@gmail.com"}
 ]
 description = "A very basic class generator for Modern Warfare 3"
-keywords = ["mw3", "random class", "random class generator", "class generator", "cod", "call of duty"]
+keywords = ["mw3", "random class", "random class generator", "class generator", "CoD", "Call of Duty"]
 readme = "README.md"
 license = {file = "LICENSE"}
 classifiers = [

@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """Enums to hold names of gear."""
 
 from enum import Enum

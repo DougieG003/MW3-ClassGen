@@ -1,1 +1,3 @@
-"""Module for additional information about weapons and attachments."""
+# -*- coding: utf-8 -*-
+
+"""Module for information about weapons and attachments."""
