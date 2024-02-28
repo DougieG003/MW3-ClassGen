@@ -202,7 +202,7 @@ def _choose_attachments(weapon_enum, number_of_attachments: int = 5):
 
             attachment_equippable = _equippable_status(
                 weapon_enum=weapon_enum,
-                weapon_attachment_enum=chosen_attachment,
+                attachment_category_enum=category_choice,
                 chosen_attachment_categories=chosen_attachment_categories,
                 attachment_enum = chosen_attachment,
                 chosen_attachments=chosen_attachments,
