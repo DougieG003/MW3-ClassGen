@@ -4,7 +4,6 @@
 
 #TODO
 # Add HRM9 to smgs
-# Add weapon attachment if statements for certain combos
 
 # RAM-9 SMG, BP50 Assault Rifle in weapons ENUMS but not included in attachment combo dict
 

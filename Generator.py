@@ -332,7 +332,9 @@ def _equippable_status(
         chosen_attachments: list,
     ):
 
-    # CHIMERA Assault Rifle - muzzle disabled by default unless a barrel equipped
+    ############################################## CHIMERA Assault Rifle ##############################################
+
+    # muzzle disabled by default unless a barrel equipped
     if (
         weapon_enum == PrimaryWeapons.ASSAULT_RIFLES.value.CHIMERA 
         and 
@@ -343,7 +345,9 @@ def _equippable_status(
         else:
             return equippable_false_str
 
-    # so 14 battle rifle - rear grip disabled by default unless FTAC stock or SOR55 stock equipped
+    ############################################## so 14 battle rifle ##############################################
+
+    # rear grip disabled by default unless FTAC stock or SOR55 stock equipped
     elif (
         weapon_enum == PrimaryWeapons.BATTLE_RIFLES.value.SO_14
         and
@@ -361,7 +365,9 @@ def _equippable_status(
             else:
                 return equippable_false_str
 
-    # pdsw smg - muzzle disabled when cloak90 barrel equipped
+    ############################################## pdsw smg ##############################################
+
+    # muzzle disabled when cloak90 barrel equipped
     elif (
         weapon_enum == PrimaryWeapons.SUB_MACHINE_GUN.value.PDSW_528
         and
@@ -371,8 +377,8 @@ def _equippable_status(
             return equippable_false_str
         else:
             return equippable_true_str
-        
-    # pdsw smg - cloak90 barrel disabled when muzzle equipped
+
+    # cloak90 barrel disabled when muzzle equipped
     elif (
         weapon_enum == PrimaryWeapons.SUB_MACHINE_GUN.value.PDSW_528
         and
@@ -383,8 +389,8 @@ def _equippable_status(
         else:
             return equippable_true_str
         
-    # pdsw smg - underbarrel disabled by default, when duke30 barrel or ftacSeriesIX barrel equipped
-    # pdsw smg - underbarrel enabled when any other barrels equipped
+    # underbarrel disabled by default, when duke30 barrel or ftacSeriesIX barrel equipped
+    # underbarrel enabled when any other barrels equipped
     elif (
         weapon_enum == PrimaryWeapons.SUB_MACHINE_GUN.value.PDSW_528
         and
@@ -406,7 +412,9 @@ def _equippable_status(
         else:
             return equippable_true_str
         
-    # lockwood 680 shotgun - rear grip disabled when no stock or sawed off stock equipped
+    ############################################### lockwood 680 shotgun ############################################## 
+
+    # rear grip disabled when no stock or sawed off stock equipped
     elif (
         weapon_enum == PrimaryWeapons.SHOTGUNS.value.LOCKWOOD_680
         and
@@ -421,7 +429,7 @@ def _equippable_status(
         else:
             return equippable_true_str
         
-    # lockwood 680 shotgun - no stock and sawed off stock disabled when rear grip equipped
+    # no stock and sawed off stock disabled when rear grip equipped
     elif (
         weapon_enum == PrimaryWeapons.SHOTGUNS.value.LOCKWOOD_680
         and
@@ -436,7 +444,9 @@ def _equippable_status(
         else:
             return equippable_true_str
         
-    # ebr marksman rifle - comb disabled by default unless so-90 factory stock equipped
+    ############################################## ebr marksman rifle ############################################## 
+
+    # comb disabled by default unless so-90 factory stock equipped
     elif (
         weapon_enum == PrimaryWeapons.MARKSMAN_RIFLES.value.EBR_14
         and
@@ -447,7 +457,9 @@ def _equippable_status(
         else:
             return equippable_true_str
 
-    # lockwood mk2 marksman rifle - comb disabled when cut off stock equipped
+    ############################################### lockwood mk2 marksman rifle ##############################################
+
+    # comb disabled when cut off stock equipped
     elif (
         weapon_enum == PrimaryWeapons.MARKSMAN_RIFLES.value.LOCKWOOD_MK2
         and
@@ -458,7 +470,7 @@ def _equippable_status(
         else:
             return equippable_true_str
         
-    # lockwood mk2 marksman rifle - cut off stock disabled when comb equipped
+    # cut off stock disabled when comb equipped
     elif (
         weapon_enum == PrimaryWeapons.MARKSMAN_RIFLES.value.LOCKWOOD_MK2
         and
@@ -469,7 +481,9 @@ def _equippable_status(
         else:
             return equippable_true_str
 
-    # COR45 handgun - trigger action disabled when conversion kit equipped
+    ############################################### COR45 handgun ##############################################
+
+    # trigger action disabled when conversion kit equipped
     elif (
         weapon_enum == SecondaryWeapons.HANDGUNS.value.COR_45
         and
@@ -480,7 +494,7 @@ def _equippable_status(
         else:
             return equippable_true_str
 
-    # COR45 handgun - conversion kit disabled when trigger action equipped
+    # conversion kit disabled when trigger action equipped
     elif (
         weapon_enum == SecondaryWeapons.HANDGUNS.value.COR_45
         and
@@ -491,7 +505,7 @@ def _equippable_status(
         else:
             return equippable_true_str
 
-    # COR45 handgun - underbarrel disabled unless conversion kit equipped
+    # underbarrel disabled unless conversion kit equipped
     elif (
         weapon_enum == SecondaryWeapons.HANDGUNS.value.COR_45
         and
@@ -502,7 +516,9 @@ def _equippable_status(
         else:
             return equippable_false_str
         
-    # RENETTI handgun - underbarrel disabled unless conversion kit equipped
+    ############################################### RENETTI handgun ##############################################
+
+    # underbarrel disabled unless conversion kit equipped
     elif (
         weapon_enum == SecondaryWeapons.HANDGUNS.value.RENETTI
         and
@@ -513,7 +529,9 @@ def _equippable_status(
         else:
             return equippable_false_str
     
-    # x13 handgun - stock and underbarrel disabled unless impact_point barrel equipped
+    ############################################## x13 handgun ##############################################
+
+    # stock and underbarrel disabled unless impact_point barrel equipped
     elif (
         weapon_enum == SecondaryWeapons.HANDGUNS.value.X13_AUTO
         and
@@ -528,7 +546,9 @@ def _equippable_status(
         else:
             return equippable_false_str
 
-    # fjx imperium sniper rifle - rear grip disabled when fjx kilo tac stock equipped 
+    ############################################### fjx imperium sniper rifle ############################################## 
+
+    # rear grip disabled when fjx kilo tac stock equipped 
     elif (
         weapon_enum == PrimaryWeapons.SNIPER_RIFLES.value.FJX_IMPERIUM
         and
@@ -539,7 +559,7 @@ def _equippable_status(
         else:
             return equippable_true_str
 
-    # fjx imperium sniper rifle - fjx kilo tac stock disabled when rear grip equipped
+    # fjx kilo tac stock disabled when rear grip equipped
     elif (
         weapon_enum == PrimaryWeapons.SNIPER_RIFLES.value.FJX_IMPERIUM
         and
@@ -549,6 +569,8 @@ def _equippable_status(
             return equippable_false_str
         else:
             return equippable_true_str
+
+    ############################################### x12 handgun ##############################################
 
     # x12 akimbo disabled when stock equipped
     elif (
@@ -572,7 +594,9 @@ def _equippable_status(
         else:
             return equippable_true_str
 
-    # MCW 6.8 Marksman Rifle - HUNTSMAN_SERIES_R_INTEGRATED_SUPPRESSOR_BARREL disabled when muzzle equipped
+    ############################################### MCW 6.8 Marksman Rifle ##############################################
+
+    # HUNTSMAN_SERIES_R_INTEGRATED_SUPPRESSOR_BARREL disabled when muzzle equipped
     elif (
         weapon_enum == PrimaryWeapons.MARKSMAN_RIFLES.value.MCW_68
         and
@@ -583,7 +607,7 @@ def _equippable_status(
         else:
             return equippable_true_str
 
-    # MCW 6.8 Marksman Rifle - muzzle disabled when HUNTSMAN_SERIES_R_INTEGRATED_SUPPRESSOR_BARREL equipped
+    # muzzle disabled when HUNTSMAN_SERIES_R_INTEGRATED_SUPPRESSOR_BARREL equipped
     elif (
         weapon_enum == PrimaryWeapons.MARKSMAN_RIFLES.value.MCW_68
         and
@@ -592,31 +616,11 @@ def _equippable_status(
         if Attachments.BARRELS.value.HUNTSMAN_SERIES_R_INTEGRATED_SUPPRESSOR_BARREL in chosen_attachments:
             return equippable_false_str
         else:
-            return equippable_true_str 
-
-    # MCW Assault Rifle - KIMURA_SILENTSHOT_INTEGRAL_SUPPRESSOR barrel disabled when muzzle equipped
-    elif (
-        weapon_enum == PrimaryWeapons.ASSAULT_RIFLES.value.MCW 
-        and 
-        attachment_enum == Attachments.BARRELS.value.KIMURA_SILENTSHOT_INTEGRAL_SUPPRESSOR
-    ):
-        if Attachments.MUZZLES in chosen_attachment_categories:
-            return equippable_false_str
-        else:
-            return equippable_true_str
-        
-    # MCW Assault Rifle -  muzzle disabled when KIMURA_SILENTSHOT_INTEGRAL_SUPPRESSOR barrel equipped
-    elif (
-        weapon_enum == PrimaryWeapons.ASSAULT_RIFLES.value.MCW 
-        and 
-        attachment_category_enum == Attachments.MUZZLES 
-    ):
-        if Attachments.BARRELS.value.KIMURA_SILENTSHOT_INTEGRAL_SUPPRESSOR in chosen_attachments:
-            return equippable_false_str
-        else:
             return equippable_true_str
 
-    # SIDEWINDER Battle Rifle - HUNTSMAN_SERIES_R_INTEGRATED_SUPPRESSOR_BARREL disabled when muzzle equipped
+    ############################################### SIDEWINDER Battle Rifle ##############################################
+ 
+    # HUNTSMAN_SERIES_R_INTEGRATED_SUPPRESSOR_BARREL disabled when muzzle equipped
     elif (
         weapon_enum == PrimaryWeapons.BATTLE_RIFLES.value.SIDEWINDER 
         and 
@@ -627,7 +631,7 @@ def _equippable_status(
         else:
             return equippable_true_str
 
-    # SIDEWINDER Battle Rifle -  muzzle disabled when HUNTSMAN_SERIES_R_INTEGRATED_SUPPRESSOR_BARREL equipped
+    # muzzle disabled when HUNTSMAN_SERIES_R_INTEGRATED_SUPPRESSOR_BARREL equipped
     elif (
         weapon_enum == PrimaryWeapons.BATTLE_RIFLES.value.SIDEWINDER 
         and 
@@ -637,272 +641,8 @@ def _equippable_status(
             return equippable_false_str
         else:
             return equippable_true_str
-
-    # MCW 6.8 Marksman Rifle - HUNTSMAN_SERIES_R_INTEGRATED_SUPPRESSOR_BARREL disabled when muzzle equipped
-    elif (
-        weapon_enum == PrimaryWeapons.MARKSMAN_RIFLES.value.MCW_68 
-        and 
-        attachment_enum == Attachments.BARRELS.value.HUNTSMAN_SERIES_R_INTEGRATED_SUPPRESSOR_BARREL
-    ):
-        if Attachments.MUZZLES in chosen_attachment_categories:
-            return equippable_false_str
-        else:
-            return equippable_true_str
-
-    # MCW 6.8 Marksman Rifle - muzzle disabled when HUNTSMAN_SERIES_R_INTEGRATED_SUPPRESSOR_BARREL equipped
-    elif (
-        weapon_enum == PrimaryWeapons.MARKSMAN_RIFLES.value.MCW_68 
-        and 
-        attachment_category_enum == Attachments.MUZZLES
-    ):
-        if Attachments.BARRELS.value.HUNTSMAN_SERIES_R_INTEGRATED_SUPPRESSOR_BARREL in chosen_attachments:
-            return equippable_false_str
-        else:
-            return equippable_true_str
-
-    # WSP SWARM SMG - WSP_INFILTRATOR_INTREGRATED_SUPPRESSOR barrel disabled when muzzle equipped
-    elif (
-        weapon_enum == PrimaryWeapons.SUB_MACHINE_GUN.value.WSP_SWARM
-        and 
-        attachment_enum == Attachments.BARRELS.value.WSP_INFILTRATOR_INTEGRATED_SUPPRESSOR
-    ):
-        if Attachments.MUZZLES in chosen_attachment_categories:
-            return equippable_false_str
-        else:
-            return equippable_true_str
         
-    # WSP SWARM SMG - muzzle barrel disabled when WSP_INFILTRATOR_INTREGRATED_SUPPRESSOR equipped
-    elif (
-        weapon_enum == PrimaryWeapons.SUB_MACHINE_GUN.value.WSP_SWARM
-        and 
-        attachment_category_enum == Attachments.MUZZLES
-    ):
-        if Attachments.BARRELS.value.WSP_INFILTRATOR_INTEGRATED_SUPPRESSOR in chosen_attachments:
-            return equippable_false_str
-        else:
-            return equippable_true_str
-
-    # AMR9 SMG - TECTONIC_MICRO_INTEGRAL_SUPPRESSOR barrel disabled when muzzle equipped
-    elif (
-        weapon_enum == PrimaryWeapons.SUB_MACHINE_GUN.value.AMR9
-        and
-        attachment_enum == Attachments.BARRELS.value.TECTONIC_MICRO_INTEGRAL_SUPPRESSOR
-    ):
-        if Attachments.MUZZLES in chosen_attachment_categories:
-            return equippable_false_str
-        else:
-            return equippable_true_str
-
-    # AMR9 SMG - muzzle disabled when TECTONIC_MICRO_INTEGRAL_SUPPRESSOR barrel equipped
-    elif (
-        weapon_enum == PrimaryWeapons.SUB_MACHINE_GUN.value.AMR9
-        and
-        attachment_category_enum == Attachments.MUZZLES
-    ):
-        if Attachments.BARRELS.value.TECTONIC_MICRO_INTEGRAL_SUPPRESSOR in chosen_attachments:
-            return equippable_false_str
-        else:
-            return equippable_true_str
-
-    # AMR9 SMG - NIMBUS_6_INTEGRATED_SUPPRESSOR barrel disabled when muzzle equipped
-    elif (
-        weapon_enum == PrimaryWeapons.SUB_MACHINE_GUN.value.AMR9
-        and
-        attachment_enum == Attachments.BARRELS.value.NIMBUS_6_INTEGRATED_SUPPRESSOR
-    ):
-        if Attachments.MUZZLES in chosen_attachment_categories:
-            return equippable_false_str
-        else:
-            return equippable_true_str
-
-    # AMR9 SMG - muzzle barrel disabled when NIMBUS_6_INTEGRATED_SUPPRESSOR equipped
-    elif (
-        weapon_enum == PrimaryWeapons.SUB_MACHINE_GUN.value.AMR9
-        and
-        attachment_category_enum == Attachments.MUZZLES
-    ):
-        if Attachments.BARRELS.value.NIMBUS_6_INTEGRATED_SUPPRESSOR in chosen_attachments:
-            return equippable_false_str
-        else:
-            return equippable_true_str
-
-    # WSP-9 SMG - WSP_INFILTRATOR_INTREGRATED_SUPPRESSOR barrel disabled when muzzle equipped
-    elif (
-        weapon_enum == PrimaryWeapons.SUB_MACHINE_GUN.value.WSP_9
-        and
-        attachment_enum == Attachments.BARRELS.value.WSP_INFILTRATOR_INTEGRATED_SUPPRESSOR
-    ):
-        if Attachments.MUZZLES in chosen_attachment_categories:
-            return equippable_false_str
-        else:
-            return equippable_true_str
-        
-    # WSP-9 SMG - muzzle disabled when WSP_INFILTRATOR_INTREGRATED_SUPPRESSOR barrel equipped
-    elif (
-        weapon_enum == PrimaryWeapons.SUB_MACHINE_GUN.value.WSP_9
-        and
-        attachment_category_enum == Attachments.MUZZLES
-    ):
-        if Attachments.BARRELS.value.WSP_INFILTRATOR_INTEGRATED_SUPPRESSOR in chosen_attachments:
-            return equippable_false_str
-        else:
-            return equippable_true_str
-
-    # BRYSON 800 shotgun - XRK_CQB_8_BARREL barrel disabled when underbarrel equipped
-    elif (
-        weapon_enum == PrimaryWeapons.SHOTGUNS.value.BRYSON_800
-        and
-        attachment_enum == Attachments.BARRELS.value.XRK_CQB_8_BARREL
-    ):
-        if Attachments.UNDERBARRELS in chosen_attachment_categories:
-            return equippable_false_str
-        else:
-            return equippable_true_str
-        
-    # BRYSON 800 shotgun - underbarrel disabled when XRK_CQB_8_BARREL barrel equipped
-    elif (
-        weapon_enum == PrimaryWeapons.SHOTGUNS.value.BRYSON_800
-        and
-        attachment_category_enum == Attachments.UNDERBARRELS
-    ):
-        if Attachments.BARRELS.value.XRK_CQB_8_BARREL in chosen_attachments:
-            return equippable_false_str
-        else:
-            return equippable_true_str
-
-    # KVD ENFORCER marksman rifle - KAS_7_INTEGRATED_SUPPRESSOR barrel disabled when muzzle equipped
-    elif (
-        weapon_enum == PrimaryWeapons.MARKSMAN_RIFLES.value.KVD_ENFORCER
-        and
-        attachment_enum == Attachments.BARRELS.value.KAS_7_INTEGRATED_SUPPRESSOR
-    ):
-        if Attachments.MUZZLES in chosen_attachment_categories:
-            return equippable_false_str
-        else:
-            return equippable_true_str
-        
-    # KVD ENFORCER marksman rifle - muzzle disabled when KAS_7_INTEGRATED_SUPPRESSOR barrel equipped
-    elif (
-        weapon_enum == PrimaryWeapons.MARKSMAN_RIFLES.value.KVD_ENFORCER
-        and
-        attachment_category_enum == Attachments.MUZZLES
-    ):
-        if Attachments.BARRELS.value.KAS_7_INTEGRATED_SUPPRESSOR in chosen_attachments:
-            return equippable_false_str
-        else:
-            return equippable_true_str
-
-    # KV INHIBITOR sniper rifle - KAS_7_INTEGRATED_SUPPRESSOR barrel disabled when muzzle equipped
-    elif (
-        weapon_enum == PrimaryWeapons.SNIPER_RIFLES.value.KV_INHIBITOR
-        and
-        attachment_enum == Attachments.BARRELS.value.KAS_7_INTEGRATED_SUPPRESSOR
-    ):
-        if Attachments.MUZZLES in chosen_attachment_categories:
-            return equippable_false_str
-        else:
-            return equippable_true_str
-
-    # KV INHIBITOR sniper rifle - muzzle disabled when KAS_7_INTEGRATED_SUPPRESSOR barrel equipped
-    elif (
-        weapon_enum == PrimaryWeapons.SNIPER_RIFLES.value.KV_INHIBITOR
-        and
-        attachment_category_enum == Attachments.MUZZLES
-    ):
-        if Attachments.BARRELS.value.KAS_7_INTEGRATED_SUPPRESSOR in chosen_attachments:
-            return equippable_false_str
-        else:
-            return equippable_true_str
-
-    # XRK STALKER sniper rifle - XRK_STOIC_4_SUPPRESSED_BARREL barrel disabled when muzzle equipped
-    elif (
-        weapon_enum == PrimaryWeapons.SNIPER_RIFLES.value.XRK_STALKER
-        and
-        attachment_enum == Attachments.BARRELS.value.XRK_STOIC_4_SUPPRESSED_BARREL
-    ):
-        if Attachments.MUZZLES in chosen_attachment_categories:
-            return equippable_false_str
-        else:
-            return equippable_true_str
-        
-    # XRK STALKER sniper rifle - muzzle disabled when XRK_STOIC_4_SUPPRESSED_BARREL barrel equipped
-    elif (
-        weapon_enum == PrimaryWeapons.SNIPER_RIFLES.value.XRK_STALKER
-        and
-        attachment_category_enum == Attachments.MUZZLES
-    ):
-        if Attachments.BARRELS.value.XRK_STOIC_4_SUPPRESSED_BARREL in chosen_attachments:
-            return equippable_false_str
-        else:
-            return equippable_true_str
-
-    # LONGBOW sniper rifle - TAC_BRUTE_SUPPRESSED_BARREL barrel disabled muzzle when equipped
-    elif (
-        weapon_enum == PrimaryWeapons.SNIPER_RIFLES.value.LONGBOW
-        and
-        attachment_enum == Attachments.BARRELS.value.TAC_BRUTE_SUPPRESSED_BARREL
-    ):
-        if Attachments.MUZZLES in chosen_attachment_categories:
-            return equippable_false_str
-        else:
-            return equippable_true_str
-
-    # LONGBOW sniper rifle - muzzle disabled TAC_BRUTE_SUPPRESSED_BARREL barrel when equipped
-    elif (
-        weapon_enum == PrimaryWeapons.SNIPER_RIFLES.value.LONGBOW
-        and
-        attachment_category_enum == Attachments.MUZZLES
-    ):
-        if Attachments.BARRELS.value.TAC_BRUTE_SUPPRESSED_BARREL in chosen_attachments:
-            return equippable_false_str
-        else:
-            return equippable_true_str
-
-    # MCPR sniper rifle - SILENTFIRE_19_BARREL barrel disabled when muzzle equipped
-    elif (
-        weapon_enum == PrimaryWeapons.SNIPER_RIFLES.value.MCPR_300
-        and
-        attachment_enum == Attachments.BARRELS.value.SILENTFIRE_19_BARREL
-    ):
-        if Attachments.MUZZLES in chosen_attachment_categories:
-            return equippable_false_str
-        else:
-            return equippable_true_str
-
-    # MCPR sniper rifle - muzzle disabled when SILENTFIRE_19_BARREL barrel equipped
-    elif (
-        weapon_enum == PrimaryWeapons.SNIPER_RIFLES.value.MCPR_300
-        and
-        attachment_category_enum == Attachments.MUZZLES
-    ):
-        if Attachments.BARRELS.value.SILENTFIRE_19_BARREL in chosen_attachments:
-            return equippable_false_str
-        else:
-            return equippable_true_str
-
-    # ISO 9MM SMG - AXEBLADE barrel disabled when muzzle equipped
-    elif (
-        weapon_enum == PrimaryWeapons.SUB_MACHINE_GUN.value.ISO_9MM
-        and
-        attachment_enum == Attachments.BARRELS.value.AXEBLADE_6
-    ):
-        if Attachments.MUZZLES in chosen_attachment_categories:
-            return equippable_false_str
-        else:
-            return equippable_true_str
-
-    # ISO 9MM SMG - muzzle disabled when AXEBLADE barrel equipped
-    elif (
-        weapon_enum == PrimaryWeapons.SUB_MACHINE_GUN.value.ISO_9MM
-        and
-        attachment_category_enum == Attachments.MUZZLES
-    ):
-        if Attachments.BARRELS.value.AXEBLADE_6 in chosen_attachments:
-            return equippable_false_str
-        else:
-            return equippable_true_str
-
-    # SIDEWINDER Battle Rifle - jak thunder conversion kit disabled when magazine equipped
+    # jak thunder conversion kit disabled when magazine equipped
     elif (
         weapon_enum == PrimaryWeapons.BATTLE_RIFLES.value.SIDEWINDER
         and
@@ -913,7 +653,7 @@ def _equippable_status(
         else:
             return equippable_true_str
 
-    # SIDEWINDER Battle Rifle - magazine disabled when jak thunder conversion kit equipped
+    # magazine disabled when jak thunder conversion kit equipped
     elif (
         weapon_enum == PrimaryWeapons.BATTLE_RIFLES.value.SIDEWINDER
         and
@@ -924,7 +664,273 @@ def _equippable_status(
         else:
             return equippable_true_str
 
-    # taq evolvere lmg - 5.56 and nato rounds enabled when 100/200 round 556 belt magazine equipped
+    ############################################### WSP SWARM SMG ##############################################
+
+    # WSP_INFILTRATOR_INTREGRATED_SUPPRESSOR barrel disabled when muzzle equipped
+    elif (
+        weapon_enum == PrimaryWeapons.SUB_MACHINE_GUN.value.WSP_SWARM
+        and 
+        attachment_enum == Attachments.BARRELS.value.WSP_INFILTRATOR_INTEGRATED_SUPPRESSOR
+    ):
+        if Attachments.MUZZLES in chosen_attachment_categories:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+        
+    # muzzle barrel disabled when WSP_INFILTRATOR_INTREGRATED_SUPPRESSOR equipped
+    elif (
+        weapon_enum == PrimaryWeapons.SUB_MACHINE_GUN.value.WSP_SWARM
+        and 
+        attachment_category_enum == Attachments.MUZZLES
+    ):
+        if Attachments.BARRELS.value.WSP_INFILTRATOR_INTEGRATED_SUPPRESSOR in chosen_attachments:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+
+    ############################################### AMR9 SMG ##############################################
+
+    # TECTONIC_MICRO_INTEGRAL_SUPPRESSOR barrel disabled when muzzle equipped
+    elif (
+        weapon_enum == PrimaryWeapons.SUB_MACHINE_GUN.value.AMR9
+        and
+        attachment_enum == Attachments.BARRELS.value.TECTONIC_MICRO_INTEGRAL_SUPPRESSOR
+    ):
+        if Attachments.MUZZLES in chosen_attachment_categories:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+
+    # muzzle disabled when TECTONIC_MICRO_INTEGRAL_SUPPRESSOR barrel equipped
+    elif (
+        weapon_enum == PrimaryWeapons.SUB_MACHINE_GUN.value.AMR9
+        and
+        attachment_category_enum == Attachments.MUZZLES
+    ):
+        if Attachments.BARRELS.value.TECTONIC_MICRO_INTEGRAL_SUPPRESSOR in chosen_attachments:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+
+    # NIMBUS_6_INTEGRATED_SUPPRESSOR barrel disabled when muzzle equipped
+    elif (
+        weapon_enum == PrimaryWeapons.SUB_MACHINE_GUN.value.AMR9
+        and
+        attachment_enum == Attachments.BARRELS.value.NIMBUS_6_INTEGRATED_SUPPRESSOR
+    ):
+        if Attachments.MUZZLES in chosen_attachment_categories:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+
+    # muzzle barrel disabled when NIMBUS_6_INTEGRATED_SUPPRESSOR equipped
+    elif (
+        weapon_enum == PrimaryWeapons.SUB_MACHINE_GUN.value.AMR9
+        and
+        attachment_category_enum == Attachments.MUZZLES
+    ):
+        if Attachments.BARRELS.value.NIMBUS_6_INTEGRATED_SUPPRESSOR in chosen_attachments:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+
+    ############################################### WSP-9 SMG ##############################################
+
+    # WSP_INFILTRATOR_INTREGRATED_SUPPRESSOR barrel disabled when muzzle equipped
+    elif (
+        weapon_enum == PrimaryWeapons.SUB_MACHINE_GUN.value.WSP_9
+        and
+        attachment_enum == Attachments.BARRELS.value.WSP_INFILTRATOR_INTEGRATED_SUPPRESSOR
+    ):
+        if Attachments.MUZZLES in chosen_attachment_categories:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+        
+    # muzzle disabled when WSP_INFILTRATOR_INTREGRATED_SUPPRESSOR barrel equipped
+    elif (
+        weapon_enum == PrimaryWeapons.SUB_MACHINE_GUN.value.WSP_9
+        and
+        attachment_category_enum == Attachments.MUZZLES
+    ):
+        if Attachments.BARRELS.value.WSP_INFILTRATOR_INTEGRATED_SUPPRESSOR in chosen_attachments:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+
+    ############################################### BRYSON 800 shotgun ##############################################
+
+    # XRK_CQB_8_BARREL barrel disabled when underbarrel equipped
+    elif (
+        weapon_enum == PrimaryWeapons.SHOTGUNS.value.BRYSON_800
+        and
+        attachment_enum == Attachments.BARRELS.value.XRK_CQB_8_BARREL
+    ):
+        if Attachments.UNDERBARRELS in chosen_attachment_categories:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+        
+    # underbarrel disabled when XRK_CQB_8_BARREL barrel equipped
+    elif (
+        weapon_enum == PrimaryWeapons.SHOTGUNS.value.BRYSON_800
+        and
+        attachment_category_enum == Attachments.UNDERBARRELS
+    ):
+        if Attachments.BARRELS.value.XRK_CQB_8_BARREL in chosen_attachments:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+
+    ############################################### KVD ENFORCER marksman rifle ##############################################
+
+    # KAS_7_INTEGRATED_SUPPRESSOR barrel disabled when muzzle equipped
+    elif (
+        weapon_enum == PrimaryWeapons.MARKSMAN_RIFLES.value.KVD_ENFORCER
+        and
+        attachment_enum == Attachments.BARRELS.value.KAS_7_INTEGRATED_SUPPRESSOR
+    ):
+        if Attachments.MUZZLES in chosen_attachment_categories:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+        
+    # muzzle disabled when KAS_7_INTEGRATED_SUPPRESSOR barrel equipped
+    elif (
+        weapon_enum == PrimaryWeapons.MARKSMAN_RIFLES.value.KVD_ENFORCER
+        and
+        attachment_category_enum == Attachments.MUZZLES
+    ):
+        if Attachments.BARRELS.value.KAS_7_INTEGRATED_SUPPRESSOR in chosen_attachments:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+
+    ############################################### KV INHIBITOR sniper rifle ##############################################
+
+    # KAS_7_INTEGRATED_SUPPRESSOR barrel disabled when muzzle equipped
+    elif (
+        weapon_enum == PrimaryWeapons.SNIPER_RIFLES.value.KV_INHIBITOR
+        and
+        attachment_enum == Attachments.BARRELS.value.KAS_7_INTEGRATED_SUPPRESSOR
+    ):
+        if Attachments.MUZZLES in chosen_attachment_categories:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+
+    # muzzle disabled when KAS_7_INTEGRATED_SUPPRESSOR barrel equipped
+    elif (
+        weapon_enum == PrimaryWeapons.SNIPER_RIFLES.value.KV_INHIBITOR
+        and
+        attachment_category_enum == Attachments.MUZZLES
+    ):
+        if Attachments.BARRELS.value.KAS_7_INTEGRATED_SUPPRESSOR in chosen_attachments:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+
+    ############################################### XRK STALKER sniper rifle ##############################################
+
+    # XRK_STOIC_4_SUPPRESSED_BARREL barrel disabled when muzzle equipped
+    elif (
+        weapon_enum == PrimaryWeapons.SNIPER_RIFLES.value.XRK_STALKER
+        and
+        attachment_enum == Attachments.BARRELS.value.XRK_STOIC_4_SUPPRESSED_BARREL
+    ):
+        if Attachments.MUZZLES in chosen_attachment_categories:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+        
+    # muzzle disabled when XRK_STOIC_4_SUPPRESSED_BARREL barrel equipped
+    elif (
+        weapon_enum == PrimaryWeapons.SNIPER_RIFLES.value.XRK_STALKER
+        and
+        attachment_category_enum == Attachments.MUZZLES
+    ):
+        if Attachments.BARRELS.value.XRK_STOIC_4_SUPPRESSED_BARREL in chosen_attachments:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+
+    ############################################### LONGBOW sniper rifle ##############################################
+
+    # TAC_BRUTE_SUPPRESSED_BARREL barrel disabled muzzle when equipped
+    elif (
+        weapon_enum == PrimaryWeapons.SNIPER_RIFLES.value.LONGBOW
+        and
+        attachment_enum == Attachments.BARRELS.value.TAC_BRUTE_SUPPRESSED_BARREL
+    ):
+        if Attachments.MUZZLES in chosen_attachment_categories:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+
+    # muzzle disabled TAC_BRUTE_SUPPRESSED_BARREL barrel when equipped
+    elif (
+        weapon_enum == PrimaryWeapons.SNIPER_RIFLES.value.LONGBOW
+        and
+        attachment_category_enum == Attachments.MUZZLES
+    ):
+        if Attachments.BARRELS.value.TAC_BRUTE_SUPPRESSED_BARREL in chosen_attachments:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+
+
+    ############################################### MCPR sniper rifle ##############################################
+
+    # muzzle disabled when SILENTFIRE_19_BARREL barrel equipped
+    elif (
+        weapon_enum == PrimaryWeapons.SNIPER_RIFLES.value.MCPR_300
+        and
+        attachment_category_enum == Attachments.MUZZLES
+    ):
+        if Attachments.BARRELS.value.SILENTFIRE_19_BARREL in chosen_attachments:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+        
+    # SILENTFIRE_19_BARREL barrel disabled when muzzle equipped
+    elif (
+        weapon_enum == PrimaryWeapons.SNIPER_RIFLES.value.MCPR_300
+        and
+        attachment_enum ==Attachments.BARRELS.value.SILENTFIRE_19_BARREL
+    ):
+        if  Attachments.MUZZLES in chosen_attachment_categories:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+
+    ############################################### ISO 9MM SMG ##############################################
+
+    # AXEBLADE barrel disabled when muzzle equipped
+    elif (
+        weapon_enum == PrimaryWeapons.SUB_MACHINE_GUN.value.ISO_9MM
+        and
+        attachment_enum == Attachments.BARRELS.value.AXEBLADE_6
+    ):
+        if Attachments.MUZZLES in chosen_attachment_categories:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+
+    # muzzle disabled when AXEBLADE barrel equipped
+    elif (
+        weapon_enum == PrimaryWeapons.SUB_MACHINE_GUN.value.ISO_9MM
+        and
+        attachment_category_enum == Attachments.MUZZLES
+    ):
+        if Attachments.BARRELS.value.AXEBLADE_6 in chosen_attachments:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+
+
+    ############################################### taq evolvere lmg ##############################################
+        
+    # 5.56 and nato rounds enabled when 100/200 round 556 belt magazine equipped
     elif (
         weapon_enum == PrimaryWeapons.LIGHT_MACHINE_GUNS.value.TAQ_EVOLVERE
         and
@@ -1037,7 +1043,7 @@ def _equippable_status(
         else:
             return equippable_false_str
 
-    # taq evolvere lmg - 7.62x51mm enabled when default or 50 round magazine equipped
+    # 7.62x51mm enabled when default or 50 round magazine equipped
     elif (
         weapon_enum == PrimaryWeapons.LIGHT_MACHINE_GUNS.value.TAQ_EVOLVERE
         and
@@ -1134,8 +1140,32 @@ def _equippable_status(
         else:
             return equippable_false_str
 
-    # mcw assault rifle - jak raven kit enables ammo types below
-        # blackout low and high grain, round nose, mono, .300 blk frangible, hollowpoint, armor pierce, overpressured +P 
+    ############################################### MCW Assault Rifle ##############################################
+
+    # KIMURA_SILENTSHOT_INTEGRAL_SUPPRESSOR barrel disabled when muzzle equipped
+    elif (
+        weapon_enum == PrimaryWeapons.ASSAULT_RIFLES.value.MCW 
+        and 
+        attachment_enum == Attachments.BARRELS.value.KIMURA_SILENTSHOT_INTEGRAL_SUPPRESSOR
+    ):
+        if Attachments.MUZZLES in chosen_attachment_categories:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+        
+    # muzzle disabled when KIMURA_SILENTSHOT_INTEGRAL_SUPPRESSOR barrel equipped
+    elif (
+        weapon_enum == PrimaryWeapons.ASSAULT_RIFLES.value.MCW 
+        and 
+        attachment_category_enum == Attachments.MUZZLES 
+    ):
+        if Attachments.BARRELS.value.KIMURA_SILENTSHOT_INTEGRAL_SUPPRESSOR in chosen_attachments:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+
+    # jak raven kit enables ammo types below
+    # blackout low and high grain, round nose, mono, .300 blk frangible, hollowpoint, armor pierce, overpressured +P 
     elif (
         weapon_enum == PrimaryWeapons.ASSAULT_RIFLES.value.MCW
         and
@@ -1216,11 +1246,95 @@ def _equippable_status(
         else:
             return equippable_false_str
         
+    ############################################### HOLGER Assault Rifle ##############################################
+
+    # jak signal burst kit disabled when laser equipped
+    elif (
+        weapon_enum == PrimaryWeapons.ASSAULT_RIFLES.value.HOLGER_556
+        and
+        attachment_enum == Attachments.CONVERSION_KITS.value.JAK_SIGNAL_BURST
+    ):
+        if Attachments.LASERS in chosen_attachment_categories:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+        
+    # laser disabled when jak signal burst kit equipped
+    elif (
+        weapon_enum == PrimaryWeapons.ASSAULT_RIFLES.value.HOLGER_556
+        and
+        attachment_category_enum == Attachments.LASERS
+    ):
+        if Attachments.CONVERSION_KITS.value.JAK_SIGNAL_BURST in chosen_attachments:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+        
+    ############################################### TYR Handgun ##############################################
+        
+    # jak beholder rifle kit disabled when rear grip equipped
+    elif (
+        weapon_enum == SecondaryWeapons.HANDGUNS.value.TYR
+        and
+        attachment_enum == Attachments.CONVERSION_KITS.value.JAK_BEHOLDER_RIFLE_KIT
+    ):
+        if Attachments.REAR_GRIPS in chosen_attachment_categories:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+        
+    # rear grip disabled when jak beholder rifle equipped
+    elif (
+        weapon_enum == SecondaryWeapons.HANDGUNS.value.TYR
+        and
+        attachment_category_enum == Attachments.REAR_GRIPS
+    ):
+        if Attachments.CONVERSION_KITS.value.JAK_BEHOLDER_RIFLE_KIT in chosen_attachments:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+        
+    ############################################### WSP Stinger Handgun ##############################################
+        
+    # muzzle disabled when barrel (except hiss short light) equipped
+    elif (
+        weapon_enum == SecondaryWeapons.HANDGUNS.value.WSP_STINGER
+        and
+        attachment_category_enum == Attachments.MUZZLES
+    ):
+        if Attachments.BARRELS in chosen_attachment_categories:
+            if Attachments.BARRELS.value.HISS_SHORT_LIGHT_BARREL in chosen_attachments:
+                return equippable_true_str
+            else:
+                return equippable_false_str
+        else:
+            return equippable_true_str
+        
+    # barrel disabled (except hiss short light) when muzzle equipped
+    elif (
+        weapon_enum == SecondaryWeapons.HANDGUNS.value.WSP_STINGER
+        and
+        attachment_enum == Attachments.BARRELS.value.NOXIOUS_SHORT_COMPENSATED_BARREL
+    ):
+        if Attachments.MUZZLES in chosen_attachment_categories:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+        
+    elif (
+        weapon_enum == SecondaryWeapons.HANDGUNS.value.WSP_STINGER
+        and
+        attachment_enum == Attachments.BARRELS.value.PESTILENCE_12_SHORT_COMPENSATED_BARREL
+    ):
+        if Attachments.MUZZLES in chosen_attachment_categories:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+
     else:
         return equippable_true_str
-    
 
-    # jak signal burst on holger AR disables laser
+    # wsp stringer handgun any barrel except hiss short light barrel disables muzzle
     # underbarrel locked but available with certain attachments
     #  lockwood mk2 marksman rifle
     #  cor 45 handgun
