@@ -459,6 +459,8 @@ def _equippable_status(
 
     ############################################### lockwood mk2 marksman rifle ##############################################
 
+    # underbarrel locked until guard equipped, but bugged for me where even with guard equipped underbarrel still locked
+
     # comb disabled when cut off stock equipped
     elif (
         weapon_enum == PrimaryWeapons.MARKSMAN_RIFLES.value.LOCKWOOD_MK2
@@ -475,6 +477,28 @@ def _equippable_status(
         weapon_enum == PrimaryWeapons.MARKSMAN_RIFLES.value.LOCKWOOD_MK2
         and
         attachment_enum == Attachments.STOCKS.value.CUT_OFF_STOCK_MOD
+    ):
+        if Attachments.COMBS in chosen_attachment_categories:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+        
+    # comb disabled when demo vx509 stock equipped
+    elif (
+        weapon_enum == PrimaryWeapons.MARKSMAN_RIFLES.value.LOCKWOOD_MK2
+        and
+        attachment_category_enum == Attachments.COMBS
+    ):
+        if Attachments.STOCKS.value.DEMO_VX509_STOCK in chosen_attachments:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+        
+    # cut off stock disabled when comb equipped
+    elif (
+        weapon_enum == PrimaryWeapons.MARKSMAN_RIFLES.value.LOCKWOOD_MK2
+        and
+        attachment_enum == Attachments.STOCKS.value.DEMO_VX509_STOCK
     ):
         if Attachments.COMBS in chosen_attachment_categories:
             return equippable_false_str
@@ -1333,12 +1357,6 @@ def _equippable_status(
 
     else:
         return equippable_true_str
-
-    # wsp stringer handgun any barrel except hiss short light barrel disables muzzle
-    # underbarrel locked but available with certain attachments
-    #  lockwood mk2 marksman rifle
-    #  cor 45 handgun
-    #  X13 auto handgun
 
 
 def _choose_killstreaks():
