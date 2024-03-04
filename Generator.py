@@ -735,6 +735,31 @@ def _equippable_status(
             return equippable_false_str
         else:
             return equippable_true_str
+        
+    ############################################### HRM-9 SMG ##############################################
+
+    # taciturn-7 suppressed barrel disabled when muzzle equipped
+    elif (
+        weapon_enum == PrimaryWeapons.SUB_MACHINE_GUN.value.HRM_9
+        and
+        attachment_enum == Attachments.BARRELS.value.TACITURN_7_SUPPRESSED_BARREL
+    ):
+        if Attachments.MUZZLES in chosen_attachment_categories:
+            return equippable_false_str
+        else:
+            return equippable_true_str
+
+    # muzzle disabled when taciturn-7 suppressed barrel equipped
+    elif (
+        weapon_enum == PrimaryWeapons.SUB_MACHINE_GUN.value.HRM_9
+        and
+        attachment_category_enum == Attachments.MUZZLES
+    ):
+        if Attachments.BARRELS.value.TACITURN_7_SUPPRESSED_BARREL in chosen_attachments:
+            return equippable_false_str
+        else:
+            return equippable_true_str      
+
 
     # NIMBUS_6_INTEGRATED_SUPPRESSOR barrel disabled when muzzle equipped
     elif (
